@@ -5,7 +5,7 @@ tags:
 端Lab・舒欣
 中國有五百萬盲人<sup>[註1]</sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup>[註2]</sup>。
 
-![中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。](/data-journalism-for-the-blind/news-related-disabilities.png)
+![中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。](./news-related-disabilities.png)
 
 盲人呢，既沒有爆點，也不太性感。
 
