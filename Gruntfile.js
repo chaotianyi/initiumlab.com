@@ -39,8 +39,9 @@ module.exports = function(grunt) {
     'gh-pages': {
       options: {
         base: 'public',
-        branch: 'gh-pages',
-        repo: 'https://github.com/initiumlab/initiumlab.com.git'
+        branch: 'gh-pages'
+        // by default use the method (HTTPS/ SSH) when you clone
+        //repo: 'https://github.com/initiumlab/initiumlab.com.git'
       },
       src: '**/*'
     },
