@@ -64,7 +64,7 @@ Windows 可以下載「爭渡讀屏」， Android 用戶可以試試內置的 Ta
 盲人不止有聽覺，也有觸覺。如果我們將數據化作實際存在的物體，則盲人可以通過觸覺感知。在這個方向，探索的人比較少，偶爾見到零星的嘗試。
 
 比如，西班牙記者 Samuel Granados López [用樂高積木做過一個地圖](http://cargocollective.com/samuelgranados/Lego-cartogram)，用以標識美洲各國的移民流入、流出量：
-![一塊一人多高的底板，垂直放置。上面用樂高積木拼出了美洲各國，各個國家的突起程度並不相同，移民量越大的國家，越突出。](view-source:http://payload230.cargocollective.com/1/14/463324/6918937/IMG_1014.jpg)
+![一塊一人多高的底板，垂直放置。上面用樂高積木拼出了美洲各國，各個國家的突起程度並不相同，移民量越大的國家，越突出。](http://payload230.cargocollective.com/1/14/463324/6918937/IMG_1014.jpg)
 
 
 ## 展望：數據新聞無障礙
