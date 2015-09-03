@@ -1,6 +1,8 @@
 title: 可視化火了 盲人怎麼辦
 date: 2015-09-01 21:39:43
 tags:
+- "lang:Chinese"
+- "Accessibility"
 ---
 端Lab・舒欣
 中國有五百萬盲人<sup>[註1]</sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup>[註2]</sup>。
