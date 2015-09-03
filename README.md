@@ -8,6 +8,14 @@ Notes for Initium Lab Co-workers
 You should have installed grunt, Node.js, and npm.
 If not and you don't know how, please ask your co-workers.
 
+### Prepare the Repo
+
+```
+git clone --recursive git@github.com:initiumlab/initiumlab.com.git
+```
+
+This will recursively clone all submodules.
+
 ### Initial Setting
 Install hexo command line tools and dependencies:
 ```
@@ -27,13 +35,10 @@ Deploy:
 ```
 grunt deploy
 ```
+
 Please use grunt for deployment and be very careful using hexo's built-in generate and deploy commands,
 which might lead to conflicts and un-intended results.
 
-You may also need to install the themes, such as
-```
-git clone https://github.com/iissnan/hexo-theme-next.git themes/next
-```
 
 ### Homepage
 The home page of the website is editable at **source/index.html**.
