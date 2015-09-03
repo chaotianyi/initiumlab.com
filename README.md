@@ -30,6 +30,9 @@ grunt deploy
 Please use grunt for deployment and be very careful using hexo's built-in generate and deploy commands,
 which might lead to conflicts and un-intended results.
 
+### Homepage
+The home page of the website is editable at **source/index.html**.
+
 ### Writing
 Create a new article:
 ```
@@ -49,7 +52,6 @@ layout: false
 ...
 ```
 Put all relevant assets under static/data-title. During deployment, they'll be copied into the same folder as the HTML file.
-
 
 
 
