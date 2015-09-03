@@ -30,6 +30,11 @@ grunt deploy
 Please use grunt for deployment and be very careful using hexo's built-in generate and deploy commands,
 which might lead to conflicts and un-intended results.
 
+You may also need to install the themes, such as
+```
+git clone https://github.com/iissnan/hexo-theme-next.git themes/next
+```
+
 ### Homepage
 The home page of the website is editable at **source/index.html**.
 
