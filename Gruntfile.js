@@ -70,8 +70,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-rsync');
   grunt.loadNpmTasks('grunt-targethtml');
 
-  grunt.registerTask('build:fast',  ['exec:hexo_generate','copy']);
+  grunt.registerTask('build',  ['exec:hexo_generate','copy']);
   grunt.registerTask('build:complete',  ['clean', 'exec:hexo_clean', 'exec:hexo_generate','copy']);
-  grunt.registerTask('serve',  ['build:fast', 'connect', 'watch']);
+  grunt.registerTask('serve',  ['build', 'connect', 'watch']);
   grunt.registerTask('deploy', ['build:complete', 'gh-pages']);
 };
