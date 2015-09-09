@@ -1,79 +1,375 @@
 layout: false
 -------------
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Initium Lab</title>
     <style>
 
-        #content {
-            width: 50%;
-            margin: 0 auto;
-        }
+      body {
+        font-family: 'Cambria', serif;
+      }
 
-        #showcase {
-            border: 2px solid black;
-            min-height: 500px;
-            width: 100%;
-        }
-       #mc_embed_signup {
-            background:#fff;
-            clear:left;
-            margin: 0 auto;
-            width: 50%;
-            text-align: center;
-        }
+      #content {
+        width: 50%;
+        margin: 0 auto;
+      }
 
-        #mce-EMAIL#mce-EMAIL {
-            width: 100%;
-        }
+      header {
+        margin: 0 auto;
+        width: 80%;
+      }
 
-        #mc-embedded-subscribe {
-            margin: 0 auto;
-            display: block;
-            width: 10em;
-        }
-        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      nav {
+        text-align: center;
+        margin: 3em 0;
+      }
+
+      a:link, a:visited {
+        text-decoration: none;
+        color: black;
+      }
+
+      nav .navLink {
+        display: inline-block;
+        text-align: center;
+        width: 5em;
+      }
+
+      div.navLink img {
+        margin-bottom: 0.3em;
+      }
+
+      #logoBox {
+        width: 200px;
+        margin: 3em auto;
+      }
+
+      #logoBox img {
+        width: 100%;
+      }
+
+      #quoteBox {
+        text-align: center;
+      }
+
+      #quote {
+        font-style: italic;
+      }
+
+      section#works {
+        margin: 0 auto;
+      }
+
+      #showcase {
+        word-black: 2px;
+      }
+
+      .subtitle {
+        background: black;
+        color: white;
+        padding: 1em 1.5em;
+        display: inline-block;
+        width: 190px;
+        box-sizing: border-box;
+        margin: 2em 0;
+      }
+
+      #titleWorks:before {
+        content: '>>'
+      }
+
+      .caseEntry {
+        display: inline-block;
+      }
+
+      .caseHeading {
+        background-color: #DDD;
+        padding: 1em 0.5em;
+        font-weight: lighter;
+        font-size: 100%;
+      }
+
+      .blogEntry {
+        margin: 1em 0;
+      }
+
+      .blogEntry h2 {
+        display: inline-block;
+      }
+
+      .pubdate {
+        margin-left: 10px;
+        word-spacing: 5px;
+      }
+
+      .pubdate:before {
+        content: '| ';
+      }
+
+      .blogDigest {
+        color: #AAA;
+        line-height: 1.5;
+      }
+
+      #moreBlogs {
+        display: block;
+        background-color: #EEE;
+        padding: 0.5em;
+        margin: 1em 0;
+        color: #333;
+        text-align: center;
+      }
+
+      #moreBlogs:after {
+        content: ' >>';
+      }
+
+      footer {
+        margin-top: 50px;
+        height: 300px;
+        width: 100%;
+        background-color: #EEE;
+        padding-top: 20px;
+      }
+
+      #mce-EMAIL {
+        display: inline;
+      }
+
+      #mc_embed_signup {
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      div.clear {
+        display: inline;
+      }
+
+      #mc-embedded-subscribe {
+        background-color: black;
+        color: white;
+      }
+
+      #mc_embed_signup_scroll {
+        text-align: center;
+        margin: 2em 0;
+      }
+
+      #copyrightNotice {
+        width: 20%;
+        margin: 5em auto 0;
+        text-align: center;
+      }
+
     </style>
   </head>
   <body>
-  <div id='content'>
-    <h1> Initium Lab !</h1>
-    <div id='showcase'>
-        this is showcase
-    </div>
-    <div>
-        <a href='./blog/'>Take me to the blog</a>
-    </div>
-<div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Keep Me Posted!</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div id="mc_embed_signup">
-                <form action="//initiumlab.us11.list-manage.com/subscribe/post?u=0af72d56ccd0f8ef2d17e12a2&amp;id=64252e9209" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <label for="mce-EMAIL" style="display: none">Keep me updated about Initium Lab</label>
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_0af72d56ccd0f8ef2d17e12a2_64252e9209" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-lg"></div>
-                    </div>
-                </form>
-            </div>
-    </div>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <div id="content">
 
-        ga('create', 'UA-66625644-1', 'auto');
-        ga('send', 'pageview');
+      <header>
 
-    </script>
+        <nav>
+          <div class="navLink">
+            <a href=".">
+              <img src="homeIcon.png" />
+              <div>Home</div>
+            </a>
+          </div>
+          <div class="navLink">
+            <a href="./about">
+              <img src="aboutIcon.png" />
+              <div>About</div>
+            </a>
+          </div>
+          <div class="navLink">
+            <a href="./blog">
+              <img src="blogIcon.png" />
+              <div>Blog</div>
+            </a>
+          </div>
+        </nav>
+
+        <div id="logoBox">
+          <img src="labIcon.png" />
+        </div>
+
+        <div id="quoteBox">
+          <span id="markBeforeQuote">
+            #
+          </span>
+          <span id="quote"></span>
+          <span id="markAfterQuote">
+            # ▋
+          </span>
+        </div>
+
+      </header>
+
+      <main>
+        <section id="works">
+          <div class='subtitle' id="titleWorks">
+            Recent works
+          </div>
+
+          <div id="showcase">
+
+            <!-- Add new cases here-->
+
+            <div class="caseEntry">
+              <img class="caseCover" src="./casecover_1.png" />
+              <h2 class="caseHeading">Legco</h2>
+            </div>
+
+            <div class="caseEntry">
+              <img class="caseCover" src="./casecover_2.png" />
+              <h2 class="caseHeading">360 Salary</h2>
+            </div>
+
+            <div class="caseEntry">
+              <img class="caseCover" src="./casecover_3.png" />
+              <h2 class="caseHeading">Wasted Youth Test</h2>
+            </div>
+
+            <div class="caseEntry">
+              <img class="caseCover" src="./casecover_blank.png" />
+              <h2 class="caseHeading">Blank Item</h2>
+            </div>
+
+            <div class="caseEntry">
+              <img class="caseCover" src="./casecover_blank.png" />
+              <h2 class="caseHeading">Blank Item</h2>
+            </div>
+
+            <div class="caseEntry">
+              <img class="caseCover" src="./casecover_blank.png" />
+              <h2 class="caseHeading">Blank Item</h2>
+            </div>
+
+          </div>
+
+        </section>
+
+        <section id="blogs">
+
+          <div class='subtitle' id="titleBlog">
+            Recent blogs
+          </div>
+
+          <article class="blogEntry">
+
+            <a href="#">
+              <h2 class="blogHeading">Legco Findings</h2>
+              <span class="pubdate"><time>2015-08-25</time></span>
+              <div class="blogDigest">
+                <strong>[NOT REAL DO NOT USE IN PRODUCTION]</strong>
+                According to the voting records, although no motion amendment from Poon Siu-ping got supported, through secret ballot his motion on Occupational Safety has been adopted. Poon replied to us that there is no fundamental disagreement between Hong Kong Federation of Trade Unions (FTU) and Federation of Hong Kong and Kowloon Labour Unions (FLU), as FTU is also on pro-establishment camp. However, Poon  didn’t think it would be easy to have their support. “To improve labour rights and benefits, one  has to change the consistently business-oriented operating environment, while in many legislators of functional constituency  represents business interests and they are naturally unlikely to support motions protecting labour rights.”
+              </div>
+            </a>
+
+          </article>
+
+          <article class="blogEntry">
+
+            <a href="#">
+              <h2 class="blogHeading">Legco Findings</h2>
+              <span class="pubdate"><time>2015-08-25</time></span>
+              <div class="blogDigest">
+                <strong>[NOT REAL DO NOT USE IN PRODUCTION]</strong>
+                According to the voting records, although no motion amendment from Poon Siu-ping got supported, through secret ballot his motion on Occupational Safety has been adopted. Poon replied to us that there is no fundamental disagreement between Hong Kong Federation of Trade Unions (FTU) and Federation of Hong Kong and Kowloon Labour Unions (FLU), as FTU is also on pro-establishment camp. However, Poon  didn’t think it would be easy to have their support. “To improve labour rights and benefits, one  has to change the consistently business-oriented operating environment, while in many legislators of functional constituency  represents business interests and they are naturally unlikely to support motions protecting labour rights.”
+              </div>
+            </a>
+
+          </article>
+
+          <article class="blogEntry">
+
+            <a href="#">
+              <h2 class="blogHeading">Legco Findings</h2>
+              <span class="pubdate"><time>2015-08-25</time></span>
+              <div class="blogDigest">
+                <strong>[NOT REAL DO NOT USE IN PRODUCTION]</strong>
+                According to the voting records, although no motion amendment from Poon Siu-ping got supported, through secret ballot his motion on Occupational Safety has been adopted. Poon replied to us that there is no fundamental disagreement between Hong Kong Federation of Trade Unions (FTU) and Federation of Hong Kong and Kowloon Labour Unions (FLU), as FTU is also on pro-establishment camp. However, Poon  didn’t think it would be easy to have their support. “To improve labour rights and benefits, one  has to change the consistently business-oriented operating environment, while in many legislators of functional constituency  represents business interests and they are naturally unlikely to support motions protecting labour rights.”
+              </div>
+            </a>
+          </article>
+        </section> <!-- Blogs -->
+
+        <a href="./blog" id="moreBlogs"> See more blogs</a>
+      </main>
+
+
+    </div> <!-- Content -->
+
+  <footer>
+    <div id="mc_embed_signup">
+      <form action="//initiumlab.us11.list-manage.com/subscribe/post?u=0af72d56ccd0f8ef2d17e12a2&amp;id=64252e9209" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <label for="mce-EMAIL" style="display: none">Keep me updated about Initium Lab</label>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px; display: inline"><input type="text" name="b_0af72d56ccd0f8ef2d17e12a2_64252e9209" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-lg"></div>
+        </div>
+      </form>
+    </div>
+
+    <div id="copyrightNotice">
+      © 2015 ❤ Initium Lab
+    </div>
+
+  </footer>
+
+  <script>
+
+    (function(window, document, console){
+
+      function addQuote() {
+        var quotes = [
+          "All models are wrong, but some are useful.",
+          "Anyone can popularize science if he oversimplify.",
+          "98% of all statistics are made up.",
+          "An approximate answer to the right problem is worth a good deal more than an exact answer to an approximate problem.",
+          "Prediction is very difficult, especially about the future.",
+          "If you torture the data enough, nature will always confess.",
+          "It's easy to lie with statistics; it is easier to lie without them.",
+          "The future is already here: it's just not very evenly distributed.",
+          "The fewer the facts, the stronger the opinion.",
+          "A computational journalist talks data to the journalist and journalism to engineers; but then he meets another data journalist, they just discuss women.",
+          "Science is piecemeal revelation.",
+          "Astronomy compels the soul to look upwards and leads us from this world to another.",
+          "There's real poetry in the real world. Science is the poetry of reality.",
+          "The 50-50-90 rule: Anytime you have a 50-50 chance of getting something right, there's a 90% probability you'll get it wrong.",
+          "It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.",
+          "The plural of anecdote is not data."
+        ];
+
+        var quoteDOMNode = document.getElementById('quote');
+        var currentQuote = window.localStorage['currentQuote'];
+
+        var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+        while (randomQuote === currentQuote) {
+          randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+        }
+        var textNode = document.createTextNode(randomQuote);
+        quoteDOMNode.appendChild(textNode);
+        window.localStorage['currentQuote'] = randomQuote;
+      }
+
+      addQuote();
+
+    }(window, window.document, window.console))
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66625644-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
   </body>
 </html>
