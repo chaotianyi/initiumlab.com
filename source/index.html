@@ -63,7 +63,11 @@ layout: false
       }
 
       #showcase {
-        word-black: 2px;
+        word-spacing: 2px;
+      }
+
+      .caseCover {
+        max-width: 190px;
       }
 
       .subtitle {
@@ -161,6 +165,18 @@ layout: false
         width: 20%;
         margin: 5em auto 0;
         text-align: center;
+      }
+
+      #menuButton {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+      }
+
+      #topButton {
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
       }
 
     </style>
@@ -297,12 +313,12 @@ layout: false
         </section> <!-- Blogs -->
 
         <a href="./blog" id="moreBlogs"> See more blogs</a>
+
       </main>
 
 
     </div> <!-- Content -->
-
-  <footer>
+    <footer>
     <div id="mc_embed_signup">
       <form action="//initiumlab.us11.list-manage.com/subscribe/post?u=0af72d56ccd0f8ef2d17e12a2&amp;id=64252e9209" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
@@ -321,6 +337,15 @@ layout: false
 
   </footer>
 
+    <div id="topButton">
+      <img src="./topButton.png" />
+    </div>
+
+    <div id="menuButton">
+      <a href="#">
+        <img src="./menuButton.png" />
+      </a>
+    </div>
   <script>
 
     (function(window, document, console){
