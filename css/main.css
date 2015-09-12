@@ -1072,7 +1072,7 @@ nav .navLink {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #acfcdd;
+  background: #a72d88;
 }
 .sidebar-nav {
   margin: 0;
@@ -1293,10 +1293,21 @@ nav .navLink {
   transform: scaleX(1);
 }
 .posts-expand .post-meta {
-  margin: 3px 0 60px 0;
-  color: #999;
-  font-size: 12px;
-  text-align: center;
+  display: absolute;
+  width: 200px;
+  margin-left: -200px;
+  text-align: right;
+}
+.posts-expand .post-meta li {
+  width: 100%;
+  list-style: none;
+}
+.posts-expand .post-meta a {
+  text-decoration: none;
+  display: block;
+  background-color: #a0a0a0;
+  color: #fff;
+  padding: 0.1em;
 }
 .posts-expand .post-meta .post-category-list {
   display: inline-block;
@@ -1394,9 +1405,6 @@ nav .navLink {
   height: 1px;
   background: #ccc;
   text-align: center;
-}
-.post-more-link {
-  margin-top: 50px;
 }
 @media (max-width: 767px) {
   .posts-collapse {

@@ -4,7 +4,7 @@
   
   <link href="/blog/feed.xml" rel="self"/>
   <link href="http://home.initiumlab.com/blog/"/>
-  <updated>2015-09-05T10:27:49.000Z</updated>
+  <updated>2015-09-12T08:10:25.000Z</updated>
   <id>http://home.initiumlab.com/blog/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://home.initiumlab.com/blog/blog/20150903-dprk/"/>
     <id>http://home.initiumlab.com/blog/blog/20150903-dprk/</id>
     <published>2015-09-02T16:00:00.000Z</published>
-    <updated>2015-09-05T10:27:49.000Z</updated>
+    <updated>2015-09-12T08:10:25.000Z</updated>
     <content type="html"><![CDATA[<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
 <head>
@@ -83,6 +83,7 @@
         <p>當下的北韓年輕人如何看待北韓，看待領袖和自己的生活？為了盡可能地接近這個問題的答案，我去韓國採訪了幾個年輕的，剛剛離開北韓來到南韓的脫北者。他們此前分別生活在北韓的邊境和內地、鄉村和城市，分屬不同的階層。雖然很難說他們的想法能代表北韓主流年輕人的想法，但是在目前的條件下，他們的表達，或許比去北韓採訪獲得的更真實，更有代表性。</p>
         <p>採訪條件特殊，我沒有辦法完全核實這幾個年輕脫北者的提供的信息。不過，基於現場的對話狀態，和其他脫北者信息的交叉驗證以及五年來報導北韓議題積累的經驗判斷，這幾個脫北者提供的資訊、想法具備相當的價值。</p>
     </section>
+    <a id="more"></a>
 
     <section class="infographic">
         <audio id="popsong" preload="none">
@@ -252,7 +253,70 @@
     <![CDATA[<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
 <head>
-    <meta http-equiv="content-type" content]]>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>新时代的朝鲜年轻人：娱乐、赚钱与自由渴望 | 端传媒 Initium Media</title>
+    <meta name="description" content="金正恩時代的國家政策沒能建立起一個從思想到行動上都願意，並有能力效忠於領導人的年輕力量。">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="og:title" content="新時代的北韓年輕人">
+    <meta property="og:type" content="article">
+    <meta property="og:article:published_time" content="2015-08-02 22:06:31">
+    <meta property="og:article:author" content="秦軒">
+    <meta property="og:article:section" content="國際">
+    <meta property="og:image" content="https://theinitium.com/project/20150803-dprk-youth/static/img/cover.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://theinitium.com/project/20150803-dprk-youth/zh-hans">
+    <meta name="twitter:title" content="朝鲜年轻人之歌">
+    <meta name="twitter:description" content="金正恩时代的国家政策没能建立起一个从思想到行动上都愿意，并有能力效忠于领导人的年轻力量。">
+    <meta name="twitter:domain" content="theinitium.com">
+    <meta name="twitter:site" content="@initiumnews">
+    <meta name="twitter:creator" content="@initiumnews">
+    <meta name="twitter:image:src" content="https://theinitium.com/project/20150803-dprk-youth/static/img/cover.jpg">
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <script src="./static/js/jquery-2.1.1.min.js"></script>
+    <script src="./static/js/project-dprk.min.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+<div id="cover">
+    <div class="logo">
+        <a href="https://theinitium.com/"><img src="./static/img/logo.svg" alt="端傳媒 | Initium Media" /></a>
+    </div>
+    <div class="title">
+        <p class="kicker">娛樂、賺錢與自由渴望</p>
+        <h1><img src="./static/img/headline_tc.svg" alt="新時代的北韓年輕人" /></h1>
+        <p class="byline">端傳媒記者 秦軒 發自韓國首爾</p>
+        <p class="summary">金正恩時代的國家政策沒能建立起一個從思想到行動上都願意，<span>並有能力效忠於領導人的年輕力量。</span></p>
+        <div class="share">
+            <a href="https://www.facebook.com/sharer.php?s=100&amp;u=https://theinitium.com/project/20150803-dprk-youth/"
+            onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=no,height=368,width=600'); return false;" title="分享到 facebook" class="facebook"></a>
+            <a href="https://twitter.com/share?url=https://theinitium.com/project/20150803-dprk-youth/&amp;text=【新時代的北韓年輕人：娛樂、賺錢與自由渴望】金正恩時代的國家政策沒能建立起一個從思想到行動上都願意，並有能力效忠於領導人的年輕力量。&amp;via=initiumnews"
+            onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=no,height=400,width=600'); return false;" title="分享到 twitter" class="twitter"></a>
+            <a href="http://v.t.sina.com.cn/share/share.php?&amp;title=【新時代的北韓年輕人：娛樂、賺錢與自由渴望】金正恩時代的國家政策沒能建立起一個從思想到行動上都願意，並有能力效忠於領導人的年輕力量。&amp;url=https://theinitium.com/project/20150803-dprk-youth/"
+            onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=no,height=640,width=512'); return false;" title="分享到微博" class="weibo"></a>
+            <div class="qrcode pop">
+                <img src="./static/img/qrcode_tc.svg" />
+                <p>請用微信掃描上方二維碼</p>
+                <button class="close">关闭</button>
+            </div>
+            <a href="" title="分享到微信" class="wechat" id="wechat"></a>
+        </div>
+    </div>
+    <div class="credit">一個北韓人在北韓戰爭集會上舉著國旗<span>Wong Maye-E / AP</span></div>
+</div><!-- END #cover -->
+
+
+<article>
+    
+    <section class="paragraph" id="journalistic-note">
+        <span>記者手記：</span>
+        <p>當下的北韓年輕人如何看待北韓，看待領袖和自己的生活？為了盡可能地接近這個問題的答案，我去韓國採訪了幾個年輕的，剛剛離開北韓來到南韓的脫北者。他們此前分別生活在北韓的邊境和內地、鄉村和城市，分屬不同的階層。雖然很難說他們的想法能代表北韓主流年輕人的想法，但是在目前的條件下，他們的表達，或許比去北韓採訪獲得的更真實，更有代表性。</p>
+        <p>採訪條件特殊，我沒有辦法完全核實這幾個年輕脫北者的提供的信息。不過，基於現場的對話狀態，和其他脫北者信息的交叉驗證以及五年來報導北韓議題積累的經驗判斷，這幾個脫北者提供的資訊、想法具備相當的價值。</p>
+    </section>]]>
+    
     </summary>
     
   </entry>
@@ -262,9 +326,9 @@
     <link href="http://home.initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/"/>
     <id>http://home.initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/</id>
     <published>2015-09-01T13:39:43.000Z</published>
-    <updated>2015-09-05T10:27:49.000Z</updated>
+    <updated>2015-09-12T08:15:51.000Z</updated>
     <content type="html"><![CDATA[<p>端Lab・舒欣<br>中國有五百萬盲人<sup>[註1]</sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup>[註2]</sup>。</p>
-<p><img src="./news-related-disabilities.png" alt="中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。"></p>
+<p><img src="/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.png" alt="中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。"></p>
 <p>盲人呢，既沒有爆點，也不太性感。</p>
 <p>盲人走丟是舊聞，盲貓失蹤纔是新聞：</p>
 <ul>
@@ -273,6 +337,7 @@
 <li>東方日報：盲貓「福仔」被尋回　主人喜與愛貓重聚</li>
 <li>蘋果日報：被偷5日　疑賊人送往愛協　盲貓「福仔」回家了<br>等等……</li>
 </ul>
+<a id="more"></a>
 <p>我們不關注盲人，盲人可是會看我們。盲人也可以用電腦，也會讀新聞。他們看不見，但是聽得到，他們上網用讀屏軟件，屏幕上的字詞，一個個去聽。</p>
 <p>現在新聞界，流行信息圖，把大段文字轉化成圖表，方便讀者閱讀。 但正所謂君之蜜糖，彼之砒霜，普通人愛看的信息圖、可視化，對於盲人的讀屏軟件，則是巨大的障礙。</p>
 <p>那麼，作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？</p>
@@ -312,7 +377,16 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<p>端Lab・舒欣<br>中國有五百萬盲人<sup>[註1]</sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup>[註2]</sup>。</p>
-<p><img src="./news-related-disabilities.png" alt="中國有視力]]>
+<p><img src="/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.png" alt="中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。"></p>
+<p>盲人呢，既沒有爆點，也不太性感。</p>
+<p>盲人走丟是舊聞，盲貓失蹤纔是新聞：</p>
+<ul>
+<li>經濟日報：偷貓賊出沒 書店盲貓福仔被盜</li>
+<li>文匯報：黑褸賊書局偷盲貓 片段網上瘋傳</li>
+<li>東方日報：盲貓「福仔」被尋回　主人喜與愛貓重聚</li>
+<li>蘋果日報：被偷5日　疑賊人送往愛協　盲貓「福仔」回家了<br>等等……</li>
+</ul>]]>
+    
     </summary>
     
       <category term="Accessibility" scheme="http://home.initiumlab.com/blog/tags/Accessibility/"/>
