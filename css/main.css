@@ -1072,7 +1072,7 @@ nav .navLink {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a72d88;
+  background: #0539ff;
 }
 .sidebar-nav {
   margin: 0;
@@ -1292,11 +1292,15 @@ nav .navLink {
   visibility: visible;
   transform: scaleX(1);
 }
+a.btn {
+  color: #fff;
+}
 .posts-expand .post-meta {
   display: absolute;
   width: 200px;
-  margin-left: -200px;
+  margin-left: -220px;
   text-align: right;
+  float: left;
 }
 .posts-expand .post-meta li {
   width: 100%;
@@ -1333,14 +1337,28 @@ nav .navLink {
   padding: 3px;
   border: 1px solid #ddd;
 }
+.post-time {
+  font-size: 13px;
+  float: right;
+  margin: 0;
+}
+.post-time:after {
+  content: "|";
+}
 .posts-expand .post-tags {
-  margin-top: 40px;
   text-align: center;
 }
 .posts-expand .post-tags a {
   display: inline-block;
-  margin-right: 10px;
   font-size: 13px;
+  float: right;
+  margin-top: 10px;
+  clear: both;
+  padding-right: 0 5px;
+  width: 75px;
+}
+.posts-expand .post-tags a:hover {
+  text-decoration: none;
 }
 .post-nav {
   overflow: hidden;
