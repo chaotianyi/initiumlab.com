@@ -6,7 +6,7 @@ The Team
 --------
 - [Hu Pili](http://hupili.net/), Data Scientist and Director
 - [Andy Shu Xin](http://shux.in/), News Engineer and Editor
-- Frank Lin Zhengyu, Data Engineer
+- Frank Lin, Data Engineer
 - Victoria Jin Qiufeng, Designer
 - Chao Tianyi, Researcher
 - Kate Liu Xue, UX Assistant
