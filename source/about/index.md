@@ -13,7 +13,7 @@ The Team
 
 Credits
 -------
-This website is designed by Victoria and implemented by Andy and Victoria.
+This website is designed by Victoria and implemented by Andy and Victoria and [other contributors](https://github.com/initiumlab/initiumlab.com/graphs/contributors).
 We thank the contributors to the following projects that made this website possible:
 - [Hexo](https://hexo.io/), the static site generator,
 - [Hexo-next](https://github.com/iissnan/hexo-theme-next), the theme we base our design on,
@@ -21,4 +21,5 @@ We thank the contributors to the following projects that made this website possi
 - [Swiftype](https://swiftype.com/), which powers our in-site search.
 
 Contact us:
-<editor@initiumlab.com>
+<editors@initiumlab.com>
+
