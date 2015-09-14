@@ -19,16 +19,35 @@ header {
 header nav {
   margin: 0 auto;
   width:100%;
-  font-family: 'Lato', sans-serif;
+  max-width: 800px;
+  font-family: '', sans-serif;
   font-size: 16px;
   color: #010101;
   padding: 10px 0;
-  box-shadow: 0px 1px 10px #C4C4C4;
+  -webkit-box-shadow: 0px 6px 9px -8px rgba(107,107,107,1);
+  -moz-box-shadow: 0px 6px 9px -8px rgba(107,107,107,1);
+  box-shadow: 0px 6px 9px -8px rgba(107,107,107,1);
+  position:fixed;
+  background-color: white;
 }
 
 header nav img {
   width: 44px;
 }
+
+header nav a {
+  display:inline-block;
+  height: 80px;
+}
+
+header nav a:hover {
+  cursor: pointer;
+  transform: translate(0px,-5px) rotate(5deg);
+  -webkit-transform: translate(0px, -5px) rotate(5deg);
+  transition: all 0.3s ease-in-out 0.1s;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
 
 nav {
   text-align: center;
@@ -52,7 +71,8 @@ div.navLink img {
 
 #logoBox {
   width: 200px;
-  margin: 3em auto;
+  margin: 0em auto 3em auto;
+  padding-top: 150px;
 }
 
 #logoBox img {
@@ -133,6 +153,13 @@ section#works {
   height: 20px;
 }
 
+.caseHeading:hover{
+  cursor: pointer;
+  background-color: #31afbe;
+  color: white; 
+  transition: all 0.4s ease-in-out 0.1s;;
+}
+
 /*work part 2 end /////////////////////*/
 
 
@@ -173,11 +200,15 @@ section#works {
 
 #moreBlogs {
   display: block;
-  background-color: #EEE;
-  padding: 0.5em;
-  margin: 1em 0;
-  color: #333;
   text-align: center;
+  background-color: #EAEAEA;
+  padding: 10px 15px;
+  margin-top: 2px;
+  font-weight: lighter;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #5E5E5E;
+  height: 20px;
 }
 
 #moreBlogs:after {
