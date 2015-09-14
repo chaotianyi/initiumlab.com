@@ -20,7 +20,7 @@ header nav img {
 
 nav {
   text-align: center;
-  margin: 3em 0;
+  margin: 148px 0 3em;
 }
 
 a:link, a:visited {
@@ -35,7 +35,6 @@ nav .navLink {
 }
 
 div.navLink img {
-  margin-bottom: 0.3em;
 }
 
 #logoBox {
@@ -175,4 +174,5 @@ div.clear {
   position: fixed;
   right: 50px;
   bottom: 50px;
+  cursor: pointer;
 }
