@@ -311,6 +311,8 @@ div.clear {
   z-index: 100;
   color: white;
   display: none;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .lightbox h1 {
@@ -355,4 +357,8 @@ div.clear {
 .imageBox img {
   width: 80%;
   margin: 1em auto;
+}
+
+.no-scroll {
+  overflow: hidden;
 }

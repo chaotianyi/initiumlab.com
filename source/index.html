@@ -218,11 +218,21 @@ layout: false
         anchor.addEventListener('click', function(event){
           event.preventDefault();
           lightbox.style.display = 'block';
+          document.body.classList.add('no-scroll');
         });
 
         btnClose.addEventListener('click', function(){
           lightbox.style.display = 'none';
+          document.body.classList.remove('no-scroll');
         });
+
+        document.onkeydown = function(event){
+          if (event.keyCode === 27) {
+            // Esc key
+            lightbox.style.display = 'none';
+            document.body.classList.remove('no-scroll');
+          }
+        }
       }
 
       configLightbox('legco');
