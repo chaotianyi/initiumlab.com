@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: 'Roboto', 'lato', "Pingfang SC", "Lantinghei SC", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   font-size: 16px;
   line-height: 1.7;
   color: #555;
@@ -211,7 +211,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1;
-  font-family: Cambria, Georgia, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", "Times New Roman", serif;
+  font-family: 'Roboto Condensed', 'Pingfang SC', 'Lantinghei SC', sans-serif;
 }
 h1 {
   font-size: 26px;
@@ -669,7 +669,7 @@ td {
 .post .gist .gist-file .gist-meta {
   background: #f7f7f7;
   color: #8e908c;
-  font: 13px Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font: 13px 'Roboto', 'lato', "Pingfang SC", "Lantinghei SC", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
@@ -848,7 +848,7 @@ a:visited {
   color: #fff;
   background: #222;
   border-bottom: none;
-  font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: 'Roboto', 'lato', "Pingfang SC", "Lantinghei SC", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 .logo {
   display: inline-block;
@@ -1103,7 +1103,7 @@ a:visited {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e340a3;
+  background: #f6653c;
 }
 .sidebar-nav {
   margin: 0;
@@ -1303,6 +1303,8 @@ a:visited {
 .posts-expand .post-title {
   font-size: 26px;
   text-align: center;
+  font-family: 'Roboto Condensed', 'Pingfang SC', 'Lantinghei SC', sans-serif;
+  margin-bottom: 50px;
 }
 @media (max-width: 767px) {
   .posts-expand .post-title {
@@ -1339,11 +1341,12 @@ a.btn {
   color: #fff;
 }
 .posts-expand .post-meta {
-  display: absolute;
-  width: 200px;
-  margin-left: -220px;
+  display: block;
+  width: 100%;
+  margin-left: 0px;
   text-align: right;
   float: left;
+  margin-bottom: 10px;
 }
 .posts-expand .post-meta li {
   width: 100%;
@@ -1377,23 +1380,32 @@ a.btn {
 .posts-expand .post-body img {
   box-sizing: border-box;
   margin: auto;
-  padding: 3px;
-  border: 1px solid #ddd;
+  padding: 0px;
 }
 .post-time {
-  font-size: 13px;
-  float: right;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  float: left;
   margin: 0;
 }
 .post-time:after {
   content: "|";
 }
+.post-name {
+  font-size: 16px;
+  float: left;
+  font-family: 'Roboto', 'lato', "Pingfang SC", "Lantinghei SC", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  margin-left: 5px;
+}
 .posts-expand .post-tags {
   text-align: center;
+  float: right;
+  display: block;
 }
 .posts-expand .post-tags a {
   display: inline-block;
-  font-size: 13px;
+  font-size: 12px;
+  font-family: 'Roboto', 'lato', "Pingfang SC", "Lantinghei SC", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   float: right;
   margin-top: 10px;
   clear: both;
@@ -1402,6 +1414,9 @@ a.btn {
 }
 .posts-expand .post-tags a:hover {
   text-decoration: none;
+}
+.posts-expand .post-tags ul {
+  margin: 0;
 }
 .post-nav {
   overflow: hidden;
@@ -1554,7 +1569,7 @@ a.btn {
   margin-left: 60px;
   font-size: 16px;
   font-weight: normal;
-  font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: 'Roboto', 'lato', "Pingfang SC", "Lantinghei SC", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   line-height: inherit;
 }
 .posts-collapse .post-title::after {
