@@ -1,0 +1,23 @@
+/* TEAM */
+Development
+-----------
+Andy Shu Xin
+Victoria Jin
+
+Testing
+-------
+Frank Link
+Kate Liu
+
+Support
+-------
+Hu Pili
+Chao Tianyi
+
+Content
+-------
+Hu Pili
+Andy Shu Xin
+
+/* THANKS */
+Please see http://home.initiumlab.com/about/ 
