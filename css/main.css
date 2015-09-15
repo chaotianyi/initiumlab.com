@@ -267,7 +267,6 @@ p {
 a {
   color: #222;
   text-decoration: none;
-  border-bottom: 1px solid #999;
 }
 a:hover {
   border-bottom-color: #222;
@@ -390,7 +389,7 @@ td {
 }
 th {
   padding-bottom: 10px;
-  font-weight: 700;
+  font-weight: 800;
 }
 td {
   border-bottom-width: 1px;
@@ -748,11 +747,12 @@ body {
 }
 .header-inner {
   margin: 0 auto;
-  padding: 100px 0 70px;
+  padding: 0;
   width: 960px;
+  border: solid 0px #fff;
 }
 .one-column .header-inner {
-  width: 700px;
+  width: 800px;
 }
 .main {
   padding-bottom: 150px;
@@ -762,10 +762,10 @@ body {
   width: 960px;
 }
 .one-column .main-inner {
-  width: 700px;
+  width: 800px;
 }
 .main-inner .content {
-  width: 700px;
+  width: 800px;
 }
 .footer {
   position: absolute;
@@ -779,10 +779,10 @@ body {
   width: 960px;
 }
 .one-column .footer-inner {
-  width: 700px;
+  width: 800px;
 }
 .headband {
-  height: 3px;
+  height: 0px;
   background: #222;
 }
 .header {
@@ -800,22 +800,46 @@ body {
     text-align: center;
   }
 }
-nav {
+.site-nav {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #010101;
+  padding: 10px 0;
+  -webkit-box-shadow: 0px 6px 9px -8px #6b6b6b;
+  -moz-box-shadow: 0px 6px 9px -8px #6b6b6b;
+  box-shadow: 0px 6px 9px -8px #6b6b6b;
+  position: fixed;
+  background-color: #fff;
   text-align: center;
-  margin: 3em 0;
-}
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #000;
+  z-index: 100;
 }
 nav .navLink {
   display: inline-block;
   text-align: center;
   width: 5em;
+  margin: 5px 25px;
 }
 .navLink img {
+  width: 44px;
   margin: 0 auto;
+}
+.site-nav a {
+  display: inline-block;
+}
+.site-nav a:hover {
+  cursor: pointer;
+  transform: translate(0px, -5px) rotate(5deg);
+  -webkit-transform: translate(0px, -5px) rotate(5deg);
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000;
 }
 .brand {
   position: relative;
@@ -1079,7 +1103,7 @@ nav .navLink {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e9ffaf;
+  background: #5b01d6;
 }
 .sidebar-nav {
   margin: 0;
@@ -1260,7 +1284,7 @@ nav .navLink {
   margin-top: 4px;
 }
 .posts-expand {
-  padding-top: 40px;
+  padding-top: 200px;
 }
 @media (max-width: 767px) {
   .posts-expand {
@@ -1325,7 +1349,7 @@ a.btn {
   width: 100%;
   list-style: none;
 }
-.posts-expand .post-meta a {
+.posts-expand .post-meta a.anchor-tag {
   text-decoration: none;
   display: block;
   background-color: #a0a0a0;

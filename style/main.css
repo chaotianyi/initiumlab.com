@@ -20,7 +20,7 @@ header nav {
   margin: 0 auto;
   width:100%;
   max-width: 800px;
-  font-family: '', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #010101;
   padding: 10px 0;
@@ -29,6 +29,8 @@ header nav {
   box-shadow: 0px 6px 9px -8px rgba(107,107,107,1);
   position:fixed;
   background-color: white;
+  text-align: center;
+  z-index: 100;
 }
 
 header nav img {
@@ -44,14 +46,8 @@ header nav a:hover {
   cursor: pointer;
   transform: translate(0px,-5px) rotate(5deg);
   -webkit-transform: translate(0px, -5px) rotate(5deg);
-  transition: all 0.3s ease-in-out 0.1s;
+  transition: all 0.3s ease-in-out 0s;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-
-nav {
-  text-align: center;
-  margin: 148px 0 3em;
 }
 
 a:link, a:visited {
@@ -64,9 +60,6 @@ nav .navLink {
   text-align: center;
   width: 5em;
   margin: 5px 25px;
-}
-
-div.navLink img {
 }
 
 #logoBox {
@@ -114,6 +107,12 @@ section#works {
   height: 194px;
 }
 
+.caseCover:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  transition: all 0.3s ease-in-out 0s;
+}
+
 .subtitle {
   background: black;
   color: white;
@@ -157,7 +156,7 @@ section#works {
   cursor: pointer;
   background-color: #31afbe;
   color: white; 
-  transition: all 0.4s ease-in-out 0.1s;;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 /*work part 2 end /////////////////////*/
@@ -211,6 +210,13 @@ section#works {
   height: 20px;
 }
 
+#moreBlogs:hover {
+  cursor: pointer;
+  background-color: #31afbe;
+  color: white; 
+  transition: all 0.3s ease-in-out 0s;;
+}
+
 #moreBlogs:after {
   content: ' >>';
 }
@@ -219,7 +225,7 @@ section#works {
 
 
 footer {
-  margin-top: 50px;
+  margin-top: 70px;
   height: 300px;
   width: 100%;
   background-color: #EEE;
@@ -232,7 +238,7 @@ footer {
 
 #mc_embed_signup {
   width: 50%;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 div.clear {
@@ -246,8 +252,35 @@ div.clear {
 
 #mc_embed_signup_scroll {
   text-align: center;
-  margin: 2em 0;
+  margin: 3em 0;
 }
+
+#mc_embed_signup_scroll .email {
+  width: 250px;
+  height: 26px;
+  padding: 1px 10px;
+  font-size : 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+#mc_embed_signup_scroll .clear input {
+  width: 100px;
+  height: 30px;
+  border : solid 0px #ffffff;
+  font-size : 15px;
+  color : #FFFFFF;
+  padding : 1px 10px;
+  background-color : #212121;
+  font-family: "roboto", sans-serif;
+}
+
+#mc_embed_signup_scroll .clear input:hover {
+  cursor: pointer;
+  background-color: #31afbe;
+  color: white; 
+  transition: all 0.3s ease-in-out 0s;
+}
+
 
 #copyrightNotice {
   width: 20%;
