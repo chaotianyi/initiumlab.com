@@ -63,7 +63,7 @@ nav .navLink {
 }
 
 #logoBox {
-  width: 200px;
+  width: 174px;
   margin: 0em auto 3em auto;
   padding-top: 150px;
 }
@@ -311,6 +311,8 @@ div.clear {
   z-index: 100;
   color: white;
   display: none;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .lightbox h1 {
@@ -355,4 +357,8 @@ div.clear {
 .imageBox img {
   width: 80%;
   margin: 1em auto;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
