@@ -65,14 +65,37 @@ layout: false
 
           <div id="showcase">
 
-            <!-- Add new cases here-->
+            <!-- Add new show cases here-->
 
             <div class="caseEntry">
-              <a href='http://legco.initiumlab.com/'>
+              <a id='anchor-legco' href='http://legco.initiumlab.com/'>
                 <img class="caseCover" src="images/casecover_1.png"
                      alt="Cover page of Project Legco" />
                 <h2  class="caseHeading">Legco</h2>
               </a>
+            </div>
+
+            <div class="lightbox" id="lightbox-legco">
+              <div class="lightbox-btnClose" id="btnClose-legco">
+                ╳
+              </div>
+              <div class="lightbox-innerBox">
+                <h1>Legco Matrix</h1>
+                <time>Since June 2015</time>
+                <div class="lightbox-description">
+                  On 18 June 2015, the pro-establishment legislators of Hong Kong Legislative Council bungled the Political Reform vote.
+                  Could their fiasco be foreseen? We tried to answer the question by studying their voting patterns.
+                </div>
+                <div class="lightbox-projectLink">
+                  <a href="http://legco.initiumlab.com">Go to project website >></a>
+                </div>
+                <div class="imageBox">
+                  <img src="/images/legco-showcase/image1.jpg"
+                       alt="cover page of Legco animation" />
+                  <img src="/images/legco-showcase/image2.png"
+                       alt="3D model of Legco Matrix" />
+                </div>
+              </div>
             </div>
 
           </div>
@@ -183,6 +206,26 @@ layout: false
       btnToTop.addEventListener('mousedown', function(){
         scrollToTop(250);
       });
+
+      /* Add lightbox effects */
+
+      function configLightbox(project){
+        var anchor = document.getElementById('anchor-'+project);
+        var btnClose = document.getElementById('btnClose-'+project);
+        var lightbox = document.getElementById('lightbox-'+project);
+        console.log('what');
+
+        anchor.addEventListener('click', function(event){
+          event.preventDefault();
+          lightbox.style.display = 'block';
+        });
+
+        btnClose.addEventListener('click', function(){
+          lightbox.style.display = 'none';
+        });
+      }
+
+      configLightbox('legco');
 
     }(window, window.document, window.console))
   </script>
