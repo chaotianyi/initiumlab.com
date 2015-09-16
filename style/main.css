@@ -303,6 +303,11 @@ div.clear {
 
 #topButton img {
   width: 35px;
+  opacity: 0.8;
+}
+
+#topButton img:hover {
+  opacity: 1;
 }
 
 #rssButton {
@@ -314,6 +319,11 @@ div.clear {
 
 #rssButton img {
   width: 35px;
+  opacity: 0.8;
+}
+
+#rssButton img:hover {
+  opacity: 1;
 }
 
 .lightbox {
