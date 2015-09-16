@@ -4,7 +4,7 @@
   
   <link href="/blog/feed.xml" rel="self"/>
   <link href="http://home.initiumlab.com/blog/"/>
-  <updated>2015-09-15T13:31:11.000Z</updated>
+  <updated>2015-09-16T05:13:13.000Z</updated>
   <id>http://home.initiumlab.com/blog/</id>
   
   <author>
@@ -15,11 +15,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Legco Brief (English)]]></title>
+    <link href="http://home.initiumlab.com/blog/blog/20150916-legco-eng/"/>
+    <id>http://home.initiumlab.com/blog/blog/20150916-legco-eng/</id>
+    <published>2015-09-16T04:29:08.000Z</published>
+    <updated>2015-09-16T05:13:13.000Z</updated>
+    <content type="html"><![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
+<iframe id="ytplayer" type="text/html" width="640" height="390" src="https://www.youtube.com/v/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com" frameborder="0"></iframe>
+
+
+<p>We also translated the sections of news reports explaining the mysteries mentioned in the video.    </p>
+<a id="more"></a>
+<h2 id="Why_Starry_Lee_voted_against_herself">Why Starry Lee voted against herself</h2><p>The diagonal shows how each legislator support their own motions. The more supportive they are, the brighter the block. However, there is one outlier on this bright line. Starry Lee Wai-king, chairwoman of Democratic Alliance for the Betterment and Progress of Hong Kong (DAB) and member of the Executive Council, voted against herself 7 times from February 20 to February 21, 2012. During this time, she proposed several amendments to the draft of Stamp Duty Bill but she voted against these amendments herself. Lee replied via her assistant and explained that, she was serving as the president to the committee responsible for revising the bill, and the committee members decided that she, the president, should propose the revisions for them. As DAB opposed those bills, she chose to vote against amendments technically proposed by her.</p>
+<h2 id="Why_Poon_Siu-ping_is_more_popular_on_the_opposite_camp">Why Poon Siu-ping is more popular on the opposite camp</h2><p>According to the voting records, no motion amendment from Poon Siu-ping got passed. However, his motion on Occupational Safety, through secret ballot, has been adopted. Poon replied to us that there is no fundamental disagreement between Hong Kong Federation of Trade Unions (FTU) and Federation of Hong Kong and Kowloon Labour Unions (FLU), as FTU is also on pro-establishment camp. However, Poon didn’t think it would be easy to gain FTU’s support: “To improve labour rights and benefits, one has to change the consistently business-oriented operating environment, but many legislators of functional constituency represents business interests and naturally they are unlikely to support motions protecting labour rights.”</p>
+<p>Ma Ngok, chairman of Department of Government and Public Administration, Chinese University of Hong Kong, thought pan-democrats have been in mutual restraint since 2012. He said, “First of all, on class position, Civic Party and Democratic Party are moving forward grass-root sector, and they are not much different from the grass-root pan-democracy parties. For instance, a decade ago many pan-democracy parties were doubtful about universal retirement protection, while today all pan-democracy parties support it”. Another reason is the limited power of the Legislative Council. “When debating about grassroot-related motions, which are predictably impossible to pass, many parties would rather follow the trend to avoid controversies”, said Ma.</p>
+<p>Ma Ngok explained that,  the reason why Poon Sui-ping, Kwok Wai-keung and Tang Ka-piu were unsupported by pro-establishment camp was probably that functional constituency has long been unwelcoming the labour issues. “Nearly half of the 35 members in functional constituency are in business sector, and some legislators from professional constituencies also tend to business sector. Their attachment to the sector interests makes labour issues hard to gain support.”, said Ma.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
+<iframe id="ytplayer" type="text/html" width="640" height="390"
+  src="https://www.youtube.com/v/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com"
+  frameborder="0"></iframe>
+
+
+<p>We also translated the sections of news reports explaining the mysteries mentioned in the video.    </p>]]>
+    
+    </summary>
+    
+      <category term="Legco" scheme="http://home.initiumlab.com/blog/tags/Legco/"/>
+    
+      <category term="lang:English" scheme="http://home.initiumlab.com/blog/tags/lang-English/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[可視化火了 盲人怎麼辦]]></title>
     <link href="http://home.initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/"/>
     <id>http://home.initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/</id>
     <published>2015-09-01T13:39:43.000Z</published>
-    <updated>2015-09-15T13:31:11.000Z</updated>
+    <updated>2015-09-16T05:11:00.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg" alt="中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。"><br>中國有五百萬盲人<sup><a href="#note1">[註1]</a></sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup><a href="#note2">[註2]</a></sup>。</p>
 <p>盲人走丟是舊聞，盲貓失蹤纔是新聞：</p>
 <ul>
@@ -79,6 +113,8 @@
     </summary>
     
       <category term="Accessibility" scheme="http://home.initiumlab.com/blog/tags/Accessibility/"/>
+    
+      <category term="author:Andy" scheme="http://home.initiumlab.com/blog/tags/author-Andy/"/>
     
       <category term="lang:Chinese" scheme="http://home.initiumlab.com/blog/tags/lang-Chinese/"/>
     
