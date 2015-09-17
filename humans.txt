@@ -19,5 +19,11 @@ Content
 Hu Pili
 Andy Shu Xin
 
+Contributors
+------------
+Chris Wong
+Wilson Tsang
+Sarene Chan
+
 /* THANKS */
 Please see http://home.initiumlab.com/about/ 

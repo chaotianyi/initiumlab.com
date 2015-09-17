@@ -143,6 +143,7 @@ section#works {
 
 .caseEntry {
   display: inline-block;
+  margin-bottom: 1.5em;
 }
 
 .caseHeading {
@@ -168,6 +169,10 @@ section#works {
 
 
 /*blog part 3 start /////////////////////*/
+
+section#blogs {
+  margin-top: 2em;
+}
 
 .blogEntry {
   margin: 0 0 30px 0;
@@ -230,7 +235,7 @@ section#works {
 
 
 footer {
-  margin-top: 4.5em;
+  margin-top: 8em;
   height: 18em;
   width: 100%;
   background-color: #EEE;
@@ -294,20 +299,15 @@ div.clear {
 
 #rssButton {
   height: 1em;
-  margin: 6em auto;
+  margin: 9em auto 0em;
   color: #333;
   font-size: 0.9em;
   font-family: "roboto", sans-serif;
 }
 
 #rssButton img {
-  height: 1em;
+  height: 1.2em;
   position: relative;
-}
-
-#rssButton a:link, #rssButton a:visited{
-  color: #31afbe;
-  font-size: 1.3em;
 }
 
 
@@ -315,6 +315,17 @@ div.clear {
   opacity: 0.8;
 }
 
+#rssText:hover {
+  background-color: #31afbe;
+}
+
+#rssButton span {
+  background-color: #333;
+  padding: 0.2em 0.2em;
+  color: white;
+  font-size: 0.8em;
+  margin: 0;
+}
 
 #copyrightNotice {
   width: 20%;
@@ -506,6 +517,10 @@ div.clear {
 
     #topButton {
       visibility: hidden;
+    }
+
+    #mc_embed_signup {
+      width: 100%;
     }
 
 }
