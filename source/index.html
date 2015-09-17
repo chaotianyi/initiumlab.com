@@ -74,7 +74,7 @@ layout: false
               <a id='anchor-legco' href='http://legco.initiumlab.com/'>
                 <img class="caseCover" src="images/casecover_1.png"
                      alt="Cover page of Project Legco" />
-                <h2  class="caseHeading">Hong Kong Legco Study</h2>
+                <h2  class="caseHeading">Hong Kong Legco</h2>
               </a>
             </div>
 
@@ -389,6 +389,8 @@ layout: false
 
       /* Add lightbox effects */
 
+      var currentLightbox = null;
+
       function configLightbox(project){
         var anchor = document.getElementById('anchor-'+project);
         var btnClose = document.getElementById('btnClose-'+project);
@@ -398,19 +400,20 @@ layout: false
           event.preventDefault();
           lightbox.style.display = 'block';
           document.body.classList.add('no-scroll');
+          currentLightbox = lightbox;
         });
 
         btnClose.addEventListener('click', function(){
           lightbox.style.display = 'none';
           document.body.classList.remove('no-scroll');
         });
+      }
 
-        document.onkeydown = function(event){
-          if (event.keyCode === 27) {
-            // Esc key
-            lightbox.style.display = 'none';
-            document.body.classList.remove('no-scroll');
-          }
+      document.onkeydown = function(event){
+        if (event.keyCode === 27) {
+          // Esc key
+          currentLightbox.style.display = 'none';
+          document.body.classList.remove('no-scroll');
         }
       }
 
