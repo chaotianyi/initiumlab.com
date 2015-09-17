@@ -295,17 +295,22 @@ div.clear {
 
 #rssButton {
   height: 1em;
-  width: 6.25em;
-  margin: 2em auto;
-  color: #FFFFFF;
-  font-size: 1.875em;
+  margin: 6em auto;
+  color: #333;
+  font-size: 0.9em;
   font-family: "roboto", sans-serif;
 }
 
 #rssButton img {
-  height: 1.2em;
+  height: 1em;
   position: relative;
 }
+
+#rssButton a:link, #rssButton a:visited{
+  color: #31afbe;
+  font-size: 1.3em;
+}
+
 
 #rssButton img:hover {
   opacity: 0.8;
