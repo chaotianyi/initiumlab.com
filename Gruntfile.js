@@ -49,8 +49,23 @@ module.exports = function(grunt) {
     'exec': {
       hexo_clean: 'hexo clean',
       hexo_generate: 'hexo generate -f'
-    }
+    },
 
+    rsync: {
+      options: {
+        args: ["--verbose"],
+        exclude: [".git*","*.scss","node_modules"],
+        recursive: true
+      },
+      showcase: {
+        options: {
+          src: "./public/",
+          dest: "/home/vagrant/web/initiumlab.com/",
+          host: "showcase",
+          delete: true // Careful this option could cause data loss, read the docs!
+        }
+      }
+    }
 
   });
 
@@ -73,5 +88,6 @@ module.exports = function(grunt) {
   grunt.registerTask('build',  ['exec:hexo_generate','copy']);
   grunt.registerTask('build:complete',  ['exec:hexo_clean', 'exec:hexo_generate','copy']);
   grunt.registerTask('serve',  ['build', 'connect', 'watch']);
-  grunt.registerTask('deploy', ['build:complete', 'gh-pages']);
+  grunt.registerTask('deploy:prod', ['gh-pages']);
+  grunt.registerTask('deploy:staging', ['rsync']);
 };
