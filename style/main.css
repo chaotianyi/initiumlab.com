@@ -201,7 +201,7 @@ section#works {
   text-align: center;
   background-color: #EAEAEA;
   padding: 0.625em 1em;
-  margin: 2em 3em 0;
+  margin: 2em 0 0;
   font-weight: lighter;
   font-size: 1em;
   font-family: "Roboto", sans-serif;
@@ -256,7 +256,7 @@ div.clear {
 
 #mc_embed_signup_scroll .email {
   width: 16em;
-  height: 1.625em;
+  height: 1.555em;
   padding: 0.1em 0.625em;
   font-size : 1em;
   font-family: "Roboto", sans-serif;
@@ -482,10 +482,9 @@ div.clear {
       margin-top: 1em;
     }
 
-    #rssButton {
-
+    #moreBlogs {
+      margin: 2em 3em 0;
     }
-
 
 }
 
