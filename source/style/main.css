@@ -301,13 +301,8 @@ div.clear {
 }
 
 #rssButton img {
-  height: 1em;
+  height: 1.2em;
   position: relative;
-}
-
-#rssButton a:link, #rssButton a:visited{
-  color: #31afbe;
-  font-size: 1.3em;
 }
 
 
@@ -315,6 +310,17 @@ div.clear {
   opacity: 0.8;
 }
 
+#rssText:hover {
+  background-color: #31afbe;
+}
+
+#rssButton span {
+  background-color: #333;
+  padding: 0.2em 0.2em;
+  color: white;
+  font-size: 0.8em;
+  margin: 0;
+}
 
 #copyrightNotice {
   width: 20%;
@@ -506,6 +512,10 @@ div.clear {
 
     #topButton {
       visibility: hidden;
+    }
+
+    #mc_embed_signup {
+      width: 100%;
     }
 
 }
