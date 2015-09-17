@@ -127,11 +127,11 @@ section#works {
 }
 
 #titleWorks:before {
-  content: '>>'
+  content: ''
 }
 
 #titleBlog:before {
-  content: '>>'
+  content: ''
 }
 
 .caseEntry {
