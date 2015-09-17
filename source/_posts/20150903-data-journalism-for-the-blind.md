@@ -2,8 +2,8 @@ title: 可視化火了 盲人怎麼辦
 date: 2015-09-01 21:39:43
 author: Andy Shu
 tags:
-- "lang:Chinese"
-- "author:Andy"
+- "lang-Chinese"
+- "author-Andy"
 - "Accessibility"
 ---
 
