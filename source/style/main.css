@@ -248,7 +248,7 @@ footer {
 }
 
 div.clear {
-  display: inline;
+  display: inline-block;
 }
 
 #mc-embedded-subscribe {
@@ -287,6 +287,30 @@ div.clear {
   transition: all 0.3s ease-in-out 0s;
 }
 
+#rss_section {
+  width: 20%;
+  margin: 2em auto;
+  display: block;
+}
+
+#rssButton {
+  height: 1em;
+  width: 6.25em;
+  margin: 2em auto;
+  color: #FFFFFF;
+  font-size: 1.875em;
+  font-family: "roboto", sans-serif;
+}
+
+#rssButton img {
+  height: 1.2em;
+  position: relative;
+}
+
+#rssButton img:hover {
+  opacity: 0.8;
+}
+
 
 #copyrightNotice {
   width: 20%;
@@ -313,22 +337,6 @@ div.clear {
 }
 
 #topButton img:hover {
-  opacity: 1;
-}
-
-#rssButton {
-  position: fixed;
-  right: 3em;
-  top: 13em;
-  z-index: 150;
-}
-
-#rssButton img {
-  width: 2em;
-  opacity: 0.6;
-}
-
-#rssButton img:hover {
   opacity: 1;
 }
 
@@ -491,6 +499,10 @@ div.clear {
 
     #moreBlogs {
       margin: 2em 3em 0;
+    }
+
+    #topButton {
+      visibility: hidden;
     }
 
 }
