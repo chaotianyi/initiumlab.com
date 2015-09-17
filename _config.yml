@@ -63,7 +63,7 @@ pagination_dir: page
 
 # Feed
 feed:
-  type: atom
+  type: rss2
   path: blog/feed
   limit: 20
 
