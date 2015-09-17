@@ -108,7 +108,7 @@ section#works {
 
 .caseCover:hover {
   opacity: 0.8;
-  filter: alpha(opacity=80);
+  /*filter: alpha(opacity=80);*/
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -196,7 +196,6 @@ section#works {
 
 .blogDigest {
   font-family : Roboto;
-  font-style: light;
   font-size : 1em;
   line-height : 1.3em;
   color : #5E5F5F;
@@ -371,7 +370,6 @@ div.clear {
   color: #AAAAAA;
   margin-left: 4em;
   font-family: 'Roboto', sans-serif;
-  font-style: light;
 }
 
 .lightbox a {
