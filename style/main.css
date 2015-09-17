@@ -113,9 +113,9 @@ section#works {
 }
 
 .subtitle {
-  background: black;
-  color: white;
-  padding: 0.6em 2.0em;
+  background: none;
+  color: black;
+  padding: 0.6em 0 0;
   display: inline-block;
   width: 12em;
   height: 2.5em;
@@ -124,14 +124,21 @@ section#works {
   box-sizing: border-box;
   margin-top: 3.2em;
   margin-bottom: 1.9em;
+  border-top: solid 1.5px #999;
+  border-bottom: solid 1.5px #999;
+  border-right: solid 0px #999;
+  border-left: solid 0px #999;
+  border-style: dashed;
 }
 
 #titleWorks:before {
-  content: ''
+  content: '>>';
+  color: #999;
 }
 
 #titleBlog:before {
-  content: ''
+  content: '>>';
+  color: #999
 }
 
 .caseEntry {
@@ -151,7 +158,7 @@ section#works {
 
 .caseHeading:hover{
   cursor: pointer;
-  background-color: #31afbe;
+  background-color: #333;
   color: white; 
   transition: all 0.3s ease-in-out 0s;
 }
@@ -211,7 +218,7 @@ section#works {
 
 #moreBlogs:hover {
   cursor: pointer;
-  background-color: #31afbe;
+  background-color: #333;
   color: white; 
   transition: all 0.3s ease-in-out 0s;;
 }
@@ -241,7 +248,7 @@ footer {
 }
 
 div.clear {
-  display: inline;
+  display: inline-block;
 }
 
 #mc-embedded-subscribe {
@@ -280,6 +287,30 @@ div.clear {
   transition: all 0.3s ease-in-out 0s;
 }
 
+#rss_section {
+  width: 20%;
+  margin: 2em auto;
+  display: block;
+}
+
+#rssButton {
+  height: 1em;
+  width: 6.25em;
+  margin: 2em auto;
+  color: #FFFFFF;
+  font-size: 1.875em;
+  font-family: "roboto", sans-serif;
+}
+
+#rssButton img {
+  height: 1.2em;
+  position: relative;
+}
+
+#rssButton img:hover {
+  opacity: 0.8;
+}
+
 
 #copyrightNotice {
   width: 20%;
@@ -306,22 +337,6 @@ div.clear {
 }
 
 #topButton img:hover {
-  opacity: 1;
-}
-
-#rssButton {
-  position: fixed;
-  right: 3em;
-  top: 13em;
-  z-index: 150;
-}
-
-#rssButton img {
-  width: 2em;
-  opacity: 0.6;
-}
-
-#rssButton img:hover {
   opacity: 1;
 }
 
@@ -484,6 +499,10 @@ div.clear {
 
     #moreBlogs {
       margin: 2em 3em 0;
+    }
+
+    #topButton {
+      visibility: hidden;
     }
 
 }
