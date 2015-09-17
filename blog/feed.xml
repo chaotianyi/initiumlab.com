@@ -7,7 +7,7 @@
     <link>http://home.initiumlab.com/blog/</link>
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[The Website of Initium Lab, the exploratory arm of Initium Media]]></description>
-    <pubDate>Thu, 17 Sep 2015 02:41:18 GMT</pubDate>
+    <pubDate>Thu, 17 Sep 2015 05:54:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -17,17 +17,15 @@
       <pubDate>Wed, 16 Sep 2015 04:29:08 GMT</pubDate>
       <description>
       <![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
-<iframe id="ytplayer" type="text/html" width="640" height="390"
-src="http://www.youtube.com/embed/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com"
-frameborder="0"></iframe>
-
+<div class='wrapper' style='position: relative; width: 100%; height: 0; padding-bottom: 60%;'><br><br><iframe id="ytplayer" type="text/html" width="100%" height="100%" style="position: absolute; left: 0; top: 0;"
+        src="http://www.youtube.com/embed/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com"
+frameborder="0"></iframe><br><br></div>
 
 <p>We also translated the sections of news reports explaining the mysteries mentioned in the video.    </p>]]>
       
       </description>
       <content:encoded><![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
-<iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com" frameborder="0"></iframe>
-
+<div class="wrapper" style="position: relative; width: 100%; height: 0; padding-bottom: 60%;"><br><br><iframe id="ytplayer" type="text/html" width="100%" height="100%" style="position: absolute; left: 0; top: 0;" src="http://www.youtube.com/embed/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com" frameborder="0"></iframe><br><br></div>
 
 <p>We also translated the sections of news reports explaining the mysteries mentioned in the video.    </p>
 <a id="more"></a>
