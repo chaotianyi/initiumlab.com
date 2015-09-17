@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Initium Lab]]></title>
-  
-  <link href="/blog/feed.xml" rel="self"/>
-  <link href="http://home.initiumlab.com/blog/"/>
-  <updated>2015-09-16T05:13:13.000Z</updated>
-  <id>http://home.initiumlab.com/blog/</id>
-  
-  <author>
-    <name><![CDATA[Initium Lab]]></name>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title><![CDATA[Initium Lab]]></title>
+    <link>http://home.initiumlab.com/blog/</link>
+    <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description><![CDATA[The Website of Initium Lab, the exploratory arm of Initium Media]]></description>
+    <pubDate>Thu, 17 Sep 2015 02:41:18 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
     
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[Legco Brief (English)]]></title>
-    <link href="http://home.initiumlab.com/blog/blog/20150916-legco-eng/"/>
-    <id>http://home.initiumlab.com/blog/blog/20150916-legco-eng/</id>
-    <published>2015-09-16T04:29:08.000Z</published>
-    <updated>2015-09-16T05:13:13.000Z</updated>
-    <content type="html"><![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
-<iframe id="ytplayer" type="text/html" width="640" height="390" src="https://www.youtube.com/v/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com" frameborder="0"></iframe>
+    <item>
+      <title><![CDATA[Legco Brief (English)]]></title>
+      <link>http://home.initiumlab.com/blog/blog/20150916-legco-eng/</link>
+      <guid>http://home.initiumlab.com/blog/blog/20150916-legco-eng/</guid>
+      <pubDate>Wed, 16 Sep 2015 04:29:08 GMT</pubDate>
+      <description>
+      <![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
+<iframe id="ytplayer" type="text/html" width="640" height="390"
+src="http://www.youtube.com/embed/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com"
+frameborder="0"></iframe>
+
+
+<p>We also translated the sections of news reports explaining the mysteries mentioned in the video.    </p>]]>
+      
+      </description>
+      <content:encoded><![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
+<iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com" frameborder="0"></iframe>
 
 
 <p>We also translated the sections of news reports explaining the mysteries mentioned in the video.    </p>
@@ -30,31 +35,27 @@
 <h2 id="Why_Poon_Siu-ping_is_more_popular_on_the_opposite_camp">Why Poon Siu-ping is more popular on the opposite camp</h2><p>According to the voting records, no motion amendment from Poon Siu-ping got passed. However, his motion on Occupational Safety, through secret ballot, has been adopted. Poon replied to us that there is no fundamental disagreement between Hong Kong Federation of Trade Unions (FTU) and Federation of Hong Kong and Kowloon Labour Unions (FLU), as FTU is also on pro-establishment camp. However, Poon didn’t think it would be easy to gain FTU’s support: “To improve labour rights and benefits, one has to change the consistently business-oriented operating environment, but many legislators of functional constituency represents business interests and naturally they are unlikely to support motions protecting labour rights.”</p>
 <p>Ma Ngok, chairman of Department of Government and Public Administration, Chinese University of Hong Kong, thought pan-democrats have been in mutual restraint since 2012. He said, “First of all, on class position, Civic Party and Democratic Party are moving forward grass-root sector, and they are not much different from the grass-root pan-democracy parties. For instance, a decade ago many pan-democracy parties were doubtful about universal retirement protection, while today all pan-democracy parties support it”. Another reason is the limited power of the Legislative Council. “When debating about grassroot-related motions, which are predictably impossible to pass, many parties would rather follow the trend to avoid controversies”, said Ma.</p>
 <p>Ma Ngok explained that,  the reason why Poon Sui-ping, Kwok Wai-keung and Tang Ka-piu were unsupported by pro-establishment camp was probably that functional constituency has long been unwelcoming the labour issues. “Nearly half of the 35 members in functional constituency are in business sector, and some legislators from professional constituencies also tend to business sector. Their attachment to the sector interests makes labour issues hard to gain support.”, said Ma.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
-<iframe id="ytplayer" type="text/html" width="640" height="390"
-  src="https://www.youtube.com/v/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com"
-  frameborder="0"></iframe>
-
-
-<p>We also translated the sections of news reports explaining the mysteries mentioned in the video.    </p>]]>
+]]></content:encoded>
+      <comments>http://home.initiumlab.com/blog/blog/20150916-legco-eng/#disqus_thread</comments>
+    </item>
     
-    </summary>
-    
-      <category term="Legco" scheme="http://home.initiumlab.com/blog/tags/Legco/"/>
-    
-      <category term="lang:English" scheme="http://home.initiumlab.com/blog/tags/lang-English/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[可視化火了 盲人怎麼辦]]></title>
-    <link href="http://home.initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/"/>
-    <id>http://home.initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/</id>
-    <published>2015-09-01T13:39:43.000Z</published>
-    <updated>2015-09-16T05:11:00.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg" alt="中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。"><br>中國有五百萬盲人<sup><a href="#note1">[註1]</a></sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup><a href="#note2">[註2]</a></sup>。</p>
+    <item>
+      <title><![CDATA[可視化火了 盲人怎麼辦]]></title>
+      <link>http://home.initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/</link>
+      <guid>http://home.initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/</guid>
+      <pubDate>Tue, 01 Sep 2015 13:39:43 GMT</pubDate>
+      <description>
+      <![CDATA[<p><img src="/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg" alt="中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。"><br>中國有五百萬盲人<sup><a href="#note1">[註1]</a></sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup><a href="#note2">[註2]</a></sup>。</p>
+<p>盲人走丟是舊聞，盲貓失蹤纔是新聞：</p>
+<ul>
+<li>經濟日報：偷貓賊出沒 書店盲貓福仔被盜</li>
+<li>文匯報：黑褸賊書局偷盲貓 片段網上瘋傳</li>
+<li>東方日報：盲貓「福仔」被尋回　主人喜與愛貓重聚</li>
+<li>蘋果日報：被偷5日　疑賊人送往愛協　盲貓「福仔」回家了<br>等等……</li>
+</ul>]]>
+      
+      </description>
+      <content:encoded><![CDATA[<p><img src="/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg" alt="中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。"><br>中國有五百萬盲人<sup><a href="#note1">[註1]</a></sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup><a href="#note2">[註2]</a></sup>。</p>
 <p>盲人走丟是舊聞，盲貓失蹤纔是新聞：</p>
 <ul>
 <li>經濟日報：偷貓賊出沒 書店盲貓福仔被盜</li>
@@ -99,25 +100,9 @@
 <li>上海人口數據來自： <a href="http://www.shrkjsw.gov.cn/dr/stat/ssh/2011823/000000003500041001134458916.html" target="_blank" rel="external">上海市人口和計劃生育委員會</a></li>
 <li>香港人口數據來自： <a href="http://www.censtatd.gov.hk/hkstat/sub/sp150.jsp?productCode=B1120017" target="_blank" rel="external">香港政府統計處</a></li>
 </ol>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><img src="/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg" alt="中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。"><br>中國有五百萬盲人<sup><a href="#note1">[註1]</a></sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup><a href="#note2">[註2]</a></sup>。</p>
-<p>盲人走丟是舊聞，盲貓失蹤纔是新聞：</p>
-<ul>
-<li>經濟日報：偷貓賊出沒 書店盲貓福仔被盜</li>
-<li>文匯報：黑褸賊書局偷盲貓 片段網上瘋傳</li>
-<li>東方日報：盲貓「福仔」被尋回　主人喜與愛貓重聚</li>
-<li>蘋果日報：被偷5日　疑賊人送往愛協　盲貓「福仔」回家了<br>等等……</li>
-</ul>]]>
+]]></content:encoded>
+      <comments>http://home.initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/#disqus_thread</comments>
+    </item>
     
-    </summary>
-    
-      <category term="Accessibility" scheme="http://home.initiumlab.com/blog/tags/Accessibility/"/>
-    
-      <category term="author:Andy" scheme="http://home.initiumlab.com/blog/tags/author-Andy/"/>
-    
-      <category term="lang:Chinese" scheme="http://home.initiumlab.com/blog/tags/lang-Chinese/"/>
-    
-  </entry>
-  
-</feed>
+  </channel>
+</rss>
