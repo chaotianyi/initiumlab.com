@@ -143,6 +143,7 @@ section#works {
 
 .caseEntry {
   display: inline-block;
+  margin-bottom: 1.5em;
 }
 
 .caseHeading {
@@ -168,6 +169,10 @@ section#works {
 
 
 /*blog part 3 start /////////////////////*/
+
+section#blogs {
+  margin-top: 2em;
+}
 
 .blogEntry {
   margin: 0 0 30px 0;
@@ -230,7 +235,7 @@ section#works {
 
 
 footer {
-  margin-top: 4.5em;
+  margin-top: 8em;
   height: 18em;
   width: 100%;
   background-color: #EEE;
