@@ -52,21 +52,35 @@ module.exports = function(grunt) {
       hexo_deploy: 'hexo generate -d'
     },
 
-    // rsync: {
-    //   options: {
-    //     args: ["--verbose"],
-    //     exclude: [".git*","*.scss","node_modules"],
-    //     recursive: true
-    //   },
-    //   showcase: {
-    //     options: {
-    //       src: "./public/",
-    //       dest: "/home/vagrant/web/initiumlab.com/",
-    //       host: "showcase",
-    //       delete: true // Careful this option could cause data loss, read the docs!
-    //     }
-    //   }
-    // }
+     relativeRoot: {
+        all: {
+          options: {
+            root: 'public'
+          },
+          files: [{
+            expand: true,
+            cwd: 'public',
+            src: ['**/*.css', '**/*.html'],
+            dest: 'public/'
+          }]
+        }
+      },
+
+    rsync: {
+      options: {
+        args: ["--verbose"],
+        exclude: [".git*","*.scss","node_modules"],
+        recursive: true
+      },
+      showcase: {
+        options: {
+          src: "./public/",
+          dest: "/home/vagrant/web/initiumlab.com/",
+          host: "showcase",
+          delete: true // Careful this option could cause data loss, read the docs!
+        }
+      }
+    }
 
   });
 
@@ -84,11 +98,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-gh-pages');
   grunt.loadNpmTasks('grunt-rsync');
+  grunt.loadNpmTasks('grunt-relative-root');
   grunt.loadNpmTasks('grunt-targethtml');
+
 
   grunt.registerTask('build',  ['exec:hexo_generate','copy']);
   grunt.registerTask('build:complete',  ['exec:hexo_clean', 'exec:hexo_generate','copy']);
   grunt.registerTask('serve',  ['build', 'connect', 'watch']);
   grunt.registerTask('deploy:prod', ['gh-pages']);
-  grunt.registerTask('deploy:staging', ['exec:hexo_deploy']);
+  grunt.registerTask('deploy:staging', ['relativeRoot', 'rsync']);
 };
