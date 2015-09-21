@@ -72,10 +72,6 @@ feed:
 ## Themes: http://hexo.io/themes/
 theme: next
 
-exclude_generator:
-- index
-- home
-
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 google_analytics: UA-66625644-1
