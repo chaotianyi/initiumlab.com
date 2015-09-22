@@ -49,7 +49,8 @@ module.exports = function(grunt) {
     'exec': {
       hexo_clean: 'hexo clean',
       hexo_generate: 'hexo generate -f',
-      hexo_deploy: 'hexo generate -d'
+      hexo_deploy: 'hexo generate -d',
+      copy_tags: 'cp -r public/tags public/blog/tags' // Not used at the moment; could be useful in the future
     },
 
      relativeRoot: {
@@ -103,8 +104,8 @@ module.exports = function(grunt) {
 
 
   grunt.registerTask('build',  ['exec:hexo_generate','copy']);
-  grunt.registerTask('build:complete',  ['exec:hexo_clean', 'exec:hexo_generate','copy']);
+  grunt.registerTask('build:complete',  ['exec:hexo_clean', 'exec:hexo_generate','copy', 'relativeRoot']);
   grunt.registerTask('serve',  ['build', 'connect', 'watch']);
   grunt.registerTask('deploy:prod', ['gh-pages']);
-  grunt.registerTask('deploy:staging', ['relativeRoot', 'rsync']);
+  grunt.registerTask('deploy:staging', ['rsync']);
 };
