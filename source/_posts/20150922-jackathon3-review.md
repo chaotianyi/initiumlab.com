@@ -1,23 +1,24 @@
-title: Jackathon #3 -- Read a data science book in 8 hours
+title: "Jackathon #3 -- Read a data science book in 8 hours"
 date: 2015-09-22 11:57:13
 author: Initium Lab
 tags:
 - Jackathon
-- Data Science
+- Data-Science
+- lang-English
 ---
 
-<video controls poster='jackathon3-timelapse-poster.png'>
-  <source src='jackathon3-timelapse.mp4' type='video/mp4' />
-  <source src='jackathon3-timelapse.webm' type='video/webm' />
+<video controls poster='/blog/20150922-jackathon3-review/jackathon3-timelapse-poster.png'>
+  <source src='/blog/20150922-jackathon3-review/jackathon3-timelapse.mp4' type='video/mp4' />
+  <source src='/blog/20150922-jackathon3-review/jackathon3-timelapse.webm' type='video/webm' />
   Sorry, you browser does not support HTML5 video.
 </video>
+The video is also available on YouTube <https://youtu.be/zFeSh2W1_C8>.
 
-Embed Video: https://youtu.be/zFeSh2W1_C8
 ## What did we do?
 
-Jackathon is short for “Journalism-Hackathon”.  At Initium Lab, we push limits of Journalism with Technology. We hold regular Jackathons to advance our knowledge and skills in Journalism and Technology.
+Jackathon is short for “Journalism-Hackathon”. At Initium Lab, we aim to push limits of Journalism with Technology. We hold regular Jackathons to advance our knowledge and skills in using new technology for obtaining data, analysing information, and reporting.
 
-This week, the goal for each participant is to read one the the 60 Data Science books collected by KDnuggets [1] within 8 hours. Participants could pick one or two books to read, and needed to finish reading in 8 hours and present findings and insights to the other participants.
+This week, the goal for each participant is to read one the the [60 Data Science books collected by KDnuggets](http://www.kdnuggets.com/2015/09/free-data-science-books.html) within 8 hours. Participants could pick one or two books to read, and needed to finish reading in 8 hours and present findings and insights to the other participants.
 ## What are the books?
 
 ![A network of the Data Science books on the recommendation list. A cloud of inter-connected dots](data-science-books-graph.png)
