@@ -19,17 +19,20 @@ The video is also available on YouTube <https://youtu.be/zFeSh2W1_C8>.
 Jackathon is short for “Journalism-Hackathon”. At Initium Lab, we aim to push limits of Journalism with Technology. We hold regular Jackathons to advance our knowledge and skills in using new technology for obtaining data, analysing information, and reporting.
 
 This week, the goal for each participant is to read one the the [60 Data Science books collected by KDnuggets](http://www.kdnuggets.com/2015/09/free-data-science-books.html) within 8 hours. Participants could pick one or two books to read, and needed to finish reading in 8 hours and present findings and insights to the other participants.
+
+<!-- more -->
+
 ## What are the books?
 
-![A network of the Data Science books on the recommendation list. A cloud of inter-connected dots](data-science-books-graph.png)
+![A network of the Data Science books on the recommendation list. A cloud of inter-connected dots](/blog/20150922-jackathon3-review/data-science-books-graph.png)
 
 Fig: Network of 60 books. Blue -- book; Red -- author; Yellow -- key term
 
-We have organised the book list into a structured form and visualized the network on kumu.io [3]. Books are associated with authors and terms. Multiple books may share an author or key terms. In this way, books are connected to each other in one way or the other. With graph visualization, we find several clusters:
+We have organised the book list into a structured form and [visualized the network on kumu.io](https://kumu.io/hupili/60-free-data-science-book#60-free-data-science-book). Books are associated with authors and terms. Multiple books may share an author or key terms. In this way, books are connected to each other in one way or the other. With graph visualization, we find several clusters:
 hard-core machine learning including deep academic results; 
 practitioner’s guide including several soft introductory books; and
 those in-between.
-Every participant of Jackathon #3 finds a suitable book for themselves. For a complete list, you can download the CSV file [4].
+Every participant of Jackathon #3 finds a suitable book for themselves. For a complete list, you can download [the CSV file](CSV of 60+ data science books: https://docs.google.com/spreadsheets/d/1U28nb1z9PsXNzNe_YtfPYYUdhH7_YfjEz6L0Z_wpxzM/edit?usp=sharing).
 ## Introduction to Data Science
 Kate, who was from a non-technical background, picked Introduction to Data Science. The book is useful to equip one with basic Data Science knowledge. The main take-away for Kate was a better understanding of a Data Scientist’s workflow. It turns out that a Data Scientist is not only responsible for “data analysis” but also works on various positions in the whole pipeline including problem identification, data collection, and data visualisation, etc. It is worth noting that this book uses R (a widely used programming language in the Statistics community) to explain Data Science.
 If you intend to learn R, this book may be a good starting point. Otherwise, you can pick a book using another language (say Python), or a book that is not language dependent.
@@ -65,13 +68,7 @@ Influence and homophily. This is the graph theoretic characterisation of the “
 
 Another book read by Belinda is “Real-Time Big Data Analytics: Emerging Architecture”. This book is more like a guide for executives. It discusses why we need real-time analysis, the challenges, current tool chain and proposed one solution stack. The key objective for real-time analysis is to combine batch and streaming processing. An overview of the proposed architecture reveals four layers. The data layer stores raw data, in heterogeneous or even unstructured format. The analytics layer addresses data buffering and environment (development/ production) isolation issues. The integration layer contains a rule engine and other services that connect data scientists with end users. The decision layer involve end users and provide friendly UI.
 
-
 ## References and further readings
 
-[1] KDnuggets, “60+ Free Books on Big Data, Data Science, Data Mining, Machine Learning, Python, R, and more”, http://www.kdnuggets.com/2015/09/free-data-science-books.html
-[2] http://chimera.labs.oreilly.com/books
-[3] https://kumu.io/hupili/60-free-data-science-book#60-free-data-science-book
-[4] CSV of 60+ data science books: https://docs.google.com/spreadsheets/d/1U28nb1z9PsXNzNe_YtfPYYUdhH7_YfjEz6L0Z_wpxzM/edit?usp=sharing
-
-
-
+- KDnuggets, “60+ Free Books on Big Data, Data Science, Data Mining, Machine Learning, Python, R, and more”, <http://www.kdnuggets.com/2015/09/free-data-science-books.html>
+- O'Reilly Atlas Reader, <http://chimera.labs.oreilly.com/books>
