@@ -13,7 +13,7 @@ tags:
   Sorry, you browser does not support HTML5 video.
 </video>
 
-The video is also available on YouTube <https://youtu.be/zFeSh2W1_C8> and Youku <http://v.youku.com/v_show/id_XMTM0MzM1MjEwMA==.html?from=y1.7-2>.
+The video is also available on [YouTube](https://youtu.be/zFeSh2W1_C8) and [Youku](http://v.youku.com/v_show/id_XMTM0MzM1MjEwMA==.html?from=y1.7-2).
 
 ## What did we do?
 
