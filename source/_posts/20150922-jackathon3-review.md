@@ -37,6 +37,7 @@ We have organised the book list into a structured form and [visualized the netwo
 * Those in-between.
 
 Every participant of Jackathon #3 finds a suitable book for themselves. For a complete list, you can download [the CSV file](CSV of 60+ data science books: https://docs.google.com/spreadsheets/d/1U28nb1z9PsXNzNe_YtfPYYUdhH7_YfjEz6L0Z_wpxzM/edit?usp=sharing).
+To see how we produces this network visualisation, checkout [this repo](https://github.com/hupili/60-data-science-book-visualisation).
 
 ## Introduction to Data Science
 
