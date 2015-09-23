@@ -1,6 +1,7 @@
 title: "Jackathon #3 -- Read a data science book in 8 hours"
 date: 2015-09-22 11:57:13
 author: Initium Lab
+language: en
 tags:
 - Jackathon
 - Data-Science
