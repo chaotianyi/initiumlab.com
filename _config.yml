@@ -72,13 +72,12 @@ feed:
 ## Themes: http://hexo.io/themes/
 theme: next
 
-exclude_generator:
-- index
-- home
-
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 google_analytics: UA-66625644-1
 deploy:
-- type: git
-  repo: https://github.com/initiumlab/initiumlab.com.git
+- type: rsync
+  user: vagrant
+  host: 192.168.1.6
+  root: /home/vagrant/web/initiumlab.com
+  verbose: true

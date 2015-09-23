@@ -48,8 +48,24 @@ module.exports = function(grunt) {
 
     'exec': {
       hexo_clean: 'hexo clean',
-      hexo_generate: 'hexo generate -f'
+      hexo_generate: 'hexo generate -f',
+      hexo_deploy: 'hexo generate -d',
+      copy_tags: 'cp -r public/tags public/blog/tags' // Not used at the moment; could be useful in the future
     },
+
+     relativeRoot: {
+        all: {
+          options: {
+            root: 'public'
+          },
+          files: [{
+            expand: true,
+            cwd: 'public',
+            src: ['**/*.css', '**/*.html'],
+            dest: 'public/'
+          }]
+        }
+      },
 
     rsync: {
       options: {
@@ -83,10 +99,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-gh-pages');
   grunt.loadNpmTasks('grunt-rsync');
+  grunt.loadNpmTasks('grunt-relative-root');
   grunt.loadNpmTasks('grunt-targethtml');
 
+
   grunt.registerTask('build',  ['exec:hexo_generate','copy']);
-  grunt.registerTask('build:complete',  ['exec:hexo_clean', 'exec:hexo_generate','copy']);
+  grunt.registerTask('build:complete',  ['exec:hexo_clean', 'exec:hexo_generate','copy', 'relativeRoot']);
   grunt.registerTask('serve',  ['build', 'connect', 'watch']);
   grunt.registerTask('deploy:prod', ['gh-pages']);
   grunt.registerTask('deploy:staging', ['rsync']);
