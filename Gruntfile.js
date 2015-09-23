@@ -53,19 +53,19 @@ module.exports = function(grunt) {
       copy_tags: 'cp -r public/tags public/blog/tags' // Not used at the moment; could be useful in the future
     },
 
-     relativeRoot: {
-        all: {
-          options: {
-            root: 'public'
-          },
-          files: [{
-            expand: true,
-            cwd: 'public',
-            src: ['**/*.css', '**/*.html'],
-            dest: 'public/'
-          }]
-        }
-      },
+    relativeRoot: {
+      all: {
+        options: {
+          root: 'public'
+        },
+        files: [{
+          expand: true,
+          cwd: 'public',
+          src: ['**/*.css', '**/*.html'],
+          dest: 'public/'
+        }]
+      }
+    },
 
     rsync: {
       options: {
@@ -81,7 +81,14 @@ module.exports = function(grunt) {
           delete: true // Careful this option could cause data loss, read the docs!
         }
       }
+    },
+
+    shell: {
+      scanAlt: {
+          command: 'find public -name "*.html" | xargs -I{} bash -c "cat {} | pquery img -f \'{}\t{src}\t{alt}\'"'
+      }
     }
+
 
   });
 
@@ -101,6 +108,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-rsync');
   grunt.loadNpmTasks('grunt-relative-root');
   grunt.loadNpmTasks('grunt-targethtml');
+  grunt.loadNpmTasks('grunt-shell');
 
 
   grunt.registerTask('build',  ['exec:hexo_generate','copy']);
@@ -108,4 +116,5 @@ module.exports = function(grunt) {
   grunt.registerTask('serve',  ['build', 'connect', 'watch']);
   grunt.registerTask('deploy:prod', ['gh-pages']);
   grunt.registerTask('deploy:staging', ['rsync']);
+  grunt.registerTask('scan:alt', ['shell:scanAlt']);
 };
