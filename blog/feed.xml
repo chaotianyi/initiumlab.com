@@ -53,13 +53,15 @@
       <pubDate>Wed, 16 Sep 2015 04:29:08 GMT</pubDate>
       <description>
       <![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
-<video controls poster="/blog/20150916-legco-eng/legco_animation_poster.jpg"><br>  <source src='/blog/20150916-legco-eng/legco_animation_EngSub.mp4' type='video/mp4' /><br>  <source src='/blog/20150916-legco-eng/legco_animation_EngSub.webm' type='video/webm' /><br>  Sorry, your browser does not support HTML5 video.<br></video>
+<div class='wrapper' style='position: relative; width: 100%; height: 0; padding-bottom: 60%;'><br><br><iframe id="ytplayer" type="text/html" width="100%" height="100%" style="position: absolute; left: 0; top: 0;"
+        src="http://www.youtube.com/embed/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com"
+frameborder="0"></iframe><br><br></div>
 
 <p>We also translated the sections of news reports explaining the mysteries mentioned in the video.    </p>]]>
       
       </description>
       <content:encoded><![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
-<video controls poster="/blog/20150916-legco-eng/legco_animation_poster.jpg"><br>  <source src="/blog/20150916-legco-eng/legco_animation_EngSub.mp4" type="video/mp4"><br>  <source src="/blog/20150916-legco-eng/legco_animation_EngSub.webm" type="video/webm"><br>  Sorry, your browser does not support HTML5 video.<br></video>
+<div class="wrapper" style="position: relative; width: 100%; height: 0; padding-bottom: 60%;"><br><br><iframe id="ytplayer" type="text/html" width="100%" height="100%" style="position: absolute; left: 0; top: 0;" src="http://www.youtube.com/embed/kpyxZk53_4E?autoplay=0&origin=http://initiumlab.com" frameborder="0"></iframe><br><br></div>
 
 <p>We also translated the sections of news reports explaining the mysteries mentioned in the video.    </p>
 <a id="more"></a>
