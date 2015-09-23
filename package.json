@@ -43,6 +43,7 @@
     "grunt-processhtml": "^0.3.8",
     "grunt-relative-root": "^0.3.0",
     "grunt-rsync": "^0.6.2",
+    "grunt-shell": "^1.1.2",
     "grunt-targethtml": "^0.2.6"
   }
 }

@@ -31,10 +31,22 @@ grunt serve
 And go to <localhost:9000> to view the live version.
 It cannot live-reload yet. Please manually refresh after each modification.
 
-Deploy:
+Deploy to production:
 ```
-grunt deploy
+grunt deploy:prod
 ```
+
+Deploy to staging:
+```
+grunt deploy:staging
+```
+
+Scan all alt of images
+```
+grunt scan:alt
+```
+
+(Need to run `pip install --user httpie pquery` to get deps first)
 
 Please use grunt for deployment and be very careful using hexo's built-in generate and deploy commands,
 which might lead to conflicts and un-intended results.
