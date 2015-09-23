@@ -60,8 +60,9 @@ If you want to apply your Python skill in data analysis, this book is a practica
 
 ## Introduction to D3
 
-Andy skimmed two books, “D3 Tips and Tricks” and “Interactive Data Visualization for the Web”, as well as the original paper that launched D3. D3 stands for Data-Driven Documents, which is a popular “language” (more precisely a Javascript library) for modern data visualisation in the browser. Andy recommends one start with the paper _D3: Data Driven Documents_ (http://vis.stanford.edu/papers/d3), written by the D3 creator. The paper explains the design rationales behind D3 very well.
-As for the two books, _Interactive Data Visualization for the Web_ (http://chimera.labs.oreilly.com/books/1230000000345/index.html) is recommended for beginners because it includes elementary knowledges about HTML all the way to Javascript with a step-by-step guide through the basics of D3. In comparison, _D3 Tips and Tricks_ (https://leanpub.com/D3-Tips-and-Tricks), more akin to a reference book, is recommended for more experienced users.
+Andy skimmed two books, _D3 Tips and Tricks_ and _Interactive Data Visualization for the Web_, as well as the original paper that launched D3. D3 stands for Data-Driven Documents, which is a popular “language” (more precisely a Javascript library) for modern data visualisation in the browser. Andy recommends one start with the paper _[D3: Data Driven Documents](http://vis.stanford.edu/papers/d3),_  written by the D3 creator. The paper explains the design rationales behind D3 very well.
+
+As for the two books, _[Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html) _ is recommended for beginners because it includes elementary knowledges about HTML all the way to Javascript with a step-by-step guide through the basics of D3. In comparison, _[D3 Tips and Tricks](https://leanpub.com/D3-Tips-and-Tricks),_  more akin to a reference book, is recommended for more experienced users.
 
 As a practice, Andy took two hours to make an incomplete imitation of the default visualization of GapMinder (http://www.gapminder.org) with D3, which illustrated the relationship between wealth and health since 1800. The source code is hosted at <https://github.com/andyshuxin/d3play>.
 
