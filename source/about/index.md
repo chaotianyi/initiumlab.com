@@ -1,9 +1,16 @@
+title: About Initium Lab
+date: 2015-09-24 17:03:08
+author: Initium Lab
+language: en
+comments: false
+----
+
 # About Initium Lab
 
 We aim to push the limits of Journalism with Technology.
 <div id="aboutpage">
 The Team
---------
+------sa-
 - [Hu Pili](http://hupili.net/), Data Scientist and Director
 - [Andy Shu Xin](http://shux.in/), News Engineer and Editor
 - Frank Lin, Data Engineer
