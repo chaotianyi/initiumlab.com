@@ -8,9 +8,8 @@ comments: false
 # About Initium Lab
 
 We aim to push the limits of Journalism with Technology.
-<div id="aboutpage">
 The Team
-------sa-
+-------
 - [Hu Pili](http://hupili.net/), Data Scientist and Director
 - [Andy Shu Xin](http://shux.in/), News Engineer and Editor
 - Frank Lin, Data Engineer
@@ -26,8 +25,6 @@ We thank the contributors to the following projects that made this website possi
 - [Hexo-next](https://github.com/iissnan/hexo-theme-next), the theme we base our design on,
 - [MathJax](https://www.mathjax.org/), the plug-in enabling easy insertion of formulae, and
 - [Swiftype](https://swiftype.com/), which powers our in-site search.
-</div>
 
-<br></br>
 Contact us:
 <editors@initiumlab.com>
