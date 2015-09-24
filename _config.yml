@@ -72,6 +72,9 @@ feed:
 ## Themes: http://hexo.io/themes/
 theme: next
 
+# Comments
+disqus_shortname: initiumlab
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 google_analytics: UA-66625644-1
