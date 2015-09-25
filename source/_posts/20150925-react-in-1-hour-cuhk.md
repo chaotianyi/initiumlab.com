@@ -12,10 +12,13 @@ Andy introduced the basics of React and demonstrated making a simple quiz app fr
 
 Here is the video recoding of the tutorial:
 
-<iframe id="player" type="text/html" width="640" height="390"
-  src="https://youtube.com/embed/_fqf7tGWBvE?html5=1"
-  frameborder="0">
-</iframe>
+<div class='video-container'>
+    <iframe id="player" type="text/html" width="640" height="390"
+      src="https://youtube.com/embed/_fqf7tGWBvE?html5=1"
+      frameborder="0">
+    </iframe>
+</div>
+    
 
 The video is also available on [Youku](http://v.youku.com/v_show/id_XMTM0NDg0Mzg5Mg==.html).
 
