@@ -17,14 +17,14 @@ git clone --recursive git@github.com:initiumlab/initiumlab.com.git
 This will recursively clone all submodules.
 
 ### Initial Setting
-## Option 1
+#### Option 1
 
 Install hexo command line tools and dependencies:
 ```
 npm install -g hexo-cli
 npm install
 ```
-## Option 2: Use Virtual Environment
+#### Option 2: Use Virtual Environment
 Install the virtualisation suite:
 
 - VirtualBox
