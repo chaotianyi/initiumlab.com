@@ -33,14 +33,12 @@ Key time points
 
 After the tutorial, an Q&A session was held (not recorded due to technical issues). Afterwards, a few participants stayed for further discussion.
 
-Support Materials
------------------
-Please visit <tryreact.initiumlab.com> for support materials used in the tutorial, such as the `quiz.html`, from which you can
-follow Andy step by step. Intermediate coding samples are also available.
+Supporting Materials
+--------------------
+Please visit [tryreact.initiumlab.com](tryreact.initiumlab.com) for supporting materials used in the tutorial, such as the `quiz.html`, from which you can follow Andy step by step. Intermediate coding samples are also available.
 
 How to pick up JavaScript
 -------------------------
-
 When asked about how he learnt JavaScript in a short period of time, Andy recommended the [JavaScript track of Codecademy](https://www.codecademy.com/tracks/javascript) for absolute beginners, _[JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)_ for a deeper look into the language, and _[Professional JavaScript for Web Developers](http://shop.oreilly.com/product/9781118026694.do)_ for more comprehensive understanding. He also said frequent practice was crucial to learning. 
 
 Errata
