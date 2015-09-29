@@ -7,7 +7,7 @@ tags:
 - lang-English
 ---
 Andy Shu, news engineer with Initium Lab, gave a brief tutorial about ReactJS, the Web UI library from Facebook,
-in Chinese University of Hong Kong(CUHK) on 18 September 2015. The event was organized by the [Open Innovation Lab](https://www.facebook.com/cuhkoil) of CUHK.
+in Chinese University of Hong Kong (CUHK) on 18 September 2015. The event was organized by the [Open Innovation Lab](https://www.facebook.com/cuhkoil) of CUHK.
 
 Andy introduced the basics of React and demonstrated making a simple quiz app from the ground up with React.
 
@@ -32,7 +32,7 @@ Key time points
 16:21 - Necessary packages and tools
 25:07 - Coding
 
-After the tutorial, an Q&A session was held (not recorded due to technical issues). Afterwards, a few participants stayed for further discussion.
+After the tutorial, a Q&A session was held (not recorded due to technical issues). Afterwards, a few participants stayed for further discussion.
 
 Supporting Materials
 --------------------
