@@ -1,6 +1,7 @@
 title: "Jackathon #3 -- Read a data science book in 8 hours"
 date: 2015-09-22 11:57:13
 author: Initium Lab
+description: "Jackathon is short for “Journalism-Hackathon”. At Initium Lab, we aim to push limits of Journalism with Technology. We hold regular Jackathons to advance our knowledge and skills in using new technology for obtaining data, analysing information, and reporting. This week, the goal for each participant is to read one the the 60 Data Science books collected by KDnuggets within 8 hours. "
 language: en
 tags:
 - Jackathon
