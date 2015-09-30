@@ -41,7 +41,7 @@
     "grunt-gh-pages": "^0.10.0",
     "grunt-inline": "^0.3.6",
     "grunt-processhtml": "^0.3.8",
-    "grunt-relative-root": "^0.3.0",
+    "grunt-relative-root": "git+https://github.com/initiumlab/grunt-relative-root.git",
     "grunt-rsync": "^0.6.2",
     "grunt-shell": "^1.1.2",
     "grunt-targethtml": "^0.2.6",
