@@ -1361,6 +1361,14 @@
 				width += scrollOut;
 			}
 
+      // On Devices narrower than 360px, the lightbox no longer shrinks, which is disturbing for iPhone 4 etc.,
+      // as the close button will be outside the screen.
+      // 307px is the (computed) minimum of width.
+      if (width <= 307) {
+        width -= 50;
+      }
+      height = width / ratio;
+
 			inner.width( width ).height( height );
 
 			wrap.width( width + wPadding );

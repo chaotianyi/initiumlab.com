@@ -26,7 +26,7 @@
 <link rel="stylesheet" type="text/css" href="../../css/main.css?v=0.4.5.1"/>
 
 
-  <meta name="keywords" content="Accessibility,author-Andy,lang-Chinese," />
+  <meta name="keywords" content="Tools," />
 
 
 
@@ -37,17 +37,23 @@
   <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？">
+<meta name="description" content="一個數據分析項目，往往始於摸索一張龐大而陌生的數據表格。嘗試畫些簡易圖表是啟發思路的好辦法，但這絕非易事──想想有多少種圖表：直方圖柱狀圖餅圖折線圖雷達圖……若選取不同的列來分析，每種圖表又有多達幾十種畫法。
+Google Sheets 最近推出了一項新功能 Explore，或許能成為探索陌生數據的第一步。Google 介紹稱，Explore 能根據表格內容自動生成盡可能多的圖表，還順帶做些數據分">
 <meta property="og:type" content="article">
-<meta property="og:title" content="可視化火了 盲人怎麼辦">
-<meta property="og:url" content="http://initiumlab.com/blog/20150901-data-journalism-for-the-blind/index.html">
+<meta property="og:title" content="整日做表沒思路？Google幫你開腦洞">
+<meta property="og:url" content="http://initiumlab.com/blog/20150930-google-sheets-explore/index.html">
 <meta property="og:site_name" content="Initium Lab">
-<meta property="og:description" content="作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？">
-<meta property="og:image" content="http://initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg">
-<meta property="og:updated_time" content="2015-09-30T09:33:11.000Z">
+<meta property="og:description" content="一個數據分析項目，往往始於摸索一張龐大而陌生的數據表格。嘗試畫些簡易圖表是啟發思路的好辦法，但這絕非易事──想想有多少種圖表：直方圖柱狀圖餅圖折線圖雷達圖……若選取不同的列來分析，每種圖表又有多達幾十種畫法。
+Google Sheets 最近推出了一項新功能 Explore，或許能成為探索陌生數據的第一步。Google 介紹稱，Explore 能根據表格內容自動生成盡可能多的圖表，還順帶做些數據分">
+<meta property="og:image" content="http://initiumlab.com/blog/blog/20150930-google-sheets-explore/explore.gif">
+<meta property="og:image" content="http://initiumlab.com/blog/blog/20150930-google-sheets-explore/pic_1.png">
+<meta property="og:image" content="http://initiumlab.com/blog/blog/20150930-google-sheets-explore/pic_2.png">
+<meta property="og:image" content="http://initiumlab.com/blog/blog/20150930-google-sheets-explore/pic_3.png">
+<meta property="og:updated_time" content="2015-10-02T09:45:31.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="可視化火了 盲人怎麼辦">
-<meta name="twitter:description" content="作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？">
+<meta name="twitter:title" content="整日做表沒思路？Google幫你開腦洞">
+<meta name="twitter:description" content="一個數據分析項目，往往始於摸索一張龐大而陌生的數據表格。嘗試畫些簡易圖表是啟發思路的好辦法，但這絕非易事──想想有多少種圖表：直方圖柱狀圖餅圖折線圖雷達圖……若選取不同的列來分析，每種圖表又有多達幾十種畫法。
+Google Sheets 最近推出了一項新功能 Explore，或許能成為探索陌生數據的第一步。Google 介紹稱，Explore 能根據表格內容自動生成盡可能多的圖表，還順帶做些數據分">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -57,7 +63,7 @@
   };
 </script>
 
-  <title> 可視化火了 盲人怎麼辦 | Initium Lab </title>
+  <title> 整日做表沒思路？Google幫你開腦洞 | Initium Lab </title>
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
@@ -161,7 +167,7 @@
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <img src="../../blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg" alt="thumbnail for the page"
+      <img src="" alt="thumbnail for the page"
            class="thumbnail no-fancy"
            style="visibility: hidden; width: 1px; height: 1px; margin: 0" />
 
@@ -171,7 +177,7 @@
           
           
             
-              可視化火了 盲人怎麼辦
+              整日做表沒思路？Google幫你開腦洞
             
           
         </h1> <!-- h1.post-title -->
@@ -180,35 +186,21 @@
       <div class="post-meta">
 
         <div class="post-time">
-          <time itemprop="dateCreated" datetime="2015-09-01T21:39:43+08:00" content="2015-09-01">
-            2015-09-01
+          <time itemprop="dateCreated" datetime="2015-09-30T00:06:19+08:00" content="2015-09-30">
+            2015-09-30
           </time>
         </div>
 
         <div class="post-name">
-          <p>Andy Shu</p>
+          <p>Chao Tianyi</p>
         </div>
 
         <div class='post-tags'>
             
             <div class='post-tag-item'>
-              <a href="../../tags/Accessibility/"
+              <a href="../../tags/Tools/"
                  class='anchor-tag'>
-                Accessibility
-                </a>
-            </div>
-            
-            <div class='post-tag-item'>
-              <a href="../../tags/author-Andy/"
-                 class='anchor-tag'>
-                author-Andy
-                </a>
-            </div>
-            
-            <div class='post-tag-item'>
-              <a href="../../tags/lang-Chinese/"
-                 class='anchor-tag'>
-                lang-Chinese
+                Tools
                 </a>
             </div>
             
@@ -227,51 +219,23 @@
       
 
       
-        <span itemprop="articleBody"><p><img src="../../blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg" alt="中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。"><br>中國有五百萬盲人<sup><a href="#note1">[註1]</a></sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup><a href="#note2">[註2]</a></sup>。</p>
-<p>盲人走丟是舊聞，盲貓失蹤纔是新聞：</p>
-<ul>
-<li>經濟日報：偷貓賊出沒 書店盲貓福仔被盜</li>
-<li>文匯報：黑褸賊書局偷盲貓 片段網上瘋傳</li>
-<li>東方日報：盲貓「福仔」被尋回　主人喜與愛貓重聚</li>
-<li>蘋果日報：被偷5日　疑賊人送往愛協　盲貓「福仔」回家了<br>等等……</li>
-</ul>
+        <span itemprop="articleBody"><p>一個數據分析項目，往往始於摸索一張龐大而陌生的數據表格。嘗試畫些簡易圖表是啟發思路的好辦法，但這絕非易事──想想有多少種圖表：直方圖柱狀圖餅圖折線圖雷達圖……若選取不同的列來分析，每種圖表又有多達幾十種畫法。</p>
+<p>Google Sheets 最近推出了一項新功能 Explore，或許能成為探索陌生數據的第一步。Google 介紹稱，Explore 能根據表格內容自動生成盡可能多的圖表，還順帶做些數據分析，挖掘數據的關聯和趨勢[1]。</p>
+<p>Explore 的使用方法很簡單，一次點擊就能自動出圖，不時還會附上（它認為）有趣的發現，例如列舉最大值和最小值等。</p>
 <a id="more"></a>
-<p>盲人也可以用電腦，也會讀新聞。他們看不見，但是聽得到，他們上網用讀屏軟件，屏幕上的字詞，一個個去聽。</p>
-<p>現在新聞界，流行信息圖，把大段文字轉化成圖表，方便讀者閱讀。 但正所謂君之蜜糖，彼之砒霜，普通人愛看的信息圖、可視化，對於盲人的讀屏軟件，則是巨大的障礙。</p>
-<p>那麼，作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？</p>
-<h2 id="盲人怎麼讀新聞">盲人怎麼讀新聞</h2><p>普通人閱讀靠視覺，是「並行」的——你看一眼網頁界面，就知道菜單在哪、內容在哪、哪個是鏈接、哪個可以點。</p>
-<p>聽覺是「串行」的，一個盲人如果想「讀完」一個網頁，要讓讀屏軟件從第一個元素（按鈕、菜單選項等）讀起，然後一個一個元素讀下去。</p>
-<p>如果想體驗讀屏軟件，在 OS X 或 iPhone 下，可以試用 「VoiceOver」， 這是蘋果內置的讀屏軟件。 閉上眼睛，嘗試一下盲人使用電子產品的方式，試試做一些平常覺得輕而易舉的事情：瀏覽網頁、發發微博，等等。</p>
-<p>Windows 可以下載「爭渡讀屏」， Android用戶可以試試內置的Talkback。</p>
-<h2 id="給圖像加上詳細的文字描述（alt）">給圖像加上詳細的文字描述（alt）</h2><p>讀屏軟件讀不了數據圖表，於是我們要爲視障讀者撰寫圖像的替代文字描述，具體而言，就是HTML中IMG元素的alt屬性。 對於讀屏軟件的用戶，alt的內容會被完整讀出。</p>
-<p>替代說明應該儘可能簡短，但是能夠讓沒有看到圖的讀者都能理解內容。</p>
-<p>比如，不要寫「中國GDP數據可視化」，而是寫「中國GDP近年快速增長，2000年爲1.2千億美元，2005年爲2.3千億，2010年爲5.9千億。」</p>
-<p>替代說明有個額外的好處：利於搜索引擎處理。搜索引擎蒐集數據，是靠大量「爬蟲」程序，一個網頁一個網頁地檢索內容。爬蟲和盲人一樣，只能「看到」文字，無法閱讀圖像，所以，如果一篇文章的重要信息由圖像呈現，又沒有替代說明，則搜索引擎也看不到這些信息，從而讓用戶更難發現你的文章。</p>
-<h2 id="數據可聽化（Sonification）">數據可聽化（Sonification）</h2><p>可聽化是與可視化相似的概念。我們做可視化，是因爲大多數人對數字沒有直覺，難以理解，但是我們對顏色、尺寸、方向有直覺——於是，將數字轉化爲圖像，能夠讓讀者更容易解讀數據。對於依賴聽力的盲人，我們則可以用「可聽化」。</p>
-<p>聲音可以操縱的變量有：</p>
-<ul>
-<li>響度，即大聲還是小聲；</li>
-<li>頻率，即高音還是低音；</li>
-<li>音色，即泛音的構成；</li>
-<li>長度，即很長還是很短。</li>
-</ul>
-<p>如果將數據與上述一個或幾個變量連接，就能構成一個「可聽化」作品。</p>
-<p>一個例子是<a href="http://listen.hatnote.com/" target="_blank" rel="external">Listen to Wikipedia</a>。它會實時監測維基百科的改動，然後將每次改動化爲聲音，改動越大，聲音頻率越高；音色代表改動類型——敲擊樂是增訂，絃樂是刪減。這個作品本身對盲人可能用處不大，但是這個技術思路可以用在新聞報道上。</p>
-<h2 id="數據可觸化">數據可觸化</h2><p>盲人不止有聽覺，也有觸覺。如果我們將數據化作實際存在的物體，則盲人可以通過觸覺感知。在這個方向，探索的人比較少，偶爾見到零星的嘗試。</p>
-<p>比如，西班牙記者 Samuel Granados López <a href="http://cargocollective.com/samuelgranados/Lego-cartogram" target="_blank" rel="external">用樂高積木做過一個地圖</a>，用以標識美洲各國的移民流入、流出量：<br><img src="http://payload230.cargocollective.com/1/14/463324/6918937/IMG_1014.jpg" alt="一塊一人多高的底板，垂直放置。上面用樂高積木拼出了美洲各國，各個國家的突起程度並不相同，移民量越大的國家，越突出。"></p>
-<h2 id="展望：數據新聞無障礙">展望：數據新聞無障礙</h2><p>過去，新聞的主要呈現方式是文字，輔以照片、插圖。盲人用了讀屏軟件，也能獲取大部分的信息。</p>
-<p>現在，「數據新聞」興起，信息圖、可視化流行，非數據的新聞報道也講求「視覺」「互動」。 </p>
-<p>新聞人考慮的大多是報道網頁在手機上能不能看、用觸屏好不好控制，不太考慮盲人用戶能否閱讀、色盲用戶會否迷惑、殘障用戶能否使用。</p>
-<p>我們在呈現方式上發足狂奔之時，不應該忽略少數有特別需求的用戶。 有的用戶看不到屏幕、有的用戶用不了鼠標，他們仍然有信息需求，仍然可以是我們的讀者。 </p>
-<p>我們在製作每條新聞報道的時候，不止要考慮如何讓大多數用戶迅速理解，也要考慮如何保證每個用戶對新聞內容能有最基本的了解。<br>從今天開始，請給你的信息圖加上alt吧！</p>
-<p><strong>數據來源</strong></p>
-<ol>
-<li><a name="note1"></a> <a href="http://www.who.int/mediacentre/factsheets/fs230/en/" target="_blank" rel="external">世界衛生組織</a></li>
-<li><a name="note2"></a> <a href="http://www.zgmx.org.cn/html/default/4/NewsDefault-47618.html" target="_blank" rel="external">中國盲人協會</a></li>
-<li>殘疾人口數據來自： <a href="http://www.cdpf.org.cn/sjzx/cjrgk/201206/t20120626_387581.shtml" target="_blank" rel="external">殘疾人聯合會</a></li>
-<li>上海人口數據來自： <a href="http://www.shrkjsw.gov.cn/dr/stat/ssh/2011823/000000003500041001134458916.html" target="_blank" rel="external">上海市人口和計劃生育委員會</a></li>
-<li>香港人口數據來自： <a href="http://www.censtatd.gov.hk/hkstat/sub/sp150.jsp?productCode=B1120017" target="_blank" rel="external">香港政府統計處</a></li>
-</ol>
+<p><img src="../../blog/20150930-google-sheets-explore/explore.gif" alt="Demo of google explore sheet"></p>
+<p>但，作為一個每天使用 Google Sheets 超過8小時的人，面對橫空出世的 Explore，欣喜之餘不免有些懷疑，Explore 真的有這麼神？碰巧 Initium Lab 最近出了<a href="http://salary360.initiumlab.com/?from=initiumlab" target="_blank" rel="external">香港工資測試遊戲</a>[2]，遊戲使用 2011 年香港人口普查的公開數據[3]，我從中選取了三張表格來測試 Explore 的實用性。</p>
+<h2 id="1-呈現數據：自動選重點出圖">1.呈現數據：自動選重點出圖</h2><p>下圖是一張很常見的表格[4]，要點明確、容易讀懂。Explore 基於表格裏的35項數據自動做出了十張圖，動用了柱狀圖、餅圖、折線圖和堆疊折線圖四種形態。有的圖表下方會出現「一句話總結」，基本都戳中要點。對這種經過預處理的表格而言，Explore 的確能提供不少呈現數據的思路。</p>
+<p><img src="../../blog/20150930-google-sheets-explore/pic_1.png" alt="用 Explore 呈現簡單表格的數據"></p>
+<h2 id="2-探索數據：幫忙挖掘潛在關聯">2.探索數據：幫忙挖掘潛在關聯</h2><p>一些初看沒什麼亮點的表格，往往藏着大新聞。</p>
+<p>我選取的第二個例子[5][6]，統計了香港各區年齡超過65歲的人口比例、慣用廣東話的人口比例和慣用英語的人口比例。一看到這張表，最自然的反應就是，人口年齡和慣用語言之間會不會有關係呢？來看 Explore 有何洞見。</p>
+<p>在一秒畫出的十幾張圖表裏，Explore 認為最有趣的發現是，慣用廣東話的人口比例每增加10%，慣用英語的人口比例就會下降7%，這和我們的常識相吻合。雖然在這個例子中 Explore 沒有給出我最想知道的答案，但它兩兩比較了表中的三個變量，幫忙發掘潛在的關聯。</p>
+<p><img src="../../blog/20150930-google-sheets-explore/pic_2.png" alt="用 Explore 探索數據潛在的關聯"></p>
+<h2 id="3-結構扁平的表格：請和_pivot_table_一起使用">3.結構扁平的表格：請和 pivot table 一起使用</h2><p>處理大批量數據，一般離不開結構扁平的表格，如下圖所示，這類表格信息龐雜、沒有重點。我選取了2011年全港居民的月收入統計來做試驗[7]，這張表格有超過20萬項數據。此時 Explore 就有些力不從心了，它能做的只是發現某列數字的最大或最小值，或是統計不同字符串在某列出現的次數及比例。</p>
+<p>在原表格的基礎上做出 pivot table (又稱樞紐分析表，是一種基於原始表格的動態表格，便於將大量的數據集縮小、或分析數據之間的關係) 以後，Explore 能給出新的呈現，做「篩選」和「排序」時，圖表也會實時變化。</p>
+<p><img src="../../blog/20150930-google-sheets-explore/pic_3.png" alt="當 Explore 遇到扁平化表格，最好先使用 pivot table 選出要點"></p>
+<p>總之，Google Sheets 新功能 Explore 能在最短的時間內羅列出盡可能多的圖表和分析，最適合在探索數據之初，拿來開開腦洞、找找頭緒。</p>
+<p>資料來源：<br>[1] <a href="https://support.google.com/docs/answer/6280499?hl=en" target="_blank" rel="external">Quickly get insights on a spreadsheet using Explore</a><br>[2] <a href="http://salary360.initiumlab.com/?from=initiumlab" target="_blank" rel="external">十八區人工大比拼，你份量攞第幾？</a><br>[3] <a href="http://www.census2011.gov.hk/tc/" target="_blank" rel="external">香港政府統計處 2011香港人口普查</a><br>[4] <a href="http://www.census2011.gov.hk/tc/main-table/E103.html" target="_blank" rel="external">2001年、2006年及2011年按房屋類型劃分的家庭住戶數目</a><br>[5] <a href="http://www.census2011.gov.hk/tc/main-table/A301.html" target="_blank" rel="external">2011年按區議會選區及慣用語言劃分的五歲及以上的人口</a><br>[6] <a href="http://www.census2011.gov.hk/tc/main-table/A303.html" target="_blank" rel="external">2011年按區議會選區、性別及年齡組別劃分的人口</a><br>[7] <a href="http://gazetteer.hk/#/" target="_blank" rel="external">Gazetteer HK</a></p>
 </span>
       
     </div>
@@ -383,7 +347,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#盲人怎麼讀新聞"><span class="nav-number">1.</span> <span class="nav-text">盲人怎麼讀新聞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#給圖像加上詳細的文字描述（alt）"><span class="nav-number">2.</span> <span class="nav-text">給圖像加上詳細的文字描述（alt）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#數據可聽化（Sonification）"><span class="nav-number">3.</span> <span class="nav-text">數據可聽化（Sonification）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#數據可觸化"><span class="nav-number">4.</span> <span class="nav-text">數據可觸化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#展望：數據新聞無障礙"><span class="nav-number">5.</span> <span class="nav-text">展望：數據新聞無障礙</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-呈現數據：自動選重點出圖"><span class="nav-number">1.</span> <span class="nav-text">1.呈現數據：自動選重點出圖</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-探索數據：幫忙挖掘潛在關聯"><span class="nav-number">2.</span> <span class="nav-text">2.探索數據：幫忙挖掘潛在關聯</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-結構扁平的表格：請和_pivot_table_一起使用"><span class="nav-number">3.</span> <span class="nav-text">3.結構扁平的表格：請和 pivot table 一起使用</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
@@ -438,9 +402,9 @@
 
     <script type="text/javascript">
       var disqus_shortname = 'initiumlab';
-      var disqus_identifier = 'blog/20150901-data-journalism-for-the-blind/';
-      var disqus_title = '可視化火了 盲人怎麼辦';
-      var disqus_url = 'http://initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/';
+      var disqus_identifier = 'blog/20150930-google-sheets-explore/';
+      var disqus_title = '整日做表沒思路？Google幫你開腦洞';
+      var disqus_url = 'http://initiumlab.com/blog/blog/20150930-google-sheets-explore/';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');

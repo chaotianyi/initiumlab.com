@@ -45,16 +45,20 @@
 
   /* Add lightbox effects */
 
-  var currentLightbox = null;
+  window.currentLightbox = null;
   var projects = [];
 
   function closeLightbox(lightbox) {
     lightbox.style.display = 'none';
     document.body.classList.remove('no-scroll');
+    window.currentLightbox = null;
 
     // Clear hash
     window.location.hash = '';
     window.history.pushState("", document.title, window.location.pathname + window.location.search);
+    console.log(lightbox)
+
+    ga('send', 'lightbox', 'close', lightbox.id);
   }
 
   function configLightbox(project){
@@ -63,11 +67,17 @@
     var lightbox = document.getElementById('lightbox-'+project);
 
     anchor.addEventListener('click', function(event){
+
+      // Open Lightbox
+
       event.preventDefault();
       lightbox.style.display = 'block';
       document.body.classList.add('no-scroll');
       window.location.hash = event.target.parentNode.id.replace('anchor-', '');
-      currentLightbox = lightbox;
+      window.currentLightbox = lightbox;
+
+      ga('send', 'lightbox', 'open', lightbox.id);
+
     });
 
     btnClose.addEventListener('click', function(){
@@ -80,7 +90,7 @@
   document.onkeydown = function(event){
     if (event.keyCode === 27) {
       // Esc key
-      closeLightbox(currentLightbox);
+      closeLightbox(window.currentLightbox);
     }
   };
 
@@ -88,6 +98,8 @@
   configLightbox('wasted');
   configLightbox('media-tech');
   configLightbox('database');
+  configLightbox('salary360');
+  configLightbox('designCollection');
 
   // Open lightbox if location includes hashtags pointing to a case
   var hash = window.location.hash;
@@ -99,7 +111,9 @@
       if (hash.slice(1) === projectName) {
         lightbox.style.display = 'block';
         document.body.classList.add('no-scroll');
-        currentLightbox = lightbox;
+        window.currentLightbox = lightbox;
+
+        ga('send', 'lightbox', 'url-direct-open', lightbox.id);
       }
     }
   }
