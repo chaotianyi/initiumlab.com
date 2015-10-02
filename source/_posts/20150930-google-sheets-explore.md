@@ -15,7 +15,7 @@ Explore 的使用方法很簡單，一次點擊就能自動出圖，不時還會
 
 ![Demo of google explore sheet](/blog/20150930-google-sheets-explore/explore.gif)
 
-但，作為一個每天使用 Google Sheets 超過8小時的人，面對橫空出世的 Explore，欣喜之餘不免有些懷疑，Explore 真的有這麼神？碰巧 Initium Lab 最近出了香港工資測試遊戲[2]，遊戲使用 2011 年香港人口普查的公開數據[3]，我從中選取了三張表格來測試 Explore 的實用性。
+但，作為一個每天使用 Google Sheets 超過8小時的人，面對橫空出世的 Explore，欣喜之餘不免有些懷疑，Explore 真的有這麼神？碰巧 Initium Lab 最近出了[香港工資測試遊戲](http://salary360.initiumlab.com/?from=initiumlab)[2]，遊戲使用 2011 年香港人口普查的公開數據[3]，我從中選取了三張表格來測試 Explore 的實用性。
 
 ## 1.呈現數據：自動選重點出圖
 
@@ -30,7 +30,7 @@ Explore 的使用方法很簡單，一次點擊就能自動出圖，不時還會
 
 在一秒畫出的十幾張圖表裏，Explore 認為最有趣的發現是，慣用廣東話的人口比例每增加10%，慣用英語的人口比例就會下降7%，這和我們的常識相吻合。雖然在這個例子中 Explore 沒有給出我最想知道的答案，但它兩兩比較了表中的三個變量，幫忙發掘潛在的關聯。
 
-![用 Explore 呈現簡單表格的數據](/blog/20150930-google-sheets-explore/pic_2.png)
+![用 Explore 探索數據潛在的關聯](/blog/20150930-google-sheets-explore/pic_2.png)
 
 ## 3.結構扁平的表格：請和 pivot table 一起使用
 
@@ -40,13 +40,13 @@ Explore 的使用方法很簡單，一次點擊就能自動出圖，不時還會
 
 ![當 Explore 遇到扁平化表格，最好先使用 pivot table 選出要點](/blog/20150930-google-sheets-explore/pic_3.png)
 
-總之，Google Sheets 新出的 Explore 能快速畫圖，也能做簡單的數據分析，最適合在面對數據毫無頭緒的時候，用來開啟思路。
+總之，Google Sheets 新功能 Explore 能在最短的時間內羅列出盡可能多的圖表和分析，最適合在探索數據之初，拿來開開腦洞、找找頭緒。
 
 
 
 資料來源：
 [1] [Quickly get insights on a spreadsheet using Explore](https://support.google.com/docs/answer/6280499?hl=en) 
-[2] [十八區人工大比拼，你份量攞第幾？](http://salary360.initiumlab.com/#/)
+[2] [十八區人工大比拼，你份量攞第幾？](http://salary360.initiumlab.com/?from=initiumlab)
 [3] [香港政府統計處 2011香港人口普查](http://www.census2011.gov.hk/tc/)
 [4] [2001年、2006年及2011年按房屋類型劃分的家庭住戶數目](http://www.census2011.gov.hk/tc/main-table/E103.html)
 [5] [2011年按區議會選區及慣用語言劃分的五歲及以上的人口](http://www.census2011.gov.hk/tc/main-table/A301.html)
