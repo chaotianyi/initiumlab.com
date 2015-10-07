@@ -38,7 +38,7 @@ After the tutorial, a Q&A session was held (not recorded due to technical issues
 
 Supporting Materials
 --------------------
-Please visit [tryreact.initiumlab.com](tryreact.initiumlab.com) for supporting materials used in the tutorial, such as the `quiz.html`, from which you can follow Andy step by step. Intermediate coding samples are also available.
+Please visit [tryreact.initiumlab.com](http://tryreact.initiumlab.com/) for supporting materials used in the tutorial, such as the `quiz.html`, from which you can follow Andy step by step. Intermediate coding samples are also available.
 
 How to pick up JavaScript
 -------------------------
