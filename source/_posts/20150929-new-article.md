@@ -1,0 +1,36 @@
+title: Legco Matrix Brief (English)
+date: 2015-09-16 12:29:08
+author: Initium Lab
+description: "We analysed the voting data of the Hong Kong Legislative Council. This is the English version of the motion graphic and digest of the news report."
+language: en
+tags:
+- Legco
+- lang-English
+---
+We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.
+And here it is.
+
+<video controls poster="/blog/20150916-legco-eng/legco_animation_poster.jpg">
+  <source src='/blog/20150916-legco-eng/legco_animation_EngSub.mp4' type='video/mp4' />
+  <source src='/blog/20150916-legco-eng/legco_animation_EngSub.webm' type='video/webm' />
+  Sorry, your browser does not support HTML5 video.
+</video>
+The video is also available on [YouTube](https://www.youtube.com/watch?v=CExoTvKuXSw) and [Youku](http://v.youku.com/v_show/id_XMTM0MzM5NzQwOA==.html?from=y1.7-1.2).
+
+We also translated the sections of news reports explaining the mysteries mentioned in the video, as follows.
+
+<!-- more -->
+
+## Why Starry Lee voted against herself
+
+The diagonal shows how each legislator support their own motions. The more supportive they are, the brighter the block. However, there is one outlier on this bright line. Starry Lee Wai-king, chairwoman of Democratic Alliance for the Betterment and Progress of Hong Kong (DAB) and member of the Executive Council, voted against herself 7 times from February 20 to February 21, 2012. During this time, she proposed several amendments to the draft of Stamp Duty Bill but she voted against these amendments herself. Lee replied via her assistant and explained that, she was serving as the president to the committee responsible for revising the bill, and the committee members decided that she, the president, should propose the revisions for them. As DAB opposed those bills, she chose to vote against amendments technically proposed by her.
+
+## Why Poon Siu-ping is more popular on the opposite camp
+
+According to the voting records, no motion amendment from Poon Siu-ping got passed. However, his motion on Occupational Safety, through secret ballot, has been adopted. Poon replied to us that there is no fundamental disagreement between Hong Kong Federation of Trade Unions (FTU) and Federation of Hong Kong and Kowloon Labour Unions (FLU), as FTU is also on pro-establishment camp. However, Poon didn’t think it would be easy to gain FTU’s support: “To improve labour rights and benefits, one has to change the consistently business-oriented operating environment, but many legislators of functional constituency represents business interests and naturally they are unlikely to support motions protecting labour rights.”
+
+Ma Ngok, chairman of Department of Government and Public Administration, Chinese University of Hong Kong, thought pan-democrats have been in mutual restraint since 2012. He said, “First of all, on class position, Civic Party and Democratic Party are moving forward grass-root sector, and they are not much different from the grass-root pan-democracy parties. For instance, a decade ago many pan-democracy parties were doubtful about universal retirement protection, while today all pan-democracy parties support it”. Another reason is the limited power of the Legislative Council. “When debating about grassroot-related motions, which are predictably impossible to pass, many parties would rather follow the trend to avoid controversies”, said Ma.
+
+Ma Ngok explained that,  the reason why Poon Sui-ping, Kwok Wai-keung and Tang Ka-piu were unsupported by pro-establishment camp was probably that functional constituency has long been unwelcoming the labour issues. “Nearly half of the 35 members in functional constituency are in business sector, and some legislators from professional constituencies also tend to business sector. Their attachment to the sector interests makes labour issues hard to gain support.”, said Ma.
+
+
