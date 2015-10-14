@@ -7,7 +7,7 @@
     <link>http://initiumlab.com/blog/</link>
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[The Website of Initium Lab, the exploratory arm of Initium Media]]></description>
-    <pubDate>Wed, 14 Oct 2015 11:56:56 GMT</pubDate>
+    <pubDate>Wed, 14 Oct 2015 12:35:09 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -19,15 +19,15 @@
       <![CDATA[一組平平無奇的銷量數據，經過喬布斯一番可視化，一下就顯得前途無量。究竟他是怎麼做到的？我們閱讀、製作數據可視化，又應該對哪些手法多加留意？]]>
       
       </description>
-      <content:encoded><![CDATA[<p>喬布斯是個頂級的企業家，也是頂級的營銷家，玩起數據可視化來，也是便宜佔盡，毫不手軟。<br>我們選用喬布斯在2006年Macworld上的一張棒圖，拆解他的數據化妝術。</p>
-<p>2006年 Macworld 上，喬布斯向觀衆展示蘋果Mac產品在2005年四個季度的銷量：<br><img src="/blog/20151012-visualization-via-jobs/mac-sales-2005-macword.png" alt="喬布斯展示蘋果產品銷量逐年遞增"></p>
-<p>好像增長勢頭很厲害啊，不過，好像有什麼不對？</p>
+      <content:encoded><![CDATA[<p>喬布斯是個頂級的企業家，也是頂級的營銷家，玩起數據可視化來，也是便宜佔盡，毫不手軟。<br>我們選用喬布斯在2006年 Macworld 上的一張棒圖，拆解他的數據化妝術。</p>
+<p>2006年 Macworld 上，喬布斯向觀衆展示蘋果 Mac 產品在2005年四個季度的銷量：<br><img src="/blog/20151012-visualization-via-jobs/mac-sales-2005-macword.png" alt="喬布斯展示蘋果產品銷量逐年遞增"></p>
+<p>增長勢頭很厲害啊，不過，好像有什麼不對？</p>
 <p>這四個棒的基線並不是零，而是1000，所以變化似乎非常大。那麼，我們用同樣一組數據，只是將基線換成0，會如何？</p>
 <a id="more"></a>
 <p><img src="/blog/20151012-visualization-via-jobs/mac-sales-2005-base0.png" alt="喬布斯展示蘋果產品銷量逐年遞增，改爲以0爲基礎"></p>
-<p>好像馬上縮水了一圈啊……</p>
+<p>馬上縮水了一圈啊……</p>
 <p><img src="/blog/20151012-visualization-via-jobs/more-gelivable.png" alt="再給力一點行不行啊，老師"></p>
-<p>然後，我們留意到這個棒圖是3D的，應用了透視關係，近大遠小。於是，我們再將這個圖還原成2D的……</p>
+<p>然後，我們留意到這個棒圖是 3D 的，應用透視關係，近的會變大，顯得增長勢頭很強。於是，我們再將這個圖還原成 2D 的……</p>
 <p><img src="/blog/20151012-visualization-via-jobs/mac-sales-2005-2d.png" alt="喬布斯展示蘋果產品銷量逐年遞增，轉爲二維版本"></p>
 <p>好了，拆到這裏，其實就差不多還原到這個數據圖樸素的狀態了。</p>
 <p><img src="/blog/20151012-visualization-via-jobs/more-gelivable.png" alt="再給力一點行不行啊，老師"></p>
@@ -36,11 +36,11 @@
 <p>我們想抹平差別，則可以用線圖，給兩季度之間的變化添加過渡。而且，沒有了棒圖的棒爲主體，整個圖空空如也，更突出銷量薄弱。</p>
 <p><img src="/blog/20151012-visualization-via-jobs/mac-sales-2005-line.png" alt="喬布斯展示蘋果產品銷量逐年遞增，轉爲線圖"></p>
 <p><img src="/blog/20151012-visualization-via-jobs/more-gelivable.png" alt="再給力一點行不行啊，老師"></p>
-<p>剛纔是玩圖像本身，我們現在來調圖像的外框比例。正方型改成長方形，高低變化自然又被削弱了。</p>
+<p>剛纔是玩圖像本身，我們現在來調圖像的外框比例。正方型改成長方形，再次削弱高低差別。</p>
 <p><img src="/blog/20151012-visualization-via-jobs/mac-sales-2005-flatline.png" alt="喬布斯展示蘋果產品銷量逐年遞增，正方形邊框轉爲長方形"></p>
 <p><img src="/blog/20151012-visualization-via-jobs/more-gelivable.png" alt="再給力一點行不行啊，老師"></p>
-<p>所謂水能載舟，亦能覆舟，喬布斯用3D來強調增長，蓋茨也可以用3D來削弱增長，甚至讓視覺效果逆轉實際數據。</p>
-<p>下面這個圖，用的是同一組數據，但是精心調校視角和透視關係，雖然Mac銷量每年在增加，從視覺上看，倒像是先增後減。</p>
+<p>所謂水能載舟，亦能覆舟，喬布斯用3D來強調增長，蓋茨也可以用 3D 來削弱增長，甚至讓視覺效果違背實際趨勢。</p>
+<p>下面這個圖，用的還是同一組數據，但是精心調校視角和透視關係——雖然 Mac 銷量每年在增加，從視覺上看，倒似乎先增後減。</p>
 <p><img src="/blog/20151012-visualization-via-jobs/mac-sales-2005-3darea.png" alt="喬布斯展示蘋果產品銷量逐年遞增，3D版本"></p>
 <p>我們再回顧喬布斯本人選擇的可視化，可以看到，即使用完全相同數據，也能做出傾向完全相反的可視化：</p>
 <p><img src="/blog/20151012-visualization-via-jobs/mac-sales-2005-macword.png" alt="喬布斯展示蘋果產品銷量逐年遞增"></p>
@@ -88,7 +88,7 @@
 <h3 id="技巧2_-_避免依賴明度表意">技巧2 - 避免依賴明度表意</h3><p>二色視覺、單色視覺的人色覺細胞類別比較少，因此對明度變化也沒那麼敏感。如果要使用明度區分（表達連續數量的常見手法），儘量使用明顯的明度差異。</p>
 <h3 id="技巧3_-_發佈前預覽">技巧3 - 發佈前預覽</h3><p><img src="/blog/20151012-what-is-colour/adobe-illustrator-proof-setup.png" alt="Proof setup mode in Adobe Illustrator"></p>
 <p>Adobe Illustrator 有「色盲模式」，可以在發佈前預覽在二色視覺者眼中的設計效果。</p>
-<p>其中，Protanopia是指沒有紅色感光細胞，Deuteranopia是指沒有綠色感光細胞，臨牀症狀很相似，都是不易辨別紅綠。<br>如果足夠自信，甚至可以直接轉成灰度來看。如果一個設計轉成灰度圖都沒問題，則各類色覺的人都不會有困難。</p>
+<p>其中，Protanopia 是指沒有紅色感光細胞，Deuteranopia 是指沒有綠色感光細胞，臨牀症狀很相似，都是不易辨別紅綠。<br>如果足夠自信，甚至可以直接轉成灰度來看。如果一個設計轉成灰度圖都沒問題，則各類色覺的人都不會有困難。</p>
 <p>我也嘗試做過一個實時的「非常規色覺模擬器」：<a href="http://rgbx.shux.in" target="_blank" rel="external">rgbx.shux.in</a>，目前可以實時模擬二色視覺眼中的世界（在桌面機上支持Firefox和Chrome，Android上支持Firefox）。</p>
 <h2 id="延伸閱讀">延伸閱讀</h2><p>【色彩感知】<br><a href="https://en.wikipedia.org/wiki/Color_vision" target="_blank" rel="external">Wikipedia: Color vision</a><br><a href="http://webvision.med.utah.edu/book/part-vii-color-vision/color-vision/" target="_blank" rel="external">Color Vision by Peter Gouras</a><br>【非常規色覺】<br><a href="https://en.wikipedia.org/wiki/Color_blindness" target="_blank" rel="external">Wikipedia: Color Blindness</a><br><a href="http://designshack.net/articles/accessibility/tips-for-designing-for-colorblind-users/" target="_blank" rel="external">Tips for Designing for Colorblind Users</a></p>
 ]]></content:encoded>
