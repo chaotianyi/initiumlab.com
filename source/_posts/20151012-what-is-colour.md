@@ -32,6 +32,7 @@ tags:
 
 Antico的畫作與景物照片的對比：
 ![Antico的畫作與景物照片的對比](/blog/20151012-what-is-colour/antico-tree-painting-and-reality.png)
+(圖片來自BBC和畫作者本人：<http://www.bbc.com/future/story/20140905-the-women-with-super-human-vision>)
 
 爲二色視覺的人做設計
 ----------------
