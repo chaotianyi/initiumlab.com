@@ -54,7 +54,7 @@ Antico的畫作與景物照片的對比：
 
 Adobe Illustrator 有「色盲模式」，可以在發佈前預覽在二色視覺者眼中的設計效果。
 
-其中，Protanopia是指沒有紅色感光細胞，Deuteranopia是指沒有綠色感光細胞，臨牀症狀很相似，都是不易辨別紅綠。
+其中，Protanopia 是指沒有紅色感光細胞，Deuteranopia 是指沒有綠色感光細胞，臨牀症狀很相似，都是不易辨別紅綠。
 如果足夠自信，甚至可以直接轉成灰度來看。如果一個設計轉成灰度圖都沒問題，則各類色覺的人都不會有困難。
 
 我也嘗試做過一個實時的「非常規色覺模擬器」：[rgbx.shux.in](http://rgbx.shux.in)，目前可以實時模擬二色視覺眼中的世界（在桌面機上支持Firefox和Chrome，Android上支持Firefox）。
