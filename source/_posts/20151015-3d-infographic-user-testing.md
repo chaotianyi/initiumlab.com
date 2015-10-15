@@ -16,7 +16,7 @@ Yet we do care about news accessibility. With the help from [MakeBlock](http://w
 
 On October 2nd 2015, for the first time, we tested this 3D printed infographic with a blind user -- Chong Chan Yau, president of Hong Kong Blind Union as well as a politically active celebrity in Hong Kong.
 
-![introducing the meaning of the heat map to Mr.Chong]()
+![introducing the meaning of the heat map to Mr.Chong](/blog/20151015-3d-infographic-user-testing/introducing_heatmap.JPG)
 
 With our explanation and assistance, Mr. Chong managed to roughly understand the infographic’s idea in about ten minutes, yet he found it greatly difficult to read specific blocks. 
 
@@ -24,6 +24,6 @@ Mr. Chong said one would easily get lost when navigating with finger, because th
 
 Braille was another problem. Mr. Chong thought we put those small braille characters together in a vague way, for we did not notice that the space between two braille characters and the space between two columns inside one character were different . Meanwhile, he emphasized that we should be cautious about block size and gap of braille characters by following standards. He also reminded us to note visually-challenged people’s reading direction.
 
-![Chong explaining braille]()
+![Chong explaining braille](/blog/20151015-3d-infographic-user-testing/explaining_braille_character.JPG)
 
 With these practical and considerate suggestions, Mr. Chong Chan Yau encouraged us to keep experimenting physical infographics and turn the cool idea into a real solution stack for the blind. He highlighted the novelty of our 3D infographic, remarking that he had never seen such approach to data before. 
