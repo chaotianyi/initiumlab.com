@@ -16,7 +16,7 @@ Yet we do care about news accessibility. With the help from [MakeBlock](http://w
 
 On October 2nd 2015, for the first time, we tested this 3D printed infographic with a blind user -- Chong Chan Yau, president of Hong Kong Blind Union as well as a politically active celebrity in Hong Kong.
 
-![introducing the meaning of the heat map to Mr.Chong](/blog/20151015-3d-infographic-user-testing/introducing0-heatmap.JPG)
+![introducing the meaning of the heat map to Mr.Chong](/blog/20151015-3d-infographic-user-testing/introducing-heatmap.JPG)
 
 With our explanation and assistance, Mr. Chong managed to roughly understand the infographic’s idea in about ten minutes, yet he found it greatly difficult to read specific blocks. 
 
