@@ -25,14 +25,16 @@ Trending是這樣子的：
 除了提供Facebook用自家算法判斷的熱點消息，還有[CrowdTangle](http://www.crowdtangle.com/)和[Storyful](https://storyful.com/)各自追蹤的熱點。（CrowdTangle和Storyful提供社交媒體追蹤、內容發掘服務。）
 
 Trending講事，Leaderboards則講人，顯示每一天最多人談論的人物排行。
+![Facebook Signal，Leaderboard的界面](/blog/20151015-Facebook-Signal-Review/leaderboards-interface.png)
 
 點擊事件或人名，還可以集中看關於這個話題的討論。
+![Facebook Signal，Leaderboard的個人詳細資料界面](/blog/20151015-Facebook-Signal-Review/leaderboard-details.png)
 
 ## 搜索
 Signal的搜索功能乏善可陳。
 主要搜索功能是關鍵詞討論量比較：
 ![Facebook Signal，關鍵詞討論量地理分佈](/blog/20151015-Facebook-Signal-Review/comparison-interface.png)
-![Facebook Signal，關鍵詞討論量時間變化](/blog/20151015-Facebook-Signal-Review/comparison-interface.png)
+![Facebook Signal，關鍵詞討論量時間變化](/blog/20151015-Facebook-Signal-Review/comparison-interface-by-time.png)
 
 還有Facebook和Instagram的搜索，但是搜索效果並不出彩，可能還不如Facebook和Instagram的站內搜索。
 ![Facebook Signal，Facebook搜索界面](/blog/20151015-Facebook-Signal-Review/facebook-search-interface.png)
@@ -101,7 +103,20 @@ Signal的發佈功能主要針對之前在收納中建立的文件夾，有兩�
 ```
 
 ## 結語
-目前Facebook Signal的核心競爭力在於探索熱點事件——搜索功能還不成熟；收藏和發佈功能似乎有潛力，但應用場景並不清晰。
+目前 Facebook Signal 的核心競爭力在於探索熱點事件——搜索功能還不成熟；收藏和發佈功能似乎有潛力，但應用場景並不清晰。
+
+無論如何，Facebook 涉足新聞業野心勃勃，Signal 想必也會繼續演進，值得持續關注。
 
 申請試用Facebook Signal，請在此填表：
 <https://www.facebook.com/help/contact/1584814605121989>
+
+## 花絮
+
+Signal 是用 Google 家的 Angular 框架搭建的，而沒有用 Facebook 自己的 React。
+
+![Facebook Signal源代碼裏有Angular的痕跡](/blog/20151015-Facebook-Signal-Review/signal-angular.png)
+(Signal 用的是 Angular 1.2.28，是個舊版本，發佈了快一年了。)
+
+這是個什麼概念呢？就好像法拉利造了個新車，外面看上去是法拉利，開起來也像法拉利，卻用了是隔壁寶馬五年前造的引擎……
+
+（當然，互聯網互相借用技術也是司空見慣的事，比如 Google Chrome 的一開始的渲染引擎用的是 Apple 給 Safari 做的 WebKit。那麼究竟爲什麼 Signal 這麼選？我們也不知道，如果讀者您知道，請留言告訴我們。）
