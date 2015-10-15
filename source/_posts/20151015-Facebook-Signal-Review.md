@@ -1,6 +1,6 @@
 title: "在Facebook找新聞線索？FB Signal搶鮮試用"
 date: 2015-10-15 11:28:04
-author: Initium Lab
+author: Andy Shu
 tags:
 - Signal
 - Tools
