@@ -1,11 +1,12 @@
-title: Visually-Impaired User: Your 3D Infographic Doesn’t Work, But It Could
-date: 2015-10-15 16:02
+title: "Visually-Impaired User: Your 3D Infographic Doesn’t Work, But It Could"
+date: 2015-10-15 16:26:07
 author: Andy Shu, Chao Tianyi
 tags:
 - 3D Infographic
 - lang:English
 - Legco
 description: "We tested the Legco 3D-printed infographic with our first user Chong Chan Yau, president of Hong Kong Blind Union. He gave us advices."
+---
 ---
 Based on vote records of 2921 motions of current Hong Kong Legislative Council meetings, Initium Lab analyzed the voting patterns of 70 legislators in [Legco Matrix](http://initiumlab.com/#legco) project. For visualization, we made a heat map of 70 rows by 70 columns, with the brightness of each cell representing supportiveness from one voter towards one motion mover. 
 
@@ -26,4 +27,3 @@ Braille was another problem. Mr. Chong thought we put those small braille charac
 ![Chong explaining braille]()
 
 With these practical and considerate suggestions, Mr. Chong Chan Yau encouraged us to keep experimenting physical infographics and turn the cool idea into a real solution stack for the blind. He highlighted the novelty of our 3D infographic, remarking that he had never seen such approach to data before. 
-
