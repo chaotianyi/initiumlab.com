@@ -2,7 +2,8 @@ title: "Visually-Impaired User: Your 3D Infographic Doesn’t Work, But It Could
 date: 2015-10-15 16:26:07
 author: Andy Shu, Chao Tianyi
 tags:
-- 3D Infographic
+- 3D
+- Visualization
 - lang:English
 - Legco
 description: "We tested the Legco 3D-printed infographic with our first user Chong Chan Yau, president of Hong Kong Blind Union. He gave us advices."
