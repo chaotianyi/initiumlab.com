@@ -5,9 +5,12 @@ tags:
 - Accessibility
 - lang:English
 - Legco
-description: "We tested the Legco 3D-printed infographic with our first blind user Chong Chan Yau, president of Hong Kong Blind Union. He gave us advices."
+description: "We tested A 3D-printed LegcoMatrix infographic with the first blind user Chong Chan Yau, president of Hong Kong Blind Union. The solution almost worked and we got valuable advices from him on how to further polishing the work."
 ---
+
 Based on vote records of 2921 motions of current Hong Kong Legislative Council meetings, Initium Lab analyzed the voting patterns of 70 legislators in [Legco Matrix](http://initiumlab.com/#legco) project. For visualization, we made a heat map of 70 rows by 70 columns, with the brightness of each cell representing supportiveness from one voter towards one motion mover (in terms of the percentage of supporting votes).
+
+<!-- more -->
 
 The heat map might be helpful for many who wanted to have insights into Hong Kong politics, but definitely not for the blind. Actually, nowadays, only a few of the fancy digital news products have really taken visually-challenged people into account.
 
@@ -25,4 +28,4 @@ Braille was another problem. Mr. Chong thought we put those small braille charac
 
 ![Mr. Chong explaining braille characters](/blog/20151015-3d-infographic-user-testing/explaining-braille-character.JPG)
 
-With these practical and considerate suggestions, Mr. Chong Chan Yau encouraged us to keep experimenting physical infographics and turn the cool idea into a real solution stack for the blind. He highlighted the novelty of our 3D infographic, remarking that he had never seen such approach to data before.
+With these practical and considerate suggestions, Mr. Chong Chan Yau encouraged us to keep experimenting physical infographics and turn the cool idea into a real solution stack for the blind. He highlighted the novelty of our 3D infographic, remarking that he had never seen such approach to presenting data before.
