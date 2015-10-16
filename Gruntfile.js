@@ -111,9 +111,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
 
 
-  grunt.registerTask('build',  ['exec:hexo_generate','copy']);
-  grunt.registerTask('build:complete',  ['exec:hexo_clean', 'exec:hexo_generate','copy', 'relativeRoot']);
-  grunt.registerTask('serve',  ['build', 'connect', 'watch']);
+  grunt.registerTask('build',  ['exec:hexo_clean', 'exec:hexo_generate','copy', 'relativeRoot']);
+  grunt.registerTask('build:quick',  ['exec:hexo_generate','copy']);
+  grunt.registerTask('build:complete',  ['build']); // Just an alias for "build", reserved for developers' habits
+  grunt.registerTask('serve',  ['build:quick', 'connect', 'watch']);
   grunt.registerTask('deploy:prod', ['gh-pages']);
   grunt.registerTask('deploy:staging', ['rsync']);
   grunt.registerTask('scan:alt', ['shell:scanAlt']);

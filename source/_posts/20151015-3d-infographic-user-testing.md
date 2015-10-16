@@ -5,7 +5,7 @@ tags:
 - Accessibility
 - lang:English
 - Legco
-description: "We tested A 3D-printed LegcoMatrix infographic with the first blind user Chong Chan Yau, president of Hong Kong Blind Union. The solution almost worked and we got valuable advices from him on how to further polishing the work."
+description: "We tested a 3D-printed LegcoMatrix infographic with the first blind user Chong Chan Yau, president of Hong Kong Blind Union. The solution almost worked and we got valuable advices from him on how to further polish the work."
 ---
 
 Based on vote records of 2921 motions of current Hong Kong Legislative Council meetings, Initium Lab analyzed the voting patterns of 70 legislators in [Legco Matrix](http://initiumlab.com/#legco) project. For visualization, we made a heat map of 70 rows by 70 columns, with the brightness of each cell representing supportiveness from one voter towards one motion mover (in terms of the percentage of supporting votes).

@@ -62,11 +62,13 @@ It cannot live-reload yet. Please manually refresh after each modification.
 
 Deploy to production:
 ```
+grunt build
 grunt deploy:prod
 ```
 
 Deploy to staging:
 ```
+grunt build
 grunt deploy:staging
 ```
 
