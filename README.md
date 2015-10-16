@@ -17,6 +17,10 @@ git clone --recursive git@github.com:initiumlab/initiumlab.com.git
 This will recursively clone all submodules.
 
 ### Initial Setting
+
+Note, we use [Git LFS](https://github.com/github/git-lfs) in this project.
+Please install Git-LFS first (e.g. `brew install git-lfs`)
+
 #### Option 1
 
 Install hexo command line tools and dependencies:
