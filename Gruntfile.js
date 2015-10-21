@@ -87,6 +87,12 @@ module.exports = function(grunt) {
       scanAlt: {
           command: 'find public -name "*.html" | xargs -I{} bash -c "cat {} | pquery img -f \'{}\t{src}\t{alt}\'"'
       }
+    },
+
+    execute: {
+      scanSummaryTag: {
+        src: ['utils/scanMore.js']
+      }
     }
 
 
@@ -104,6 +110,7 @@ module.exports = function(grunt) {
 
   //grunt.loadNpmTasks('grunt-babel');
   grunt.loadNpmTasks('grunt-exec');
+  grunt.loadNpmTasks('grunt-execute');
   grunt.loadNpmTasks('grunt-gh-pages');
   grunt.loadNpmTasks('grunt-rsync');
   grunt.loadNpmTasks('grunt-relative-root');
@@ -118,4 +125,5 @@ module.exports = function(grunt) {
   grunt.registerTask('deploy:prod', ['gh-pages']);
   grunt.registerTask('deploy:staging', ['rsync']);
   grunt.registerTask('scan:alt', ['shell:scanAlt']);
+  grunt.registerTask('scan:summaryTag', ['execute:scanSummaryTag']);
 };
