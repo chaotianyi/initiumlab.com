@@ -15,7 +15,7 @@ var i, filePath, content
  * @param {string} text
  * @returns {boolean}
  */
-function hasMoreTag (text) {
+function hasSummaryTag (text) {
   "use strict";
 
   var moreTags = [
@@ -46,7 +46,7 @@ for (i = 0; i < fileList.length; i += 1) {
   filePath = POST_DIR + '/' + fileList[i]
   if (path.extname(filePath) === '.md') {
     content = fs.readFileSync(filePath)
-    if (hasMoreTag(content)) {
+    if (hasSummaryTag(content)) {
       filePathWithTag.push(filePath)
     } else {
       filePathNoTag.push(filePath)
