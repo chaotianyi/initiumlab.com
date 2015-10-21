@@ -12,7 +12,7 @@ var i, filePath, content
 
 /**
  * Detect if a text contains summary tags
- * @param text
+ * @param {string} text
  * @returns {boolean}
  */
 function hasMoreTag (text) {
