@@ -7,11 +7,6 @@ layout: 'showcase'
 renderMode: 'html'
 coverPath: '/images/3d-infographic.png'
 coverAlt: 'Cover page of 3D infographic'
-images:
-  - alt: "A sample view of the Young Rubbish survey"
-    src: "images/young_rubbish_survey_sample.png"
-  - alt: "A sample view of the database from the Young Rubbish survey"
-    src: "images/young_rubbish_db.png"
 ---
 <div class="lightbox" id="lightbox-media-tech" style="display: none;">
       <div class="lightbox-btnClose" id="btnClose-media-tech">
