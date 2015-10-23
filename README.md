@@ -24,7 +24,7 @@ Please install Git-LFS first (e.g. `brew install git-lfs`)
 You can choose to contribute in your local environment or in the Vagrant virtual environment.
 The local environment is faster and more convenient.
 
-#### Option 1: Use local enviroment
+#### Option 1: Use local environment
 
 Install hexo command line tools and dependencies:
 ```
