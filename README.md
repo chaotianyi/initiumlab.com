@@ -55,34 +55,39 @@ grunt serve
 Then visit
 <http://localhost:9000/>
 
-### Development
-Launch development server and view live version
+### Development & Content Editing
+Step 1. Launch development server and view live version
 ```
 grunt serve
 ```
 And go to <localhost:9000> to view the live version.
 It cannot live-reload yet. Please manually refresh after each modification.
 
-Deploy to staging:
+Step 2. Scan all `alt` of images (which every image should have, for accessibility)
+```
+grunt scan:alt
+```
+(You might need to first run `pip install --user httpie pquery` to get dependencies.)
+
+Step 3. Scan all `<!-- more -->` tags (used to designate content of digest) in all Markdown source files:
+```
+grunt scan:summaryTag
+```
+
+Step 4. Deploy to staging:
 ```
 grunt build
 grunt deploy:staging
 ```
 
-Deploy to production:
+Step 5. Deploy to production
 ```
 grunt build
 grunt deploy:prod
 ```
 
-Scan all `alt` of images
-```
-grunt scan:alt
-```
-
-(Need to run `pip install --user httpie pquery` to get deps first)
-
-Please use grunt for deployment and be very careful using hexo's built-in generate and deploy commands,
+**Note:**
+Please use `grunt` for deployment and avoid using hexo's built-in `generate` and `deploy` commands,
 which might lead to conflicts and un-intended results.
 
 ### Writing
