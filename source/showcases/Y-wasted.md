@@ -5,7 +5,7 @@ projectMainWebsite: 'http://wasted.initiumlab.com/'
 byline: "Since Aug 2015"
 layout: 'showcase'
 renderMode: 'markdown'
-coverPath: '/images/casecover_useless_youth.png'
+coverPath: 'images/casecover_useless_youth.png'
 coverAlt: 'Cover page of Youth Issue Study'
 images:
   - alt: "A sample view of the Young Rubbish survey"

@@ -5,7 +5,7 @@ projectMainWebsite: ''
 byline: "Since July 2015"
 layout: 'showcase'
 renderMode: 'html'
-coverPath: '/images/design_kit.png'
+coverPath: 'images/design_kit.png'
 coverAlt: 'A pencil, a brush, and a pen, representing the various aspects of design'
 ---
 <div class="lightbox" id="lightbox-designCollection" style="display: none;">

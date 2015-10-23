@@ -5,13 +5,13 @@ projectMainWebsite: 'http://legco.initiumlab.com/'
 byline: "Since June 2015"
 layout: 'showcase'
 renderMode: 'markdown'
-coverPath: '/images/casecover_1.png'
+coverPath: 'images/casecover_1.png'
 coverAlt: 'Cover page of Project Legco'
 images:
   - alt: "cover page of Legco animation"
-    src: "/images/legco-showcase/image1.jpg"
+    src: "images/legco-showcase/image1.jpg"
   - alt: "3D model of Legco Matrix"
-    src: "/images/legco-showcase/image2.png"
+    src: "images/legco-showcase/image2.png"
 ---
 On 18 June 2015, the pro-establishment legislators of Hong Kong Legislative Council bungled the Political Reform vote. Could their fiasco be foreseen? We tried to answer the question by studying their voting patterns.
 

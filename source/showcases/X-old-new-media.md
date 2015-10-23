@@ -5,7 +5,7 @@ projectMainWebsite: ''
 byline: "Since June 2015"
 layout: 'showcase'
 renderMode: 'html'
-coverPath: '/images/3d-infographic.png'
+coverPath: 'images/3d-infographic.png'
 coverAlt: 'Cover page of 3D infographic'
 ---
 <div class="lightbox" id="lightbox-media-tech" style="display: none;">
