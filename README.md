@@ -119,8 +119,11 @@ Showcases are blocks demonstrating our previous works.
 They can be added by putting specially-formatted markdown files into `showcases` folder under `source`.
 It can also be added by
 ```
-grunt new:showcase "Title"
+grunt new:showcase:'hello world'
 ```
+
+There would be a file prefix to the showcase source file, such as `X-showcase-title`. This is for ordering purposes.
+By default, hexo renders the showcases by their filename in alphabetical orders.
 
 The header of the markdown contains meta information about the showcase, which is explained below:
 

@@ -92,10 +92,15 @@ module.exports = function(grunt) {
     execute: {
       scanSummaryTag: {
         src: ['utils/scanMore.js']
+      },
+
+      newShowcase: {
+        options: {
+          args: [process.argv[2]]
+        },
+        src: ['utils/newShowcase.js']
       }
     }
-
-
   });
 
 
@@ -126,4 +131,12 @@ module.exports = function(grunt) {
   grunt.registerTask('deploy:staging', ['rsync']);
   grunt.registerTask('scan:alt', ['shell:scanAlt']);
   grunt.registerTask('scan:summaryTag', ['execute:scanSummaryTag']);
+
+  grunt.registerTask('new', function (type) {
+    if (type === 'post') {
+      grunt.task.run('execute:newPost')
+    } else if (type === 'showcase') {
+      grunt.task.run('execute:newShowcase')
+    }
+  })
 };
