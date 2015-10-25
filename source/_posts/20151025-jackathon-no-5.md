@@ -1,23 +1,20 @@
 title: "Jackathon #5 -- Read a journalism book in 8 hours"
+author: Initium Lab
 date: 2015-10-25
-author: initiumlab
+ 
 tags:
 - journalism
 - lang:English
 - Jackathon
-description: "Still remember the “read-one-book-in-eight-hours” activity?
-
-Weeks ago, in [Jackathon #3](http://initiumlab.com/blog/20150922-jackathon3-review/) , we turned our lab as a reading club , and had a fruitful day reading [Data Science books](http://www.kdnuggets.com/2015/09/free-data-science-books.html/). This time, the theme was to read something journalistic. "
-
-![All Participants](/blog/20151025-jackathon-no-5/All-Participants.png)
 ---
-Jackathon is short for “Journalism-Hackathon”. At Initium Lab, we do data journalism, try digital storytelling and push limits of the news industry with technology. We organize regular Jackathons to advance our knowledge and skills in both journalism and technology.
+
+Still remember the “read-one-book-in-eight-hours” activity?
 
 Weeks ago, in [Jackathon #3](http://initiumlab.com/blog/20150922-jackathon3-review/) , we turned our lab as a reading club , and had a fruitful day reading [Data Science books](http://www.kdnuggets.com/2015/09/free-data-science-books.html/). This time, the theme was to read something journalistic. 11 participants were required to finish reading one or two books in 8 hours, and share their findings or insights in the end.
 
 ![Discussion](/blog/20151025-jackathon-no-5/Discussion.jpeg)
 
-##Andy’s introduction: Which journalism?
+## Andy’s introduction: Which journalism?
 
 Andy Shu introduced the books by illustrating an broadstroke outline of the intellectual disciplines that eventually lead to Journalism. He started with medieval universities, which usually house four “departments”: Arts, Medicine, Law, and Theology. The Arts department taught Trivium, i.e. Latin Grammar, Rhetorics, and Logic. It also taught Philosophy.
 
@@ -40,9 +37,9 @@ Kate Liu, UX assistant with Initium Lab, read the book 中國數據新聞工作�
 ### Verification handbook for investigative reporting
 Verification handbook for investigative reporting tells readers how to get accurate information from sources of different credibilities. Tianyi picked this book and made a list of all tools mentioned in the book. She thought the skills applied to verifying user-generated contents are the highlight part. In a case, to verify whether a new war crime occurred in Nigeria, journalists examined a user-generated video frame by frame, extracting specifications of the road as well as details related to people, compare them with satellite images to check location. Additionally, they examined metadata in photos from different sources with EXif reader and did crosscheck. They even inverted picture color to see ID number printed on rifle in one frame.
 
-![Reading books](/blog/20151025-jackathon-no-5/Reading-Books.jpeg)
-
-##Thinking Pattern
+<!-- ![Reading books](/blog/20151025-jackathon-no-5/Reading-Books.jpeg)
+ -->
+## Thinking Pattern
 
 ### Signal and Noise
 
@@ -71,7 +68,7 @@ Pili Hu, data scientist with Initium Lab, chose A Tradecraft Primer: Structured 
 
 ![Pili Hu is presenting](/blog/20151025-jackathon-no-5/Pili-Hu-Presenting.jpeg)
 
-##Writing
+## Writing
 
 ### On Writing Well
 First published in 1976, On Writing Well is a classic guide for writing news. Natalie Lung, majoring both in journalism and computer science, picked this book. The book can be divided into four parts: principles of good writing, methods to polish up, guide for writing different forms and mind-setting tips. The author offered a bunch of practical tips, for example, he held that science and technology news should not be a story simply about science but a story about people doing science. Besides reporters, the book is also good for people who have interests in writing or blogging. As the author encourages, “you write for yourself”, just write the things that attracts you and familiar to you, and anyone could become a good writer.
@@ -85,7 +82,7 @@ Textbooks used to teach people strictly follow grammar rules, but The Sense of S
 
 ## History
 
-### news people serving the country
+### News People Serving the Country
 Victoria Jin, Initium Lab’s interactive designer read this one. This book consists of 15 papers. The papers give an account of Chinese news people's awkward situation during the period of Republic of China. Some main discussions are highlighted in the book: the development of public sphere,  the contradiction of liberalism, the standards of good news.
 
 The public sphere is an area where individuals get together to freely discuss and identify social problems. Qing yi (清議) is regarded as China’s earliest public sphere. However, comparing to western world, public opinion in Chinese society lacked consensus, rationality and tolerance due to weak middle class and absent civic consciousness, and also because of the breaking down of family as an institution and its incapability as a buffer area between public sphere and individual.
@@ -101,3 +98,7 @@ Finally, there are strict standards to evaluate the quality of news at that time
 ### How to read a book? (Chinese version)
 
 How to Read a Book introduces a structural way of reading. According to this book, reading is divided into four levels - elementary reading, inspectional reading, analytical reading, and syntopical reading. The latter two are the focus of this book. In Frank Lin’s opinion, this book is a ‘must read’ for inexperienced readers since it builds your ‘reading sense’ from the ground up, while experience readers may find it too detailed.
+
+## What is Jackathon?
+
+Jackathon is short for “Journalism-Hackathon”. At Initium Lab, we do data journalism, try digital storytelling and push limits of the news industry with technology. We organize regular Jackathons to advance our knowledge and skills in both journalism and technology.
