@@ -90,7 +90,7 @@ grunt deploy:prod
 Please use `grunt` for deployment and avoid using hexo's built-in `generate` and `deploy` commands,
 which might lead to conflicts and un-intended results.
 
-### Writing
+### Writing blogs
 Create a new article:
 ```
 hexo new "title"
@@ -113,6 +113,31 @@ Put all relevant assets under `source/_posts/title`, if you are working on `titl
 The less preferable alternative is put it under `static/title`. This should only be used if the previous approach
 won't work. (For example, Hexo has a bug where JavaScript and CSS source files sitting in the source/_posts/ directory
 would be interpreted as Markdown and generate gibberish HTML.)
+
+### Managing Showcases
+Showcases are blocks demonstrating our previous works.
+They can be added by putting specially-formatted markdown files into `showcases` folder under `source`.
+It can also be added by
+```
+grunt new:showcase "Title"
+```
+
+The header of the markdown contains meta information about the showcase, which is explained below:
+
+```
+title: "The New Old Media"                 // title of the showcase shown on the front page
+fullTitle: "The New Old Media"             // title of the showcase shown on the lightbox
+projectCode: 'media-tech'                  // project code, should be unique
+projectMainWebsite: ''                     // when JavaScript fails for some reason, clicking the showcase block
+                                           // redirects user to this URL
+byline: "Since June 2015"                  // byline, displayed on lightbox
+layout: 'showcase'                         // layout option, just leave it as showcase
+renderMode: 'html'                         // when set to 'html', the content is not rendered by Markdown engine
+                                           // when set to 'markdown', the content is rendered
+coverPath: 'images/3d-infographic.png'     // path to the cover image on front page
+coverAlt: 'Cover page of 3D infographic'   // alternative text for the cover image
+---
+```
 
 #### Summary
 Always include a `<!-- more -->` mark in the post Markdown file. The section before it would serve as the excerpt on the
