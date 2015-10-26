@@ -1,5 +1,6 @@
 title: "Jackathon #5 -- Read a journalism book in 8 hours"
 author: Initium Lab
+editor: Chao Tianyi
 date: 2015-10-25
  
 tags:
