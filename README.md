@@ -122,6 +122,10 @@ It can also be added by
 grunt new:showcase:'hello world'
 ```
 
+**Important:** Due to design of our front page, the title should be within about 19 characters (depending on
+character widths), spaces included, or the layout might break.
+
+
 There would be a file prefix to the showcase source file, such as `X-showcase-title`. This is for ordering purposes.
 By default, hexo renders the showcases by their filename in alphabetical orders.
 
