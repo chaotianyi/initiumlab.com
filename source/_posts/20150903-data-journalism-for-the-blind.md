@@ -1,6 +1,8 @@
 title: 可視化火了 盲人怎麼辦
 date: 2015-09-01 21:39:43
-author: Andy Shu
+author:
+- name: Andy Shu
+  url: http://shux.in/
 description: 作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？
 language: zh-hant
 thumbnail: /blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg

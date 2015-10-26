@@ -1,6 +1,9 @@
 title: "Infographic for the Blind: We Tried 3D Printing That Almost Worked"
 date: 2015-10-15 16:26:07
-author: Andy Shu, Chao Tianyi
+author:
+- name: Andy Shu
+  url: 'http://shux.in/'
+- name: Chao Tianyi
 tags:
 - Accessibility
 - lang:English

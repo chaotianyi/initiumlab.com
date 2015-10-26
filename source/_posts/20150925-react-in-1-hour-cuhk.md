@@ -1,5 +1,6 @@
 title: React in One Hour
-author: Initium Lab
+author:
+- name: Initium Lab
 date: 2015-09-25 17:02:13
 description: 'Andy Shu, news engineer with Initium Lab, gave a brief tutorial about ReactJS, the Web UI library from Facebook, in Chinese University of Hong Kong (CUHK) on 18 September 2015. The event was organized by the Open Innovation Lab of CUHK.'
 thumbnail: /blog/20150925-react-in-1-hour-cuhk/react1h-thumbnail.png

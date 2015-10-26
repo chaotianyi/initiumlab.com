@@ -1,6 +1,8 @@
 title: 一張圖讀懂喬布斯數據化妝術
 date: 2015-10-12 15:56:40
-author: Andy Shu
+author:
+- name: Andy Shu
+  url: http://shux.in/
 tags:
 - Visualization
 - lang:Chinese

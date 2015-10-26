@@ -4,7 +4,8 @@ tags:
 - Jackathon
 - Journalism
 thumbnail: ../images/logo.png
-author: Initium Lab
+author:
+- name: Initium Lab
 ---
 
 We'll read Journalism books for Jackathon this weekend (October 10th or 11th).
