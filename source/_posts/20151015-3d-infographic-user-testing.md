@@ -8,6 +8,7 @@ tags:
 - Accessibility
 - lang:English
 - Legco
+language: en
 description: "We tested a 3D-printed LegcoMatrix infographic with the first blind user Chong Chan Yau, president of Hong Kong Blind Union. The solution almost worked and we got valuable advices from him on how to further polish the work."
 ---
 

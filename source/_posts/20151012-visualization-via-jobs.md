@@ -6,6 +6,7 @@ author:
 tags:
 - Visualization
 - lang:Chinese
+language: zh-hant
 description: "一組平平無奇的銷量數據，經過喬布斯一番可視化，一下就顯得前途無量。究竟他是怎麼做到的？我們閱讀、製作數據可視化，又應該對哪些手法多加留意？"
 ---
 

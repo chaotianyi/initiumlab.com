@@ -3,6 +3,7 @@ date: 2015-10-05 19:49:33
 tags:
 - Jackathon
 - Journalism
+language: en
 thumbnail: ../images/logo.png
 author:
 - name: Initium Lab
