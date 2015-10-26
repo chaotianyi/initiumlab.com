@@ -1,6 +1,5 @@
 title: "Jackathon #5 -- Read a journalism book in 8 hours"
 author: Initium Lab
-editor: Chao Tianyi
 date: 2015-10-25
  
 tags:
@@ -103,3 +102,5 @@ How to Read a Book introduces a structural way of reading. According to this boo
 ## What is Jackathon?
 
 Jackathon is short for “Journalism-Hackathon”. At Initium Lab, we do data journalism, try digital storytelling and push limits of the news industry with technology. We organize regular Jackathons to advance our knowledge and skills in both journalism and technology.
+
+Edited by Chao Tianyi
