@@ -1,10 +1,14 @@
 title: "Infographic for the Blind: We Tried 3D Printing That Almost Worked"
 date: 2015-10-15 16:26:07
-author: Andy Shu, Chao Tianyi
+author:
+- name: Andy Shu
+  url: 'http://shux.in/'
+- name: Chao Tianyi
 tags:
 - Accessibility
 - lang:English
 - Legco
+language: en
 description: "We tested a 3D-printed LegcoMatrix infographic with the first blind user Chong Chan Yau, president of Hong Kong Blind Union. The solution almost worked and we got valuable advices from him on how to further polish the work."
 ---
 

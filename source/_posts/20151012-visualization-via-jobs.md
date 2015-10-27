@@ -1,9 +1,12 @@
 title: 一張圖讀懂喬布斯數據化妝術
 date: 2015-10-12 15:56:40
-author: Andy Shu
+author:
+- name: Andy Shu
+  url: http://shux.in/
 tags:
 - Visualization
 - lang:Chinese
+language: zh-hant
 description: "一組平平無奇的銷量數據，經過喬布斯一番可視化，一下就顯得前途無量。究竟他是怎麼做到的？我們閱讀、製作數據可視化，又應該對哪些手法多加留意？"
 ---
 
