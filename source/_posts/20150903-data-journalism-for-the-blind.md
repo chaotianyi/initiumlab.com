@@ -12,7 +12,7 @@ tags:
 - "Accessibility"
 ---
 
-![中國有視力殘障2302萬，香港人口才710萬，上海常住人口1404萬。](/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.png)
+![中國有視力殘障1040萬，香港人口才710萬，上海常住人口2302萬。](/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.png)
 中國有五百萬盲人<sup><a href="#note1">[註1]</a></sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup><a href="#note2">[註2]</a></sup>。
 
 盲人走丟是舊聞，盲貓失蹤纔是新聞：
