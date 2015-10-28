@@ -10,6 +10,7 @@
 
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 
 
@@ -37,31 +38,51 @@
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="About Initium LabWe aim to push the limits of Journalism with Technology.
+<meta name="description" content="About Initium Lab
+
+We aim to push the limits of Journalism with Technology.
 The Team
-Hu Pili, Data Scientist and Director
-Andy Shu Xin, News Engineer and Editor
-Frank Lin, Data Engineer
-Victoria Jin Qiu">
+
+	Hu Pili, Data Scientist and Director
+	Andy Shu Xin, News Engineer and Editor
+	Frank Lin, Data Engineer
+	Victoria">
 <meta property="og:type" content="website">
 <meta property="og:title" content="About Initium Lab">
 <meta property="og:url" content="http://initiumlab.com/blog/about/index.html">
 <meta property="og:site_name" content="Initium Lab">
-<meta property="og:description" content="About Initium LabWe aim to push the limits of Journalism with Technology.
+<meta property="og:description" content="About Initium Lab
+
+We aim to push the limits of Journalism with Technology.
 The Team
-Hu Pili, Data Scientist and Director
-Andy Shu Xin, News Engineer and Editor
-Frank Lin, Data Engineer
-Victoria Jin Qiu">
-<meta property="og:updated_time" content="2015-09-24T09:51:03.000Z">
+
+	Hu Pili, Data Scientist and Director
+	Andy Shu Xin, News Engineer and Editor
+	Frank Lin, Data Engineer
+	Victoria">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/jackathon4.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/jackathon2.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/jackathon1.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/jackathon3.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/jackathon5.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/press_release1.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/press_release2.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/press_release3.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/workshop2.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/workshop3.jpg">
+<meta property="og:image" content="http://initiumlab.com/blog/../images/photoGallery/workshop1.jpg">
+<meta property="og:updated_time" content="2015-10-28T09:16:03.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="About Initium Lab">
-<meta name="twitter:description" content="About Initium LabWe aim to push the limits of Journalism with Technology.
+<meta name="twitter:description" content="About Initium Lab
+
+We aim to push the limits of Journalism with Technology.
 The Team
-Hu Pili, Data Scientist and Director
-Andy Shu Xin, News Engineer and Editor
-Frank Lin, Data Engineer
-Victoria Jin Qiu">
+
+	Hu Pili, Data Scientist and Director
+	Andy Shu Xin, News Engineer and Editor
+	Frank Lin, Data Engineer
+	Victoria">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -86,6 +107,7 @@ Victoria Jin Qiu">
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
+  
   <!--[if lte IE 8]>
   <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -95,19 +117,6 @@ Victoria Jin Qiu">
     </a>
   </div>
 <![endif]-->
-  
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-66625644-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-
-
-
 
   <div class="container one-column ">
     <div class="headband"></div>
@@ -120,6 +129,28 @@ Victoria Jin Qiu">
     <span class="btn-bar"></span>
   </button>
 </div>
+<script>
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 100) {
+        $(".navLink").addClass("fade-out");
+        $(".logoLink").removeClass("fade-out");
+    } else {
+        $(".navLink").removeClass("fade-out");
+        $(".logoLink").addClass("fade-out");
+    }
+  }); 
+
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 100) {
+        $(".navLink").addClass("fade-out");
+    } else {
+        $(".navLink").removeClass("fade-out");
+    }
+  }); 
+
+</script>
 
 <nav class="site-nav">
   
@@ -127,25 +158,29 @@ Victoria Jin Qiu">
   
       <a href="../">
         <div class="navLink">
-          <img src="../images/home_icon.png"
+          <img src="../images/home_icon.svg"
                alt="Home page" />
           <div>Home</div>
         </div>
       </a>
       <a href="../about">
         <div class="navLink">
-          <img src="../images/about_icon.png"
+          <img src="../images/about_icon.svg"
                alt="about" />
           <div>About</div>
         </div>
       </a>
       <a href="../blog">
         <div class="navLink">
-          <img src="../images/blog_icon.png"
+          <img src="../images/blog_icon.svg"
                alt="blogs">
           <div>Blog</div>
         </div>
       </a>
+        <div class="logoLink fade-out">
+          <img src="../images/logo_icon.png"
+               alt="logo">
+        </div>
     
   
 
@@ -174,31 +209,92 @@ Victoria Jin Qiu">
     <main id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content"> 
+    <div id="posts" class="posts-expand">
+    
+      
 
-  <div id="posts" class="posts-expand">
-    
-    
-      <h1 id="About_Initium_Lab">About Initium Lab</h1><p>We aim to push the limits of Journalism with Technology.</p>
-<h2 id="The_Team">The Team</h2><ul>
-<li><a href="http://hupili.net/" target="_blank" rel="external">Hu Pili</a>, Data Scientist and Director</li>
-<li><a href="http://shux.in/" target="_blank" rel="external">Andy Shu Xin</a>, News Engineer and Editor</li>
-<li>Frank Lin, Data Engineer</li>
-<li><a href="http://stupidvicky.com" target="_blank" rel="external">Victoria Jin Qiufeng</a>, Designer</li>
-<li>Chao Tianyi, Researcher</li>
-<li>Kate Liu Xue, UX Assistant</li>
-</ul>
-<h2 id="Credits">Credits</h2><p>This website is designed by Victoria and implemented by Andy and Victoria and <a href="https://github.com/initiumlab/initiumlab.com/graphs/contributors" target="_blank" rel="external">other contributors</a>.<br>We thank the contributors to the following projects that made this website possible:</p>
+<h1>About Initium Lab</h1>
+
+We aim to push the limits of Journalism with Technology.
+<h2>The Team</h2>
 <ul>
-<li><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>, the static site generator,</li>
-<li><a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Hexo-next</a>, the theme we base our design on,</li>
-<li><a href="https://www.mathjax.org/" target="_blank" rel="external">MathJax</a>, the plug-in enabling easy insertion of formulae, and</li>
-<li><a href="https://swiftype.com/" target="_blank" rel="external">Swiftype</a>, which powers our in-site search.</li>
+	<li><a href="http://hupili.net/">Hu Pili</a>, Data Scientist and Director</li>
+	<li><a href="http://shux.in">Andy Shu Xin</a>, News Engineer and Editor</li>
+	<li>Frank Lin, Data Engineer</li>
+	<li><a href="http://stupidvicky.com">Victoria Jin Qiufeng</a>, Designer</li>
+	<li>Chao Tianyi, Researcher</li>
+	<li>Kate Liu Xue, UX Assistant</li>
 </ul>
-<p>Contact us:<br><a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#101;&#x64;&#105;&#x74;&#x6f;&#114;&#115;&#64;&#x69;&#x6e;&#x69;&#116;&#x69;&#x75;&#109;&#x6c;&#x61;&#98;&#x2e;&#99;&#111;&#x6d;">&#101;&#x64;&#105;&#x74;&#x6f;&#114;&#115;&#64;&#x69;&#x6e;&#x69;&#116;&#x69;&#x75;&#109;&#x6c;&#x61;&#98;&#x2e;&#99;&#111;&#x6d;</a></p>
 
+<h2>Credits</h2>
+This website is designed by Victoria and implemented by Andy and Victoria and <a href="https://github.com/initiumlab/initiumlab.com/graphs/contributors">other contributors</a>.
+We thank the contributors to the following projects that made this website possible:
+- <a href="https://hexo.io/">Hexo</a>, the static site generator,
+- <a href="https://github.com/iissnan/hexo-theme-next">Hexo-next</a>, the theme we base our design on,
+- <a href="https://www.mathjax.org/">MathJax</a>, the plug-in enabling easy insertion of formulae, and
+- <a href="https://swiftype.com/">Swiftype</a>, which powers our in-site search.
+<br>
+<br>
+Contact us:
+<br>
+<a href="editors@initiumlab.com">editors@initiumlab.com</a>
+
+<h2>Photo Gallery</h2>
+<div id="photo_place">
+	<!-- <div class="arrow">
+		<img src="../images/arrow_left.svg">
+	</div> -->
+	<div id="photo_gallery">
+		<div class="photo_thumb">
+			<img src="../images/photoGallery/jackathon4.jpg">
+			<div class="photo_descrip">jackathon #1 Improve Infographics Around You</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/jackathon2.jpg">
+			<div class="photo_descrip">jackathon #1 Improve Infographics Around You</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/jackathon1.jpg">
+			<div class="photo_descrip">jackathon #2 Data Analysis</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/jackathon3.jpg">
+			<div class="photo_descrip">jackathon #3 Read a Data Science Book in 8 Hours</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/jackathon5.jpg">
+			<div class="photo_descrip">jackathon #5 Read a Journalism Book in 8 Hours</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/press_release1.jpg">
+			<div class="photo_descrip">Legco 3D Inforgaphic Press Conference</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/press_release2.jpg">
+			<div class="photo_descrip">Legco 3D Inforgaphic Press Conference</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/press_release3.jpg">
+			<div class="photo_descrip">Legco 3D Inforgaphic Press Conference</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/workshop2.jpg">
+			<div class="photo_descrip">Workshop #3 React in One Hour</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/workshop3.jpg">
+			<div class="photo_descrip">Workshop #3 React in One Hour</div>
+		</div><!--
+		--><div class="photo_thumb">
+			<img src="../images/photoGallery/workshop1.jpg">
+			<div class="photo_descrip">Workshop #7 React in One Hour</div>
+		</div>
+	</div>
+	<!-- <div class="arrow">
+		<img src="../images/arrow_right.svg">
+	</div> -->
+</div>
     
-  </div>
-
  </div>
 
         
@@ -263,7 +359,9 @@ Victoria Jin Qiu">
       
     </main>
 
-    <footer id='page-footer'>
+    <footer id='page-footer-placeholder'>
+</footer>
+<footer id='page-footer'>
     <div id="mc_embed_signup">
       <form action=""
             method=""
@@ -381,6 +479,26 @@ Victoria Jin Qiu">
 
   
   
+  
+  <script type="text/javascript" src="../js/qrcode.js"></script>
+  <script defer type="text/javascript" src="../js/social_bar.js"></script>
+
+
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66625644-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+<script type="text/javascript" src="../js/customized-tracking.js"></script>
+
+
 
   
   <script type="text/javascript" src="../js/lazyload.js"></script>
@@ -391,16 +509,6 @@ Victoria Jin Qiu">
         effect: "fadeIn"
       });
     });
-  </script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-66625644-1', 'auto');
-    ga('send', 'pageview');
-
   </script>
 </body>
 </html>
