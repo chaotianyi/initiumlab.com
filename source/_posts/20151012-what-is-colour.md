@@ -1,6 +1,9 @@
 title: 數據新聞人，今夜我們談色
 date: 2015-10-12 11:59:20
-author: Andy Shu
+author:
+- name: Andy Shu
+  url : 'http://shux.in/'
+language: zh-hant
 tags:
 - Design
 - Accessibility

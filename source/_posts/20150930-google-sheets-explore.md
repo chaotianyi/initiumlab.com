@@ -1,6 +1,7 @@
 title: 整日做表沒思路？Google幫你開腦洞
 date: 2015-09-30 00:06:19
-author: Chao Tianyi
+author:
+- name: Chao Tianyi
 language: zh-hant
 tags:
 - Tools

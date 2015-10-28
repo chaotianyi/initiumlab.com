@@ -1,6 +1,8 @@
 title: 可視化火了 盲人怎麼辦
 date: 2015-09-01 21:39:43
-author: Andy Shu
+author:
+- name: Andy Shu
+  url: http://shux.in/
 description: 作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？
 language: zh-hant
 thumbnail: /blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg
@@ -10,7 +12,7 @@ tags:
 - "Accessibility"
 ---
 
-![中國有視力殘障1263萬，香港人口才703萬，上海常住人口1404萬。](/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg)
+![中國有視力殘障1040萬，香港人口才710萬，上海常住人口2302萬。](/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.png)
 中國有五百萬盲人<sup><a href="#note1">[註1]</a></sup>， 接近香港的總人口。 加上弱視，總數超過一千二百萬<sup><a href="#note2">[註2]</a></sup>。
 
 盲人走丟是舊聞，盲貓失蹤纔是新聞：

@@ -1,9 +1,12 @@
 title: "在Facebook找新聞線索？FB Signal搶鮮試用"
 date: 2015-10-15 11:28:04
-author: Andy Shu
+author:
+- name: Andy Shu
+  url: http://shux.in/
 tags:
 - Signal
 - Tools
+language: zh-hant
 ---
 
 2015年9月17日，Facebook 推出 Signal，專為新聞家設計，用來在 Facebook 和 Instagram 上發掘新聞線索。12個小時之前，我們收到了Signal試用權限，下面為大家介紹我們試用Signal的經驗。
