@@ -448,7 +448,7 @@ div.clear {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     body {
         font-size: 200%;
     }
@@ -547,5 +547,3 @@ div.clear {
   from { background-color: white; }
   to { background-color: black; }
 }
-
-
