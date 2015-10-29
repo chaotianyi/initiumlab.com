@@ -1,7 +1,7 @@
 title: "Jackathon #5 -- Read a journalism book in 8 hours"
-author: Initium Lab
+author: 
+- name: Initium Lab
 date: 2015-10-25
- 
 tags:
 - journalism
 - lang:English
@@ -14,6 +14,7 @@ Weeks ago, in [Jackathon #3](http://initiumlab.com/blog/20150922-jackathon3-revi
 
 ![Discussion](/blog/20151025-jackathon-no-5/Discussion.jpeg)
 
+<!-- more -->
 ## Andy’s introduction: Which journalism?
 
 Andy Shu introduced the books by illustrating an broadstroke outline of the intellectual disciplines that eventually lead to Journalism. He started with medieval universities, which usually house four “departments”: Arts, Medicine, Law, and Theology. The Arts department taught Trivium, i.e. Latin Grammar, Rhetorics, and Logic. It also taught Philosophy.
