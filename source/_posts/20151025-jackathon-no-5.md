@@ -1,7 +1,8 @@
 title: "Jackathon #5 -- Read a journalism book in 8 hours"
 author: 
 - name: Initium Lab
-date: 2015-10-25
+date: 2015-10-25 09:00:00
+language: en
 tags:
 - journalism
 - lang:English
