@@ -1,7 +1,7 @@
 title: 哪國大學裏女生比例最高？聯合國超全數據集告訴你
 date: 2015-11-06 16:24:07
 author:
-- Frank Lin
+- name: Frank Lin
 tags:
 - lang:Chinese
 - data
@@ -15,6 +15,8 @@ language: zh-hant
 ![猜猜這 4 張圖分別是中國、美國、日本、印度之中的哪個國家？](/blog/20151106-gender-parity-in-education-and-un-mdg/4-country-gender.png)
 
 猜猜這 4 張圖分別是**中國、美國、日本、印度**之中的哪個國家？
+
+<!-- more -->
 
 圖 A：女學生比例低，但增長迅速。
 圖 B：女學生比例呈增長趨勢，其中初等、中等教育的性別比例已經在 2005 年前後穩定在 1:1 的水平。高等教育中女學生比例增長迅速。
