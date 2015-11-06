@@ -1,9 +1,12 @@
 title: 哪國大學裏女生比例最高？聯合國超全數據集告訴你
 date: 2015-11-06 16:24:07
-author: Frank Lin
+author:
+- Frank Lin
 tags:
-- "lang:Chinese"
-- "data"
+- lang:Chinese
+- data
+language: zh-hant
+
 ---
 你上學時，女同學多還是男同學多？在貧窮的國家，女孩往往缺少平等的受教育機會。但經濟也許並非唯一因素。
 
