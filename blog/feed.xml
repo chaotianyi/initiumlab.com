@@ -7,14 +7,42 @@
     <link>http://initiumlab.com/blog/</link>
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[The Website of Initium Lab, the exploratory arm of Initium Media]]></description>
-    <pubDate>Thu, 29 Oct 2015 08:03:36 GMT</pubDate>
+    <pubDate>Fri, 13 Nov 2015 04:04:46 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title><![CDATA[哪國大學裏女生比例最高？聯合國超全數據集告訴你]]></title>
+      <link>http://initiumlab.com/blog/blog/20151106-gender-parity-in-education-and-un-mdg/</link>
+      <guid>http://initiumlab.com/blog/blog/20151106-gender-parity-in-education-and-un-mdg/</guid>
+      <pubDate>Fri, 06 Nov 2015 08:24:07 GMT</pubDate>
+      <description>
+      <![CDATA[<p>你上學時，女同學多還是男同學多？在貧窮的國家，女孩往往缺少平等的受教育機會。但經濟也許並非唯一因素。</p>
+<p>我們選取了 4 個國家，分别繪製 1990 年以来入學性別比例的折线圖。縱軸表示女學生與男學生的人數之比，如果數值小於 1.0 ，則代表女學生少於男學生。藍色、綠色、紅色折線分別指初等、中等、高等教育。</p>
+<p><img src="/blog/20151106-gender-parity-in-education-and-un-mdg/4-country-gender.png" alt="猜猜這 4 張圖分別是中國、美國、日本、印度之中的哪個國家？"></p>
+<p>猜猜這 4 張圖分別是<strong>中國、美國、日本、印度</strong>之中的哪個國家？</p>]]>
+      
+      </description>
+      <content:encoded><![CDATA[<p>你上學時，女同學多還是男同學多？在貧窮的國家，女孩往往缺少平等的受教育機會。但經濟也許並非唯一因素。</p>
+<p>我們選取了 4 個國家，分别繪製 1990 年以来入學性別比例的折线圖。縱軸表示女學生與男學生的人數之比，如果數值小於 1.0 ，則代表女學生少於男學生。藍色、綠色、紅色折線分別指初等、中等、高等教育。</p>
+<p><img src="/blog/20151106-gender-parity-in-education-and-un-mdg/4-country-gender.png" alt="猜猜這 4 張圖分別是中國、美國、日本、印度之中的哪個國家？"></p>
+<p>猜猜這 4 張圖分別是<strong>中國、美國、日本、印度</strong>之中的哪個國家？</p>
+<a id="more"></a>
+<p>圖 A：女學生比例低，但增長迅速。<br>圖 B：女學生比例呈增長趨勢，其中初等、中等教育的性別比例已經在 2005 年前後穩定在 1:1 的水平。高等教育中女學生比例增長迅速。<br>圖 C：初等和中等教育的性別比例在 1990 年之前已经達到均衡。高校女生比例經過了二十年的增長，仍然低於男生。<br>圖 D：初等和中等教育的情況與圖 C 一樣都是 1:1，高校女生比例高得驚人。</p>
+<p>正確答案是：</p>
+<p>圖 A：印度。<br>圖 B：中國。<br>圖 C：日本。<br>圖 D：美國。</p>
+<p>相信大家憑藉對中國、美國、日本、印度這 4 個國家的經濟和文化的基本了解就能猜出大半。</p>
+<p>女學生和男學生的比例，是<a href="http://www.un.org/zh/millenniumgoals/" target="_blank" rel="external">聯合國八項千年發展目標</a>之一的「促進兩性平等並賦予婦女權力」之中一個關鍵指標。2015 年是聯合國千年發展目標的預定完成年份，那麼現在進度如何呢？</p>
+<p>聯合國自己也想知道，所以把所有指標的數據公開了出來供社會公衆分析，裏面包含了各國歷年來在所有指標上的表現。入學性別比例只是冰山一角，經濟發展、環境保護、健康衛生等社會熱點議題都在這個數據集中對應着豐富的材料。如果你愛好數據分析，一定能從這個數據集中掘出寶藏。</p>
+<p>更詳細的說明請見<a href="http://mdgs.un.org/unsd/mdg/Data.aspx" target="_blank" rel="external">聯合國對此數據集的介紹</a>。如果你已迫不及待要拿整個數據集，<a href="https://unite.un.org/ideas/sites/unite.un.org.ideas/files/public/MdgDatabase_2015WSD_DataVizChallenge.zip" target="_blank" rel="external">就直接點擊這裏下載聯合國官方數據集壓縮包吧</a>。</p>
+]]></content:encoded>
+      <comments>http://initiumlab.com/blog/blog/20151106-gender-parity-in-education-and-un-mdg/#disqus_thread</comments>
+    </item>
     
     <item>
       <title><![CDATA[Jackathon #5 -- Read a journalism book in 8 hours]]></title>
       <link>http://initiumlab.com/blog/blog/20151025-jackathon-no-5/</link>
       <guid>http://initiumlab.com/blog/blog/20151025-jackathon-no-5/</guid>
-      <pubDate>Sun, 25 Oct 2015 02:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2015 01:00:00 GMT</pubDate>
       <description>
       <![CDATA[<p>Still remember the “read-one-book-in-eight-hours” activity?</p>
 <p>Weeks ago, in <a href="http://initiumlab.com/blog/20150922-jackathon3-review/">Jackathon #3</a> , we turned our lab as a reading club , and had a fruitful day reading <a href="http://www.kdnuggets.com/2015/09/free-data-science-books.html/">Data Science books</a>. This time, the theme was to read something journalistic. 11 participants were required to finish reading one or two books in 8 hours, and share their findings or insights in the end.</p>
@@ -283,8 +311,8 @@
     
     <item>
       <title><![CDATA[整日做表沒思路？Google幫你開腦洞]]></title>
-      <link>http://initiumlab.com/blog/blog/20150929-google-sheets-explore/</link>
-      <guid>http://initiumlab.com/blog/blog/20150929-google-sheets-explore/</guid>
+      <link>http://initiumlab.com/blog/blog/20150930-google-sheets-explore/</link>
+      <guid>http://initiumlab.com/blog/blog/20150930-google-sheets-explore/</guid>
       <pubDate>Tue, 29 Sep 2015 16:06:19 GMT</pubDate>
       <description>
       <![CDATA[<p>一個數據分析項目，往往始於摸索一張龐大而陌生的數據表格。嘗試畫些簡易圖表是啟發思路的好辦法，但這絕非易事──想想有多少種圖表：直方圖柱狀圖餅圖折線圖雷達圖……若選取不同的列來分析，每種圖表又有多達幾十種畫法。</p>
@@ -310,7 +338,7 @@
 <p>總之，Google Sheets 新功能 Explore 能在最短的時間內羅列出盡可能多的圖表和分析，最適合在探索數據之初，拿來開開腦洞、找找頭緒。</p>
 <p>資料來源：<br>[1] <a href="https://support.google.com/docs/answer/6280499?hl=en" target="_blank" rel="external">Quickly get insights on a spreadsheet using Explore</a><br>[2] <a href="http://salary360.initiumlab.com/?from=initiumlab" target="_blank" rel="external">十八區人工大比拼，你份量攞第幾？</a><br>[3] <a href="http://www.census2011.gov.hk/tc/" target="_blank" rel="external">香港政府統計處 2011香港人口普查</a><br>[4] <a href="http://www.census2011.gov.hk/tc/main-table/E103.html" target="_blank" rel="external">2001年、2006年及2011年按房屋類型劃分的家庭住戶數目</a><br>[5] <a href="http://www.census2011.gov.hk/tc/main-table/A301.html" target="_blank" rel="external">2011年按區議會選區及慣用語言劃分的五歲及以上的人口</a><br>[6] <a href="http://www.census2011.gov.hk/tc/main-table/A303.html" target="_blank" rel="external">2011年按區議會選區、性別及年齡組別劃分的人口</a><br>[7] <a href="http://gazetteer.hk/#/" target="_blank" rel="external">Gazetteer HK</a></p>
 ]]></content:encoded>
-      <comments>http://initiumlab.com/blog/blog/20150929-google-sheets-explore/#disqus_thread</comments>
+      <comments>http://initiumlab.com/blog/blog/20150930-google-sheets-explore/#disqus_thread</comments>
     </item>
     
     <item>
