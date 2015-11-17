@@ -7,7 +7,7 @@
     <link>http://initiumlab.com/blog/</link>
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[The Website of Initium Lab, the exploratory arm of Initium Media]]></description>
-    <pubDate>Fri, 13 Nov 2015 04:04:46 GMT</pubDate>
+    <pubDate>Tue, 17 Nov 2015 03:02:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -36,6 +36,51 @@
 <p>更詳細的說明請見<a href="http://mdgs.un.org/unsd/mdg/Data.aspx" target="_blank" rel="external">聯合國對此數據集的介紹</a>。如果你已迫不及待要拿整個數據集，<a href="https://unite.un.org/ideas/sites/unite.un.org.ideas/files/public/MdgDatabase_2015WSD_DataVizChallenge.zip" target="_blank" rel="external">就直接點擊這裏下載聯合國官方數據集壓縮包吧</a>。</p>
 ]]></content:encoded>
       <comments>http://initiumlab.com/blog/blog/20151106-gender-parity-in-education-and-un-mdg/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Initium Lab at BarCamp Hong Kong 2015]]></title>
+      <link>http://initiumlab.com/blog/blog/20151105-barcamp-hk-2015/</link>
+      <guid>http://initiumlab.com/blog/blog/20151105-barcamp-hk-2015/</guid>
+      <pubDate>Thu, 05 Nov 2015 02:16:16 GMT</pubDate>
+      <description>
+      <![CDATA[<p>On 17 October 2015, <a href="http://barcamp.hk/">Barcamp 2015</a> was held in Hong Kong and Initium Lab presented 3 sections of sharing, with an additional panel discussion planned onsite.</p>
+<p>Our topics on the topic board. After the sessions, the audience can stick red stickers on the topic to show appreciation.</p>
+<p><img src="/blog/20151105-barcamp-hk-2015/barcamp-hk-initiumlab-topics.png" alt="Initium Lab prepared 3 talks for Barcamp Hong Kong 2015: on JavaScript, QRCode, and Hong Kong District Council Data"></p>]]>
+      
+      </description>
+      <content:encoded><![CDATA[<p>On 17 October 2015, <a href="http://barcamp.hk/" target="_blank" rel="external">Barcamp 2015</a> was held in Hong Kong and Initium Lab presented 3 sections of sharing, with an additional panel discussion planned onsite.</p>
+<p>Our topics on the topic board. After the sessions, the audience can stick red stickers on the topic to show appreciation.</p>
+<p><img src="/blog/20151105-barcamp-hk-2015/barcamp-hk-initiumlab-topics.png" alt="Initium Lab prepared 3 talks for Barcamp Hong Kong 2015: on JavaScript, QRCode, and Hong Kong District Council Data"></p>
+<a id="more"></a>
+<h2 id="Learn_JavaScript_like_a_Natural_Language">Learn JavaScript like a Natural Language</h2><p>Andy Shu, News Engineer with Initium Lab, shared his experience of migrating skills in Natural Language Acquisition to accelerate learning programming languages.</p>
+<p><img src="/blog/20151105-barcamp-hk-2015/andy-barcamp-hk-javascript.jpg" alt="Andy Shu talking about Learning JavaScript"></p>
+<p>Andy outlined 6 tactics of natural language learning applicable to learning programming languages.</p>
+<p>The first is to get to the “minimallly viable proficiency” as soon as possible, at which point the language becomes useful to the learner. After that point, learning turns self-sustainable as learning directly brings benefits.</p>
+<p>The second is spaced repetition, which basically says you should review materials often in small chuncks, rather than trying to memorize everything in one shot.</p>
+<p>The third is “comprehensible input + 1”, meaning the learners should try to read materials slightly above their level, rather than dwelling in their comfort zone.</p>
+<p>The fourth is using existing mental models to understand unfamiliar concepts.</p>
+<p>The fifth is shadow writing, which refers to the exercises of writing code and compare it with exemplary code.</p>
+<p>The sixth is learning with others.</p>
+<p>The slides with details about the learning strategies are available here:<br><a href="http://docs.google.com/presentation/d/1JXdyXiFjXKw5w4zkbtVUDXG0CFhYlLCkaGMghktvjgg/" target="_blank" rel="external">http://docs.google.com/presentation/d/1JXdyXiFjXKw5w4zkbtVUDXG0CFhYlLCkaGMghktvjgg/</a></p>
+<h2 id="Cold_Knowledge_on_QRCode">Cold Knowledge on QRCode</h2><p>Hu Pili talked about the less known side of QR Code, for example, QRCode can be hacked and direct to another URL if someone filling originally blank cells.</p>
+<p>He also demonstrated how to make functional QRCodes with image patterns.</p>
+<p><img src="/blog/20151105-barcamp-hk-2015/hupili-barcamp-hk-qrcode-avatar.jpg" alt="QRCode looking like profile pictures"></p>
+<p><img src="/blog/20151105-barcamp-hk-2015/hupili-barcamp-hk-qrcode-dressedup-audience.JPG" alt="An audience dressed up in traditional Chinese attire taking photo of the QRCode demonstrated by Hu Pili"></p>
+<p>The slides are available at:<br><a href="https://docs.google.com/presentation/d/1Pb4JVbmOpSHdZdiHEfaXJCo0YCyTKC7iEDeD8odD8k4/pub?start=false&amp;loop=false&amp;delayms=3000" target="_blank" rel="external">https://docs.google.com/presentation/d/1Pb4JVbmOpSHdZdiHEfaXJCo0YCyTKC7iEDeD8odD8k4/pub?start=false&amp;loop=false&amp;delayms=3000</a></p>
+<h2 id="Panel_Talk:_Internet_Media_-_Winter_is_Coming?">Panel Talk: Internet Media - Winter is Coming?</h2><p>Fully in the spirit of Barcamp, Andy met a few fellow practitioners in the Internet-based Media and decided during the conference to hold a panel talk about Internet Media.</p>
+<p>Kris Cheng of Hong Kong Free Press, Franky Chu of InMedia, and Andy shared each others’ experience and vision, majorly about the the sustainablity of serious Journalism in an era flooded with free information.</p>
+<p><img src="/blog/20151105-barcamp-hk-2015/andy-barcamp-hk-media-panel-talk.JPG" alt="Kris, Franky, and Andy sharing experiences"></p>
+<h2 id="Live_Data_Mining:_Hong_Kong_District_Council">Live Data Mining: Hong Kong District Council</h2><p>Chao Tianyi, Researcher of Initium Lab, Hu Pili and Andy held a live data mining section demonstrating the potential use of the Hong Kong District Council Election data, as well as use of data processing tools such as Google Spreadsheet, Fusion Table, and Refine.</p>
+<p>The audience supplied questions about the elections and we answer them with the data in hand.</p>
+<p><img src="/blog/20151105-barcamp-hk-2015/chao-andy-hupili-barcamp-hk-live-datamining-mapmaking.JPG" alt="Chao Tianyi, Hu Pili, and Andy working on the dataset to answer questions"></p>
+<p>We also participated talks by others.</p>
+<h2 id="How_could_IT_Help_to_Democratize_Christianity">How could IT Help to Democratize Christianity</h2><p>Frankie Ng from Ekklesia Hong Kong starts a conversion with other participants about democratizing the Christian Chuches in Hong Kong. He highlights the political potential of the 350 thousand Christians in Hong Kong, many of whom can vote for electors for the Election Committee for the Chief Executive of Hong Kong.</p>
+<p>Participants contributed ideas that Hong Kong Christians should have a new platform to discuss politics. Another participant shared his experience promoting Open Source in Hong Kong, pointing out that it is usually not the (techincal) platform that is missing, rather, it is that we are often rushed to achieve something, while communication is inadequate.</p>
+<h2 id="PHP_is_the_Best_Language">PHP is the Best Language</h2><p>A supporter of PHP, whose name is beyond our recollection, talked about the benefits of PHP and the ecosystem and toolchain.<br>He first refuted the criticism that “PHP is old” by noting that JavaScript is also old. (Editors’ note: Both PHP and JavaScript appeared in 1995.)</p>
+<p>He then introduced to the audience PHP7, which is twice as fast as the previous PHP in many cases. A few tools were mentioned:<br>Silex, which is like express;<br>Laravel, which is like Rails;<br>ReactPHP, event-driven &amp; non-blocking I/O just like Node.js;<br>Symfony, a component library and a framework,;<br>composer, packagist, both package managers;<br>PHPUnit, a testing framework;<br>Behat for BDD; and<br>Blackfire for profiling.</p>
+]]></content:encoded>
+      <comments>http://initiumlab.com/blog/blog/20151105-barcamp-hk-2015/#disqus_thread</comments>
     </item>
     
     <item>
