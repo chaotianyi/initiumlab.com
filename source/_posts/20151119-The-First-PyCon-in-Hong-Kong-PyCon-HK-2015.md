@@ -10,23 +10,23 @@ tags:
   - lang-English
 date: 2015-11-19 12:08:48
 ---
-On 7 Nov 2015 and 8 Nov 2015,  the Pythoners in Hong Kong ushered in its first PyCon (Python Conference), the largest annual gathering for their community. since Python is used a lot in Initium Lab, we also attended this festival and two of us, Pili Hu and Andy Shu, were selected to be speakers. Here, we note what we learned during these two days.
+
+On 7 Nov 2015 and 8 Nov 2015,  the Pythoners in Hong Kong ushered in its first PyCon (Python Conference), the largest annual gathering for their community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
 
 <!-- more -->
 
-Python and PyCon
-===
+## Python and PyCon
 
-For those who do not know Python, it is a programming language that let you work quickly and efficiently. However, PyCon is not only about Python, it is more about the open ecosystem and its supportive community.  Therefore, this conference dedicated to provide enjoyable experience to almost everyone. 
+For those who do not know Python, it is a programming language that let you work quickly and efficiently. However, PyCon is not only about Python, it is more about the open ecosystem and its supportive community. Therefore, this conference is dedicated to provide enjoyable experience to almost everyone. 
 
-Topics Included 
-===
+## Topics Included 
 
-Because diversity is one of PyCon's enshrined spirits, a board range of topics were covered by speakers from different fields including search engine, text mining, data science techniques, web development, financial technology, alternative language, to name a few. For a full list of topics being talked, please refer to the conference's official website: [http://2015.pycon.hk/schedule/](http://2015.pycon.hk/schedule/)
+Because diversity is one of PyCon's enshrined spirits, a broad range of topics were covered by speakers from different fields including search engine, text mining, data science techniques, web development, financial technology, alternative language, just to name a few. For a full list of topics presented on PyCon, you can refer to the conference's official website: [http://2015.pycon.hk/schedule/](http://2015.pycon.hk/schedule/)
 
-As attendants, we will selectively brief some of the topics in this note. Now, let us go through them in turn.
+Following are some of selected topics that we would like to share with the community.
 
-## Elasticsearch Talks and Workshop
+### Elasticsearch Talks and Workshop
+
 **Speaker**: Honza Král from Elastic Co.
 
 Elastic Co. is the one of the conference's Gold Sponsors and its speaker was very contributory by giving two talks and one workshop.
@@ -65,7 +65,7 @@ During the workshop, Mr. Král covered basic steps like syncing the models to a 
 
 You can checkout the code of the workshop from - [https://github.com/HonzaKral/es-django-example](https://github.com/HonzaKral/es-django-example)
 
-## What exactly is 'plastics' on Hong Kong Golden Forum? A text mining analysis
+### What exactly is 'plastics' on Hong Kong Golden Forum? A text mining analysis
 **Speaker**: Chung-hong Chan (電鋸)
 
 Mr. Chan is a Phd student from Journalism and Media Studies Centre, The University of Hong Kong. With a combination of different tools in python and perl, he applied a classic topic model analysis to the text in Golden Forum. 
@@ -78,7 +78,7 @@ The tools and method he used:
 > - LDA - The full name is Latent Dirichlet allocation, a model for topic discovery.
 > - Small tools that do one thing better is superior than one tool that do everything poorly. 
 
-## Monitoring the performance of Python web applications 
+### Monitoring the performance of Python web applications 
 **Speaker**: Graham Dumpleton from Red Hat
 
 He is the author of `mod_wsgi`. In this talk, he told us how the performance of traditional Python web application can be measured in detail. 
@@ -91,7 +91,7 @@ For further details, you can read Graham Dumpleton's blog posts at:
 - [http://blog.dscpl.com.au/2015/05/performance-monitoring-of-real-wsgi.html](http://blog.dscpl.com.au/2015/05/performance-monitoring-of-real-wsgi.html)
 - [http://blog.dscpl.com.au/2015/06/implementing-request-monitoring-within.html](http://blog.dscpl.com.au/2015/06/implementing-request-monitoring-within.html)
 
-## Using Python for Data Mining Projects
+### Using Python for Data Mining Projects
 **Speaker**: Chris Choy 
 
 Mr. Choy is profession in statistics and data mining. He got his Phd in high dimensional statistic in Oxford and is now a Senior Computational Scientist at ClusterTech. 
@@ -109,7 +109,7 @@ How he used those tools:
 All the code can be found on his github repository:
 [https://github.com/christlc/pycon2015hk](https://github.com/christlc/pycon2015hk)
 
-## My Personal Take
+### My Personal Take
 **Speaker**: Austin Imperial (Niknok), 13 years old
 
 Yea, it is not a typo, a 13-year-old coding machine did spoke in this Conference. He is a Grade 8 student from the Philippines. He studied Python, PHP, Ruby, Javascript, C, C++, SQL, HTML and CSS from MOOC (Massive Open Online Course) on him own.
@@ -138,7 +138,7 @@ Moreover, Austin do have insightful opinions in creating personal projects. He s
 
 His github: [https://github.com/akaNiknok](https://github.com/akaNiknok) 
 
-## Introduction to aiohttp -- asyncio-based web framework
+### Introduction to aiohttp -- asyncio-based web framework
 **Speaker**: Andrew Svetlov
 
 This is talk given by the author of the `aiohttp` framework. As Austin Imperial - the speaker of 'My Personal Take' - have mentioned,  inspiration can be a need to solve a problem in your life. `aiohttp` is to solve the common problem that faced by most programmers who write asynchronous web application. If you have experience in Node.js,  it is quite common to encounter non-elegant code with infinite callbacks. The same type of problem also appears in Python. Programmer need to adopt asynchronous programming when a lot of I/O is involved. This is because I/O is slow and the CPU is not needed to handle most of it. So Python's creator mentioned, in PyCon 2013, that he was working on a 'standard framework' to standardize the event loop. The framework is `asyncio` and enable us to run asynchronous computations without callbacks.
@@ -165,14 +165,17 @@ Source code: [https://github.com/KeepSafe/aiohttp](https://github.com/KeepSafe/a
 
 He is happy to accept pull requests.
 
-## Better type at Python
+### Better type at Python
 **Speaker**:  Rick Mak from Oursky 
 
 Function annotation is Python 3.5's new feature. It is useful for static type analysis, e.g. type hints in a IDE, discover bugs earlier. 
 
 Here is a simple function whose argument and return type are declared in the annotations:
-<pre lang="python">def greeting(name: str) -> str:
-    return 'Hello ' + name</pre>
+
+```python
+def greeting(name: str) -> str:
+    return 'Hello ' + name
+```
 
 Mr Mak is an advocate for using type annotations. Although this feature do not help your code gain performance boost, it provides the following benefits:
 > **Type Hints**
@@ -187,13 +190,13 @@ Mr Mak is an advocate for using type annotations. Although this feature do not h
 
 Follow Mr. Mak at: [https://twitter.com/rickmak](https://twitter.com/rickmak)
 
-## Workshop: Let's break some stupid CAPTCHAs!
+### Workshop: Let's break some stupid CAPTCHAs!
 **Speaker**: Chung-hong Chan （陳電鋸）
 
 Chung-hong Chan demonstrated how to crack stupid CAPTCHAS. Python libraries such as Numpy, Matplotlib, and OpenCV were introduced. The most amazing thing we could learn from this workshop was that so many CAPTCHAS on Hong Kong websites are REALLY weak, for example, some even expose raw answers in HTML page source.
 Source code Chung-hong Chan demonstrated could be found on his GitHub repo for PyCon: [https://github.com/chainsawriot/pycon_vm](https://github.com/chainsawriot/pycon_vm).
 
-## Financial technology
+### Financial technology
 **Speaker**: Joseph Wang (joequant) from Bitquant Research Laboratories
 
 About Speaker
@@ -207,7 +210,7 @@ According to Dr. Wang, Python is intensively used in investment banking. What’
 Dr. Wang was currently working on his trading bot project. “Trading is 90% psychology,“ Dr. Wang said, “Go to a casino, see what people do, and don’t do that.”
 Dr. Wang encouraged audience to “steal my software please!!!” You must be interested to get something on his GitHub at [https://github.com/joequant/bitquant](https://github.com/joequant/bitquant).
 
-## Decoding the Language of Cereal Box Design with Scikit-Learn
+### Decoding the Language of Cereal Box Design with Scikit-Learn
 **Speaker**: Mart van de Ven (tijptjik)
 
 The talk is about find correlation between the cartoon brands on the cereal boxes and what's inside the cereal boxes. Mart uses a set of data science techniques to explore how marketing departments use colour, layout and character design to communicate what you can expect from a cereal. He in this talk highlighted the use of the PyData stack to generate features from images, cluster cereal types and predict their nutritional values.
@@ -221,20 +224,28 @@ Steps he used to define and solve data science problems:
 
 Mart's work train. 
 - Preparing the data. He used cv2 library to get feature vectors from raw images.
-<pre>import cv2
-cv2.imread('cerealbox.png')</pre>
+
+```python
+import cv2
+cv2.imread('cerealbox.png')
+```
+
 - Then clean the feature vectors. e.g. get rid of white colour.
-<pre>cv2.threshold(img...)</pre>
+
+```python
+cv2.threshold(img...)
+```
+
 - Read values, including dimensions, grayscale histogram, flattened color histogram, resize the picture, RGB to HSV, etc
 - Machine learning: Hair features, Haar cascade, Gaze recognition...
 
 If you want to learn more about this talk, you can contact him by email m@droste.hk
 
-## Scrape more with Less codes && Scraping in 5 min
+### Scrape more with Less codes && Scraping in 5 min
 **Speaker**: Pili Hu and Andy Shu Xin from Initium Media
 TODO
 
-## Haxe, a statically-typed language that compiles to Python
+### Haxe, a statically-typed language that compiles to Python
 **Speaker**: Andy Li
 
 We have mentioned that PyCon is not only for Python, it is a gathering welcomes diversity. So here comes a talk about another programming languages, Haxe. Haxe is an open source high-level multi-platform programming language and compiler that can produce application and source code for 9 platforms. Here is a list of compiler targets:
@@ -265,20 +276,25 @@ Haxe advantages:
 Haxe to Python sample:
 
 **Haxe code**
-<pre>class Untyped {
+```
+class Untyped {
 static function main(): Void {
     var l = untyped list("abc")
         trace(l); // ['a', 'b', 'c']
     }
-}</pre>
+}
+```
 
 **Python code** generated
-<pre>class Untyped:
+
+```
+class Untyped:
     __slots__ = ()
     @staticmethod
     def main():
         l = list("abc")
-        print(str(l))</pre>
+        print(str(l))
+```
 
 Future work in relation to Python target:
 > - Output type annotations
@@ -287,7 +303,7 @@ Future work in relation to Python target:
 
 Find Andy's slides HERE: [http://haxe.io/@andy_li/PyCon%20HK%202015.pdf](http://haxe.io/@andy_li/PyCon%20HK%202015.pdf)
 
-## The changing landscape of Python web application deployment 
+### The changing landscape of Python web application deployment 
 **Speaker**: Graham Dumpleton 
 
 Again, this is another talk from Graham, the author of `mod_wsgi`. He is now working for the Red Hat's OpenShift team, a PaaS (Platform-as-a-Server) solution that allows developers to quickly develop, host and scale applications in cloud environment. He said the reason that he become part of the OpenShift team is because Red Hat announced the intention to bring Docker and Kubernetes together and overhaul OpenShift to be fully based around these technologies. 
@@ -297,7 +313,9 @@ Subsequently, Graham made a comparison between Containers and Virtual Machines. 
 There is no slides for this talk, but he did show us several tricks in using Docker. I list two of them here.
 
 **Build a data only container**
-<pre>//Dockerfile
+
+```dockerfile
+//Dockerfile
 FROM busybox
 RUN mkdir /data && chown www-data /data
 VOLUME data
@@ -318,26 +336,34 @@ docker commit live-data live-data-only
 docker images
 docker run --rm -it live-data-only sh
 docker run -it busybox sh
-docker run -rm -it manual-created sh</pre>
+docker run -rm -it manual-created sh
+```
+
 
 **Build a simple python web application**
-<pre>//Dockerfile
+
+```dockerfile
+//Dockerfile
 FROM python:2.7
 USER $MOD_WSGI_USER: $MOD_WSGI_GROUP
 docker run -rm -p 8000:80 python-app
 curl http://{docker-ip}
 docker run -rm -p 8000:80 --name ..
-docker run -rm -link .. # connect two containers</pre>
+docker run -rm -link .. # connect two containers
+```
 
 
-Closing 
-===
+## Closing 
 
 There are more topics that we do not cover in this notes. But we believe it evidenced that the Python community is vast, diverse and open. Actually, PyCon HK 2015 is only the tip of an iceberg. At the closing stage of the conference, we had PyCon organisers from both Taiwan and Korea give us lightening talks. Yep, they are preparing PyCon TW & PyCon APAC 2016. 
 
-Finally, better place a memorable photo of this amazing conference here. (Disclosure: Get it from PyCon HK's facebook group)
+The following Pythoners' group photo well concludes this note.
 
-![MOU PyConHK](/blog/20151119-The-First-PyCon-in-Hong-Kong-PyCon-HK-2015/pycon-hk-2015.jpg) 
+![MOU PyConHK. Photo Credit: TODO](/blog/20151119-The-First-PyCon-in-Hong-Kong-PyCon-HK-2015/pycon-hk-2015.jpg) 
+
+(Photo Credit: PyConHK Facebook Group TODO)
+
+
 
 
 
