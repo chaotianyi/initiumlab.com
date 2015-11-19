@@ -241,9 +241,43 @@ cv2.threshold(img...)
 
 If you want to learn more about this talk, you can contact him by email m@droste.hk
 
-### Scrape more with Less codes && Scraping in 5 min
-**Speaker**: Pili Hu and Andy Shu Xin from Initium Media
-TODO
+### Scraping the Web 
+
+
+Scraping is an important part of data journalism and we perform scraping regularly at Initium Lab.
+Two members from Initium Lab shared their experience on scraping at PyConHK.
+
+**Speaker**:
+
+* Andy Xin, News Engineer @ Initium Lab -- Scraping in 5 min
+* Pili Hu, Data Scientist @ Initium Lab -- Scrape more with Less codes 
+
+In the lightning talk, Andy introduced his experience on scraping in 5 minutes.
+Apparently, one can not learn scraping from zero to one just in 5 minutes, especially starting with non-technical background. Nevertheless, Andy's talk helps one build the concept of scraping and understand common caveats in the process. Interested readers can refer to the slides TODO.
+
+Pili's talk is devoted to quick scraping with the help of some utility tools and Python libraries.
+When doing data journalism, one would iterate between the steps for multiple rounds, from scraping to analysis, to visualisation, and all the way to story-telling. You never want to spend a large chunk of time building a rigorous scraper and ends up in an unpublishable report because of lack of insights, lack of story, lack of evidence from data, ... At the very early proof-of-concept stage, quick scraping skills help one to validate the idea with least cost and that is the focus of the talk. The tools shared in this talk include:
+
+* Human friendly HTTP interface:
+   * CLI: `HTTPie`
+   * Python REPL: `requests`
+* Scale-out:
+   * CLI:
+      * Single machine: `xargs -P`
+      * Multiple machine: `pssh`
+   * Python REPL:
+      * Better to wrap as individual scripts and do multi process
+* Manual parse:
+   * CLI: `pQuery`
+   * Python REPL:
+      * `pyQuery` for FE people
+      * `pandas` useful for tabulared data
+* Automatic parse, in Python REPL:
+   * `PyReadability`: Parse the main body of a page
+   * `scraply`: Learn patterns from your labelling
+   
+Interested readers can refer to the [IPython Notebook of the talk](https://github.com/hupili/workshop-easy-scraping/blob/master/Scrape%20More%20with%20Less%20Codes.ipynb)
+
 
 ### Haxe, a statically-typed language that compiles to Python
 **Speaker**: Andy Li
