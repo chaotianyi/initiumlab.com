@@ -2,7 +2,7 @@ title: The First PyCon in Hong Kong - PyCon HK 2015
 author:
   - name: Initium Lab
     url: 'http://initiumlab.com'
-description: What have been talked about in PyCon HK 2015
+description: On 7 Nov 2015 and 8 Nov 2015,  the Pythoners in Hong Kong ushered in its first PyCon (Python Conference), the largest annual gathering for their community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
 thumbnail: put a URL here if you need customized thumbnail; remove this property if you do not
 language: en
 tags:
@@ -249,11 +249,11 @@ Two members from Initium Lab shared their experience on scraping at PyConHK.
 
 **Speaker**:
 
-* Andy Xin, News Engineer @ Initium Lab -- Scraping in 5 min
+* Andy Shu, News Engineer @ Initium Lab -- Scraping in 5 min
 * Pili Hu, Data Scientist @ Initium Lab -- Scrape more with Less codes 
 
 In the lightning talk, Andy introduced his experience on scraping in 5 minutes.
-Apparently, one can not learn scraping from zero to one just in 5 minutes, especially starting with non-technical background. Nevertheless, Andy's talk helps one build the concept of scraping and understand common caveats in the process. Interested readers can refer to the slides TODO.
+Apparently, one can not learn scraping from zero to one just in 5 minutes, especially starting with non-technical background. Nevertheless, Andy's talk helps one build the concept of scraping and understand common caveats in the process. Interested readers can refer to the slides: [http://slides.com/andyshuxin/s#/](http://slides.com/andyshuxin/s#/).
 
 Pili's talk is devoted to quick scraping with the help of some utility tools and Python libraries.
 When doing data journalism, one would iterate between the steps for multiple rounds, from scraping to analysis, to visualisation, and all the way to story-telling. You never want to spend a large chunk of time building a rigorous scraper and ends up in an unpublishable report because of lack of insights, lack of story, lack of evidence from data, ... At the very early proof-of-concept stage, quick scraping skills help one to validate the idea with least cost and that is the focus of the talk. The tools shared in this talk include:
@@ -393,13 +393,7 @@ There are more topics that we do not cover in this notes. But we believe it evid
 
 The following Pythoners' group photo well concludes this note.
 
-![MOU PyConHK. Photo Credit: TODO](/blog/20151119-The-First-PyCon-in-Hong-Kong-PyCon-HK-2015/pycon-hk-2015.jpg) 
+![MOU PyConHK. Photo Credit: PyConHK Facebook Group](/blog/20151119-The-First-PyCon-in-Hong-Kong-PyCon-HK-2015/pycon-hk-2015.jpg) 
 
-(Photo Credit: PyConHK Facebook Group TODO)
-
-
-
-
-
-
+(Photo Credit: [PyConHK Facebook Group](https://www.facebook.com/pyconhk/))
 
