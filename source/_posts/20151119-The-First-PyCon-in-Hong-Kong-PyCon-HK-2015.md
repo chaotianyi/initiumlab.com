@@ -2,7 +2,7 @@ title: The First PyCon in Hong Kong - PyCon HK 2015
 author:
   - name: Initium Lab
     url: 'http://initiumlab.com'
-description: On 7 Nov 2015 and 8 Nov 2015,  the Pythoners in Hong Kong ushered in its first PyCon (Python Conference), the largest annual gathering for their community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
+description: On 7 Nov 2015 and 8 Nov 2015, the first PyCon (Python Conference) was held at Hong Kong Cyberport. It is the largest annual gathering for the Pythoners community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
 thumbnail: put a URL here if you need customized thumbnail; remove this property if you do not
 language: en
 tags:
@@ -11,7 +11,7 @@ tags:
 date: 2015-11-19 12:08:48
 ---
 
-On 7 Nov 2015 and 8 Nov 2015,  the Pythoners in Hong Kong ushered in its first PyCon (Python Conference), the largest annual gathering for their community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
+On 7 Nov 2015 and 8 Nov 2015, the first PyCon (Python Conference) was held at Hong Kong Cyberport. It is the largest annual gathering for the Pythoners community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
 
 <!-- more -->
 
@@ -19,13 +19,13 @@ On 7 Nov 2015 and 8 Nov 2015,  the Pythoners in Hong Kong ushered in its first P
 
 For those who do not know Python, it is a programming language that let you work quickly and efficiently. However, PyCon is not only about Python, it is more about the open ecosystem and its supportive community. Therefore, this conference is dedicated to provide enjoyable experience to almost everyone. 
 
-## Topics Included 
+## Topics included 
 
 Because diversity is one of PyCon's enshrined spirits, a broad range of topics were covered by speakers from different fields including search engine, text mining, data science techniques, web development, financial technology, alternative language, just to name a few. For a full list of topics presented on PyCon, you can refer to the conference's official website: [http://2015.pycon.hk/schedule/](http://2015.pycon.hk/schedule/)
 
 Following are some of selected topics that we would like to share with the community.
 
-### Elasticsearch Talks and Workshop
+### Elasticsearch talks and workshop
 
 **Speaker**: Honza Král from Elastic Co.
 
@@ -46,7 +46,7 @@ The second topic is a demonstration of how to utilise logs generated from custom
 
 Besides, `grep` have other problems. A typical scenario is that you may want to investigation what happened at a particular time. Unfortunately, different software may generate logs with different time format. This stops you from checking correlated events.  So it is ideal have a central storage for all your logs. You can also enrich the data there. Take IP address for example, those address can be converted into hostname and locations. 
 
-Mr. Král later recommended the follow steps to use ELK for your logs: collect, parse, enrich, store, search, aggregate and visualise. ELK is a collection of opensource tools, namely, elasticsearch, logstash and kibana. 
+Mr. Král later recommended the follow steps to use ELK for your logs: collect, parse, enrich, store, search, aggregate and visualise. ELK is a collection of open source tools, namely, elasticsearch, logstash and kibana. 
 > - Logstash is mainly responsible for data injection pipeline. It has all the necessary utilities to collect, parse and enrich data.
 > - Elasticsearch have nice features to store, aggregate and search data.
 > - Kibana, the most impressive and technologically the most simple part, which is for visualisation. It communicate with elasticsearch and provide you with gorgeous charts and pictures. 
@@ -91,7 +91,7 @@ For further details, you can read Graham Dumpleton's blog posts at:
 - [http://blog.dscpl.com.au/2015/05/performance-monitoring-of-real-wsgi.html](http://blog.dscpl.com.au/2015/05/performance-monitoring-of-real-wsgi.html)
 - [http://blog.dscpl.com.au/2015/06/implementing-request-monitoring-within.html](http://blog.dscpl.com.au/2015/06/implementing-request-monitoring-within.html)
 
-### Using Python for Data Mining Projects
+### Using Python for data mining projects
 **Speaker**: Chris Choy 
 
 Mr. Choy is profession in statistics and data mining. He got his Phd in high dimensional statistic in Oxford and is now a Senior Computational Scientist at ClusterTech. 
@@ -109,7 +109,7 @@ How he used those tools:
 All the code can be found on his github repository:
 [https://github.com/christlc/pycon2015hk](https://github.com/christlc/pycon2015hk)
 
-### My Personal Take
+### My personal take
 **Speaker**: Austin Imperial (Niknok), 13 years old
 
 Yea, it is not a typo, a 13-year-old coding machine did spoke in this Conference. He is a Grade 8 student from the Philippines. He studied Python, PHP, Ruby, Javascript, C, C++, SQL, HTML and CSS from MOOC (Massive Open Online Course) on him own.
@@ -191,7 +191,7 @@ Mr Mak is an advocate for using type annotations. Although this feature do not h
 Follow Mr. Mak at: [https://twitter.com/rickmak](https://twitter.com/rickmak)
 
 ### Workshop: Let's break some stupid CAPTCHAs!
-**Speaker**: Chung-hong Chan （陳電鋸）
+**Speaker**: Chung-hong Chan （電鋸）
 
 Chung-hong Chan demonstrated how to crack stupid CAPTCHAS. Python libraries such as Numpy, Matplotlib, and OpenCV were introduced. The most amazing thing we could learn from this workshop was that so many CAPTCHAS on Hong Kong websites are REALLY weak, for example, some even expose raw answers in HTML page source.
 Source code Chung-hong Chan demonstrated could be found on his GitHub repo for PyCon: [https://github.com/chainsawriot/pycon_vm](https://github.com/chainsawriot/pycon_vm).
@@ -199,18 +199,13 @@ Source code Chung-hong Chan demonstrated could be found on his GitHub repo for P
 ### Financial technology
 **Speaker**: Joseph Wang (joequant) from Bitquant Research Laboratories
 
-About Speaker
-Dr. Joseph Wang is chief scientist of Bitquant Research Laboratories, a small Hong Kong-based financial technology company. He has a doctorate in computational astrophysics from the University of Texas at Austin and a bachelors of physics from MIT. Before leaving to focus on promoting entrepreneurship and new technology in Hong Kong, he worked as vice-president in the quantitative research division of JPMorgan both in Hong Kong and at its corporate headquarters in New York City. Dr. Wang also has worked as a software developer in both Forture 500 and small startup companies in the Silicon Hills region of Central Texas.
-
-
-About the Topic
-Bitquant is a two person fintech firm that trades bitcoin and digital currencies. This talk will illustrate how Bitquant uses python to do algo trading and risk management, and the lessons we've learned along the way.
+Dr. Joseph Wang is chief scientist of Bitquant Research Laboratories, a small Hong Kong-based financial technology company.
 
 According to Dr. Wang, Python is intensively used in investment banking. What’s more, large parts of the Python infrastructure were funded by banks. However, why it isn’t well-known in the Python community? Because banks have no reason to share their algorithm to competitors, and they don’t want regulators and patent trolls knowing what they are doing as well.
 Dr. Wang was currently working on his trading bot project. “Trading is 90% psychology,“ Dr. Wang said, “Go to a casino, see what people do, and don’t do that.”
 Dr. Wang encouraged audience to “steal my software please!!!” You must be interested to get something on his GitHub at [https://github.com/joequant/bitquant](https://github.com/joequant/bitquant).
 
-### Decoding the Language of Cereal Box Design with Scikit-Learn
+### Decoding the language of cereal box Design with Scikit-Learn
 **Speaker**: Mart van de Ven (tijptjik)
 
 The talk is about find correlation between the cartoon brands on the cereal boxes and what's inside the cereal boxes. Mart uses a set of data science techniques to explore how marketing departments use colour, layout and character design to communicate what you can expect from a cereal. He in this talk highlighted the use of the PyData stack to generate features from images, cluster cereal types and predict their nutritional values.
@@ -241,7 +236,7 @@ cv2.threshold(img...)
 
 If you want to learn more about this talk, you can contact him by email m@droste.hk
 
-### Scraping the Web 
+### Scraping the web 
 
 
 Scraping is an important part of data journalism and we perform scraping regularly at Initium Lab.
