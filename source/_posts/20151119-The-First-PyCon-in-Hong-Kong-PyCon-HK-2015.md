@@ -2,7 +2,7 @@ title: The First PyCon in Hong Kong - PyCon HK 2015
 author:
   - name: Initium Lab
     url: 'http://initiumlab.com'
-description: On 7 Nov 2015 and 8 Nov 2015, the first PyCon (Python Conference) was held at Hong Kong Cyberport. It is the largest annual gathering for the Pythoners community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
+description: On 7 Nov 2015 and 8 Nov 2015, PyCon (Python Conference) was held at Hong Kong Cyberport. It is the largest annual gathering for the Pythoners community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
 thumbnail: put a URL here if you need customized thumbnail; remove this property if you do not
 language: en
 tags:
@@ -11,7 +11,12 @@ tags:
 date: 2015-11-19 12:08:48
 ---
 
-On 7 Nov 2015 and 8 Nov 2015, the first PyCon (Python Conference) was held at Hong Kong Cyberport. It is the largest annual gathering for the Pythoners community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
+On 7 Nov 2015 and 8 Nov 2015, PyCon (Python Conference) was held at Hong Kong Cyberport. It is the largest annual gathering for the Pythoners community. Python is one our most commonly used languages at Initium Lab so we definitely did not miss the chance. Two Initium Lab members, Pili Hu and Andy Xin, gave talks about scraping on the conference. Following are the quick and short notes we took away from PyConHK 2015. 
+
+
+![MOU PyConHK. Photo Credit: PyConHK Facebook Group](/blog/20151119-The-First-PyCon-in-Hong-Kong-PyCon-HK-2015/pycon-hk-2015.jpg) 
+
+(Photo Credit: [PyConHK Facebook Group](https://www.facebook.com/pyconhk/))
 
 <!-- more -->
 
@@ -386,9 +391,4 @@ docker run -rm -link .. # connect two containers
 
 There are more topics that we do not cover in this notes. But we believe it evidenced that the Python community is vast, diverse and open. Actually, PyCon HK 2015 is only the tip of an iceberg. At the closing stage of the conference, we had PyCon organisers from both Taiwan and Korea give us lightening talks. Yep, they are preparing PyCon TW & PyCon APAC 2016. 
 
-The following Pythoners' group photo well concludes this note.
-
-![MOU PyConHK. Photo Credit: PyConHK Facebook Group](/blog/20151119-The-First-PyCon-in-Hong-Kong-PyCon-HK-2015/pycon-hk-2015.jpg) 
-
-(Photo Credit: [PyConHK Facebook Group](https://www.facebook.com/pyconhk/))
 
