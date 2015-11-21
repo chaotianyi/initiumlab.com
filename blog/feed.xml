@@ -7,7 +7,7 @@
     <link>http://initiumlab.com/blog/</link>
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[The Website of Initium Lab, the exploratory arm of Initium Media]]></description>
-    <pubDate>Sat, 21 Nov 2015 08:15:23 GMT</pubDate>
+    <pubDate>Sat, 21 Nov 2015 08:58:51 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -246,7 +246,7 @@
 </ul>
 </li>
 </ul>
-<p>Interested readers can refer to the <a href="https://github.com/hupili/workshop-easy-scraping/blob/master/Scrape%20More%20with%20Less%20Codes.ipynb" target="_blank" rel="external">IPython Notebook of the talk</a></p>
+<p>Interested readers can refer to the <a href="http://project.hupili.net/workshop-easy-scraping/Scrape%20More%20with%20Less%20Codes.html" target="_blank" rel="external">IPython Notebook of the talk</a>. ( <a href="https://github.com/hupili/workshop-easy-scraping/blob/master/Scrape%20More%20with%20Less%20Codes.ipynb" target="_blank" rel="external">source</a> )</p>
 <h3 id="Haxe,_a_statically-typed_language_that_compiles_to_Python">Haxe, a statically-typed language that compiles to Python</h3><p><strong>Speaker</strong>: Andy Li</p>
 <p>We have mentioned that PyCon is not only for Python, it is a gathering welcomes diversity. So here comes a talk about another programming languages, Haxe. Haxe is an open source high-level multi-platform programming language and compiler that can produce application and source code for 9 platforms. Here is a list of compiler targets:</p>
 <blockquote>
