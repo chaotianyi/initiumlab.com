@@ -12,6 +12,8 @@ date: 2015-11-12 23:41:46
 
 [Hong Kong Code Conf 2015](http://hongkong.codeconf.io/) was held on 24 October 2015. I (Andy Shu) participated in most sections and here is my notes.
 
+<!-- more -->
+
 Death by Bad API Design
 -----------------------
 By Matthew Rudy Jacobs from Go Go Van
