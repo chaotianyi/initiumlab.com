@@ -276,8 +276,7 @@ When doing data journalism, one would iterate between the steps for multiple rou
    * `PyReadability`: Parse the main body of a page
    * `scraply`: Learn patterns from your labelling
    
-Interested readers can refer to the [IPython Notebook of the talk](https://github.com/hupili/workshop-easy-scraping/blob/master/Scrape%20More%20with%20Less%20Codes.ipynb)
-
+Interested readers can refer to the [IPython Notebook of the talk](http://project.hupili.net/workshop-easy-scraping/Scrape%20More%20with%20Less%20Codes.html). ( [source](https://github.com/hupili/workshop-easy-scraping/blob/master/Scrape%20More%20with%20Less%20Codes.ipynb) )
 
 ### Haxe, a statically-typed language that compiles to Python
 **Speaker**: Andy Li
