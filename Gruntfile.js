@@ -31,7 +31,10 @@ module.exports = function(grunt) {
       dist: {expand: true,
             flatten: false,
             cwd: 'static',
-            src: ['**'],
+            src: [
+            'thumbnail.png',
+            'meta.json'
+            ],
             dest: 'public/blog/',
             filter: 'isFile'}
     },
