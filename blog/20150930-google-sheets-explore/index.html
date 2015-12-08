@@ -50,7 +50,7 @@ Google Sheets 最近推出了一項新功能 Explore，或許能成為探索陌�
 <meta property="og:image" content="http://initiumlab.com/blog/20150930-google-sheets-explore/pic_1.png">
 <meta property="og:image" content="http://initiumlab.com/blog/20150930-google-sheets-explore/pic_2.png">
 <meta property="og:image" content="http://initiumlab.com/blog/20150930-google-sheets-explore/pic_3.png">
-<meta property="og:updated_time" content="2015-12-07T03:25:56.000Z">
+<meta property="og:updated_time" content="2015-10-29T10:27:58.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="整日做表沒思路？Google幫你開腦洞">
 <meta name="twitter:description" content="一個數據分析項目，往往始於摸索一張龐大而陌生的數據表格。嘗試畫些簡易圖表是啟發思路的好辦法，但這絕非易事──想想有多少種圖表：直方圖柱狀圖餅圖折線圖雷達圖……若選取不同的列來分析，每種圖表又有多達幾十種畫法。
@@ -249,13 +249,13 @@ Google Sheets 最近推出了一項新功能 Explore，或許能成為探索陌�
 <a id="more"></a>
 <p><img src="../../blog/20150930-google-sheets-explore/explore.gif" alt="Demo of google explore sheet"></p>
 <p>但，作為一個每天使用 Google Sheets 超過8小時的人，面對橫空出世的 Explore，欣喜之餘不免有些懷疑，Explore 真的有這麼神？碰巧 Initium Lab 最近出了<a href="http://salary360.initiumlab.com/?from=initiumlab" target="_blank" rel="external">香港工資測試遊戲</a>[2]，遊戲使用 2011 年香港人口普查的公開數據[3]，我從中選取了三張表格來測試 Explore 的實用性。</p>
-<h2 id="1-_u5448_u73FE_u6578_u64DA_uFF1A_u81EA_u52D5_u9078_u91CD_u9EDE_u51FA_u5716"><a href="#1-_u5448_u73FE_u6578_u64DA_uFF1A_u81EA_u52D5_u9078_u91CD_u9EDE_u51FA_u5716" class="headerlink" title="1.呈現數據：自動選重點出圖"></a>1.呈現數據：自動選重點出圖</h2><p>下圖是一張很常見的表格[4]，要點明確、容易讀懂。Explore 基於表格裏的35項數據自動做出了十張圖，動用了柱狀圖、餅圖、折線圖和堆疊折線圖四種形態。有的圖表下方會出現「一句話總結」，基本都戳中要點。對這種經過預處理的表格而言，Explore 的確能提供不少呈現數據的思路。</p>
+<h2 id="1-呈現數據：自動選重點出圖">1.呈現數據：自動選重點出圖</h2><p>下圖是一張很常見的表格[4]，要點明確、容易讀懂。Explore 基於表格裏的35項數據自動做出了十張圖，動用了柱狀圖、餅圖、折線圖和堆疊折線圖四種形態。有的圖表下方會出現「一句話總結」，基本都戳中要點。對這種經過預處理的表格而言，Explore 的確能提供不少呈現數據的思路。</p>
 <p><img src="../../blog/20150930-google-sheets-explore/pic_1.png" alt="用 Explore 呈現簡單表格的數據"></p>
-<h2 id="2-_u63A2_u7D22_u6578_u64DA_uFF1A_u5E6B_u5FD9_u6316_u6398_u6F5B_u5728_u95DC_u806F"><a href="#2-_u63A2_u7D22_u6578_u64DA_uFF1A_u5E6B_u5FD9_u6316_u6398_u6F5B_u5728_u95DC_u806F" class="headerlink" title="2.探索數據：幫忙挖掘潛在關聯"></a>2.探索數據：幫忙挖掘潛在關聯</h2><p>一些初看沒什麼亮點的表格，往往藏着大新聞。</p>
+<h2 id="2-探索數據：幫忙挖掘潛在關聯">2.探索數據：幫忙挖掘潛在關聯</h2><p>一些初看沒什麼亮點的表格，往往藏着大新聞。</p>
 <p>我選取的第二個例子[5][6]，統計了香港各區年齡超過65歲的人口比例、慣用廣東話的人口比例和慣用英語的人口比例。一看到這張表，最自然的反應就是，人口年齡和慣用語言之間會不會有關係呢？來看 Explore 有何洞見。</p>
 <p>在一秒畫出的十幾張圖表裏，Explore 認為最有趣的發現是，慣用廣東話的人口比例每增加10%，慣用英語的人口比例就會下降7%，這和我們的常識相吻合。雖然在這個例子中 Explore 沒有給出我最想知道的答案，但它兩兩比較了表中的三個變量，幫忙發掘潛在的關聯。</p>
 <p><img src="../../blog/20150930-google-sheets-explore/pic_2.png" alt="用 Explore 探索數據潛在的關聯"></p>
-<h2 id="3-_u7D50_u69CB_u6241_u5E73_u7684_u8868_u683C_uFF1A_u8ACB_u548C_pivot_table__u4E00_u8D77_u4F7F_u7528"><a href="#3-_u7D50_u69CB_u6241_u5E73_u7684_u8868_u683C_uFF1A_u8ACB_u548C_pivot_table__u4E00_u8D77_u4F7F_u7528" class="headerlink" title="3.結構扁平的表格：請和 pivot table 一起使用"></a>3.結構扁平的表格：請和 pivot table 一起使用</h2><p>處理大批量數據，一般離不開結構扁平的表格，如下圖所示，這類表格信息龐雜、沒有重點。我選取了2011年全港居民的月收入統計來做試驗[7]，這張表格有超過20萬項數據。此時 Explore 就有些力不從心了，它能做的只是發現某列數字的最大或最小值，或是統計不同字符串在某列出現的次數及比例。</p>
+<h2 id="3-結構扁平的表格：請和_pivot_table_一起使用">3.結構扁平的表格：請和 pivot table 一起使用</h2><p>處理大批量數據，一般離不開結構扁平的表格，如下圖所示，這類表格信息龐雜、沒有重點。我選取了2011年全港居民的月收入統計來做試驗[7]，這張表格有超過20萬項數據。此時 Explore 就有些力不從心了，它能做的只是發現某列數字的最大或最小值，或是統計不同字符串在某列出現的次數及比例。</p>
 <p>在原表格的基礎上做出 pivot table (又稱樞紐分析表，是一種基於原始表格的動態表格，便於將大量的數據集縮小、或分析數據之間的關係) 以後，Explore 能給出新的呈現，做「篩選」和「排序」時，圖表也會實時變化。</p>
 <p><img src="../../blog/20150930-google-sheets-explore/pic_3.png" alt="當 Explore 遇到扁平化表格，最好先使用 pivot table 選出要點"></p>
 <p>總之，Google Sheets 新功能 Explore 能在最短的時間內羅列出盡可能多的圖表和分析，最適合在探索數據之初，拿來開開腦洞、找找頭緒。</p>
@@ -378,7 +378,7 @@ Google Sheets 最近推出了一項新功能 Explore，或許能成為探索陌�
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-_u5448_u73FE_u6578_u64DA_uFF1A_u81EA_u52D5_u9078_u91CD_u9EDE_u51FA_u5716"><span class="nav-number">1.</span> <span class="nav-text">1.呈現數據：自動選重點出圖</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-_u63A2_u7D22_u6578_u64DA_uFF1A_u5E6B_u5FD9_u6316_u6398_u6F5B_u5728_u95DC_u806F"><span class="nav-number">2.</span> <span class="nav-text">2.探索數據：幫忙挖掘潛在關聯</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-_u7D50_u69CB_u6241_u5E73_u7684_u8868_u683C_uFF1A_u8ACB_u548C_pivot_table__u4E00_u8D77_u4F7F_u7528"><span class="nav-number">3.</span> <span class="nav-text">3.結構扁平的表格：請和 pivot table 一起使用</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-呈現數據：自動選重點出圖"><span class="nav-number">1.</span> <span class="nav-text">1.呈現數據：自動選重點出圖</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-探索數據：幫忙挖掘潛在關聯"><span class="nav-number">2.</span> <span class="nav-text">2.探索數據：幫忙挖掘潛在關聯</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-結構扁平的表格：請和_pivot_table_一起使用"><span class="nav-number">3.</span> <span class="nav-text">3.結構扁平的表格：請和 pivot table 一起使用</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
