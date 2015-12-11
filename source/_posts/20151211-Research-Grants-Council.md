@@ -11,7 +11,7 @@ tags:
 研究資助局的網站公佈了獲得資助的研究項目，共 9057 項。
 
 
-<div class='video-container'>
+<div class='video-container video-mobile-adjust'>
     <iframe id="player" type="text/html" 
       src="https://docs.google.com/a/theinitium.com/spreadsheets/d/1U1VoLUPsMeympaNnSSvzKozbAqRdZAK5aLnu8a--YQI/pubhtml?gid=40410113&amp;format=interactive"
       frameborder="0">
