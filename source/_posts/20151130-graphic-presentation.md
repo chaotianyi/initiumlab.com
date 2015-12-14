@@ -21,24 +21,32 @@ date: 2015-11-30 13:25:46
 ## 圖表：经典款的新奇玩法
 柱型圖，扇形圖這種經典的圖表形式當然由來已久，出現在此書中，不足爲奇。但即便如此，依然可以玩出很多花樣。
 ![Bar chart and pie chart](/blog/20151130-graphic-presentation/imageChart.png)
-用士兵形象的icon组成象形图（Pictograms），方便读者理解。
-![Bar chart and pie chart](/blog/20151130-graphic-presentation/image13.png)
-伪3D，却很逼真。
+
+用士兵、轮船形象的icon组成象形图（Pictograms），方便读者理解。
+![Bar chart and pie chart](/blog/20151130-graphic-presentation/image13.jpg)
+
+
 ![Bar chart and pie chart](/blog/20151130-graphic-presentation/image27.png)
 
 
 ## 地圖：徒手繪製，數據龐大
-書中有將近1/3篇幅都在研究與地圖相關的信息圖，顯然，地圖一直以來都是廣受青睞。你一定曾經被這樣的可視化效果驚豔過：
-![Map 1](/blog/20151130-graphic-presentation/image23.png)
+書中有將近1/3篇幅都在研究與地圖相關的信息圖，顯然，地圖一直以來都是廣受青睞。你一定曾經被各種地圖的可視化效果驚豔過，也羨慕別人家的大數據可視化宛若的浩海星辰。
+![Map 1](/blog/20151130-graphic-presentation/image23.jpg)
 
-而70多年前，純手繪的地圖已經這般細緻入微，層次分明。
-![Map 1](/blog/20151130-graphic-presentation/image12.png)
-![Map 2](/blog/20151130-graphic-presentation/image11.png)
+而70多年前，純手繪的地圖已經這般細緻入微，層次分明。有點陣地圖，有色塊地圖，甚至有3D效果的等高線圖，孰高孰低一目瞭然。
+![Map 2](/blog/20151130-graphic-presentation/image12.jpg)
 
-甚至有3D效果的等高線圖，孰高孰低一目瞭然。
-![Map 3](/blog/20151130-graphic-presentation/image02.png)
+## 工具：流程圖製作用巧勁
+桑基图（Sankey diagram）是一种特定类型的流程图，圖中延伸的分支的宽度对应数据流量的大小。通常应用于能源、材料、金融等数据的可视化分析。因1898年Matthew Henry Phineas Riall Sankey绘制的“蒸汽机的能源效率图”而闻名。如今，用電腦繪製這樣繁複的信息圖也並不困難。
+![Sankey diagram 1](/blog/20151130-graphic-presentation/image25.jpg)
+但在沒有電腦的年代，人們設計了巧妙的手工作業系統來提高做圖效率。下圖所示的物理裝置由1000張長條紙拼接而成，每次使用只需把紙片重新擺位，拍照，就可快速製成圖表，無需任何繪圖技巧。這是IBM1933年的專利，賣了50美元。
+![Sankey diagram 1](/blog/20151130-graphic-presentation/image00.png)
 
-大數據的可視化宛若深邃宇宙中浩瀚繁星？
-![Map 4](/blog/20151130-graphic-presentation/image10.png)
-1932年的點陣圖早已把大數據表現得清清楚楚明明白白。
-![Map 4](/blog/20151130-graphic-presentation/image09.png)
+## 有趣的信息圖
+![Funny infographic 1](/blog/20151130-graphic-presentation/image15.jpg)
+
+## 複雜的信息圖
+![Map 1](/blog/20151130-graphic-presentation/image14.png)
+![Map 1](/blog/20151130-graphic-presentation/image17.png)
+![Map 1](/blog/20151130-graphic-presentation/image21.png)
+![Map 1](/blog/20151130-graphic-presentation/image26.png)
