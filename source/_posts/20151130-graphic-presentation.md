@@ -26,9 +26,6 @@ date: 2015-11-30 13:25:46
 ![Bar chart and pie chart](/blog/20151130-graphic-presentation/image13.jpg)
 
 
-![Bar chart and pie chart](/blog/20151130-graphic-presentation/image27.png)
-
-
 ## 地圖：徒手繪製，數據龐大
 書中有將近1/3篇幅都在研究與地圖相關的信息圖，顯然，地圖一直以來都是廣受青睞。你一定曾經被各種地圖的可視化效果驚豔過，也羨慕別人家的大數據可視化宛若的浩海星辰。
 ![Map 1](/blog/20151130-graphic-presentation/image23.jpg)
@@ -43,10 +40,14 @@ date: 2015-11-30 13:25:46
 ![Sankey diagram 1](/blog/20151130-graphic-presentation/image00.png)
 
 ## 有趣的信息圖
+書中還介紹了許多抓眼球的信息图，大多是用在廣告海報上的。呈現形式非常生動有趣。
 ![Funny infographic 1](/blog/20151130-graphic-presentation/image15.jpg)
 
+別以爲3D信息圖有多麼了不起，人家徒手畫出來也毫無壓力。
+![Bar chart and pie chart](/blog/20151130-graphic-presentation/image27.png)
+
 ## 複雜的信息圖
-![Map 1](/blog/20151130-graphic-presentation/image14.png)
+以下繁複龐大的圖表也出自本書，架構宏大，細緻處又如毛細血管，令人拍案叫絕。
+![Map 1](/blog/20151130-graphic-presentation/image26.jpg)
 ![Map 1](/blog/20151130-graphic-presentation/image17.png)
 ![Map 1](/blog/20151130-graphic-presentation/image21.png)
-![Map 1](/blog/20151130-graphic-presentation/image26.png)
