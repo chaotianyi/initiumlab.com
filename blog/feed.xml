@@ -7,33 +7,8 @@
     <link>http://initiumlab.com/blog/</link>
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[The Website of Initium Lab, the exploratory arm of Initium Media]]></description>
-    <pubDate>Thu, 24 Dec 2015 09:46:54 GMT</pubDate>
+    <pubDate>Mon, 18 Jan 2016 04:00:30 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title><![CDATA[香港的研究資助局資助了什麼項目？]]></title>
-      <link>http://initiumlab.com/blog/blog/20151212-Research-Grants-Council/</link>
-      <guid>http://initiumlab.com/blog/blog/20151212-Research-Grants-Council/</guid>
-      <pubDate>Sat, 12 Dec 2015 09:02:13 GMT</pubDate>
-      <description>
-      <![CDATA[香港的研究資助局資助了什麼項目？]]>
-      
-      </description>
-      <content:encoded><![CDATA[<p>研究資助局公佈了獲得資助的研究項目，從 2006 / 07 年度至 2015 / 16 年度，共有 9057 項。</p>
-<p><img src="/blog/20151212-Research-Grants-Council/by-institute.png" alt="各機構獲得資助情況"></p>
-<p>上圖顯示了各學術機構歷年來獲得資助總額的變化。香港大學、香港中文大學、香港科技大學佔據前三。香港教育學院獲得資助曾經是最少的，但十年來上升了 18 倍。</p>
-<a id="more"></a>
-<p>在這 9057 個項目中，工程學項目所佔比例最大：</p>
-<p><img src="/blog/20151212-Research-Grants-Council/all-project-panel.png" alt="所有項目的學科分布"></p>
-<p>然而，在獲得資助超過 150 萬港元的項目中，超過 80% 都是生物與醫學學科，其他學科寥寥無幾，商科甚至爲 0：</p>
-<p><img src="/blog/20151212-Research-Grants-Council/150-project-panel.png" alt="超過150萬港元的項目的學科分布"></p>
-<blockquote>
-<p>研究資助局（研資局）於1991年成立，是教資會轄下的機構。在教資會的組織架構內，研資局屬於一個非法定諮詢組織，透過教資會，向中華人民共和國香港特別行政區政府建議香港高等教育機構在學術研究上的需要，以及向獲教資會資助的院校分配撥款，為院校內的學術界人士提供經費，以進行學術研究。</p>
-</blockquote>
-<p>數據來源：<a href="https://cerg1.ugc.edu.hk/cergprod/scrrm00541.jsp?mode=search" target="_blank" rel="external">https://cerg1.ugc.edu.hk/cergprod/scrrm00541.jsp?mode=search</a></p>
-]]></content:encoded>
-      <comments>http://initiumlab.com/blog/blog/20151212-Research-Grants-Council/#disqus_thread</comments>
-    </item>
     
     <item>
       <title><![CDATA[Jackathon #7 Data Hacking]]></title>
