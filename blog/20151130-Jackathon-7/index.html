@@ -38,20 +38,20 @@
   <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="Jackathon">
+<meta name="description" content="We hacked on two datasets on Nov 7, 2015.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Jackathon #7 Data Hacking">
 <meta property="og:url" content="http://initiumlab.com/blog/20151130-Jackathon-7/index.html">
 <meta property="og:site_name" content="Initium Lab">
-<meta property="og:description" content="Jackathon">
+<meta property="og:description" content="We hacked on two datasets on Nov 7, 2015.">
 <meta property="og:image" content="http://initiumlab.com/blog/20151130-Jackathon-7/all_people.jpg">
 <meta property="og:image" content="http://initiumlab.com/blog/20151130-Jackathon-7/xinwenlianbo_family_plan.jpg">
 <meta property="og:image" content="http://initiumlab.com/blog/20151130-Jackathon-7/xinwenlianbo_types.jpg">
 <meta property="og:image" content="http://initiumlab.com/blog/20151130-Jackathon-7/passed_away.jpg">
-<meta property="og:updated_time" content="2015-12-08T09:13:00.000Z">
+<meta property="og:updated_time" content="2016-01-18T03:46:17.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Jackathon #7 Data Hacking">
-<meta name="twitter:description" content="Jackathon">
+<meta name="twitter:description" content="We hacked on two datasets on Nov 7, 2015.">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -257,16 +257,16 @@
         <span itemprop="articleBody"><p>This week’s theme is “hacking data”, on which Initium Lab, with 6 friends invited, tried to analyze or visualize two data sets and produce meaningful presentations. We introduced two of our own data sets to participants: 1) structured data of CCTV news broadcast; 2) structured data of HK Research Grant Council (RGC), which Initium Lab had made some simple processing in advance.</p>
 <a id="more"></a>
 <p>The former one was crawled from CCTV’s website, consisting of  news scripts said by the anchors of CCTV’s daily news broadcast from 2011 to 2015. The latter was crawled from Hong Kong Research Grants Council’s (RGC) website, including all funded projects with their detailed information, among 8 institutions in Hong Kong in recent 10 years. Participants could pick one of the data sets and any works related to Data Journalism were welcomed. </p>
-<h2 id="Idea_Brainstorm">Idea Brainstorm</h2><p>We started with a brainstorm in which participants made lively discussions and showed their great interest in the two data sets we offered. Inspired by stock market prediction, Carlson Zhuo, one of our guests who is from the Chinese University of Hong Kong, came out of the idea of making political prediction by analyzing CCTV news. Chao Tianyi, researcher with Initium Lab, said we could analyze how death events were reported on CCTV. As for RGC data set, Andy Shu, our front-end engineer and editor suggested investigating the most funded professors, etc. After this fruitful brainstorm, we started the Jackathon.</p>
+<h2 id="Idea_Brainstorm"><a href="#Idea_Brainstorm" class="headerlink" title="Idea Brainstorm"></a>Idea Brainstorm</h2><p>We started with a brainstorm in which participants made lively discussions and showed their great interest in the two data sets we offered. Inspired by stock market prediction, Carlson Zhuo, one of our guests who is from the Chinese University of Hong Kong, came out of the idea of making political prediction by analyzing CCTV news. Chao Tianyi, researcher with Initium Lab, said we could analyze how death events were reported on CCTV. As for RGC data set, Andy Shu, our front-end engineer and editor suggested investigating the most funded professors, etc. After this fruitful brainstorm, we started the Jackathon.</p>
 <p><img src="../../blog/20151130-Jackathon-7/all_people.jpg" alt="Jackathoning together"></p>
-<h2 id="What_Are_the_Fruits?">What Are the Fruits?</h2><h3 id="About_CCTV_Data_Set">About CCTV Data Set</h3><p>We made several pretty interesting outputs with this data set. </p>
-<p>Andy created a Xinwenlianbo (CCTV News Simulcast)searching engine in nearly 5 hours. Using this searching engine one can search how many times a keyword is mentioned in the CCTV data set. It displays the results in the form of bar chart along with numbers. For example, if we want to know how many times “计划生育” (Family Planning in China) appeared in CCTV news recent years, we can search for keyword “计划生育” and see the result. Andy explained that the number only represented number of news reports rather than that of words, i.e. if a word appeared many times in one piece of news, it will only count as “1”.</p>
+<h2 id="What_Are_the_Fruits_3F"><a href="#What_Are_the_Fruits_3F" class="headerlink" title="What Are the Fruits?"></a>What Are the Fruits?</h2><h3 id="About_CCTV_Data_Set"><a href="#About_CCTV_Data_Set" class="headerlink" title="About CCTV Data Set"></a>About CCTV Data Set</h3><p>We made several pretty interesting outputs with this data set. </p>
+<p>Andy created a Xinwenlianbo (CCTV News Simulcast) search engine in nearly 5 hours. Using this search engine one can search how many times a keyword is mentioned in the CCTV data set. It displays the results in the form of bar chart along with numbers. For example, if we want to know how many times “计划生育” (Family Planning in China) appeared in CCTV news recent years, we can search for keyword “计划生育” and see the result. Andy explained that the number only represented number of news reports rather than that of words, i.e. if a word appeared many times in one piece of news, it will only count as “1”.</p>
 <p><img src="../../blog/20151130-Jackathon-7/xinwenlianbo_family_plan.jpg" alt="Searching result of “计划生育” in Xinwenlianbo"><br>Fig: Searching result of “计划生育”</p>
-<p>Now that we’ve got a searching engine, then what did we find? There is a funny joke about CCTV news spreading over the Internet in China, that is “ CCTV daily news tells but three things: busy leaders, happy Chinese and suffering foreigners.” Playing with data Victoria Jin and Yan Rong, a student from Hong Kong Baptist University, found evidence to support the view. They found headlines related to “busy leaders” covered 30% of the whole CCTV news data. In addition, positive words were usually used on China and Chinese people, whereas foreign countries and foreigners were usually accompanied by negative words.</p>
+<p>Now that we’ve got a search engine, then what did we find? There is a funny joke about CCTV news spreading over the Internet in China, that is “ CCTV daily news tells but three things: busy leaders, happy Chinese and suffering foreigners.” Playing with data Victoria Jin and Yan Rong, a student from Hong Kong Baptist University, found evidence to support the view. They found headlines related to “busy leaders” covered 30% of the whole CCTV news data. In addition, positive words were usually used on China and Chinese people, whereas foreign countries and foreigners were usually accompanied by negative words.</p>
 <p><img src="../../blog/20151130-Jackathon-7/xinwenlianbo_types.jpg" alt="Ratio of types in CCTV News"><br>Fig: Rows-Total, Disaster, Happened, Attacked, Conflict, Turbulence, Loss, Failed. Columns-All news, International news, Ratio. </p>
 <p>Bonnie Wang, also a student from Hong Kong Baptist University, analyzed different tones on special days, including Chinese Spring Festival and Tomb-sweeping Day. She found that CCTV would like to use more positive words than negative ones on these two days, which has verified her assumption in the brainstorm section. Carlson tried to see whether we can use CCTV news data to predict national policy and stock market. And Chaotian studied how great people’s death were reported and  counted their frequency.</p>
 <p><img src="../../blog/20151130-Jackathon-7/passed_away.jpg" alt="Usage frequency of “逝世” (passed away) of different people"><br>Fig: Usage frequency of “逝世” (passed away).</p>
-<h3 id="About_RGC_Data_Set">About RGC Data Set</h3><p>As for RGC data set, we also made some interesting discoveries. </p>
+<h3 id="About_RGC_Data_Set"><a href="#About_RGC_Data_Set" class="headerlink" title="About RGC Data Set"></a>About RGC Data Set</h3><p>As for RGC data set, we also made some interesting discoveries. </p>
 <p>Serina Xu, a PhD student in Computer Science department of  The University of Hong Kong, made a collaborators graph to see potential collaborations among scholars in The University of Hong Kong. She visualized her data with KUMU and found that more outstanding schools usually showed more cooperation. Besides, it is professors who usually sit at the cross center surrounded by several doctors. </p>
 <p>Ronald Tse, who is from The Chinese University of Hong Kong, visualized the performance indicator of different universities with couple of indicators and also the efficiency. He used some specific measurements to evaluate scholars  who have had obtained the highest fund, and their outputs. </p>
 <p>Edited by Liu Xue</p>
@@ -388,7 +388,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Idea_Brainstorm"><span class="nav-number">1.</span> <span class="nav-text">Idea Brainstorm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#What_Are_the_Fruits?"><span class="nav-number">2.</span> <span class="nav-text">What Are the Fruits?</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#About_CCTV_Data_Set"><span class="nav-number">2.1.</span> <span class="nav-text">About CCTV Data Set</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#About_RGC_Data_Set"><span class="nav-number">2.2.</span> <span class="nav-text">About RGC Data Set</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Idea_Brainstorm"><span class="nav-number">1.</span> <span class="nav-text">Idea Brainstorm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#What_Are_the_Fruits_3F"><span class="nav-number">2.</span> <span class="nav-text">What Are the Fruits?</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#About_CCTV_Data_Set"><span class="nav-number">2.1.</span> <span class="nav-text">About CCTV Data Set</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#About_RGC_Data_Set"><span class="nav-number">2.2.</span> <span class="nav-text">About RGC Data Set</span></a></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
