@@ -7,8 +7,53 @@
     <link>http://initiumlab.com/blog/</link>
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[The Website of Initium Lab, the exploratory arm of Initium Media]]></description>
-    <pubDate>Mon, 18 Jan 2016 04:00:30 GMT</pubDate>
+    <pubDate>Fri, 05 Feb 2016 10:27:14 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title><![CDATA[除了折線和地圖，還可以怎樣呈現全球變暖？]]></title>
+      <link>http://initiumlab.com/blog/blog/20160128-global-warming/</link>
+      <guid>http://initiumlab.com/blog/blog/20160128-global-warming/</guid>
+      <pubDate>Wed, 27 Jan 2016 16:00:00 GMT</pubDate>
+      <description>
+      <![CDATA[最暖冬天撞上罕見寒潮，一時間，「極端天氣」、「氣候變暖」成了香港城中最熱議的話題。其實，氣候變化和全球變暖一直都是數據新聞界長期關注的明星議題，可視化和預測類作品層出不窮。不過，看多了數字、折線和地圖，讀者難免疲勞，作者期待的「震撼人心」效果也會大打折扣。那麼，除了上述方式，還可以怎樣呈現全球變暖呢？]]>
+      
+      </description>
+      <content:encoded><![CDATA[<p>最暖冬天撞上罕見寒潮，一時間，「極端天氣」、「氣候變暖」成了香港城中最熱議的話題。其實，氣候變化和全球變暖一直都是數據新聞界長期關注的明星議題，可視化和預測類作品層出不窮。不過，看多了數字、折線和地圖，讀者難免疲勞，作者期待的「震撼人心」效果也會大打折扣。那麼，除了上述方式，還可以怎樣呈現全球變暖呢？</p>
+<a id="more"></a>
+<h2 id="u4E00_u9996_u6B4C_u544A_u8A34_u4F60_u5730_u7403_u662F_u600E_u6A23_u8B8A_u71B1_u7684"><a href="#u4E00_u9996_u6B4C_u544A_u8A34_u4F60_u5730_u7403_u662F_u600E_u6A23_u8B8A_u71B1_u7684" class="headerlink" title="一首歌告訴你地球是怎樣變熱的"></a>一首歌告訴你地球是怎樣變熱的</h2><p>氣溫變化不僅能看，也能聽。Initium Lab 把香港 131 年以來每年的平均氣溫水平作音符，奏出<a href="http://datasounds.initiumlab.com/" target="_blank" rel="external">氣溫樂章</a>。搭配後現代電子音樂，著實驚心。</p>
+<p><img src="/blog/20160128-global-warming/datasound_hk.png" alt="Jackathoning together"></p>
+<p>再來聽聽古典風格的氣溫音樂吧。</p>
+<p>美國明尼蘇達大學的學生 Daniel Crawford 把 NASA 公開的氣溫數據譜成了一首<a href="http://www.smithsonianmag.com/science-nature/this-song-composed-from-133-years-climate-change-data-180956225/" target="_blank" rel="external">提琴協奏曲</a>，希望借此告訴大家，地球真的在變熱，而且到處都在變熱。</p>
+<p>Daniel 選取北半球四個氣候帶歷年的平均溫度，將它們翻譯成音符，就得到了四個聲部的旋律。再請來四把提琴一齊演奏：大提琴演奏熱帶氣溫、中提琴代表北溫帶，兩把小提琴分別對應北寒帶和北極圈。這樣，聽眾既能聽出百年來氣溫變化的趨勢，又能感受到區域間溫度變化的不同。</p>
+<p><img src="/blog/20160128-global-warming/vio_concerto.png" alt="vio_concerto"></p>
+<p>這個作品使用了 NASA 公開的<a href="http://data.giss.nasa.gov/gistemp/" target="_blank" rel="external">從1880年以來的氣溫數據</a>。這份數據包括每月、季、年的全球平均氣溫。</p>
+<h2 id="u5E73_u9762_u5730_u5716_u76F4_u63A5_u751F_u6210_3D__u6A21_u578B"><a href="#u5E73_u9762_u5730_u5716_u76F4_u63A5_u751F_u6210_3D__u6A21_u578B" class="headerlink" title="平面地圖直接生成 3D 模型"></a>平面地圖直接生成 3D 模型</h2><p>NASA 公開過一組氣溫變化的二維地圖，這在 Uber 可視化團隊負責人 Nicolas Belmonte 看來顯然不夠酷。</p>
+<p>他把 NASA 的平面地圖暴力映射到 <a href="http://philogb.github.io/page/temperature-anomalies/" target="_blank" rel="external">3D 地球模型</a>中，用地球的膨脹程度顯示氣溫的變化。用戶在網頁上拉拽地球，就可以全方位看到全球各地區的氣溫變化劇烈程度。</p>
+<p><img src="/blog/20160128-global-warming/3d_earth.png" alt="3d_earth"></p>
+<h2 id="u626D_u66F2_u7684_u5730_u5716__u4E0D_u5E73_u7B49_u7684_u4E16_u754C"><a href="#u626D_u66F2_u7684_u5730_u5716__u4E0D_u5E73_u7B49_u7684_u4E16_u754C" class="headerlink" title="扭曲的地圖 不平等的世界"></a>扭曲的地圖 不平等的世界</h2><p>如果你希望在最短的時間內知道不同國家和地區</p>
+<ol>
+<li>在氣候問題上負有什麼歷史責任</li>
+<li>未來會受到怎樣的影響</li>
+<li>人口和富裕程度等基本信息</li>
+</ol>
+<p>請一定要看這個作品。</p>
+<p>英國數據新聞團隊 KLIN 利用 Cartogram 技術，根據二氧化碳排放量、化石燃料存儲量、貧困人口數等11個指標重新計算各個國家的面積，畫出11張<a href="http://www.carbonmap.org/#intro" target="_blank" rel="external">扭曲的世界地圖</a>。</p>
+<p><img src="/blog/20160128-global-warming/carbon_map.png" alt="carbon_map"></p>
+<p>你會看到</p>
+<ol>
+<li>面對井噴式的二氧化碳排放，亞洲和非洲將成為全球最脆弱的地區，</li>
+<li>而歷史排放量最大的歐洲和北美國家，相對而言，承擔的風險很小。</li>
+</ol>
+<h2 id="Google__u641C_u7D22_u66B4_u9732_u7528_u6236_u7684_u5C0F_u5FC3_u601D"><a href="#Google__u641C_u7D22_u66B4_u9732_u7528_u6236_u7684_u5C0F_u5FC3_u601D" class="headerlink" title="Google 搜索暴露用戶的小心思"></a>Google 搜索暴露用戶的小心思</h2><p>面對氣候變化，世界各地的人都在關心些什麼？問谷歌就知道啦。</p>
+<p>Google News Lab 和 Pitch Interactive 把 2004～2015年間 Goolge 上和環境相關的搜索問題搬到了 <a href="http://news-lab-trends-experiment.appspot.com/" target="_blank" rel="external">3D 地球模型</a>上，拖動地球，便可逐一查看各地用戶搜索量最高問題是什麼。來看幾個有意思的發現：</p>
+<p>紐約用戶最關心「全球變暖會怎樣影響小動物？」。<br><br>悉尼用戶想知道「全球變暖是真實的還是虛構的？」。<br><br>而在伊斯坦堡用戶中…..搜索量排名第二的問題居然是「怎樣把全球變暖和商業聯繫起來？」。</p>
+<p><img src="/blog/20160128-global-warming/google_search.png" alt="google_search"></p>
+<h2 id="u4E09_u5206_u9418_u52D5_u756B_u770B_u6E05_u78B3_u6392_u653E_u7684_u6B77_u53F2_u548C_u672A_u4F86"><a href="#u4E09_u5206_u9418_u52D5_u756B_u770B_u6E05_u78B3_u6392_u653E_u7684_u6B77_u53F2_u548C_u672A_u4F86" class="headerlink" title="三分鐘動畫看清碳排放的歷史和未來"></a>三分鐘動畫看清碳排放的歷史和未來</h2><p>Guardian 的<a href="http://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive" target="_blank" rel="external">這則動畫短片</a>，只用了氣泡和方塊兩種元素，介紹19世紀以來人類排放二氧化碳的歷史、現狀和未來對策，順帶科普碳預算、碳中和、2℃阈值這類專業概念。特別的是，這個頁面加入了互動元素，如果沒時間看完整條片，讀者亦可以自己探索。</p>
+<p><img src="/blog/20160128-global-warming/carbon_animation.png" alt="carbon_animation"></p>
+]]></content:encoded>
+      <comments>http://initiumlab.com/blog/blog/20160128-global-warming/#disqus_thread</comments>
+    </item>
     
     <item>
       <title><![CDATA[Jackathon #7 Data Hacking]]></title>
@@ -16,7 +61,7 @@
       <guid>http://initiumlab.com/blog/blog/20151130-Jackathon-7/</guid>
       <pubDate>Mon, 30 Nov 2015 04:08:48 GMT</pubDate>
       <description>
-      <![CDATA[We hacked on two datasets on Nov 7, 2015.]]>
+      <![CDATA[Jackathon]]>
       
       </description>
       <content:encoded><![CDATA[<p>This week’s theme is “hacking data”, on which Initium Lab, with 6 friends invited, tried to analyze or visualize two data sets and produce meaningful presentations. We introduced two of our own data sets to participants: 1) structured data of CCTV news broadcast; 2) structured data of HK Research Grant Council (RGC), which Initium Lab had made some simple processing in advance.</p>
@@ -25,9 +70,9 @@
 <h2 id="Idea_Brainstorm"><a href="#Idea_Brainstorm" class="headerlink" title="Idea Brainstorm"></a>Idea Brainstorm</h2><p>We started with a brainstorm in which participants made lively discussions and showed their great interest in the two data sets we offered. Inspired by stock market prediction, Carlson Zhuo, one of our guests who is from the Chinese University of Hong Kong, came out of the idea of making political prediction by analyzing CCTV news. Chao Tianyi, researcher with Initium Lab, said we could analyze how death events were reported on CCTV. As for RGC data set, Andy Shu, our front-end engineer and editor suggested investigating the most funded professors, etc. After this fruitful brainstorm, we started the Jackathon.</p>
 <p><img src="/blog/20151130-Jackathon-7/all_people.jpg" alt="Jackathoning together"></p>
 <h2 id="What_Are_the_Fruits_3F"><a href="#What_Are_the_Fruits_3F" class="headerlink" title="What Are the Fruits?"></a>What Are the Fruits?</h2><h3 id="About_CCTV_Data_Set"><a href="#About_CCTV_Data_Set" class="headerlink" title="About CCTV Data Set"></a>About CCTV Data Set</h3><p>We made several pretty interesting outputs with this data set. </p>
-<p>Andy created a Xinwenlianbo (CCTV News Simulcast) search engine in nearly 5 hours. Using this search engine one can search how many times a keyword is mentioned in the CCTV data set. It displays the results in the form of bar chart along with numbers. For example, if we want to know how many times “计划生育” (Family Planning in China) appeared in CCTV news recent years, we can search for keyword “计划生育” and see the result. Andy explained that the number only represented number of news reports rather than that of words, i.e. if a word appeared many times in one piece of news, it will only count as “1”.</p>
+<p>Andy created a Xinwenlianbo (CCTV News Simulcast)searching engine in nearly 5 hours. Using this searching engine one can search how many times a keyword is mentioned in the CCTV data set. It displays the results in the form of bar chart along with numbers. For example, if we want to know how many times “计划生育” (Family Planning in China) appeared in CCTV news recent years, we can search for keyword “计划生育” and see the result. Andy explained that the number only represented number of news reports rather than that of words, i.e. if a word appeared many times in one piece of news, it will only count as “1”.</p>
 <p><img src="/blog/20151130-Jackathon-7/xinwenlianbo_family_plan.jpg" alt="Searching result of “计划生育” in Xinwenlianbo"><br>Fig: Searching result of “计划生育”</p>
-<p>Now that we’ve got a search engine, then what did we find? There is a funny joke about CCTV news spreading over the Internet in China, that is “ CCTV daily news tells but three things: busy leaders, happy Chinese and suffering foreigners.” Playing with data Victoria Jin and Yan Rong, a student from Hong Kong Baptist University, found evidence to support the view. They found headlines related to “busy leaders” covered 30% of the whole CCTV news data. In addition, positive words were usually used on China and Chinese people, whereas foreign countries and foreigners were usually accompanied by negative words.</p>
+<p>Now that we’ve got a searching engine, then what did we find? There is a funny joke about CCTV news spreading over the Internet in China, that is “ CCTV daily news tells but three things: busy leaders, happy Chinese and suffering foreigners.” Playing with data Victoria Jin and Yan Rong, a student from Hong Kong Baptist University, found evidence to support the view. They found headlines related to “busy leaders” covered 30% of the whole CCTV news data. In addition, positive words were usually used on China and Chinese people, whereas foreign countries and foreigners were usually accompanied by negative words.</p>
 <p><img src="/blog/20151130-Jackathon-7/xinwenlianbo_types.jpg" alt="Ratio of types in CCTV News"><br>Fig: Rows-Total, Disaster, Happened, Attacked, Conflict, Turbulence, Loss, Failed. Columns-All news, International news, Ratio. </p>
 <p>Bonnie Wang, also a student from Hong Kong Baptist University, analyzed different tones on special days, including Chinese Spring Festival and Tomb-sweeping Day. She found that CCTV would like to use more positive words than negative ones on these two days, which has verified her assumption in the brainstorm section. Carlson tried to see whether we can use CCTV news data to predict national policy and stock market. And Chaotian studied how great people’s death were reported and  counted their frequency.</p>
 <p><img src="/blog/20151130-Jackathon-7/passed_away.jpg" alt="Usage frequency of “逝世” (passed away) of different people"><br>Fig: Usage frequency of “逝世” (passed away).</p>
@@ -885,7 +930,7 @@
 <li>Practitioner’s guide including several soft introductory books; and</li>
 <li>Those in-between.</li>
 </ul>
-<p>Every participant of Jackathon #3 finds a suitable book for themselves. For a complete list, you can download <a href="CSV of 60+ data science books: https://docs.google.com/spreadsheets/d/1U28nb1z9PsXNzNe_YtfPYYUdhH7_YfjEz6L0Z_wpxzM/edit?usp=sharing">the CSV file</a>.<br>To see how we produces this network visualisation, checkout <a href="https://github.com/hupili/60-data-science-book-visualisation" target="_blank" rel="external">this repo</a>.</p>
+<p>Every participant of Jackathon #3 finds a suitable book for themselves. For a complete list, you can download <a href="/CSV of 60+ data science books: https:/docs.google.com/spreadsheets/d/1U28nb1z9PsXNzNe_YtfPYYUdhH7_YfjEz6L0Z_wpxzM/edit?usp=sharing">the CSV file</a>.<br>To see how we produces this network visualisation, checkout <a href="https://github.com/hupili/60-data-science-book-visualisation" target="_blank" rel="external">this repo</a>.</p>
 <h2 id="Introduction_to_Data_Science"><a href="#Introduction_to_Data_Science" class="headerlink" title="Introduction to Data Science"></a>Introduction to Data Science</h2><p>Kate, who was from a non-technical background, picked <em>Introduction to Data Science</em>. The book is useful to equip one with basic Data Science knowledge. The main take-away for Kate was a better understanding of a Data Scientist’s workflow. It turns out that a Data Scientist is not only responsible for “data analysis” but also works on various positions in the whole pipeline including problem identification, data collection, and data visualisation, etc. It is worth noting that this book uses R (a widely used programming language in the Statistics community) to explain Data Science.<br>If you intend to learn R, this book may be a good starting point. Otherwise, you can pick a book using another language (say Python), or a book that is not language dependent.</p>
 <h2 id="The_Elements_of_Data_Analytic_Style"><a href="#The_Elements_of_Data_Analytic_Style" class="headerlink" title="The Elements of Data Analytic Style"></a>The Elements of Data Analytic Style</h2><p>Belinda finds the book <em>The Elements of Data Analytic Style</em> also suitable for beginners. Chapter 3 (on tidying data), are good readings for a Data Scientist’s assistants, while Chapter 9 (on written analysis), teaches useful soft skills. One effective way to read the book is to scan the Table-Of-Content. The ideas are mostly well communicated via section headers. One doesn’t have to read the whole book for the key ideas.</p>
 <h2 id="Think_Bayes_3A_Bayesian_Statistics_Made_Simple"><a href="#Think_Bayes_3A_Bayesian_Statistics_Made_Simple" class="headerlink" title="Think Bayes: Bayesian Statistics Made Simple"></a>Think Bayes: Bayesian Statistics Made Simple</h2><p>From what Carlson summarises, this book is a practitioner’s guide to statistics. The book deprives lengthy and boring mathematical derivations from a usual first book in statistics and shows you examples/ codes directly. The examples picked in this book is counter-intuitive but demonstrates the power of probability/ statistics knowledge very well. Some well known probability “paradox” includes “Monte Hall problem”, “Locomotive problem” and “Price is Right problem”. The book is case driven. A recommended way of reading is to combine thorough introduction from Wikipedia and code samples from this book.</p>
@@ -921,7 +966,7 @@
       
       </description>
       <content:encoded><![CDATA[<p>We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.<br>And here it is.</p>
-<p><video controls poster="/blog/20150916-legco-eng/legco_animation_poster.jpg"><br>  <source src="/blog/20150916-legco-eng/legco_animation_EngSub.mp4" type="video/mp4"><br>  <source src="/blog/20150916-legco-eng/legco_animation_EngSub.webm" type="video/webm"><br>  Sorry, your browser does not support HTML5 video.<br></video><br>The video is also available on <a href="https://www.youtube.com/watch?v=CExoTvKuXSw" target="_blank" rel="external">YouTube</a> and <a href="http://v.youku.com/v_show/id_XMTM0MzM5NzQwOA==.html?from=y1.7-1.2" target="_blank" rel="external">Youku</a>.</p>
+<p><video controls><br>  <source src="/blog/20150916-legco-eng/legco_animation_EngSub_cut.mp4" type="video/mp4"><br>  Sorry, your browser does not support HTML5 video.<br></video><br>The video is also available on <a href="https://www.youtube.com/watch?v=CExoTvKuXSw" target="_blank" rel="external">YouTube</a> and <a href="http://v.youku.com/v_show/id_XMTM0MzM5NzQwOA==.html?from=y1.7-1.2" target="_blank" rel="external">Youku</a>.</p>
 <p>We also translated the sections of news reports explaining the mysteries mentioned in the video, as follows.</p>
 <a id="more"></a>
 <h2 id="Why_Starry_Lee_voted_against_herself"><a href="#Why_Starry_Lee_voted_against_herself" class="headerlink" title="Why Starry Lee voted against herself"></a>Why Starry Lee voted against herself</h2><p>The diagonal shows how each legislator support their own motions. The more supportive they are, the brighter the block. However, there is one outlier on this bright line. Starry Lee Wai-king, chairwoman of Democratic Alliance for the Betterment and Progress of Hong Kong (DAB) and member of the Executive Council, voted against herself 7 times from February 20 to February 21, 2012. During this time, she proposed several amendments to the draft of Stamp Duty Bill but she voted against these amendments herself. Lee replied via her assistant and explained that, she was serving as the president to the committee responsible for revising the bill, and the committee members decided that she, the president, should propose the revisions for them. As DAB opposed those bills, she chose to vote against amendments technically proposed by her.</p>
