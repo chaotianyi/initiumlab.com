@@ -45,7 +45,7 @@
 <meta property="og:site_name" content="Initium Lab">
 <meta property="og:description" content="作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？">
 <meta property="og:image" content="http://initiumlab.com/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.jpg">
-<meta property="og:updated_time" content="2016-02-04T15:07:23.000Z">
+<meta property="og:updated_time" content="2016-03-16T10:29:39.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="可視化火了 盲人怎麼辦">
 <meta name="twitter:description" content="作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？">
@@ -265,15 +265,15 @@
 <p>盲人也可以用電腦，也會讀新聞。他們看不見，但是聽得到，他們上網用讀屏軟件，屏幕上的字詞，一個個去聽。</p>
 <p>現在新聞界，流行信息圖，把大段文字轉化成圖表，方便讀者閱讀。 但正所謂君之蜜糖，彼之砒霜，普通人愛看的信息圖、可視化，對於盲人的讀屏軟件，則是巨大的障礙。</p>
 <p>那麼，作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？</p>
-<h2 id="u76F2_u4EBA_u600E_u9EBC_u8B80_u65B0_u805E"><a href="#u76F2_u4EBA_u600E_u9EBC_u8B80_u65B0_u805E" class="headerlink" title="盲人怎麼讀新聞"></a>盲人怎麼讀新聞</h2><p>普通人閱讀靠視覺，是「並行」的——你看一眼網頁界面，就知道菜單在哪、內容在哪、哪個是鏈接、哪個可以點。</p>
+<h2 id="盲人怎麼讀新聞"><a href="#盲人怎麼讀新聞" class="headerlink" title="盲人怎麼讀新聞"></a>盲人怎麼讀新聞</h2><p>普通人閱讀靠視覺，是「並行」的——你看一眼網頁界面，就知道菜單在哪、內容在哪、哪個是鏈接、哪個可以點。</p>
 <p>聽覺是「串行」的，一個盲人如果想「讀完」一個網頁，要讓讀屏軟件從第一個元素（按鈕、菜單選項等）讀起，然後一個一個元素讀下去。</p>
 <p>如果想體驗讀屏軟件，在 OS X 或 iPhone 下，可以試用 「VoiceOver」， 這是蘋果內置的讀屏軟件。 閉上眼睛，嘗試一下盲人使用電子產品的方式，試試做一些平常覺得輕而易舉的事情：瀏覽網頁、發發微博，等等。</p>
 <p>Windows 可以下載「爭渡讀屏」， Android用戶可以試試內置的Talkback。</p>
-<h2 id="u7D66_u5716_u50CF_u52A0_u4E0A_u8A73_u7D30_u7684_u6587_u5B57_u63CF_u8FF0_uFF08alt_uFF09"><a href="#u7D66_u5716_u50CF_u52A0_u4E0A_u8A73_u7D30_u7684_u6587_u5B57_u63CF_u8FF0_uFF08alt_uFF09" class="headerlink" title="給圖像加上詳細的文字描述（alt）"></a>給圖像加上詳細的文字描述（alt）</h2><p>讀屏軟件讀不了數據圖表，於是我們要爲視障讀者撰寫圖像的替代文字描述，具體而言，就是HTML中IMG元素的alt屬性。 對於讀屏軟件的用戶，alt的內容會被完整讀出。</p>
+<h2 id="給圖像加上詳細的文字描述（alt）"><a href="#給圖像加上詳細的文字描述（alt）" class="headerlink" title="給圖像加上詳細的文字描述（alt）"></a>給圖像加上詳細的文字描述（alt）</h2><p>讀屏軟件讀不了數據圖表，於是我們要爲視障讀者撰寫圖像的替代文字描述，具體而言，就是HTML中IMG元素的alt屬性。 對於讀屏軟件的用戶，alt的內容會被完整讀出。</p>
 <p>替代說明應該儘可能簡短，但是能夠讓沒有看到圖的讀者都能理解內容。</p>
 <p>比如，不要寫「中國GDP數據可視化」，而是寫「中國GDP近年快速增長，2000年爲1.2千億美元，2005年爲2.3千億，2010年爲5.9千億。」</p>
 <p>替代說明有個額外的好處：利於搜索引擎處理。搜索引擎蒐集數據，是靠大量「爬蟲」程序，一個網頁一個網頁地檢索內容。爬蟲和盲人一樣，只能「看到」文字，無法閱讀圖像，所以，如果一篇文章的重要信息由圖像呈現，又沒有替代說明，則搜索引擎也看不到這些信息，從而讓用戶更難發現你的文章。</p>
-<h2 id="u6578_u64DA_u53EF_u807D_u5316_uFF08Sonification_uFF09"><a href="#u6578_u64DA_u53EF_u807D_u5316_uFF08Sonification_uFF09" class="headerlink" title="數據可聽化（Sonification）"></a>數據可聽化（Sonification）</h2><p>可聽化是與可視化相似的概念。我們做可視化，是因爲大多數人對數字沒有直覺，難以理解，但是我們對顏色、尺寸、方向有直覺——於是，將數字轉化爲圖像，能夠讓讀者更容易解讀數據。對於依賴聽力的盲人，我們則可以用「可聽化」。</p>
+<h2 id="數據可聽化（Sonification）"><a href="#數據可聽化（Sonification）" class="headerlink" title="數據可聽化（Sonification）"></a>數據可聽化（Sonification）</h2><p>可聽化是與可視化相似的概念。我們做可視化，是因爲大多數人對數字沒有直覺，難以理解，但是我們對顏色、尺寸、方向有直覺——於是，將數字轉化爲圖像，能夠讓讀者更容易解讀數據。對於依賴聽力的盲人，我們則可以用「可聽化」。</p>
 <p>聲音可以操縱的變量有：</p>
 <ul>
 <li>響度，即大聲還是小聲；</li>
@@ -283,9 +283,9 @@
 </ul>
 <p>如果將數據與上述一個或幾個變量連接，就能構成一個「可聽化」作品。</p>
 <p>一個例子是<a href="http://listen.hatnote.com/" target="_blank" rel="external">Listen to Wikipedia</a>。它會實時監測維基百科的改動，然後將每次改動化爲聲音，改動越大，聲音頻率越高；音色代表改動類型——敲擊樂是增訂，絃樂是刪減。這個作品本身對盲人可能用處不大，但是這個技術思路可以用在新聞報道上。</p>
-<h2 id="u6578_u64DA_u53EF_u89F8_u5316"><a href="#u6578_u64DA_u53EF_u89F8_u5316" class="headerlink" title="數據可觸化"></a>數據可觸化</h2><p>盲人不止有聽覺，也有觸覺。如果我們將數據化作實際存在的物體，則盲人可以通過觸覺感知。在這個方向，探索的人比較少，偶爾見到零星的嘗試。</p>
+<h2 id="數據可觸化"><a href="#數據可觸化" class="headerlink" title="數據可觸化"></a>數據可觸化</h2><p>盲人不止有聽覺，也有觸覺。如果我們將數據化作實際存在的物體，則盲人可以通過觸覺感知。在這個方向，探索的人比較少，偶爾見到零星的嘗試。</p>
 <p>比如，西班牙記者 Samuel Granados López <a href="http://cargocollective.com/samuelgranados/Lego-cartogram" target="_blank" rel="external">用樂高積木做過一個地圖</a>，用以標識美洲各國的移民流入、流出量：<br><img src="http://payload230.cargocollective.com/1/14/463324/6918937/IMG_1014.jpg" alt="一塊一人多高的底板，垂直放置。上面用樂高積木拼出了美洲各國，各個國家的突起程度並不相同，移民量越大的國家，越突出。"></p>
-<h2 id="u5C55_u671B_uFF1A_u6578_u64DA_u65B0_u805E_u7121_u969C_u7919"><a href="#u5C55_u671B_uFF1A_u6578_u64DA_u65B0_u805E_u7121_u969C_u7919" class="headerlink" title="展望：數據新聞無障礙"></a>展望：數據新聞無障礙</h2><p>過去，新聞的主要呈現方式是文字，輔以照片、插圖。盲人用了讀屏軟件，也能獲取大部分的信息。</p>
+<h2 id="展望：數據新聞無障礙"><a href="#展望：數據新聞無障礙" class="headerlink" title="展望：數據新聞無障礙"></a>展望：數據新聞無障礙</h2><p>過去，新聞的主要呈現方式是文字，輔以照片、插圖。盲人用了讀屏軟件，也能獲取大部分的信息。</p>
 <p>現在，「數據新聞」興起，信息圖、可視化流行，非數據的新聞報道也講求「視覺」「互動」。 </p>
 <p>新聞人考慮的大多是報道網頁在手機上能不能看、用觸屏好不好控制，不太考慮盲人用戶能否閱讀、色盲用戶會否迷惑、殘障用戶能否使用。</p>
 <p>我們在呈現方式上發足狂奔之時，不應該忽略少數有特別需求的用戶。 有的用戶看不到屏幕、有的用戶用不了鼠標，他們仍然有信息需求，仍然可以是我們的讀者。 </p>
@@ -416,7 +416,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#u76F2_u4EBA_u600E_u9EBC_u8B80_u65B0_u805E"><span class="nav-number">1.</span> <span class="nav-text">盲人怎麼讀新聞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u7D66_u5716_u50CF_u52A0_u4E0A_u8A73_u7D30_u7684_u6587_u5B57_u63CF_u8FF0_uFF08alt_uFF09"><span class="nav-number">2.</span> <span class="nav-text">給圖像加上詳細的文字描述（alt）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u6578_u64DA_u53EF_u807D_u5316_uFF08Sonification_uFF09"><span class="nav-number">3.</span> <span class="nav-text">數據可聽化（Sonification）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u6578_u64DA_u53EF_u89F8_u5316"><span class="nav-number">4.</span> <span class="nav-text">數據可觸化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u5C55_u671B_uFF1A_u6578_u64DA_u65B0_u805E_u7121_u969C_u7919"><span class="nav-number">5.</span> <span class="nav-text">展望：數據新聞無障礙</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#盲人怎麼讀新聞"><span class="nav-number">1.</span> <span class="nav-text">盲人怎麼讀新聞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#給圖像加上詳細的文字描述（alt）"><span class="nav-number">2.</span> <span class="nav-text">給圖像加上詳細的文字描述（alt）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#數據可聽化（Sonification）"><span class="nav-number">3.</span> <span class="nav-text">數據可聽化（Sonification）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#數據可觸化"><span class="nav-number">4.</span> <span class="nav-text">數據可觸化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#展望：數據新聞無障礙"><span class="nav-number">5.</span> <span class="nav-text">展望：數據新聞無障礙</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
