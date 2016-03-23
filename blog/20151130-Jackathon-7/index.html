@@ -38,20 +38,20 @@
   <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="Jackathon">
+<meta name="description" content="We hacked on two datasets on Nov 7, 2015.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Jackathon #7 Data Hacking">
 <meta property="og:url" content="http://initiumlab.com/blog/20151130-Jackathon-7/index.html">
 <meta property="og:site_name" content="Initium Lab">
-<meta property="og:description" content="Jackathon">
+<meta property="og:description" content="We hacked on two datasets on Nov 7, 2015.">
 <meta property="og:image" content="http://initiumlab.com/blog/20151130-Jackathon-7/all_people.jpg">
 <meta property="og:image" content="http://initiumlab.com/blog/20151130-Jackathon-7/xinwenlianbo_family_plan.jpg">
 <meta property="og:image" content="http://initiumlab.com/blog/20151130-Jackathon-7/xinwenlianbo_types.jpg">
 <meta property="og:image" content="http://initiumlab.com/blog/20151130-Jackathon-7/passed_away.jpg">
-<meta property="og:updated_time" content="2016-03-16T10:29:39.000Z">
+<meta property="og:updated_time" content="2016-03-22T08:16:09.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Jackathon #7 Data Hacking">
-<meta name="twitter:description" content="Jackathon">
+<meta name="twitter:description" content="We hacked on two datasets on Nov 7, 2015.">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -260,9 +260,9 @@
 <h2 id="Idea-Brainstorm"><a href="#Idea-Brainstorm" class="headerlink" title="Idea Brainstorm"></a>Idea Brainstorm</h2><p>We started with a brainstorm in which participants made lively discussions and showed their great interest in the two data sets we offered. Inspired by stock market prediction, Carlson Zhuo, one of our guests who is from the Chinese University of Hong Kong, came out of the idea of making political prediction by analyzing CCTV news. Chao Tianyi, researcher with Initium Lab, said we could analyze how death events were reported on CCTV. As for RGC data set, Andy Shu, our front-end engineer and editor suggested investigating the most funded professors, etc. After this fruitful brainstorm, we started the Jackathon.</p>
 <p><img src="../../blog/20151130-Jackathon-7/all_people.jpg" alt="Jackathoning together"></p>
 <h2 id="What-Are-the-Fruits"><a href="#What-Are-the-Fruits" class="headerlink" title="What Are the Fruits?"></a>What Are the Fruits?</h2><h3 id="About-CCTV-Data-Set"><a href="#About-CCTV-Data-Set" class="headerlink" title="About CCTV Data Set"></a>About CCTV Data Set</h3><p>We made several pretty interesting outputs with this data set. </p>
-<p>Andy created a Xinwenlianbo (CCTV News Simulcast)searching engine in nearly 5 hours. Using this searching engine one can search how many times a keyword is mentioned in the CCTV data set. It displays the results in the form of bar chart along with numbers. For example, if we want to know how many times “计划生育” (Family Planning in China) appeared in CCTV news recent years, we can search for keyword “计划生育” and see the result. Andy explained that the number only represented number of news reports rather than that of words, i.e. if a word appeared many times in one piece of news, it will only count as “1”.</p>
+<p>Andy created a Xinwenlianbo (CCTV News Simulcast) search engine in nearly 5 hours. Using this search engine one can search how many times a keyword is mentioned in the CCTV data set. It displays the results in the form of bar chart along with numbers. For example, if we want to know how many times “计划生育” (Family Planning in China) appeared in CCTV news recent years, we can search for keyword “计划生育” and see the result. Andy explained that the number only represented number of news reports rather than that of words, i.e. if a word appeared many times in one piece of news, it will only count as “1”.</p>
 <p><img src="../../blog/20151130-Jackathon-7/xinwenlianbo_family_plan.jpg" alt="Searching result of “计划生育” in Xinwenlianbo"><br>Fig: Searching result of “计划生育”</p>
-<p>Now that we’ve got a searching engine, then what did we find? There is a funny joke about CCTV news spreading over the Internet in China, that is “ CCTV daily news tells but three things: busy leaders, happy Chinese and suffering foreigners.” Playing with data Victoria Jin and Yan Rong, a student from Hong Kong Baptist University, found evidence to support the view. They found headlines related to “busy leaders” covered 30% of the whole CCTV news data. In addition, positive words were usually used on China and Chinese people, whereas foreign countries and foreigners were usually accompanied by negative words.</p>
+<p>Now that we’ve got a search engine, then what did we find? There is a funny joke about CCTV news spreading over the Internet in China, that is “ CCTV daily news tells but three things: busy leaders, happy Chinese and suffering foreigners.” Playing with data Victoria Jin and Yan Rong, a student from Hong Kong Baptist University, found evidence to support the view. They found headlines related to “busy leaders” covered 30% of the whole CCTV news data. In addition, positive words were usually used on China and Chinese people, whereas foreign countries and foreigners were usually accompanied by negative words.</p>
 <p><img src="../../blog/20151130-Jackathon-7/xinwenlianbo_types.jpg" alt="Ratio of types in CCTV News"><br>Fig: Rows-Total, Disaster, Happened, Attacked, Conflict, Turbulence, Loss, Failed. Columns-All news, International news, Ratio. </p>
 <p>Bonnie Wang, also a student from Hong Kong Baptist University, analyzed different tones on special days, including Chinese Spring Festival and Tomb-sweeping Day. She found that CCTV would like to use more positive words than negative ones on these two days, which has verified her assumption in the brainstorm section. Carlson tried to see whether we can use CCTV news data to predict national policy and stock market. And Chaotian studied how great people’s death were reported and  counted their frequency.</p>
 <p><img src="../../blog/20151130-Jackathon-7/passed_away.jpg" alt="Usage frequency of “逝世” (passed away) of different people"><br>Fig: Usage frequency of “逝世” (passed away).</p>
@@ -421,7 +421,7 @@
           <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-lg"></div>
           <div id='subscriptionNotice'></div>
           <a id="hiringLink" href="../../career"><div id="hiring">We're Hiring! Join Us!</div></a>
-          <div id="rssButton">© Initium Lab. All rights reserved 2016. <a id="rssTextLink" href="../../blog/feed.xml"><span id="rssText">&nbsp; RSS &nbsp; &nbsp; </span></a></div>
+          <div id="rssButton">© Initium Lab. All rights reserved 2015. <a id="rssTextLink" href="../../blog/feed.xml"><span id="rssText">&nbsp; RSS &nbsp; &nbsp; </span></a></div>
           <div><a href="http://theinitium.com/">Initium Media</a></div>
         </div>
       </form>
@@ -430,7 +430,6 @@
 
 <script src="//cdn.rawgit.com/jpillora/xdomain/0.7.3/dist/xdomain.min.js"></script>
 <script type="text/javascript" src="../../js/email_setting.js"></script>
-
 
     <div class="back-to-top"></div>
   </div>
