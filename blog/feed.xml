@@ -8,8 +8,102 @@
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>The Website of Initium Lab, the exploratory arm of Initium Media</description>
-    <pubDate>Tue, 22 Mar 2016 08:16:09 GMT</pubDate>
+    <pubDate>Sun, 27 Mar 2016 11:26:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>你真的了解數據新聞嗎？﹣﹣八大誤區，你中了幾槍？</title>
+      <link>http://initiumlab.com/blog/blog/20160316-eight-myths-about-data-journalism/</link>
+      <guid>http://initiumlab.com/blog/blog/20160316-eight-myths-about-data-journalism/</guid>
+      <pubDate>Tue, 15 Mar 2016 16:00:00 GMT</pubDate>
+      <description>
+      
+        We hacked on two datasets on Nov 7, 2015.
+      
+      </description>
+      
+      <content:encoded>&lt;p&gt;大數據、信息圖、H5、小遊戲、統計圖表、實時更新⋯這麼多炫酷的概念，似乎都與數據新聞沾點邊，可是你真的了解數據新聞嗎？&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;近三五年來，數據新聞一躍成為最熱門的新聞類型。不過，大家在了解、學習這種新型新聞的過程中，難免會犯些「新手錯誤」。為此，我們綜合了財新數據可視化實驗室負責人黃志敏在浸會大學的講座內容和 Initium Lab  數據新聞實操經驗，總結出八大誤區，供大家一探究竟。&lt;/p&gt;
+&lt;h2 id=&quot;誤區1-不懂大數據，就看不懂數據新聞&quot;&gt;&lt;a href=&quot;#誤區1-不懂大數據，就看不懂數據新聞&quot; class=&quot;headerlink&quot; title=&quot;誤區1  不懂大數據，就看不懂數據新聞&quot;&gt;&lt;/a&gt;誤區1  不懂大數據，就看不懂數據新聞&lt;/h2&gt;&lt;p&gt;「大數據」已經成為互聯網時代里最火的熱詞之一，似乎當今的行業要是不和大數據沾點邊兒，都唯恐被人歸為日薄西山的夕陽產業。相當多的讀者一看見「數據」二字，心底都會浮現出一種恐懼，當年數學渣們好不容易逃離了苦海，現在就想簡簡單單看些新聞，也還得被虐一遍。其實不然，數據新聞並非旨在給專業人士提供資訊，恰恰相反，它的初衷正是為了幫助更多讀者釐清新聞脈絡，選取最恰當的表現形式，運用簡約的數字、圖形、文字說明及操作簡便的交互，將新聞的核心信息呈現出來。黃志敏表示，衡量一篇好的數據新聞報道，標準之一就是「將新聞的文字主體部分隱去，看是否還能讓讀者清楚地讀懂報道的核心內容」。因此，讀者們大可寬心，即使你對數字不敏感，也不熟悉各式圖表，好的數據新聞也會讓你輕鬆理解報道內容。&lt;/p&gt;
+&lt;h2 id=&quot;誤區2-數據新聞＝新聞＋數字＋圖表&quot;&gt;&lt;a href=&quot;#誤區2-數據新聞＝新聞＋數字＋圖表&quot; class=&quot;headerlink&quot; title=&quot;誤區2  數據新聞＝新聞＋數字＋圖表&quot;&gt;&lt;/a&gt;誤區2  數據新聞＝新聞＋數字＋圖表&lt;/h2&gt;&lt;p&gt;與前一種誤解相反，這種想法認為數據新聞其實是借著大數據的噱頭，給讀者營造出一種開創了新型新聞的錯覺，而本質上不過是在文字中增添了數字和圖表。這種想法實際是將「數據新聞」與「數字新聞」混為一談。要明確「數據新聞」，首先要了解它和「數字新聞」、「精確新聞」的區別。「數字新聞」指以數字、公式、字母等靜態形式來輔助文字的報道；而「精確新聞」的特點是使用精確的具體數據分析新聞事件，以避免主觀的、人為的錯誤，它側重於微觀的具體調查、實驗和內容分析。「數據新聞」則是指基於數據的抓取、挖掘、統計、分析和可視化呈現的新型新聞報導方式，顯現的是對大數據的挖掘與處理的結果。如此看來，它倒是擔當得起「數據」二字呢。&lt;/p&gt;
+&lt;h2 id=&quot;誤區3-數據新聞保質期短，因此要緊跟熱點&quot;&gt;&lt;a href=&quot;#誤區3-數據新聞保質期短，因此要緊跟熱點&quot; class=&quot;headerlink&quot; title=&quot;誤區3  數據新聞保質期短，因此要緊跟熱點&quot;&gt;&lt;/a&gt;誤區3  數據新聞保質期短，因此要緊跟熱點&lt;/h2&gt;&lt;p&gt;「數據新聞的本質還是新聞，而新聞是講究時效性的。我們花了大量時間和人力做出一篇數據新聞，一旦過時，豈不是得不償失？」&lt;/p&gt;
+&lt;p&gt;這是當前新聞系學生普遍深感困惑的一點。而黃志敏通過《財新》分層遞進的報道模式給出了答案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;第一時間：出即時報道，并將新聞進行簡單加工后呈現出來。例如一篇存在多個人物關係的報道，會在原先文本的基礎上附加重要人物的個人簡歷，為讀者提供更豐富而全面的信息；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;幾小時后：根據事態進展和資料搜集，保持報道中的數據更新；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;一天後：專注于數據的廣泛探索與深入挖掘，對新聞進行深度報道，并運用計算機輔助手段將其可視化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;從這種模式可以看出，和普通新聞相比，數據新聞的戰線拉得更長。這不僅給高速運轉的記者們喘息的機會，也能將新聞做到盡善盡美。&lt;/p&gt;
+&lt;p&gt;不過，黃志敏認為，數據新聞並沒有被要求一定要時時搶在第一線。有些非常有意思的題目，是可以跨越較大時間維度的。比如財新數據可視化實驗室曾經做過 &lt;a href=&quot;http://datanews.caixin.com/2013/nobel/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;「星空彩繪諾貝爾」專題&lt;/a&gt;，模擬極地視角，列舉了從1901年至2015年各領域的諾貝爾獲得者，時間跨度達115年。而這種呈現方式，也開拓了新聞從業者對於數據新聞選題的新思路。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20160316-eight-myths-about-data-journalism/nobel-prize-visualization.png&quot; alt=&quot;財新作品圖片：星空彩繪諾貝爾&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;誤區4-數據新聞一定要有新聞價值&quot;&gt;&lt;a href=&quot;#誤區4-數據新聞一定要有新聞價值&quot; class=&quot;headerlink&quot; title=&quot;誤區4  數據新聞一定要有新聞價值&quot;&gt;&lt;/a&gt;誤區4  數據新聞一定要有新聞價值&lt;/h2&gt;&lt;p&gt;什麼叫新聞價值？當然是指新聞具有社會重要性、群眾利益相關性等。那麼八卦娛樂新聞有沒有價值？這……好像價值不大。既然沒什麼「價值」，為什麼始終存在？&lt;/p&gt;
+&lt;p&gt;由於新聞價值極大關係到新聞選題，需要予以其多少重視成為立志成為數據新聞從業者的最大困惑之一。正如前文所說，現階段評價「新聞價值」的標準之一就是時效性，而數據新聞並不強調這一點，相對於傳統新聞，數據新聞似乎更注重趣味性和信息增量，例如通過挖掘數據可以找到事物背後隱藏的關聯。所謂甲之蜜糖，乙之砒霜，不同人眼中具有價值的新聞也不大相同。因此，黃志敏認為脫離數據談論新聞價值意義不大。&lt;/p&gt;
+&lt;p&gt;例如，近期財新數據可視化實驗室參與主辦的&lt;a href=&quot;http://vislab.caixin.com/?p=741&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第二屆高校數據新聞比賽&lt;/a&gt; 中，最終公佈的評分標準未提及「新聞價值」這一項，黃志敏提到，原因是評委考慮到比賽主要面向高校新聞系的學生，在大家都經過系統新聞訓練的背景下，他更希望能考察學生的數據挖掘能力和設計呈現水平。&lt;/p&gt;
+&lt;h2 id=&quot;誤區5-酷炫的呈現方式是數據新聞標配&quot;&gt;&lt;a href=&quot;#誤區5-酷炫的呈現方式是數據新聞標配&quot; class=&quot;headerlink&quot; title=&quot;誤區5  酷炫的呈現方式是數據新聞標配&quot;&gt;&lt;/a&gt;誤區5  酷炫的呈現方式是數據新聞標配&lt;/h2&gt;&lt;p&gt;曾經，筆者也沉迷於搜集各種H5界面精美、動畫效果驚人、交互設計酷炫的數據新聞，直到將手機交給了父母，想讓他們也體驗一下科技的「偉大」……然後就悲劇了。過於複雜的交互讓一些新聞受眾群體畏難而退，令他們對原本想了解的新聞事件也喪失了興趣。數據新聞發展到這一步，倒是本末倒置了。&lt;/p&gt;
+&lt;p&gt;在上述 &lt;a href=&quot;http://www.uscet.org/sites/default/files/160201shu_ju_xin_wen_ping_jie_biao__1.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;高校數據新聞比賽所使用的評分表&lt;/a&gt; 中，「技術必要性」一項規定，若「所有用代碼實現的圖表均有必要」，可得該項滿分，而如果「濫用技術，增加了作品的複雜性」，則該項不得分；「交互易用性」規定，「操作方式直觀，用戶無需學習或無須操作」可得該項滿分，但若「操作方式難以理解,或難以操作」，則該項不得分。這充分說明，數據新聞絕不是以技術實現為最終目的。如何能找到最佳表現手段，向讀者流暢呈現數據，達到「簡潔之美」，才是數據新聞發展的原則和終極目標。&lt;/p&gt;
+&lt;h2 id=&quot;誤區6-相比學生，職業記者做數據新聞更有優勢&quot;&gt;&lt;a href=&quot;#誤區6-相比學生，職業記者做數據新聞更有優勢&quot; class=&quot;headerlink&quot; title=&quot;誤區6  相比學生，職業記者做數據新聞更有優勢&quot;&gt;&lt;/a&gt;誤區6  相比學生，職業記者做數據新聞更有優勢&lt;/h2&gt;&lt;p&gt;作為第二屆高校數據新聞報道大賽的評委之一，黃志敏被問到最多的問題是「學生和職業記者相比，做數據新聞是否處於劣勢？」。大多數人認為，職業記者積累了多年經驗，在新聞報道的專業性、乃至信息來源的豐富性上都更勝一籌。黃志敏表示，當前職業記者擁有的這些客觀優勢是不可否認的，不過，學生也擁有職業記者所不具備的優勢。由於數據新聞依賴於大數據，而大數據的挖掘、清洗和提取則需要相當的技術水平，因此擁有計算機背景的學生具備先天的技術條件。另外，學生擁有更強的學習能力和更多的學習時間，即便不是計算機專業科班出身，他們在彌補自身技術缺陷時也比職業記者輕鬆不少。&lt;/p&gt;
+&lt;p&gt;當然，黃志敏認為學生由於視野的狹窄也造成了做數據新聞時存在較大局限性。要想成為優秀的數據新聞記者，必須加強專業訓練和多項技能的培養。&lt;/p&gt;
+&lt;h2 id=&quot;誤區7-數據可視化技術的應用範圍太小&quot;&gt;&lt;a href=&quot;#誤區7-數據可視化技術的應用範圍太小&quot; class=&quot;headerlink&quot; title=&quot;誤區7  數據可視化技術的應用範圍太小&quot;&gt;&lt;/a&gt;誤區7  數據可視化技術的應用範圍太小&lt;/h2&gt;&lt;p&gt;擁有一身可視化技術的高超本領，卻迷失在無窮無盡的數據新聞中……這大概也是很多讀者心存憂慮的一點。數據可視化技術是不是只能應用在數據新聞中？答案當然是否定的。數據新聞和數據可視化技術絕非包含與被包含的關係，二者之間是相互交叉的。某種程度上來說，數據可視化技術的外延更加廣泛，它可以用於企業品宣部門與數據部門的分析展示，也可為媒體、政府機關及事業單位提供服務。在分享會上，黃志敏也通過展示&lt;a href=&quot;http://vislab.caixin.com/?p=215&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;支付寶十年賬單&lt;/a&gt;的H5視頻，向同學們介紹了這一技術的實際運用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20160316-eight-myths-about-data-journalism/alipay-bills.png&quot; alt=&quot;財新作品圖片：支付寶十年賬單&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在「人人都是產品經理」的時代，如何將一個獨特的創意包裝成產品，并巧妙推廣，獲得商業上的成功，是每個產品從業者都需要思考的問題。而數據可視化技術恰恰開闢了一種商業模式。黃志敏表示，《財新》同時也為阿里巴巴、螞蟻金服等商務平台提供數據可視化技術，從中獲得資金支持，這樣又保證了數據新聞的平穩運營。下一步，他們將會把這項服務獨立出來，成立一家專業、具備一定規模的公司，從而構成一個完整的商業模式。&lt;/p&gt;
+&lt;h2 id=&quot;誤區8-數據新聞團隊一定很龐大&quot;&gt;&lt;a href=&quot;#誤區8-數據新聞團隊一定很龐大&quot; class=&quot;headerlink&quot; title=&quot;誤區8  數據新聞團隊一定很龐大&quot;&gt;&lt;/a&gt;誤區8  數據新聞團隊一定很龐大&lt;/h2&gt;&lt;p&gt;如果要做數據新聞，你需要一個什麼樣的團隊？&lt;/p&gt;
+&lt;p&gt;一個數據分析師做數據挖掘，一個記者/編輯做文案，一個設計師做呈現效果，一個程序員寫代碼。這是最低配了吧？那也得起碼四個人。不不，如果能力強，你可以身兼數職！在實際操作時，記者和編輯往往兼任了數據分析師的職位，而如果你是一個有著設計天賦的程序員……你就開掛了。這麼一算，兩個人就可以組隊寫數據新聞了呢！還等什麼？趕緊拉上你的小夥伴，一起踏入數據新聞的浪潮中吧！&lt;/p&gt;
+</content:encoded>
+      
+      <comments>http://initiumlab.com/blog/blog/20160316-eight-myths-about-data-journalism/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>除了折線和地圖，還可以怎樣呈現全球變暖？</title>
+      <link>http://initiumlab.com/blog/blog/20160128-global-warming/</link>
+      <guid>http://initiumlab.com/blog/blog/20160128-global-warming/</guid>
+      <pubDate>Wed, 27 Jan 2016 16:00:00 GMT</pubDate>
+      <description>
+      
+        最暖冬天撞上罕見寒潮，一時間，「極端天氣」、「氣候變暖」成了香港城中最熱議的話題。其實，氣候變化和全球變暖一直都是數據新聞界長期關注的明星議題，可視化和預測類作品層出不窮。不過，看多了數字、折線和地圖，讀者難免疲勞，作者期待的「震撼人心」效果也會大打折扣。那麼，除了上述方式，還可以怎樣呈現全球變暖呢？
+      
+      </description>
+      
+      <content:encoded>&lt;p&gt;最暖冬天撞上罕見寒潮，一時間，「極端天氣」、「氣候變暖」成了香港城中最熱議的話題。其實，氣候變化和全球變暖一直都是數據新聞界長期關注的明星議題，可視化和預測類作品層出不窮。不過，看多了數字、折線和地圖，讀者難免疲勞，作者期待的「震撼人心」效果也會大打折扣。那麼，除了上述方式，還可以怎樣呈現全球變暖呢？&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;一首歌告訴你地球是怎樣變熱的&quot;&gt;&lt;a href=&quot;#一首歌告訴你地球是怎樣變熱的&quot; class=&quot;headerlink&quot; title=&quot;一首歌告訴你地球是怎樣變熱的&quot;&gt;&lt;/a&gt;一首歌告訴你地球是怎樣變熱的&lt;/h2&gt;&lt;p&gt;氣溫變化不僅能看，也能聽。Initium Lab 把香港 131 年以來每年的平均氣溫水平作音符，奏出&lt;a href=&quot;http://datasounds.initiumlab.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;氣溫樂章&lt;/a&gt;。搭配後現代電子音樂，著實驚心。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20160128-global-warming/datasound_hk.png&quot; alt=&quot;Jackathoning together&quot;&gt;&lt;/p&gt;
+&lt;p&gt;再來聽聽古典風格的氣溫音樂吧。&lt;/p&gt;
+&lt;p&gt;美國明尼蘇達大學的學生 Daniel Crawford 把 NASA 公開的氣溫數據譜成了一首&lt;a href=&quot;http://www.smithsonianmag.com/science-nature/this-song-composed-from-133-years-climate-change-data-180956225/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;提琴協奏曲&lt;/a&gt;，希望借此告訴大家，地球真的在變熱，而且到處都在變熱。&lt;/p&gt;
+&lt;p&gt;Daniel 選取北半球四個氣候帶歷年的平均溫度，將它們翻譯成音符，就得到了四個聲部的旋律。再請來四把提琴一齊演奏：大提琴演奏熱帶氣溫、中提琴代表北溫帶，兩把小提琴分別對應北寒帶和北極圈。這樣，聽眾既能聽出百年來氣溫變化的趨勢，又能感受到區域間溫度變化的不同。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20160128-global-warming/vio_concerto.png&quot; alt=&quot;vio_concerto&quot;&gt;&lt;/p&gt;
+&lt;p&gt;這個作品使用了 NASA 公開的&lt;a href=&quot;http://data.giss.nasa.gov/gistemp/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;從1880年以來的氣溫數據&lt;/a&gt;。這份數據包括每月、季、年的全球平均氣溫。&lt;/p&gt;
+&lt;h2 id=&quot;平面地圖直接生成-3D-模型&quot;&gt;&lt;a href=&quot;#平面地圖直接生成-3D-模型&quot; class=&quot;headerlink&quot; title=&quot;平面地圖直接生成 3D 模型&quot;&gt;&lt;/a&gt;平面地圖直接生成 3D 模型&lt;/h2&gt;&lt;p&gt;NASA 公開過一組氣溫變化的二維地圖，這在 Uber 可視化團隊負責人 Nicolas Belmonte 看來顯然不夠酷。&lt;/p&gt;
+&lt;p&gt;他把 NASA 的平面地圖暴力映射到 &lt;a href=&quot;http://philogb.github.io/page/temperature-anomalies/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3D 地球模型&lt;/a&gt;中，用地球的膨脹程度顯示氣溫的變化。用戶在網頁上拉拽地球，就可以全方位看到全球各地區的氣溫變化劇烈程度。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20160128-global-warming/3d_earth.png&quot; alt=&quot;3d_earth&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;扭曲的地圖-不平等的世界&quot;&gt;&lt;a href=&quot;#扭曲的地圖-不平等的世界&quot; class=&quot;headerlink&quot; title=&quot;扭曲的地圖 不平等的世界&quot;&gt;&lt;/a&gt;扭曲的地圖 不平等的世界&lt;/h2&gt;&lt;p&gt;如果你希望在最短的時間內知道不同國家和地區&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在氣候問題上負有什麼歷史責任&lt;/li&gt;
+&lt;li&gt;未來會受到怎樣的影響&lt;/li&gt;
+&lt;li&gt;人口和富裕程度等基本信息&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;請一定要看這個作品。&lt;/p&gt;
+&lt;p&gt;英國數據新聞團隊 KLIN 利用 Cartogram 技術，根據二氧化碳排放量、化石燃料存儲量、貧困人口數等11個指標重新計算各個國家的面積，畫出11張&lt;a href=&quot;http://www.carbonmap.org/#intro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;扭曲的世界地圖&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20160128-global-warming/carbon_map.png&quot; alt=&quot;carbon_map&quot;&gt;&lt;/p&gt;
+&lt;p&gt;你會看到&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;面對井噴式的二氧化碳排放，亞洲和非洲將成為全球最脆弱的地區，&lt;/li&gt;
+&lt;li&gt;而歷史排放量最大的歐洲和北美國家，相對而言，承擔的風險很小。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;Google-搜索暴露用戶的小心思&quot;&gt;&lt;a href=&quot;#Google-搜索暴露用戶的小心思&quot; class=&quot;headerlink&quot; title=&quot;Google 搜索暴露用戶的小心思&quot;&gt;&lt;/a&gt;Google 搜索暴露用戶的小心思&lt;/h2&gt;&lt;p&gt;面對氣候變化，世界各地的人都在關心些什麼？問谷歌就知道啦。&lt;/p&gt;
+&lt;p&gt;Google News Lab 和 Pitch Interactive 把 2004～2015年間 Goolge 上和環境相關的搜索問題搬到了 &lt;a href=&quot;http://news-lab-trends-experiment.appspot.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3D 地球模型&lt;/a&gt;上，拖動地球，便可逐一查看各地用戶搜索量最高問題是什麼。來看幾個有意思的發現：&lt;/p&gt;
+&lt;p&gt;紐約用戶最關心「全球變暖會怎樣影響小動物？」。&lt;br&gt;&lt;br&gt;悉尼用戶想知道「全球變暖是真實的還是虛構的？」。&lt;br&gt;&lt;br&gt;而在伊斯坦堡用戶中…..搜索量排名第二的問題居然是「怎樣把全球變暖和商業聯繫起來？」。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20160128-global-warming/google_search.png&quot; alt=&quot;google_search&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;三分鐘動畫看清碳排放的歷史和未來&quot;&gt;&lt;a href=&quot;#三分鐘動畫看清碳排放的歷史和未來&quot; class=&quot;headerlink&quot; title=&quot;三分鐘動畫看清碳排放的歷史和未來&quot;&gt;&lt;/a&gt;三分鐘動畫看清碳排放的歷史和未來&lt;/h2&gt;&lt;p&gt;Guardian 的&lt;a href=&quot;http://www.theguardian.com/environment/ng-interactive/2014/dec/01/carbon-emissions-past-present-and-future-interactive&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;這則動畫短片&lt;/a&gt;，只用了氣泡和方塊兩種元素，介紹19世紀以來人類排放二氧化碳的歷史、現狀和未來對策，順帶科普碳預算、碳中和、2℃阈值這類專業概念。特別的是，這個頁面加入了互動元素，如果沒時間看完整條片，讀者亦可以自己探索。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20160128-global-warming/carbon_animation.png&quot; alt=&quot;carbon_animation&quot;&gt;&lt;/p&gt;
+</content:encoded>
+      
+      <comments>http://initiumlab.com/blog/blog/20160128-global-warming/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Jackathon #7 Data Hacking</title>
@@ -966,7 +1060,7 @@
       </description>
       
       <content:encoded>&lt;p&gt;We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.&lt;br&gt;And here it is.&lt;/p&gt;
-&lt;p&gt;&lt;video controls poster=&quot;/blog/20150916-legco-eng/legco_animation_poster.jpg&quot;&gt;&lt;br&gt;  &lt;source src=&quot;/blog/20150916-legco-eng/legco_animation_EngSub.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;br&gt;  &lt;source src=&quot;/blog/20150916-legco-eng/legco_animation_EngSub.webm&quot; type=&quot;video/webm&quot;&gt;&lt;br&gt;  Sorry, your browser does not support HTML5 video.&lt;br&gt;&lt;/video&gt;&lt;br&gt;The video is also available on &lt;a href=&quot;https://www.youtube.com/watch?v=CExoTvKuXSw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YouTube&lt;/a&gt; and &lt;a href=&quot;http://v.youku.com/v_show/id_XMTM0MzM5NzQwOA==.html?from=y1.7-1.2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Youku&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;video controls&gt;&lt;br&gt;  &lt;source src=&quot;/blog/20150916-legco-eng/legco_animation_EngSub_cut.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;br&gt;  Sorry, your browser does not support HTML5 video.&lt;br&gt;&lt;/video&gt;&lt;br&gt;The video is also available on &lt;a href=&quot;https://www.youtube.com/watch?v=CExoTvKuXSw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YouTube&lt;/a&gt; and &lt;a href=&quot;http://v.youku.com/v_show/id_XMTM0MzM5NzQwOA==.html?from=y1.7-1.2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Youku&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We also translated the sections of news reports explaining the mysteries mentioned in the video, as follows.&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;Why-Starry-Lee-voted-against-herself&quot;&gt;&lt;a href=&quot;#Why-Starry-Lee-voted-against-herself&quot; class=&quot;headerlink&quot; title=&quot;Why Starry Lee voted against herself&quot;&gt;&lt;/a&gt;Why Starry Lee voted against herself&lt;/h2&gt;&lt;p&gt;The diagonal shows how each legislator support their own motions. The more supportive they are, the brighter the block. However, there is one outlier on this bright line. Starry Lee Wai-king, chairwoman of Democratic Alliance for the Betterment and Progress of Hong Kong (DAB) and member of the Executive Council, voted against herself 7 times from February 20 to February 21, 2012. During this time, she proposed several amendments to the draft of Stamp Duty Bill but she voted against these amendments herself. Lee replied via her assistant and explained that, she was serving as the president to the committee responsible for revising the bill, and the committee members decided that she, the president, should propose the revisions for them. As DAB opposed those bills, she chose to vote against amendments technically proposed by her.&lt;/p&gt;
