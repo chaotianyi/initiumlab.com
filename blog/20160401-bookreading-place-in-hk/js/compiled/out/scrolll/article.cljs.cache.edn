@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 1.7.170
+{:use-macros nil, :excludes #{}, :name scrolll.article, :imports nil, :requires nil, :uses nil, :defs {article {:name scrolll.article/article, :file "src/scrolll/article.cljs", :line 8, :column 1, :end-line 8, :end-column 13, :meta {:file "/Users/franklin/workspace/scrollll/src/scrolll/article.cljs", :line 8, :column 6, :end-line 8, :end-column 13}}}, :require-macros nil, :cljs.analyzer/constants {:seen #{:image-url :content :title :position :polylines}, :order [:position :image-url :title :content :polylines]}, :doc nil}
