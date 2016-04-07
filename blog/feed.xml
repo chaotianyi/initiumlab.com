@@ -8,8 +8,26 @@
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>The Website of Initium Lab, the exploratory arm of Initium Media</description>
-    <pubDate>Wed, 30 Mar 2016 09:01:31 GMT</pubDate>
+    <pubDate>Thu, 07 Apr 2016 04:03:30 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>帶一本書虛度時光？香港 20 處讀書聖地</title>
+      <link>http://initiumlab.com/blog/blog/20160401-blog-bookreading-place-in-hk/</link>
+      <guid>http://initiumlab.com/blog/blog/20160401-blog-bookreading-place-in-hk/</guid>
+      <pubDate>Thu, 31 Mar 2016 16:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;&lt;a href=&quot;http://initiumlab.com/blog/20160401-bookreading-place-in-hk/&quot;&gt;點擊這裡探索 20 處露天讀書聖地&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;/blog/20160401-blog-bookreading-place-in-hk/kowloon_park.jpg&quot; alt=&quot;九龍公園&quot;&gt;&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;http://initiumlab.com/blog/20160401-bookreading-place-in-hk/&quot;&gt;點擊這裡探索 20 處露天讀書聖地&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;/blog/20160401-blog-bookreading-place-in-hk/kowloon_park.jpg&quot; alt=&quot;九龍公園&quot;&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content:encoded>
+      
+      <comments>http://initiumlab.com/blog/blog/20160401-blog-bookreading-place-in-hk/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>你真的了解數據新聞嗎？﹣﹣八大誤區，你中了幾槍？</title>
@@ -18,7 +36,7 @@
       <pubDate>Tue, 15 Mar 2016 16:00:00 GMT</pubDate>
       <description>
       
-        We hacked on two datasets on Nov 7, 2015.
+        &lt;p&gt;大數據、信息圖、H5、小遊戲、統計圖表、實時更新⋯這麼多炫酷的概念，似乎都與數據新聞沾點邊，可是你真的了解數據新聞嗎？&lt;/p&gt;
       
       </description>
       
