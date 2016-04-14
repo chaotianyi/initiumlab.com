@@ -8,7 +8,7 @@
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>The Website of Initium Lab, the exploratory arm of Initium Media</description>
-    <pubDate>Thu, 14 Apr 2016 15:24:17 GMT</pubDate>
+    <pubDate>Thu, 14 Apr 2016 15:50:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -1046,6 +1046,47 @@
     </item>
     
     <item>
+      <title>小工具有大作用-輕鬆截屏剪裁</title>
+      <link>http://initiumlab.com/blog/blog/20151001-capture-tricks/</link>
+      <guid>http://initiumlab.com/blog/blog/20151001-capture-tricks/</guid>
+      <pubDate>Thu, 01 Oct 2015 01:38:16 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;截圖，是全球電腦使用者都熟悉的功能。但是，常用不代表精通。我們整理了平日常用的進階截圖技巧，或許能為大家打開新世界的大門。&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded>&lt;p&gt;截圖，是全球電腦使用者都熟悉的功能。但是，常用不代表精通。我們整理了平日常用的進階截圖技巧，或許能為大家打開新世界的大門。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;技能一：全網頁截圖&quot;&gt;&lt;a href=&quot;#技能一：全網頁截圖&quot; class=&quot;headerlink&quot; title=&quot;技能一：全網頁截圖&quot;&gt;&lt;/a&gt;技能一：全網頁截圖&lt;/h2&gt;&lt;p&gt;截圖大家都熟悉，可是如果想要截取全網頁，而這個網頁比屏幕大怎麼辦？比方說，端傳媒的深度報導，篇篇精彩，但是大都幾千字的篇幅，想要截圖保存，能否快速搞定？&lt;/p&gt;
+&lt;p&gt;我們可以利用Firefox來實現這個想法。&lt;/p&gt;
+&lt;p&gt;第一步：打開 Firefox，打開目標網頁，調整到理想的視窗比例。&lt;/p&gt;
+&lt;p&gt;第二步：進 Tools -&amp;gt; Web Developer -&amp;gt; Toggle Tools&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20151001-capture-tricks/Firefox-capture-1.png&quot; alt=&quot;Firefox-Capture-1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第三步：在彈出的窗口點擊小齒輪，選擇「Take a fullpage screenshot」，然後點擊「照相機」按鈕。&lt;/p&gt;
+&lt;p&gt;第四步：從此之後，只要打開控制台，點選照相機即可。文件會下載到 Downloads 文件夾內。&lt;br&gt;&lt;img src=&quot;/blog/20151001-capture-tricks/Firefox-capture-2.png&quot; alt=&quot;Firefox-Capture-2&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;技能二：截取巨型網頁&quot;&gt;&lt;a href=&quot;#技能二：截取巨型網頁&quot; class=&quot;headerlink&quot; title=&quot;技能二：截取巨型網頁&quot;&gt;&lt;/a&gt;技能二：截取巨型網頁&lt;/h2&gt;&lt;p&gt;用 Firefox 截屏全網頁固然好用，但有些情況下，想截一張高清巨型大圖，既無法使用系統截圖（因為會翻頁），各類瀏覽器插件又紛紛無解，點算呢？&lt;/p&gt;
+&lt;p&gt;這種情況下，必須動用江湖神器：PhantomJS。寫10行代碼，即可完成截圖。通過改變 width 和 height 兩個參數，可以以任意尺寸截圖。&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; page = &lt;span class=&quot;built_in&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;webpage&#39;&lt;/span&gt;).create();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;page.open(&lt;span class=&quot;string&quot;&gt;&#39;http://localhost:9000/#/matrix&#39;&lt;/span&gt;,fuction() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    page.viewportSize = &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        width: &lt;span class=&quot;number&quot;&gt;9000&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        height: &lt;span class=&quot;number&quot;&gt;9000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    page.render(&lt;span class=&quot;string&quot;&gt;&#39;legco-matrix.png&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    phantom.exit();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;技能三：截一系列相同尺寸的圖&quot;&gt;&lt;a href=&quot;#技能三：截一系列相同尺寸的圖&quot; class=&quot;headerlink&quot; title=&quot;技能三：截一系列相同尺寸的圖&quot;&gt;&lt;/a&gt;技能三：截一系列相同尺寸的圖&lt;/h2&gt;&lt;p&gt;以下這個技能，將是強迫症患者的福音。&lt;/p&gt;
+&lt;p&gt;截取一系列尺寸相同、自帶陰影效果的窗口，可以使用 Command + Shitf + 4 + Space。點選「相機」按鈕即可。得到的圖片即如下所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20151001-capture-tricks/Mac-Capture-1.png&quot; alt=&quot;Mac-Capture-1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20151001-capture-tricks/Mac-Capture-2.png&quot; alt=&quot;Mac-Capture-2&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;技能四：編輯截圖&quot;&gt;&lt;a href=&quot;#技能四：編輯截圖&quot; class=&quot;headerlink&quot; title=&quot;技能四：編輯截圖&quot;&gt;&lt;/a&gt;技能四：編輯截圖&lt;/h2&gt;&lt;p&gt;第一步：用 Mac 自帶的 Preview 打開圖片。&lt;/p&gt;
+&lt;p&gt;第二步：用鼠標在圖片上框出需要剪裁的部分。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20151001-capture-tricks/Mac-Preview-2.png&quot; alt=&quot;Mac-Preview-2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第三步：先按快捷鍵 Command+C，再按快捷鍵Command+N，圖片就裁出來了。最後記得保存哦。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20151001-capture-tricks/Mac-Preview-3.png&quot; alt=&quot;Mac-Preview-3&quot;&gt;&lt;/p&gt;
+&lt;p&gt;基本的圖片編輯也非常簡單。&lt;/p&gt;
+&lt;p&gt;步驟：用 Preview 打開要處理的圖片，點開右上角的 Show edit toolbar 按鈕，即可開啟工具欄。用這裡的工具可以畫出方框、箭頭、直線，也可以添加文字。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20151001-capture-tricks/Mac-Preview-4.png&quot; alt=&quot;Mac-Preview-4&quot;&gt;&lt;/p&gt;
+&lt;p&gt;編輯：王思文&lt;/p&gt;
+</content:encoded>
+      
+      <comments>http://initiumlab.com/blog/blog/20151001-capture-tricks/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>整日做表沒思路？Google幫你開腦洞</title>
       <link>http://initiumlab.com/blog/blog/20150930-google-sheets-explore/</link>
       <guid>http://initiumlab.com/blog/blog/20150930-google-sheets-explore/</guid>
@@ -1183,67 +1224,6 @@
 </content:encoded>
       
       <comments>http://initiumlab.com/blog/blog/20150916-legco-eng/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>可視化火了 盲人怎麼辦</title>
-      <link>http://initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/</link>
-      <guid>http://initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/</guid>
-      <pubDate>Tue, 01 Sep 2015 13:39:43 GMT</pubDate>
-      <description>
-      
-        作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？
-      
-      </description>
-      
-      <content:encoded>&lt;p&gt;&lt;img src=&quot;/blog/20150901-data-journalism-for-the-blind/news-related-disabilities.png&quot; alt=&quot;中國有視力殘障1040萬，香港人口才710萬，上海常住人口2302萬。&quot;&gt;&lt;br&gt;中國有五百萬盲人&lt;sup&gt;&lt;a href=&quot;#note1&quot;&gt;[註1]&lt;/a&gt;&lt;/sup&gt;， 接近香港的總人口。 加上弱視，總數超過一千二百萬&lt;sup&gt;&lt;a href=&quot;#note2&quot;&gt;[註2]&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-&lt;p&gt;盲人走丟是舊聞，盲貓失蹤纔是新聞：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;經濟日報：偷貓賊出沒 書店盲貓福仔被盜&lt;/li&gt;
-&lt;li&gt;文匯報：黑褸賊書局偷盲貓 片段網上瘋傳&lt;/li&gt;
-&lt;li&gt;東方日報：盲貓「福仔」被尋回　主人喜與愛貓重聚&lt;/li&gt;
-&lt;li&gt;蘋果日報：被偷5日　疑賊人送往愛協　盲貓「福仔」回家了&lt;br&gt;等等……&lt;/li&gt;
-&lt;/ul&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;盲人也可以用電腦，也會讀新聞。他們看不見，但是聽得到，他們上網用讀屏軟件，屏幕上的字詞，一個個去聽。&lt;/p&gt;
-&lt;p&gt;現在新聞界，流行信息圖，把大段文字轉化成圖表，方便讀者閱讀。 但正所謂君之蜜糖，彼之砒霜，普通人愛看的信息圖、可視化，對於盲人的讀屏軟件，則是巨大的障礙。&lt;/p&gt;
-&lt;p&gt;那麼，作爲新聞人，我們可以怎樣照顧盲人的信息需求呢？&lt;/p&gt;
-&lt;h2 id=&quot;盲人怎麼讀新聞&quot;&gt;&lt;a href=&quot;#盲人怎麼讀新聞&quot; class=&quot;headerlink&quot; title=&quot;盲人怎麼讀新聞&quot;&gt;&lt;/a&gt;盲人怎麼讀新聞&lt;/h2&gt;&lt;p&gt;普通人閱讀靠視覺，是「並行」的——你看一眼網頁界面，就知道菜單在哪、內容在哪、哪個是鏈接、哪個可以點。&lt;/p&gt;
-&lt;p&gt;聽覺是「串行」的，一個盲人如果想「讀完」一個網頁，要讓讀屏軟件從第一個元素（按鈕、菜單選項等）讀起，然後一個一個元素讀下去。&lt;/p&gt;
-&lt;p&gt;如果想體驗讀屏軟件，在 OS X 或 iPhone 下，可以試用 「VoiceOver」， 這是蘋果內置的讀屏軟件。 閉上眼睛，嘗試一下盲人使用電子產品的方式，試試做一些平常覺得輕而易舉的事情：瀏覽網頁、發發微博，等等。&lt;/p&gt;
-&lt;p&gt;Windows 可以下載「爭渡讀屏」， Android用戶可以試試內置的Talkback。&lt;/p&gt;
-&lt;h2 id=&quot;給圖像加上詳細的文字描述（alt）&quot;&gt;&lt;a href=&quot;#給圖像加上詳細的文字描述（alt）&quot; class=&quot;headerlink&quot; title=&quot;給圖像加上詳細的文字描述（alt）&quot;&gt;&lt;/a&gt;給圖像加上詳細的文字描述（alt）&lt;/h2&gt;&lt;p&gt;讀屏軟件讀不了數據圖表，於是我們要爲視障讀者撰寫圖像的替代文字描述，具體而言，就是HTML中IMG元素的alt屬性。 對於讀屏軟件的用戶，alt的內容會被完整讀出。&lt;/p&gt;
-&lt;p&gt;替代說明應該儘可能簡短，但是能夠讓沒有看到圖的讀者都能理解內容。&lt;/p&gt;
-&lt;p&gt;比如，不要寫「中國GDP數據可視化」，而是寫「中國GDP近年快速增長，2000年爲1.2千億美元，2005年爲2.3千億，2010年爲5.9千億。」&lt;/p&gt;
-&lt;p&gt;替代說明有個額外的好處：利於搜索引擎處理。搜索引擎蒐集數據，是靠大量「爬蟲」程序，一個網頁一個網頁地檢索內容。爬蟲和盲人一樣，只能「看到」文字，無法閱讀圖像，所以，如果一篇文章的重要信息由圖像呈現，又沒有替代說明，則搜索引擎也看不到這些信息，從而讓用戶更難發現你的文章。&lt;/p&gt;
-&lt;h2 id=&quot;數據可聽化（Sonification）&quot;&gt;&lt;a href=&quot;#數據可聽化（Sonification）&quot; class=&quot;headerlink&quot; title=&quot;數據可聽化（Sonification）&quot;&gt;&lt;/a&gt;數據可聽化（Sonification）&lt;/h2&gt;&lt;p&gt;可聽化是與可視化相似的概念。我們做可視化，是因爲大多數人對數字沒有直覺，難以理解，但是我們對顏色、尺寸、方向有直覺——於是，將數字轉化爲圖像，能夠讓讀者更容易解讀數據。對於依賴聽力的盲人，我們則可以用「可聽化」。&lt;/p&gt;
-&lt;p&gt;聲音可以操縱的變量有：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;響度，即大聲還是小聲；&lt;/li&gt;
-&lt;li&gt;頻率，即高音還是低音；&lt;/li&gt;
-&lt;li&gt;音色，即泛音的構成；&lt;/li&gt;
-&lt;li&gt;長度，即很長還是很短。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果將數據與上述一個或幾個變量連接，就能構成一個「可聽化」作品。&lt;/p&gt;
-&lt;p&gt;一個例子是&lt;a href=&quot;http://listen.hatnote.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Listen to Wikipedia&lt;/a&gt;。它會實時監測維基百科的改動，然後將每次改動化爲聲音，改動越大，聲音頻率越高；音色代表改動類型——敲擊樂是增訂，絃樂是刪減。這個作品本身對盲人可能用處不大，但是這個技術思路可以用在新聞報道上。&lt;/p&gt;
-&lt;h2 id=&quot;數據可觸化&quot;&gt;&lt;a href=&quot;#數據可觸化&quot; class=&quot;headerlink&quot; title=&quot;數據可觸化&quot;&gt;&lt;/a&gt;數據可觸化&lt;/h2&gt;&lt;p&gt;盲人不止有聽覺，也有觸覺。如果我們將數據化作實際存在的物體，則盲人可以通過觸覺感知。在這個方向，探索的人比較少，偶爾見到零星的嘗試。&lt;/p&gt;
-&lt;p&gt;比如，西班牙記者 Samuel Granados López &lt;a href=&quot;http://cargocollective.com/samuelgranados/Lego-cartogram&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;用樂高積木做過一個地圖&lt;/a&gt;，用以標識美洲各國的移民流入、流出量：&lt;br&gt;&lt;img src=&quot;http://payload230.cargocollective.com/1/14/463324/6918937/IMG_1014.jpg&quot; alt=&quot;一塊一人多高的底板，垂直放置。上面用樂高積木拼出了美洲各國，各個國家的突起程度並不相同，移民量越大的國家，越突出。&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;展望：數據新聞無障礙&quot;&gt;&lt;a href=&quot;#展望：數據新聞無障礙&quot; class=&quot;headerlink&quot; title=&quot;展望：數據新聞無障礙&quot;&gt;&lt;/a&gt;展望：數據新聞無障礙&lt;/h2&gt;&lt;p&gt;過去，新聞的主要呈現方式是文字，輔以照片、插圖。盲人用了讀屏軟件，也能獲取大部分的信息。&lt;/p&gt;
-&lt;p&gt;現在，「數據新聞」興起，信息圖、可視化流行，非數據的新聞報道也講求「視覺」「互動」。 &lt;/p&gt;
-&lt;p&gt;新聞人考慮的大多是報道網頁在手機上能不能看、用觸屏好不好控制，不太考慮盲人用戶能否閱讀、色盲用戶會否迷惑、殘障用戶能否使用。&lt;/p&gt;
-&lt;p&gt;我們在呈現方式上發足狂奔之時，不應該忽略少數有特別需求的用戶。 有的用戶看不到屏幕、有的用戶用不了鼠標，他們仍然有信息需求，仍然可以是我們的讀者。 &lt;/p&gt;
-&lt;p&gt;我們在製作每條新聞報道的時候，不止要考慮如何讓大多數用戶迅速理解，也要考慮如何保證每個用戶對新聞內容能有最基本的了解。&lt;br&gt;從今天開始，請給你的信息圖加上alt吧！&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;數據來源&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a name=&quot;note1&quot;&gt;&lt;/a&gt; &lt;a href=&quot;http://www.who.int/mediacentre/factsheets/fs230/en/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;世界衛生組織&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a name=&quot;note2&quot;&gt;&lt;/a&gt; &lt;a href=&quot;http://www.zgmx.org.cn/html/default/4/NewsDefault-47618.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;中國盲人協會&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;殘疾人口數據來自： &lt;a href=&quot;http://www.cdpf.org.cn/sjzx/cjrgk/201206/t20120626_387581.shtml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;殘疾人聯合會&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;上海人口數據來自： &lt;a href=&quot;http://www.shrkjsw.gov.cn/dr/stat/ssh/2011823/000000003500041001134458916.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上海市人口和計劃生育委員會&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;香港人口數據來自： &lt;a href=&quot;http://www.censtatd.gov.hk/hkstat/sub/sp150.jsp?productCode=B1120017&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;香港政府統計處&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</content:encoded>
-      
-      <comments>http://initiumlab.com/blog/blog/20150901-data-journalism-for-the-blind/#disqus_thread</comments>
     </item>
     
   </channel>
