@@ -8,7 +8,7 @@
     <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>We aim to push the limits of Journalism with Technology.</description>
-    <pubDate>Sat, 16 Apr 2016 07:10:19 GMT</pubDate>
+    <pubDate>Tue, 10 May 2016 04:15:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -101,6 +101,9 @@
 &lt;p&gt;Demo:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;qrencode.gif&quot; alt=&quot;qrencode-gif&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Note: There are options &lt;code&gt;-s&lt;/code&gt; and &lt;code&gt;-l&lt;/code&gt; to adjust image size and correction level, respectively.&lt;/p&gt;
+&lt;h2 id=&quot;Further-Reading&quot;&gt;&lt;a href=&quot;#Further-Reading&quot; class=&quot;headerlink&quot; title=&quot;Further Reading&quot;&gt;&lt;/a&gt;Further Reading&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1YEP9VJM16foortYfbaLrcwCR8X8V_XA5uEWPLoDjJ9Y/edit#slide=id.g11e1c98f8c_0_446&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Command Line Graphics&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://source.opennews.org/en-US/articles/cassini/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;How We Made “Meanwhile, Near Saturn”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Recommended by &lt;a href=&quot;https://www.facebook.com/jeremycflin?fref=ufi&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jeremy CF Lin&lt;/a&gt;. &lt;/p&gt;
 </content:encoded>
       
       <comments>http://initiumlab.com/blog/blog/20160408-Time-Saving-One-Liners-for-Journalists/#disqus_thread</comments>
@@ -1122,6 +1125,37 @@
     </item>
     
     <item>
+      <title>Hacker News 簡介</title>
+      <link>http://initiumlab.com/blog/blog/20150928-hacker-news-intro/</link>
+      <guid>http://initiumlab.com/blog/blog/20150928-hacker-news-intro/</guid>
+      <pubDate>Mon, 28 Sep 2015 07:48:00 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;今天我們給大家介紹一個科學報導選題庫 Hacker News。Hacker News 是一家關於計算機黑客和創業公司的社會化新聞網站。若做科技報道，建議參考這個網站，尤其是評論部分，信息量極大，可以提供選題和報道思路。&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded>&lt;p&gt;今天我們給大家介紹一個科學報導選題庫 Hacker News。Hacker News 是一家關於計算機黑客和創業公司的社會化新聞網站。若做科技報道，建議參考這個網站，尤其是評論部分，信息量極大，可以提供選題和報道思路。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/news&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;點擊查看 Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20150928-hacker-news-intro/Hacker-News-1.png&quot; alt=&quot;Hacker-News-1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;上面這個 Hacker News，內容豐富，但界面不太友好，字小，排版密。好在它數據公開，用戶多了，有人忍不了就幫它改界面：&lt;/p&gt;
+&lt;p&gt;1、紙版：&lt;a href=&quot;http://hackermonthly.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hacker Monthly&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20150928-hacker-news-intro/Hacker-News-2.png&quot; alt=&quot;Hacker-News-2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2、Web 版：&lt;a href=&quot;http://hn.premii.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hn.premii&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20150928-hacker-news-intro/Hacker-News-3.png&quot; alt=&quot;Hacker-News-3&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3、移動 Web 版：&lt;a href=&quot;http://hackerwebapp.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hacker Web App&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20150928-hacker-news-intro/Hacker-News-4.png&quot; alt=&quot;Hacker-News-4&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4、Chrome 插件：&lt;a href=&quot;https://chrome.google.com/webstore/detail/hacker-news-ux/chngbdmhgakoomomnnhfapkpbalpmhid&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hacker News UX&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/20150928-hacker-news-intro/Hacker-News-5.png&quot; alt=&quot;Hacker-News-5&quot;&gt;&lt;/p&gt;
+&lt;p&gt;這個新思路也叫做：內容與展現分離。其在開發工程中有非常多的應用。&lt;/p&gt;
+&lt;p&gt;編輯：王思文&lt;/p&gt;
+</content:encoded>
+      
+      <comments>http://initiumlab.com/blog/blog/20150928-hacker-news-intro/#disqus_thread</comments>
+    </item>
+    
+    <item>
       <title>React in One Hour</title>
       <link>http://initiumlab.com/blog/blog/20150925-react-in-1-hour-cuhk/</link>
       <guid>http://initiumlab.com/blog/blog/20150925-react-in-1-hour-cuhk/</guid>
@@ -1200,30 +1234,6 @@
 </content:encoded>
       
       <comments>http://initiumlab.com/blog/blog/20150922-jackathon3-review/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Legco Matrix Brief (English)</title>
-      <link>http://initiumlab.com/blog/blog/20150916-legco-eng/</link>
-      <guid>http://initiumlab.com/blog/blog/20150916-legco-eng/</guid>
-      <pubDate>Wed, 16 Sep 2015 04:29:08 GMT</pubDate>
-      <description>
-      
-        We analysed the voting data of the Hong Kong Legislative Council. This is the English version of the motion graphic and digest of the news report.
-      
-      </description>
-      
-      <content:encoded>&lt;p&gt;We have promised you an English version of our video about the voting patterns of Hong Kong Legislative Council.&lt;br&gt;And here it is.&lt;/p&gt;
-&lt;p&gt;&lt;video controls&gt;&lt;br&gt;  &lt;source src=&quot;/blog/20150916-legco-eng/legco_animation_EngSub_cut.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;br&gt;  Sorry, your browser does not support HTML5 video.&lt;br&gt;&lt;/video&gt;&lt;br&gt;The video is also available on &lt;a href=&quot;https://www.youtube.com/watch?v=CExoTvKuXSw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YouTube&lt;/a&gt; and &lt;a href=&quot;http://v.youku.com/v_show/id_XMTM0MzM5NzQwOA==.html?from=y1.7-1.2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Youku&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;We also translated the sections of news reports explaining the mysteries mentioned in the video, as follows.&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;Why-Starry-Lee-voted-against-herself&quot;&gt;&lt;a href=&quot;#Why-Starry-Lee-voted-against-herself&quot; class=&quot;headerlink&quot; title=&quot;Why Starry Lee voted against herself&quot;&gt;&lt;/a&gt;Why Starry Lee voted against herself&lt;/h2&gt;&lt;p&gt;The diagonal shows how each legislator support their own motions. The more supportive they are, the brighter the block. However, there is one outlier on this bright line. Starry Lee Wai-king, chairwoman of Democratic Alliance for the Betterment and Progress of Hong Kong (DAB) and member of the Executive Council, voted against herself 7 times from February 20 to February 21, 2012. During this time, she proposed several amendments to the draft of Stamp Duty Bill but she voted against these amendments herself. Lee replied via her assistant and explained that, she was serving as the president to the committee responsible for revising the bill, and the committee members decided that she, the president, should propose the revisions for them. As DAB opposed those bills, she chose to vote against amendments technically proposed by her.&lt;/p&gt;
-&lt;h2 id=&quot;Why-Poon-Siu-ping-is-more-popular-on-the-opposite-camp&quot;&gt;&lt;a href=&quot;#Why-Poon-Siu-ping-is-more-popular-on-the-opposite-camp&quot; class=&quot;headerlink&quot; title=&quot;Why Poon Siu-ping is more popular on the opposite camp&quot;&gt;&lt;/a&gt;Why Poon Siu-ping is more popular on the opposite camp&lt;/h2&gt;&lt;p&gt;According to the voting records, no motion amendment from Poon Siu-ping got passed. However, his motion on Occupational Safety, through secret ballot, has been adopted. Poon replied to us that there is no fundamental disagreement between Hong Kong Federation of Trade Unions (FTU) and Federation of Hong Kong and Kowloon Labour Unions (FLU), as FTU is also on pro-establishment camp. However, Poon didn’t think it would be easy to gain FTU’s support: “To improve labour rights and benefits, one has to change the consistently business-oriented operating environment, but many legislators of functional constituency represents business interests and naturally they are unlikely to support motions protecting labour rights.”&lt;/p&gt;
-&lt;p&gt;Ma Ngok, chairman of Department of Government and Public Administration, Chinese University of Hong Kong, thought pan-democrats have been in mutual restraint since 2012. He said, “First of all, on class position, Civic Party and Democratic Party are moving forward grass-root sector, and they are not much different from the grass-root pan-democracy parties. For instance, a decade ago many pan-democracy parties were doubtful about universal retirement protection, while today all pan-democracy parties support it”. Another reason is the limited power of the Legislative Council. “When debating about grassroot-related motions, which are predictably impossible to pass, many parties would rather follow the trend to avoid controversies”, said Ma.&lt;/p&gt;
-&lt;p&gt;Ma Ngok explained that,  the reason why Poon Sui-ping, Kwok Wai-keung and Tang Ka-piu were unsupported by pro-establishment camp was probably that functional constituency has long been unwelcoming the labour issues. “Nearly half of the 35 members in functional constituency are in business sector, and some legislators from professional constituencies also tend to business sector. Their attachment to the sector interests makes labour issues hard to gain support.”, said Ma.&lt;/p&gt;
-</content:encoded>
-      
-      <comments>http://initiumlab.com/blog/blog/20150916-legco-eng/#disqus_thread</comments>
     </item>
     
   </channel>
