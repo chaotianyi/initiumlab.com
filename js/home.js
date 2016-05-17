@@ -36,8 +36,14 @@
     while (randomQuote === currentQuote) {
       randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     }
-    var textNode = document.createTextNode(randomQuote);
-    quoteDOMNode.appendChild(textNode);
+    for (var i = 0; i < randomQuote.length; i++) {
+      (function (index) {
+        setTimeout(function () {
+          var text = randomQuote.substr(0, index + 1);
+          quoteDOMNode.innerHTML = text;
+        }, 40 * (index + 1));
+      })(i)
+    }
     window.localStorage['currentQuote'] = randomQuote;
   }
 
