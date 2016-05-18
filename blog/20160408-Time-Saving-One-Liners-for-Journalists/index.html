@@ -31,27 +31,28 @@
 
 
 
-  <link rel="alternate" href="../../blog/feed.xml" title="Initium Lab | the exploratory arm of Initium Media" type="application/atom+xml" />
+  <link rel="alternate" href="../../blog/feed" title="Initium Lab | Exploratory Arm of Initium Media" type="application/atom+xml" />
 
 
 
   <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="For journalists who do not code, after reading this article, you will master 15 one-line commands that can help you handle complex problems in seconds. 
-Initium Lab has collected various command line">
+<meta name="description" content="For journalists who do not code, after reading this article, you will master 15 one-line commands that can help you handle complex problems in seconds.
+Initium Lab has collected various command line t">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Time Saving One-Liners for Journalists">
 <meta property="og:url" content="http://initiumlab.com/blog/20160408-Time-Saving-One-Liners-for-Journalists/index.html">
-<meta property="og:site_name" content="Initium Lab | the exploratory arm of Initium Media">
-<meta property="og:description" content="For journalists who do not code, after reading this article, you will master 15 one-line commands that can help you handle complex problems in seconds. 
-Initium Lab has collected various command line">
+<meta property="og:site_name" content="Initium Lab | Exploratory Arm of Initium Media">
+<meta property="og:description" content="For journalists who do not code, after reading this article, you will master 15 one-line commands that can help you handle complex problems in seconds.
+Initium Lab has collected various command line t">
 <meta property="og:image" content="http://initiumlab.com/blog/20160408-Time-Saving-One-Liners-for-Journalists/cover.png">
-<meta property="og:updated_time" content="2016-05-10T04:15:10.077Z">
+<meta property="og:updated_time" content="2016-05-17T15:54:09.409Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Time Saving One-Liners for Journalists">
-<meta name="twitter:description" content="For journalists who do not code, after reading this article, you will master 15 one-line commands that can help you handle complex problems in seconds. 
-Initium Lab has collected various command line">
+<meta name="twitter:description" content="For journalists who do not code, after reading this article, you will master 15 one-line commands that can help you handle complex problems in seconds.
+Initium Lab has collected various command line t">
+<meta name="twitter:image" content="http://initiumlab.com/blog/20160408-Time-Saving-One-Liners-for-Journalists/cover.png">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -61,7 +62,7 @@ Initium Lab has collected various command line">
   };
 </script>
 
-  <title> Time Saving One-Liners for Journalists | Initium Lab | the exploratory arm of Initium Media </title>
+  <title> Time Saving One-Liners for Journalists | Initium Lab | Exploratory Arm of Initium Media </title>
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
@@ -179,7 +180,7 @@ Initium Lab has collected various command line">
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
       <div style="display: none">
-        <img src="../../blog/20160408-Time-Saving-One-Liners-for-Journalists/cover.png" alt="thumbnail for the page"
+        <img src="cover.png" alt="thumbnail for the page"
              class="thumbnail no-fancy"
              style="visibility: hidden; width: 1px; height: 1px; margin: 0;" />
       </div>
@@ -207,7 +208,7 @@ Initium Lab has collected various command line">
         <div class="post-name">
           <p class="author-info">
           
-             
+
               
                 <a href=http://initiumlab.com>
                   <span>Initium Lab</span>
@@ -249,53 +250,53 @@ Initium Lab has collected various command line">
       
 
       
-        <span itemprop="articleBody"><p>For journalists who do not code, after reading this article, you will master 15 one-line commands that can help you handle complex problems in seconds. </p>
+        <span itemprop="articleBody"><p>For journalists who do not code, after reading this article, you will master 15 one-line commands that can help you handle complex problems in seconds.</p>
 <p>Initium Lab has collected various command line tricks as we hack journalism with technology. Here is our editor’s choice so far including: image processing, video processing, PDF manipulation, social network hacking and other useful one-liners. Just open your Terminal, and follow the steps.</p>
 <p><img src="../../blog/20160408-Time-Saving-One-Liners-for-Journalists/cover.png" alt="Time-Saving-One-Liners-for-Journalists"></p>
 <a id="more"></a>
 <h2 id="Image-Processing"><a href="#Image-Processing" class="headerlink" title="Image Processing"></a>Image Processing</h2><h3 id="Resize-Images"><a href="#Resize-Images" class="headerlink" title="Resize Images"></a>Resize Images</h3><p>The <code>convert</code> command from <a href="http://www.imagemagick.org/script/index.php" target="_blank" rel="external">ImageMagick</a> toolset can help one quickly process images.</p>
 <p>This line resizes <code>input.png</code> to a width of 200px (with aspect ratio preserved) and generate <code>output.png</code>.</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">convert <span class="tag">input</span><span class="class">.png</span> -geometry <span class="number">200</span>x output.png</span><br></pre></td></tr></table></figure>
-<h3 id="Generate-GIF-from-a-Series-of-Images"><a href="#Generate-GIF-from-a-Series-of-Images" class="headerlink" title="Generate GIF from a Series of Images"></a>Generate GIF from a Series of Images</h3><p>First prepare the <code>*.gif</code> files for each frame and put them under the current dir. Run this line: </p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">gifsicle</span> <span class="tag">--loopcount</span> <span class="tag">-d</span> 50 *<span class="class">.gif</span> &gt; <span class="tag">m</span><span class="class">.gif</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">convert input.png -geometry 200x output.png</span><br></pre></td></tr></table></figure>
+<h3 id="Generate-GIF-from-a-Series-of-Images"><a href="#Generate-GIF-from-a-Series-of-Images" class="headerlink" title="Generate GIF from a Series of Images"></a>Generate GIF from a Series of Images</h3><p>First prepare the <code>*.gif</code> files for each frame and put them under the current dir. Run this line:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gifsicle --loopcount -d 50 *.gif &gt; m.gif</span><br></pre></td></tr></table></figure>
 <p><code>m.gif</code> is the animated output. Change <code>-d</code> to adjust the animation speed. <code>--loopcount</code> means loop <code>forever</code>.</p>
 <h2 id="Video-Processing"><a href="#Video-Processing" class="headerlink" title="Video Processing"></a>Video Processing</h2><h3 id="Add-Subtitles-in-a-Batch"><a href="#Add-Subtitles-in-a-Batch" class="headerlink" title="Add Subtitles in a Batch"></a>Add Subtitles in a Batch</h3><p>We make videos or animations to make our works better understood. Adding subtitles is usually time consuming task especially if one wants to generate multi-language versions. It is rather inefficient to operate in GUI software like After Effect or Premier. The command line tool <code>ffmpeg</code> can help.</p>
 <p>Step 1: Write the LRC file. One sample is given as follows:</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[<span class="number">00</span>:<span class="number">00.00</span>] 廿一世紀立會網絡</span><br><span class="line">[<span class="number">00</span>:<span class="number">02.09</span>] 今屆立法會</span><br><span class="line">[<span class="number">00</span>:<span class="number">03.26</span>] 二〇一二年十月十七日開始</span><br><span class="line">[<span class="number">00</span>:<span class="number">05.25</span>] 至二〇一五年六月十八日</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[00:00.00] 廿一世紀立會網絡</span><br><span class="line">[00:02.09] 今屆立法會</span><br><span class="line">[00:03.26] 二〇一二年十月十七日開始</span><br><span class="line">[00:05.25] 至二〇一五年六月十八日</span><br></pre></td></tr></table></figure>
 <p>Step 2: Convert LRC file to ASS file</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -<span class="tag">i</span> subtitle<span class="class">.lrc</span> subtitle.ass</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -i subtitle.lrc subtitle.ass</span><br></pre></td></tr></table></figure>
 <p>Step 3: Attach subtitle to video stream</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -<span class="tag">i</span> <span class="tag">video</span><span class="class">.mp4</span> -vf ass=subtitle<span class="class">.ass</span> video-subtitled.mp4</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -i video.mp4 -vf ass=subtitle.ass video-subtitled.mp4</span><br></pre></td></tr></table></figure>
 <p>This is one sample frame with subtitle added:<br><img src="ffmpeg-subtitle.png" alt="use-fffmeg-to-add-subtitle"></p>
 <p>The task-force of our landmark project <a href="http://legco.initiumlab.com/" target="_blank" rel="external">Legco</a> used this trick to accelerate prototyping and iterating the animation. You can find the <a href="https://www.youtube.com/watch?v=KYa-ygjqaV4" target="_blank" rel="external">Cantonese Version</a> and <a href="https://www.youtube.com/watch?v=0evK3PtLaUo" target="_blank" rel="external">English Version</a> on our YouTube channel.</p>
 <p>Note: <code>libass</code> should be installed with <code>ffmpeg</code>.</p>
 <h3 id="Machine-Generated-Voice-Over"><a href="#Machine-Generated-Voice-Over" class="headerlink" title="Machine Generated Voice-Over"></a>Machine Generated Voice-Over</h3><p>Turn on volume and enter the following line:</p>
-<figure class="highlight ocaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">say <span class="symbol">'Initium</span> <span class="type">Lab</span> pushes the limit <span class="keyword">of</span> journalism <span class="keyword">with</span> technology'</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">say &apos;Initium Lab pushes the limit of journalism with technology&apos;</span><br></pre></td></tr></table></figure>
 <p>This technique/tool is used in one of our News Tool, <code>news2video</code>. It converts a news webpage into a video.<br>You can find the codes on <a href="https://github.com/initiumlab/news2video" target="_blank" rel="external">GitHub</a> and demo video on <a href="https://www.youtube.com/watch?v=W9z9JduEzbI" target="_blank" rel="external">YouTube</a>. Same method is used to add English Voice-Over to <a href="https://www.youtube.com/watch?v=0evK3PtLaUo" target="_blank" rel="external">HK Legco Animation</a> on our YouTube channel.</p>
 <h3 id="Convert-Videos-to-GIF"><a href="#Convert-Videos-to-GIF" class="headerlink" title="Convert Videos to GIF"></a>Convert Videos to GIF</h3><p>Video is a common media nowadays but it can only be shared/ re-played in certain environment. It is useful to turn videos into gif images so that they can be easier distributed.</p>
 <p>Suppose you have <code>input.mp4</code>.</p>
 <p>Turn it into a series of png files in <code>png</code> folder:</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mplayer -ao null -vo png:z=<span class="number">1</span>:outdir=png -vf scale -zoom -xy <span class="number">600</span> input.mp4</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mplayer -ao null -vo png:z=1:outdir=png -vf scale -zoom -xy 600 input.mp4</span><br></pre></td></tr></table></figure>
 <p>Combine those png files into one gif file:</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">convert +repage -fuzz <span class="number">1.6</span>% -delay <span class="number">1.7</span> -loop <span class="number">0</span> png<span class="comment">/*.png -layers OptimizePlus -layers OptimizeTransparency tmp.gif</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">convert +repage -fuzz 1.6% -delay 1.7 -loop 0 png/*.png -layers OptimizePlus -layers OptimizeTransparency tmp.gif</span><br></pre></td></tr></table></figure>
 <p>Optimise the size and quality of output gif.</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">gifsicle</span> <span class="tag">-O3</span> <span class="tag">--colors</span> 256 <span class="tag">tmp</span><span class="class">.gif</span> &gt; <span class="tag">output</span><span class="class">.gif</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gifsicle -O3 --colors 256 tmp.gif &gt; output.gif</span><br></pre></td></tr></table></figure>
 <p>You can refer to the complete script <a href="https://github.com/hupili/utility/blob/master/linux/video-to-gif/video-to-gif.sh" target="_blank" rel="external">here</a>.</p>
 <h2 id="PDF-Manipulation"><a href="#PDF-Manipulation" class="headerlink" title="PDF Manipulation"></a>PDF Manipulation</h2><p>We journalists deal with a lot of PDF files everyday. <code>pdftk</code> is the swiss army knife for batch PDF processing.</p>
 <h3 id="Combine-Many-PDFs-Files-into-a-Single-File"><a href="#Combine-Many-PDFs-Files-into-a-Single-File" class="headerlink" title="Combine Many PDFs Files into a Single File"></a>Combine Many PDFs Files into a Single File</h3><p>This combines all PDF in current folder into one file called <code>all.pdf</code>:</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">pdftk</span> *<span class="class">.pdf</span> <span class="tag">cat</span> <span class="tag">output</span> <span class="tag">all</span><span class="class">.pdf</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pdftk *.pdf cat output all.pdf</span><br></pre></td></tr></table></figure>
 <h3 id="Excerpt-a-Portion-of-Pages-from-a-PDF-File"><a href="#Excerpt-a-Portion-of-Pages-from-a-PDF-File" class="headerlink" title="Excerpt a Portion of Pages from a PDF File"></a>Excerpt a Portion of Pages from a PDF File</h3><p>This will excerpt page 1 and page 2 into new file called <code>page1-2.pdf</code>:</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pdftk <span class="tag">input</span><span class="class">.pdf</span> cat <span class="number">1</span>-<span class="number">2</span> output page1-<span class="number">2</span>.pdf</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pdftk input.pdf cat 1-2 output page1-2.pdf</span><br></pre></td></tr></table></figure>
 <h3 id="Rotate-a-PDF-Page"><a href="#Rotate-a-PDF-Page" class="headerlink" title="Rotate a PDF Page"></a>Rotate a PDF Page</h3><p>This rotates a page upside down:</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pdftk <span class="tag">input</span><span class="class">.pdf</span> cat <span class="number">1</span>-enddown output input-rotated.pdf</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pdftk input.pdf cat 1-enddown output input-rotated.pdf</span><br></pre></td></tr></table></figure>
 <h3 id="Convert-Images-to-a-Single-PDF"><a href="#Convert-Images-to-a-Single-PDF" class="headerlink" title="Convert Images to a Single PDF"></a>Convert Images to a Single PDF</h3><p>Sending a lot of unordered photocopies directly over network is not easy for future use. One can combine the images into one large PDF file.</p>
 <p>First, use <code>convert</code> to turn images into PDF files. Suppose you have two images <code>page1.png</code> and <code>page2.png</code>.</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">convert page1<span class="class">.png</span> page1<span class="class">.pdf</span></span><br><span class="line">convert page2<span class="class">.png</span> page2.pdf</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">convert page1.png page1.pdf</span><br><span class="line">convert page2.png page2.pdf</span><br></pre></td></tr></table></figure>
 <p>Then you use <code>pdftk</code> to concatenate those files</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pdftk page1<span class="class">.pdf</span> page2<span class="class">.pdf</span> cat output all.pdf</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pdftk page1.pdf page2.pdf cat output all.pdf</span><br></pre></td></tr></table></figure>
 <p>A script wrapper can be found at:<br><a href="https://github.com/initiumlab/images-to-single-pdf" target="_blank" rel="external">https://github.com/initiumlab/images-to-single-pdf</a></p>
 <h3 id="Batch-Unlock-PDFs"><a href="#Batch-Unlock-PDFs" class="headerlink" title="Batch Unlock PDFs"></a>Batch Unlock PDFs</h3><p>Suppose you have a locked PDF file named <code>2008S1.pdf</code>. Install the tool <code>qpdf</code> first. (e.g. <code>brew install qpdf</code>) and unlock the file like this:</p>
-<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="label">qpdf</span> --decrypt <span class="number">2008</span><span class="literal">S1</span>.pdf <span class="number">2008</span><span class="literal">S1</span>-dec-<span class="keyword">by-qpdf.pdf</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qpdf --decrypt 2008S1.pdf 2008S1-dec-by-qpdf.pdf</span><br></pre></td></tr></table></figure>
 <p>A script wrapper can be found at:<br><a href="https://github.com/initiumlab/unlock-pdf" target="_blank" rel="external">https://github.com/initiumlab/unlock-pdf</a></p>
 <h2 id="Social-Network-Hacking"><a href="#Social-Network-Hacking" class="headerlink" title="Social Network Hacking"></a>Social Network Hacking</h2><p>To improve the dissemination of the content you spent months building, social network is something you can not avoid. Here are some small tricks that show you how to play with social networks more efficiently. Those are still one-liners, except that they are in your browser’s “developer console”.</p>
 <h3 id="Invite-All-Friends-on-Facebook-in-Two-Steps-Chrome"><a href="#Invite-All-Friends-on-Facebook-in-Two-Steps-Chrome" class="headerlink" title="Invite All Friends on Facebook in Two Steps (Chrome)"></a>Invite All Friends on Facebook in Two Steps (Chrome)</h3><p>Go to the Facebook page you want to invite your friends to like, say <a href="https://www.facebook.com/theinitium" target="_blank" rel="external">https://www.facebook.com/theinitium</a> . Click “Invite friends to Like this Page”. You’ll see the following dialogue.</p>
@@ -313,22 +314,22 @@ Initium Lab has collected various command line">
 </ol>
 <p>You will follow all the users shown on that page.</p>
 <h2 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h2><h3 id="Generate-A-Series-of-Test-Files"><a href="#Generate-A-Series-of-Test-Files" class="headerlink" title="Generate A Series of Test Files"></a>Generate A Series of Test Files</h3><p>Sometimes, it is useful to generate a series of files and hide your key information in the files or in the sequence. The following command helps you to generate 10 <code>*.md</code> files with the content “xx{}” where “{}” ranges from 1 to 10.</p>
-<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">seq <span class="number">1</span> <span class="number">10</span> | xargs -<span class="keyword">I</span><span class="list">&#123;&#125;</span> sh -c <span class="string">'echo xx&#123;&#125; &gt; &#123;&#125;.md'</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">seq 1 10 | xargs -I&#123;&#125; sh -c &apos;echo xx&#123;&#125; &gt; &#123;&#125;.md&apos;</span><br></pre></td></tr></table></figure>
 <h3 id="Mirror-a-Website-in-One-Line"><a href="#Mirror-a-Website-in-One-Line" class="headerlink" title="Mirror a Website in One Line"></a>Mirror a Website in One Line</h3><p>During the Hong Kong District Council (Disco) Election 2015, we compiled a full database of Disco elections from 1999 all the way to 2015. This is a very large data collection campaign which involves aggregating heterogeneous data from different sources. One source is the official website. For example, 2011 election results can be found from page: <a href="http://www.elections.gov.hk/dc2011/chi/results.html" target="_blank" rel="external">http://www.elections.gov.hk/dc2011/chi/results.html</a> .</p>
 <p>Instead of downloading sub-pages separately, <code>wget</code> can save us time in one line:</p>
-<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -r <span class="string">http:</span><span class="comment">//www.elections.gov.hk/dc2011/chi/results.html</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -r http://www.elections.gov.hk/dc2011/chi/results.html</span><br></pre></td></tr></table></figure>
 <p>It turns out what we get is more than original 18 region HTML pages. <code>wget</code> recursively download the whole site and we find some Microsoft Excel files corresponding to those HTML page. We avoided manual input or working from an intermediate result.</p>
 <p>HK Legislative Council (Legco) Election will be another major event recently. To assist our researchers, we want to get all the PDF files from the website. <code>-A</code> (accept pattern) or <code>-R</code> (reject pattern) options can help us filter specific file type:</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget --mirror -A<span class="class">.pdf</span> http:<span class="comment">//www.elections.gov.hk</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget --mirror -A.pdf http://www.elections.gov.hk</span><br></pre></td></tr></table></figure>
 <h2 id="Generate-QR-Code-in-One-Line"><a href="#Generate-QR-Code-in-One-Line" class="headerlink" title="Generate QR Code in One Line"></a>Generate QR Code in One Line</h2><p>When we distribute our works offline, it is usually very helpful to include a QR Code which links to the online/ digital resources. Using the open source <code>qrencode</code> command, we can generate QR codes quickly in a scripting way.</p>
-<p>Sample usage: </p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">qrencode</span> <span class="string">'https://theinitium.com/'</span> -o initium.png</span><br></pre></td></tr></table></figure>
+<p>Sample usage:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qrencode &apos;https://theinitium.com/&apos; -o initium.png</span><br></pre></td></tr></table></figure>
 <p>Demo:</p>
 <p><img src="qrencode.gif" alt="qrencode-gif"></p>
 <p>Note: There are options <code>-s</code> and <code>-l</code> to adjust image size and correction level, respectively.</p>
 <h2 id="Further-Reading"><a href="#Further-Reading" class="headerlink" title="Further Reading"></a>Further Reading</h2><p><a href="https://docs.google.com/presentation/d/1YEP9VJM16foortYfbaLrcwCR8X8V_XA5uEWPLoDjJ9Y/edit#slide=id.g11e1c98f8c_0_446" target="_blank" rel="external">Command Line Graphics</a></p>
 <p><a href="https://source.opennews.org/en-US/articles/cassini/" target="_blank" rel="external">How We Made “Meanwhile, Near Saturn”</a></p>
-<p>Recommended by <a href="https://www.facebook.com/jeremycflin?fref=ufi" target="_blank" rel="external">Jeremy CF Lin</a>. </p>
+<p>Recommended by <a href="https://www.facebook.com/jeremycflin?fref=ufi" target="_blank" rel="external">Jeremy CF Lin</a>.</p>
 </span>
       
     </div>

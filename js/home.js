@@ -64,7 +64,7 @@
     window.history.pushState("", document.title, window.location.pathname + window.location.search);
     console.log(lightbox)
 
-    document.title = "Initium Lab"
+    document.title = window.localStorage['initTitle'];
 
     ga('send', 'event', 'lightbox', 'close', lightbox.id);
   }
@@ -128,5 +128,6 @@
     }
   }
 
+  window.localStorage['initTitle'] = document.title;
 
 }(window, window.document, window.xdomain));
