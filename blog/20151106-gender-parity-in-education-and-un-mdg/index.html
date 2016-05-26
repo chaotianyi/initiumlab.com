@@ -38,6 +38,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico?v=0.4.5.1" />
 
 
+
+
 <meta name="description" content="你上學時，女同學多還是男同學多？在貧窮的國家，女孩往往缺少平等的受教育機會。但經濟也許並非唯一因素。
 我們選取了 4 個國家，分别繪製 1990 年以来入學性別比例的折线圖。縱軸表示女學生與男學生的人數之比，如果數值小於 1.0 ，則代表女學生少於男學生。藍色、綠色、紅色折線分別指初等、中等、高等教育。
 
@@ -100,7 +102,7 @@
   </button>
 </div>
 <script>
-  $(window).scroll(function() {    
+  $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 100) {
         $(".navLink").addClass("fade-out");
@@ -109,16 +111,16 @@
         $(".navLink").removeClass("fade-out");
         $(".logoLink").addClass("fade-out");
     }
-  }); 
+  });
 
-  $(window).scroll(function() {    
+  $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 100) {
         $(".navLink").addClass("fade-out");
     } else {
         $(".navLink").removeClass("fade-out");
     }
-  }); 
+  });
 
 </script>
 
@@ -140,6 +142,13 @@
           <div>About</div>
         </div>
       </a>
+      <a href="../../events">
+        <div class="navLink">
+          <img src="../../images/event_icon.svg"
+               alt="event" />
+          <div>Event</div>
+        </div>
+      </a>
       <a href="../../blog">
         <div class="navLink">
           <img src="../../images/blog_icon.svg"
@@ -151,7 +160,7 @@
           <img src="../../images/logo_icon.png"
                alt="logo">
         </div>
-    
+
   
 
   
@@ -338,10 +347,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Table Of Contents
+            Inhaltsverzeichnis
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Overview
+            Übersicht
           </li>
         </ul>
       
@@ -384,7 +393,7 @@
           <div class="post-toc">
             
             
-              <p class="post-toc-empty">This post does not have a Table Of Contents</p>
+              <p class="post-toc-empty">Dieser Artikel hat kein Inhaltsverzeichnis</p>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>

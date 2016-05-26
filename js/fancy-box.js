@@ -8,6 +8,7 @@ $(document).ready(function() {
       // Disable fancybox for elements of class 'no-fancy'
       try {
         if ($image.attr('class').indexOf('no-fancy') !== -1) { return; }
+        else if ($image.attr('class').indexOf('leaflet') !== -1) { return; }
       } catch (error) {
       };
 

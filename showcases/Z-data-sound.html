@@ -38,6 +38,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico?v=0.4.5.1" />
 
 
+
+
 <meta name="description" content="This is 131 years of average temperature of Hong Kong put in sound, built as a hackathon project.
 Every note you hear in this song represents the average temperature of a certain year in Hong Kong. Th">
 <meta property="og:type" content="website">
@@ -98,7 +100,7 @@ Every note you hear in this song represents the average temperature of a certain
   </button>
 </div>
 <script>
-  $(window).scroll(function() {    
+  $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 100) {
         $(".navLink").addClass("fade-out");
@@ -107,16 +109,16 @@ Every note you hear in this song represents the average temperature of a certain
         $(".navLink").removeClass("fade-out");
         $(".logoLink").addClass("fade-out");
     }
-  }); 
+  });
 
-  $(window).scroll(function() {    
+  $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 100) {
         $(".navLink").addClass("fade-out");
     } else {
         $(".navLink").removeClass("fade-out");
     }
-  }); 
+  });
 
 </script>
 
@@ -138,6 +140,13 @@ Every note you hear in this song represents the average temperature of a certain
           <div>About</div>
         </div>
       </a>
+      <a href="../events">
+        <div class="navLink">
+          <img src="../images/event_icon.svg"
+               alt="event" />
+          <div>Event</div>
+        </div>
+      </a>
       <a href="../blog">
         <div class="navLink">
           <img src="../images/blog_icon.svg"
@@ -149,7 +158,7 @@ Every note you hear in this song represents the average temperature of a certain
           <img src="../images/logo_icon.png"
                alt="logo">
         </div>
-    
+
   
 
   
