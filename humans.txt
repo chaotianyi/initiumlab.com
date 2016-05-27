@@ -12,6 +12,10 @@ Kate Liu Xue
 Chris Wong
 Wilson Tsang
 Sarene Chan
+Zeng Xi
+Yin Zhikai
+Zhong Aili
+Xia Mengyao
 
 /* THANKS */
 Please see http://initiumlab.com/about/
