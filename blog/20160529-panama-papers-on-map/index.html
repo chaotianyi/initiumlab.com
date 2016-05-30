@@ -1,0 +1,793 @@
+<!doctype html>
+<html class="theme-next use-motion ">
+<head>
+  
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="../../vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
+
+
+
+  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" type="text/css" href="../../css/main.css?v=0.4.5.1"/>
+
+
+  <meta name="keywords" content="data journalism,data analysis,data visualization,design,new media,technology,hackathon,lang-English,Map,Panama Papers," />
+
+
+
+  <link rel="alternate" href="../../blog/feed" title="Initium Lab | Exploratory Arm of Initium Media" type="application/atom+xml" />
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico?v=0.4.5.1" />
+
+
+
+
+<meta name="description" content="On May 9, 2016, the International Consortium of Investigative Journalists (“ICIJ” in short), a global network of journalists who collaborates on in-depth and investigative stories, released the long a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Map Visualisation for Panama Papers and Offshore Leaks in R">
+<meta property="og:url" content="http://initiumlab.com/blog/20160529-panama-papers-on-map/index.html">
+<meta property="og:site_name" content="Initium Lab | Exploratory Arm of Initium Media">
+<meta property="og:description" content="On May 9, 2016, the International Consortium of Investigative Journalists (“ICIJ” in short), a global network of journalists who collaborates on in-depth and investigative stories, released the long a">
+<meta property="og:image" content="http://initiumlab.com/blog/20160529-panama-papers-on-map/global-map.png">
+<meta property="og:image" content="http://initiumlab.com/blog/20160529-panama-papers-on-map/top-20.png">
+<meta property="og:image" content="http://initiumlab.com/blog/20160529-panama-papers-on-map/greater-china.png">
+<meta property="og:updated_time" content="2016-05-30T04:07:56.297Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Map Visualisation for Panama Papers and Offshore Leaks in R">
+<meta name="twitter:description" content="On May 9, 2016, the International Consortium of Investigative Journalists (“ICIJ” in short), a global network of journalists who collaborates on in-depth and investigative stories, released the long a">
+<meta name="twitter:image" content="http://initiumlab.com/blog/20160529-panama-papers-on-map/global-map.png">
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: '',
+    sidebar: 'post'
+  };
+</script>
+
+  <title> Map Visualisation for Panama Papers and Offshore Leaks in R | Initium Lab | Exploratory Arm of Initium Media </title>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+
+  <div class="container one-column page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+<script>
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 100) {
+        $(".navLink").addClass("fade-out");
+        $(".logoLink").removeClass("fade-out");
+    } else {
+        $(".navLink").removeClass("fade-out");
+        $(".logoLink").addClass("fade-out");
+    }
+  });
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 100) {
+        $(".navLink").addClass("fade-out");
+    } else {
+        $(".navLink").removeClass("fade-out");
+    }
+  });
+
+</script>
+
+<nav class="site-nav">
+  
+
+  
+      <a href="../../">
+        <div class="navLink">
+          <img src="../../images/home_icon.svg"
+               alt="Home page" />
+          <div>Home</div>
+        </div>
+      </a>
+      <a href="../../about">
+        <div class="navLink">
+          <img src="../../images/about_icon.svg"
+               alt="about" />
+          <div>About</div>
+        </div>
+      </a>
+      <a href="../../events">
+        <div class="navLink">
+          <img src="../../images/event_icon.svg"
+               alt="event" />
+          <div>Event</div>
+        </div>
+      </a>
+      <a href="../../blog">
+        <div class="navLink">
+          <img src="../../images/blog_icon.svg"
+               alt="blogs">
+          <div>Blog</div>
+        </div>
+      </a>
+        <div class="logoLink fade-out">
+          <img src="../../images/logo_icon.png"
+               alt="logo">
+        </div>
+
+  
+
+  
+    <div class="site-search">
+      
+  
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'QeHtBnDaxF-gAE_HkMTY','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content"> 
+
+  <div id="posts" class="posts-expand">
+    
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div style="display: none">
+        <img src="" alt="thumbnail for the page"
+             class="thumbnail no-fancy"
+             style="visibility: hidden; width: 1px; height: 1px; margin: 0;" />
+      </div>
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              Map Visualisation for Panama Papers and Offshore Leaks in R
+            
+          
+        </h1> <!-- h1.post-title -->
+      
+
+      <div class="post-meta">
+
+        <div class="post-time">
+          <time itemprop="dateCreated" datetime="2016-05-29T12:08:48+08:00" content="2016-05-29">
+            2016-05-29
+          </time>
+        </div>
+
+        <div class="post-name">
+          <p class="author-info">
+          
+
+              
+                <span>Charlie Chen, Chao Tianyi</span>
+              
+
+          
+          </p>
+        </div>
+
+        <div class='post-tags'>
+            
+            <div class='post-tag-item'>
+              <a href="../../tags/lang-English/"
+                 class='anchor-tag'>
+                lang-English
+                </a>
+            </div>
+            
+            <div class='post-tag-item'>
+              <a href="../../tags/Map/"
+                 class='anchor-tag'>
+                Map
+                </a>
+            </div>
+            
+            <div class='post-tag-item'>
+              <a href="../../tags/Panama Papers/"
+                 class='anchor-tag'>
+                Panama Papers
+                </a>
+            </div>
+            
+          </ul>
+        </div>
+
+        
+
+      </div> <!-- post-meta -->
+
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        <span itemprop="articleBody"><p>On May 9, 2016, the <a href="https://www.icij.org/about" target="_blank" rel="external">International Consortium of Investigative Journalists (“ICIJ” in short)</a>, a global network of journalists who collaborates on in-depth and investigative stories, released the long awaited offshore entities database behind <a href="https://panamapapers.icij.org/" target="_blank" rel="external">Panama Papers Investigation</a>.</p>
+<p>So far, the offshore leaks database published by ICIJ includes at least 200,000 offshore entities from Panama Papers, and over 100,000 records from <a href="https://www.icij.org/offshore/icij-releases-offshore-leaks-database-revealing-names-behind-secret-companies-trusts#_ga=1.45455652.1856186035.1459916101" target="_blank" rel="external">ICIJ’s previous investigations</a>. </p>
+<p>The offshore leaks database contains detailed contact postal address of all kinds of entities, offshore or non-offshore ones, officers and intermediaries, based on which we made colored maps revealing the distribution of postal address of people or companies involved in the offshore industry. </p>
+<p>To begin with, let’s have an overview of where these companies or people are. </p>
+<p><img src="../../blog/20160529-panama-papers-on-map/global-map.png" alt="global map"></p>
+<a id="more"></a>
+<h2 id="Global-Distribution"><a href="#Global-Distribution" class="headerlink" title="Global Distribution"></a>Global Distribution</h2><p>In the world map, it is quite easy to find China who has the most address records. However, places with small sizes — for instance, most offshore juristinctions are islands — are not that obvious in such map. So, let’s try bars. Below is the top 20 country or region having most addresses in this database.</p>
+<p><img src="../../blog/20160529-panama-papers-on-map/top-20.png" alt="top-20"></p>
+<p>Places like Hong Kong, Singapore, Virgin Islands (British) indeed are greatly involved in the offshore leaks while they look tiny on map.</p>
+<h2 id="Mainland-China-Hong-Kong-and-Taiwan"><a href="#Mainland-China-Hong-Kong-and-Taiwan" class="headerlink" title="Mainland China, Hong Kong and Taiwan"></a>Mainland China, Hong Kong and Taiwan</h2><p>Let’s zoom in a bit, to have a close look at East Asia. Statistics show, over 42% of all addresses in Panama Papers and Offshore Leaks are in Mainland China, Hong Kong and Taiwan. The following map shows the distribution. Coastal areas, as the map shows, have more connections with entities, people and intermediaries in the offshore industry.</p>
+<p><img src="../../blog/20160529-panama-papers-on-map/greater-china.png" alt="greater-china"></p>
+<h2 id="Steps-in-Drawing-the-Map"><a href="#Steps-in-Drawing-the-Map" class="headerlink" title="Steps in Drawing the Map"></a>Steps in Drawing the Map</h2><p>The Panama Papers and Offshore Leaks database published by ICIJ provide structred and friendly address data and this is our starting point. With the help of Google Spreadsheets, Google Drawings, it is convenient to produce the world map and the barchart as shown above. However, since the address data are country/region level ones, in order to draw a provincial distribution map of Mainland China, we need to pay more efforts to extract provincial/municipal information from postal addresses in plain text.</p>
+<h3 id="1-Get-the-list-of-cities-and-provinces-in-China-from-wikipedia"><a href="#1-Get-the-list-of-cities-and-provinces-in-China-from-wikipedia" class="headerlink" title="1. Get the list of cities and provinces in China from wikipedia"></a>1. Get the list of cities and provinces in China from wikipedia</h3><p>There is a html table which has both the names of cities and their according provinces in <a href="https://en.wikipedia.org/wiki/List_of_cities_in_China" target="_blank" rel="external">List of cities in China</a>. We can simply copy and paste the table into a text file and extract lower case format of the city names and province names use a bash command:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat list_of_cities_table.txt | cut <span class="_">-f</span>1 <span class="_">-f</span>3 | tr <span class="string">'[:upper:]'</span> <span class="string">'[:lower:]'</span> | sed <span class="_">-e</span> <span class="string">"s/[[:space:]]/,/g"</span> &gt; city_province.csv</span><br></pre></td></tr></table></figure>
+<p>Be noted that manual work is inevitable. For example, we need to specifically assign a ID in the province columns for municipals (we use the city name itself as ID). we also changed <code>Inner Mongolia</code> into <code>mongolia</code>  because it is much easier to do word level matching after text segmentation. The ultimate CSV <code>city_province.csv</code> file is in the following format:</p>
+<blockquote>
+<p>cities,provinces/municipal<br>zunyi, guizhou<br>zhoushan, zhejiang<br>zhuhai, guangdong<br>shanghai, shanghai<br>beijing, beijing</p>
+</blockquote>
+<h3 id="2-Data-cleaning-and-massage-of-the-Addresses-csv-file"><a href="#2-Data-cleaning-and-massage-of-the-Addresses-csv-file" class="headerlink" title="2. Data cleaning and massage of the Addresses.csv file"></a>2. Data cleaning and massage of the <code>Addresses.csv</code> file</h3><p>In order to match between <code>Addresses.csv</code> and <code>city_provinces.csv</code>. The <code>tm</code> package in <code>R</code> is used to remove noises - including punctuation, numbers, whitespaces, etc - from the address data:</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">library</span>(tm)</span><br><span class="line">df.addr &lt;- read.csv(<span class="string">'Addresses.csv'</span>)</span><br><span class="line"><span class="comment"># For the time being, we only concerns CHN addresses</span></span><br><span class="line">df.addr &lt;- df.addr[df.addr$country_codes %<span class="keyword">in</span>% c(<span class="string">'CHN'</span>), ]</span><br><span class="line"><span class="comment"># We compare using lowercase text</span></span><br><span class="line">df.addr$loweraddr &lt;- tolower(df.addr$address)</span><br><span class="line">corpus &lt;- Corpus(VectorSource(addresses))</span><br><span class="line">corpus &lt;- tm_map(corpus, removePunctuation)</span><br><span class="line">corpus &lt;- tm_map(corpus, removeNumbers)</span><br><span class="line">corpus &lt;- tm_map(corpus, stripWhitespace)</span><br><span class="line">addresses &lt;- lapply(corpus, as.character)</span><br></pre></td></tr></table></figure>
+<p>Then, we splitted the addresses into vectors of words. For instance, the address “jishanquiao shaoxing zhejiang postcode 31200 china” will be changed into <code>c(&quot;jishanquiao&quot;, &quot;shaoxing&quot;, &quot;zhejiang&quot;, &quot;postcode&quot;, &quot;31200&quot;, &quot;china&quot;)</code>:</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">addrwords &lt;- lapply(addresses, <span class="keyword">function</span>(x)strsplit(x, <span class="string">" "</span>))</span><br></pre></td></tr></table></figure>
+<h3 id="3-Mapping-addresses-to-their-cities-and-provinces"><a href="#3-Mapping-addresses-to-their-cities-and-provinces" class="headerlink" title="3. Mapping addresses to their cities and provinces"></a>3. Mapping addresses to their cities and provinces</h3><p>After the above steps, we can already obtain relevant cities or provinces using simple vector <code>intersect</code> operations:</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">library</span>(dplyr)</span><br><span class="line">df.area &lt;- read.csv(<span class="string">'city_province.csv'</span>, header=<span class="literal">FALSE</span>)</span><br><span class="line">provinces &lt;- unique(df.area$V2)</span><br><span class="line"><span class="comment"># Province always appear in the tail of an address according to English convention, we only use the tail element to avoid getting "beijing" for addresses like "Beijing Road, ...". </span></span><br><span class="line">addr.province &lt;- lapply(addrwords, <span class="keyword">function</span>(w)tail(intersect(unlist(w), provinces), n=<span class="number">1</span>))</span><br><span class="line"><span class="comment"># intersect returns a list, but we want a string</span></span><br><span class="line">df.addr$province &lt;- lapply(addr.province, <span class="keyword">function</span>(province) <span class="keyword">if</span>(paste(province, <span class="string">""</span>, sep=<span class="string">""</span>) == <span class="string">"character(0)"</span>) <span class="keyword">return</span>(<span class="string">""</span>) <span class="keyword">else</span> <span class="keyword">return</span>(paste(province, <span class="string">""</span>, sep=<span class="string">""</span>)))</span><br><span class="line">df.addr$province &lt;- unlist(df.addr$province, use.names=<span class="literal">F</span>)</span><br></pre></td></tr></table></figure>
+<p>At this stage, we will get a large amount of province information for those addresses.</p>
+<h3 id="4-Mapping-cities-to-their-provinces"><a href="#4-Mapping-cities-to-their-provinces" class="headerlink" title="4. Mapping cities to their provinces"></a>4. Mapping cities to their provinces</h3><p>However, not all addresses are well formatted. Some addresses only contain information at the level of cities. Fortunately, we can retrieve the province given a city name.</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">cities &lt;- unique(df.area$V1)</span><br><span class="line">addr.city &lt;- lapply(addrwords, <span class="keyword">function</span>(w)tail(intersect(unlist(w), cities), n=<span class="number">1</span>))</span><br><span class="line">df.addr$city &lt;- lapply(addr.city, <span class="keyword">function</span>(city) <span class="keyword">if</span>(paste(city, <span class="string">""</span>, sep=<span class="string">""</span>) == <span class="string">"character(0)"</span>) <span class="keyword">return</span>(<span class="string">""</span>) <span class="keyword">else</span> <span class="keyword">return</span>(paste(city,<span class="string">""</span>, sep=<span class="string">""</span>)))</span><br><span class="line">df.addr$city &lt;- unlist(df.addr$city, use.names=<span class="literal">F</span>)</span><br><span class="line">df.cityOnlyAddr &lt;- df.addr[lapply(df.addr$city, str_length)&gt;<span class="number">0</span> &amp; lapply(df.addr$province, str_length)==<span class="number">0</span>,]</span><br><span class="line">df.cityAddr &lt;- merge(df.cityOnlyAddr, df.area, by = <span class="string">"city"</span>)</span><br><span class="line">df.cityAddr$province &lt;- df.cityAddr$province</span><br></pre></td></tr></table></figure>
+<h3 id="5-Fuzzy-matching-for-misspelled-addresses"><a href="#5-Fuzzy-matching-for-misspelled-addresses" class="headerlink" title="5. Fuzzy matching for misspelled addresses"></a>5. Fuzzy matching for misspelled addresses</h3><p>What if <code>zhejiang</code>, as a province name, is misspelled into <code>zhe jiang</code> or <code>zhejing</code>? Fuzzy matching helps. We can implement a simple fuzzy matching function using the <code>stringr</code> and <code>stringdist</code> package. </p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">fuzzy.province &lt;- <span class="keyword">function</span>(addrwords, provinces, dist = <span class="number">0</span>) &#123;</span><br><span class="line">  <span class="keyword">for</span>(province <span class="keyword">in</span> provinces) &#123;</span><br><span class="line">    mtr &lt;- stringdistmatrix(addrwords, province)</span><br><span class="line">    <span class="keyword">for</span>(i <span class="keyword">in</span> (seq_along(mtr[,<span class="number">1</span>]))) &#123;</span><br><span class="line">      <span class="keyword">if</span>(i&lt;length(mtr[,<span class="number">1</span>])) &#123;</span><br><span class="line">        <span class="comment"># The matrix distance should be equal or shorter than string length of province</span></span><br><span class="line">        <span class="keyword">if</span> (mtr[,<span class="number">1</span>][i] + mtr[,<span class="number">1</span>][i+<span class="number">1</span>] &lt;= str_length(province)) &#123;</span><br><span class="line">          <span class="keyword">if</span>(startsWith(province, addrwords[i]) &amp; abs(str_length(province) - str_length(addrwords[i]) - str_length(addrwords[i+<span class="number">1</span>])) &lt;= dist ) &#123;</span><br><span class="line">            <span class="keyword">return</span>(province)</span><br><span class="line">          &#125;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span>(<span class="string">""</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="6-Draw-the-Map"><a href="#6-Draw-the-Map" class="headerlink" title="6. Draw the Map"></a>6. Draw the Map</h3><p>After several iterations of data cleaning. We got around 96% of the total addresses in CHN section annotated with province information (There are a total number of 28073 <code>CHN</code> addresses, 27069 of them annotated; 100 rows for duplication because of ambiguous city names). </p>
+<p>At this point, we are ready to draw a map! <code>R</code> code attached:</p>
+<pre><code class="r"><span class="keyword">library</span>(maptools)
+<span class="keyword">library</span>(dplyr)
+<span class="keyword">library</span>(plyr)
+<span class="keyword">library</span>(ggplot2)
+<span class="keyword">library</span>(scales)
+
+<span class="comment"># GIS file for China, stores the feature geometry</span>
+cnmap &lt;- readShapePoly(<span class="string">"bou2_4p.shp"</span>)
+
+prov_cn &lt;- unique(cnmap$NAME)
+prov_cn &lt;- prov_cn[!is.na(prov_cn)]
+prov_en &lt;- c(<span class="string">"heilongjiang"</span>, <span class="string">"mongolia"</span>, <span class="string">"xinjiang"</span>, <span class="string">"jilin"</span>,
+             <span class="string">"liaoning"</span>, <span class="string">"gansu"</span>, <span class="string">"hebei"</span>, <span class="string">"beijing"</span>, <span class="string">"shanxi"</span>,
+             <span class="string">"tianjin"</span>, <span class="string">"shaanxi"</span>, <span class="string">"ningxia"</span>, <span class="string">"qinghai"</span>, <span class="string">"shandong"</span>,
+             <span class="string">"tibet"</span>, <span class="string">"henan"</span>, <span class="string">"jiangsu"</span>, <span class="string">"anhui"</span>, <span class="string">"sichuan"</span>, <span class="string">"hubei"</span>,
+             <span class="string">"chongqing"</span>, <span class="string">"shanghai"</span>, <span class="string">"zhejiang"</span>, <span class="string">"hunan"</span>, <span class="string">"jiangxi"</span>,
+             <span class="string">"yunnan"</span>, <span class="string">"guizhou"</span>, <span class="string">"fujian"</span>, <span class="string">"guangxi"</span>, <span class="string">"taiwan"</span>, 
+             <span class="string">"guangdong"</span>, <span class="string">"hongkong"</span>, <span class="string">"hainan"</span>)
+
+prov &lt;- data.frame(prov_cn, prov_en)
+
+id_prov &lt;- cnmap@data %&gt;%
+  mutate(prov_en = sapply(NAME, 
+                          <span class="keyword">function</span>(x)
+                            prov_en[which(prov_cn == x)])) %&gt;%
+  mutate(prov_cn = as.character(NAME),
+         prov_en = as.character(prov_en))                           
+
+id &lt;- rownames(id_prov)
+id_prov &lt;- cbind(id=id, id_prov)
+id_prov &lt;- id_prov %&gt;% select (id, prov_cn, prov_en)
+
+cnmapdf &lt;- plyr::join(fortify(cnmap), id_prov, by = <span class="string">"id"</span>)
+
+<span class="comment"># AddressCNFinal.csv is the ultimate file after data cleaning and data massage</span>
+df.addr &lt;- read.csv(<span class="string">"AddressCNFinal.csv"</span>)
+df.addr &lt;- df.addr[df.addr$province!=<span class="string">""</span>, ]
+df.addr &lt;- count(df.addr, <span class="string">"province"</span>)
+df.addr$prov_en &lt;- df.addr$province
+
+map2df &lt;- cnmapdf %&gt;%
+    plyr::join(df.addr, by = <span class="string">"prov_en"</span>) %&gt;%
+    mutate(freq = as.numeric(freq))
+
+<span class="comment"># We put the count of addresses for each province/ municipal into 7 buckets</span>
+map2df$brks &lt;- cut(map2df$freq,
+                   breaks=c(<span class="number">0</span>, <span class="number">100</span>, <span class="number">300</span>, <span class="number">1000</span>, <span class="number">2000</span>, <span class="number">3000</span>, <span class="number">4500</span>, <span class="number">25000</span>),
+                   labels=c(<span class="string">'1-100'</span>, <span class="string">'100-300'</span>, <span class="string">'300-1000'</span>, <span class="string">'1000-2000'</span>, <span class="string">'2000-3000'</span>, <span class="string">'3000-4500'</span>, <span class="string">'&gt;4500'</span>))
+
+cbbPalette &lt;- c(<span class="string">'#efcdcd'</span>, <span class="string">'#e9b6b3'</span>, <span class="string">'#e3a099'</span>, <span class="string">'#dd8980'</span>, <span class="string">'#d77366'</span>, <span class="string">'#d15d4c'</span>, <span class="string">'#bf1a00'</span>)
+
+map &lt;- map2df %&gt;%
+  ggplot(aes(x = long, y = lat, group = group, fill=brks)) +
+  geom_polygon(color = <span class="string">"grey"</span>) +
+  scale_fill_manual(values=cbbPalette) +
+  coord_map(<span class="string">"polyconic"</span>)
+</code></pre>
+<h3 id="Examine-the-result"><a href="#Examine-the-result" class="headerlink" title="Examine the result"></a>Examine the result</h3><p>The first glance of the map gives us an impression that the addresses in CHN segment of the offshore leak databases are mainly located near the coast, e.g. beijing, zhejiang, guangdong, shanghai, jiangsu, liaoning and fujian.</p>
+<p>As we have already mentioned, the addresses in <code>Addresses.csv</code> are not well formatted. There are certain cases we have not handled in the data cleaning process. e.g. some addresses adopts <code>Nei Meng</code> or <code>neimenggu</code> instead of <code>Inner Mongolia</code>; <code>shanxi</code> and <code>shaanxi</code> can be used interchangeably; Many addresses contain neither city nor province information. Moreover, the mining process focused solely on <code>Addresses.csv</code> which does not contain any characteristical information of the addresses. </p>
+<p>So this article is only a simple demonstration of how we can play with textual data. Nonetheless, it already incorporates the main data analysis steps including data collection, cleaning, exploration and visualization. </p>
+</span>
+      
+    </div>
+
+    <footer class="post-footer">
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class='socialBar'>
+  <button data-platform='facebook'
+          class='btnSocialShare'>
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QjY1OUE4RkQ1NUUxMTFFNTg2OTFDMTMzQTgxQkEwMTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QjY1OUE4RkU1NUUxMTFFNTg2OTFDMTMzQTgxQkEwMTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCNjU5QThGQjU1RTExMUU1ODY5MUMxMzNBODFCQTAxNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCNjU5QThGQzU1RTExMUU1ODY5MUMxMzNBODFCQTAxNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkEwZ3sAAAKaSURBVHja7Js9SxxBHIf3fIe8VBaSCJIEMULQLiAp0gQCigHBImBj4xdILXZ+BfuQRkSwF1Kk8TvEwiskkBBE8S3nuXr+BgcSRbLnzc3N7N7zwA8L3d3bfe7/n9ndsVSr1RIIRweXAAEIAAQgABCAAEAAAgABbUVXm5znU2XU5rkyoDxW+pSScqGkSkU5VY6UA2VP+a38VLaUQwTUz0tlRplUxuwFd+GNlYCADCaUT8q00tvE/VZpQf+nX1lWFmxbaTYIyPjWf1aGPe3fPLM/R8DdTCmrykOPx7hAwN28VdbtbCbxLCDlPuAmg/ab39eCY6W+KiDPAlbsfL4VUAG3mLZpFSkCbn7mxRYfM7VVgAB7R/o6gAAqwPIxwDGpAEu38i7AcXt8CcjbfcAz5UUT9vNN+arsKMe3fley6fjn5zE3YteMKJ0O2/9R5pW1mGYUeWLIcfvlmC5+HgX0O2xrXrZ8iXFOnSdcHjvsKj8Q4IbLc/59XzOZdnwU0QjVGD9U3gTUAlUPAopKO40BCAjcghBABVABCAAEIMABl7dSlzGeUFckn8EspM16zGz6/xOH4zxSxh22LyceVkeXIvhPebO0ZNteoJh5r2wWtQXloRWeFvnELxEAWV8QBATEvJCvICAcZwgIL+AMAeGoICC8gCoCwmEWdLE4t2j3AAionxMEIMAb5jXjg8gFpL52HMPjaLNibTa5XvufxZzyocHjfFeWGty2XGQBZoq3UeffvnIQ8CuJbGV0HseAHodtO2M8IZalIOBesCyFCqACEAC0IATQgmhBCAAEIIBBmEEYAVQAFYAAQAACgEEYAQzCtCAEAAIQAAhAANNQpqEIoAIYAxBAC6IFIQBoQQgAxgAE0IJoQQigev5yJcAAxpByJwOMUMoAAAAASUVORK5CYII=" data-platform="facebook"
+  class='no-fancy'>
+  </button>
+  <button data-platform='twitter'
+          class='btnSocialShare'>
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3BpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo2RDk3ODQxMTU1RTIxMUU1ODY5MUMxMzNBODFCQTAxNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpENjhGQzUyOTY1QkQxMUU1OEY2MzgyNkREM0NBOEFBQyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpENjhGQzUyODY1QkQxMUU1OEY2MzgyNkREM0NBOEFBQyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmMwYjAxOGU0LTA0MTEtNDliNC05NTk0LWJmY2RjZDg1Y2UwZSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2RDk3ODQxMTU1RTIxMUU1ODY5MUMxMzNBODFCQTAxNyIvPiA8L3Jk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" data-platform="twitter" data-reactid=".0.4.3.2.0"
+  class='no-fancy'>
+  </button>
+  <button data-platform='sinaweibo'
+          onClick={this.handleShareButtonClick}
+          class='btnSocialShare'>
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkQ5Nzg0MEM1NUUyMTFFNTg2OTFDMTMzQTgxQkEwMTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkQ5Nzg0MEQ1NUUyMTFFNTg2OTFDMTMzQTgxQkEwMTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCNjU5QThGRjU1RTExMUU1ODY5MUMxMzNBODFCQTAxNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCNjU5QTkwMDU1RTExMUU1ODY5MUMxMzNBODFCQTAxNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pg1h6AUAAAuOSURBVHja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" data-platform="sinaweibo"
+  class='no-fancy'>
+  </button>
+  <button class='btnSocialShare btnWechatShare' data-platform='wechat'>
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkQ5Nzg0MTA1NUUyMTFFNTg2OTFDMTMzQTgxQkEwMTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkQ5Nzg0MTE1NUUyMTFFNTg2OTFDMTMzQTgxQkEwMTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2RDk3ODQwRTU1RTIxMUU1ODY5MUMxMzNBODFCQTAxNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2RDk3ODQwRjU1RTIxMUU1ODY5MUMxMzNBODFCQTAxNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsRaD3YAAAmRSURBVHja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" data-reactid=".0.4.3.4.0" class='no-fancy'>
+  </button>
+  <div id='wechatQRWrapper' style='display:none'>
+    <img id='wechatQR' class='no-fancy'/>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+ </div>
+
+        
+
+        
+          <div class="comments" id="comments">
+            
+              <div id="disqus_thread">
+                <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+              </div>
+            
+          </div>
+        
+      </div>
+
+      
+        
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table Of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview">
+
+      <div class="search-box">
+        <textarea class="st-default-search-input" ></textarea>
+      </div>
+
+      <div class="tag-box">
+        <a class="tag-anchor" href='../../tags/lang-Chinese/'>All Chinese Posts</a>
+        <a class="tag-anchor" href='../../tags/lang-English/'>All English Posts</a>
+      </div>
+
+      
+        <div class="site-search">
+          
+  
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'QeHtBnDaxF-gAE_HkMTY','2.0.0');
+</script>
+
+
+
+        </div>
+      
+
+      </section>
+
+      
+        <section class="post-toc-wrap sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator"></div>
+          <div class="post-toc">
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Global-Distribution"><span class="nav-number">1.</span> <span class="nav-text">Global Distribution</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Mainland-China-Hong-Kong-and-Taiwan"><span class="nav-number">2.</span> <span class="nav-text">Mainland China, Hong Kong and Taiwan</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Steps-in-Drawing-the-Map"><span class="nav-number">3.</span> <span class="nav-text">Steps in Drawing the Map</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Get-the-list-of-cities-and-provinces-in-China-from-wikipedia"><span class="nav-number">3.1.</span> <span class="nav-text">1. Get the list of cities and provinces in China from wikipedia</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-Data-cleaning-and-massage-of-the-Addresses-csv-file"><span class="nav-number">3.2.</span> <span class="nav-text">2. Data cleaning and massage of the Addresses.csv file</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-Mapping-addresses-to-their-cities-and-provinces"><span class="nav-number">3.3.</span> <span class="nav-text">3. Mapping addresses to their cities and provinces</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Mapping-cities-to-their-provinces"><span class="nav-number">3.4.</span> <span class="nav-text">4. Mapping cities to their provinces</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-Fuzzy-matching-for-misspelled-addresses"><span class="nav-number">3.5.</span> <span class="nav-text">5. Fuzzy matching for misspelled addresses</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-Draw-the-Map"><span class="nav-number">3.6.</span> <span class="nav-text">6. Draw the Map</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Examine-the-result"><span class="nav-number">3.7.</span> <span class="nav-text">Examine the result</span></a></li></ol></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+      
+    </main>
+
+    <footer id='page-footer-placeholder'>
+</footer>
+<footer id='page-footer'>
+  <div>
+  <a href="http://theinitium.com/">Initium Media</a> 
+	&nbsp; &nbsp; | &nbsp; &nbsp;
+  <a href="../../blog/feed.xml">RSS</a>
+	&nbsp; &nbsp; | &nbsp; &nbsp;
+  <a href="../../subscription/">Newsletter</a> 
+	&nbsp; &nbsp; | &nbsp; &nbsp;
+  <a href="../../career/">Career</a> 
+  </div>
+  <div>© Initium Lab. All rights reserved 2016.</div>
+</footer>
+
+<script src="//cdn.rawgit.com/jpillora/xdomain/0.7.3/dist/xdomain.min.js"></script>
+<script type="text/javascript" src="../../js/email_setting.js"></script>
+
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="../../vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+    
+    
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'initium1ab';
+      var disqus_identifier = 'blog/20160529-panama-papers-on-map/';
+      var disqus_title = 'Map Visualisation for Panama Papers and Offshore Leaks in R';
+      var disqus_url = 'http://initiumlab.com/blog/20160529-panama-papers-on-map/';
+
+      function run_disqus_script(disqus_script){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
+      
+    </script>
+  
+
+
+  
+  
+  <script type="text/javascript" src="../../vendors/fancybox/source/jquery.fancybox.js"></script>
+  <script type="text/javascript" src="../../js/fancy-box.js?v=0.4.5.1"></script>
+
+
+  <script type="text/javascript" src="../../js/helpers.js?v=0.4.5.1"></script>
+  
+
+  <script type="text/javascript" src="../../vendors/velocity/velocity.min.js"></script>
+  <script type="text/javascript" src="../../vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="../../js/motion_global.js?v=0.4.5.1" id="motion.global"></script>
+
+
+
+
+  <script type="text/javascript" src="../../js/nav-toggle.js?v=0.4.5.1"></script>
+  <script type="text/javascript" src="../../vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+<script type="text/javascript" src="../../js/bootstrap.scrollspy.js?v=0.4.5.1" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 0.4 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    var $tocContent = $('.post-toc-content');
+    if (isDesktop() && CONFIG.sidebar === 'post') {
+      if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+        displaySidebar();
+      }
+    }
+  });
+</script>
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (CONFIG.sidebar === 'always') {
+        displaySidebar();
+      }
+      if (isMobile()) {
+        FastClick.attach(document.body);
+      }
+    });
+  </script>
+
+  
+  
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  
+  
+  
+  <script type="text/javascript" src="../../js/qrcode.js"></script>
+  <script defer type="text/javascript" src="../../js/social_bar.js"></script>
+
+
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66625644-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+<script type="text/javascript" src="../../js/customized-tracking.js"></script>
+
+
+
+  
+  <script type="text/javascript" src="../../js/lazyload.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#posts").find('img').lazyload({
+        placeholder: "/images/loading.gif",
+        effect: "fadeIn"
+      });
+    });
+  </script>
+</body>
+</html>
